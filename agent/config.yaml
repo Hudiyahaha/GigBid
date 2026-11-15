@@ -35,14 +35,15 @@ tool_allowlists:
   risk_assessor: [get_client_history]
   fit_matcher: [search_evidence, list_skills]
   pricing: [get_market_stats, get_connects_balance, get_policy]
-  writer: [search_evidence, get_case_study]
+  writer: [search_evidence, get_case_study, similar_proposals]
   critic: [search_evidence]
   verifier: [search_evidence, get_item]
   compliance: []
   client_liaison: [list_threads, list_messages, send_message, free_slots, create_interview_hold, create_email_draft]
   approval_executor: [create_proposal_draft, submit_proposal, send_message, create_interview_hold]
   intake: [get_job, get_policy]
-  __all__: [search_evidence, get_case_study, get_item, list_skills, search_jobs, get_job, get_client_history,
+  api_reader: [list_proposals, list_threads, list_messages, list_events, get_connects_balance, get_job, search_jobs]
+  __all__: [search_evidence, get_case_study, get_item, list_skills, similar_proposals, search_jobs, get_job, get_client_history,
             get_connects_balance, get_market_stats, get_policy, list_threads, list_messages, list_proposals,
             list_events, create_proposal_draft, submit_proposal, send_message, free_slots, create_interview_hold,
             create_email_draft]   # used only by the single-agent ReAct baseline (R&D C) and the tool study (R&D A)
@@ -53,10 +54,10 @@ models:
   profiles:
     open:
       tiers:
-        small: {provider: groq, model: "llama-3.1-8b-instant", fallback: {provider: groq, model: "openai/gpt-oss-20b"}}
-        medium: {provider: groq, model: "openai/gpt-oss-20b", fallback: {provider: groq, model: "llama-3.1-8b-instant"}}
+        small: {provider: groq, model: "openai/gpt-oss-20b", fallback: {provider: groq, model: "qwen/qwen3.8-27b"}}
+        medium: {provider: groq, model: "openai/gpt-oss-20b", fallback: {provider: groq, model: "qwen/qwen3.8-27b"}}
         large: {provider: groq, model: "openai/gpt-oss-120b", fallback: {provider: groq, model: "openai/gpt-oss-20b"}}
-        local: {provider: ollama, model: "llama3.2"}
+        local: {provider: ollama, model: "llama3.2", fallback: {provider: groq, model: "openai/gpt-oss-20b"}}
       nodes:
         scout: small
         job_analyst: small
@@ -74,8 +75,8 @@ models:
         context: local
     open_alt:                                  # second open configuration compared on the dev set
       tiers:
-        small: {provider: groq, model: "openai/gpt-oss-20b"}
-        large: {provider: groq, model: "qwen/qwen3-32b"}
+        small: {provider: groq, model: "qwen/qwen3.8-27b", fallback: {provider: groq, model: "openai/gpt-oss-20b"}}
+        large: {provider: groq, model: "qwen/qwen3.8-27b", fallback: {provider: groq, model: "openai/gpt-oss-120b"}}
       nodes: {default: small, writer: large, critic: large, client_liaison: large, judge: large}
     paid:                                      # optional; only used where it beats `open` enough to justify cost
       tiers:
@@ -90,17 +91,18 @@ models:
     anthropic_openai: {base_url: "https://api.anthropic.com/v1", api_key_env: ANTHROPIC_API_KEY}
     fake: {base_url: "", api_key_env: ""}
   # USD per 1M tokens (input, output); 0 for local. Used for cost reporting (R8).
+  # Groq paid-tier LIST prices (estimates; verify at console.groq.com/pricing). The free tier used here costs $0;
+  # reports show the list-price equivalent so the numbers transfer to a paid deployment.
   prices:
-    "llama-3.1-8b-instant": [0.05, 0.08]
     "openai/gpt-oss-20b": [0.075, 0.30]
     "openai/gpt-oss-120b": [0.15, 0.60]
-    "qwen/qwen3-32b": [0.29, 0.59]
+    "qwen/qwen3.8-27b": [0.29, 0.59]
     "llama3.2": [0, 0]
   embeddings: ${EMBED_MODEL:-BAAI/bge-small-en-v1.5}
   reranker: ${RERANK_MODEL:-cross-encoder/ms-marco-MiniLM-L-6-v2}   # alt measured: BAAI/bge-reranker-base
 
 rag:
-  variant: ${RAG_VARIANT:-v3_rerank}          # chosen by evals/results/rag_variants.json (R6)
+  variant: ${RAG_VARIANT:-v10_hybrid_outcome} # chosen by evals/results/rag_variants.json + rag_v10.json (R6): best MRR/nDCG@10
   top_k: 8
   chunk_size: 900
   chunk_overlap: 120
@@ -113,7 +115,7 @@ policy:
 fit:
   strong_relevance: 0.50          # cross-encoder relevance (0..1) for a requirement to count as proven
   partial_relevance: 0.10
-  use_llm_grader: true
+  use_llm_grader: false           # E5 optimisation: deterministic grading saves ~1k tokens/job (see evals/results)
 
 writer:
   default_strategy: evidence_first
@@ -128,10 +130,12 @@ decision:
   scam_risk: 0.75
   connects_value_per_unit_usd: 0.15            # what one Connect costs the freelancer
   min_expected_value_ratio: 3.0                # expected value must exceed this multiple of Connects cost
+  budget_tolerance: 0.8                        # accept budgets down to 80% of the user's floor
 
 pricing:
   hourly_floor_usd: ${HOURLY_FLOOR:-40}
   undercut_fraction: 0.05
+  est_hours_hourly: 40                         # assumed engagement length for hourly jobs (expected value)
   win_prob_by_price_quantile: {p25: 0.30, p50: 0.22, p75: 0.14, p90: 0.08}
 
 budgets:

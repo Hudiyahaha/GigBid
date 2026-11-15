@@ -1,0 +1,102 @@
+{
+  "provenance": {
+    "generated_at": "2026-11-15T17:07:19",
+    "git_commit": "dffd6bc",
+    "python": "3.12.16",
+    "machine": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+  },
+  "variants": {
+    "v10_hybrid_outcome": {
+      "flags": {
+        "chunking": "fixed",
+        "decompose": false,
+        "hybrid": true,
+        "rerank": false,
+        "outcome": true,
+        "multivector": false,
+        "contextual": false,
+        "hyde": false,
+        "corrective": false,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.5556,
+        "mrr": 0.7197,
+        "ndcg@10": 0.6201,
+        "n": 484
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.4956,
+          "mrr": 0.6611,
+          "ndcg@10": 0.5771
+        },
+        "fullstack": {
+          "recall@5": 0.5333,
+          "mrr": 0.6695,
+          "ndcg@10": 0.6077
+        },
+        "data": {
+          "recall@5": 0.6321,
+          "mrr": 0.8203,
+          "ndcg@10": 0.6715
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.6374,
+          "mrr": 0.7833,
+          "ndcg@10": 0.6712,
+          "n": 114
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.5868,
+          "mrr": 0.7676,
+          "ndcg@10": 0.6371,
+          "n": 306
+        },
+        "exact_tool_names": {
+          "recall@5": 0.6272,
+          "mrr": 0.7771,
+          "ndcg@10": 0.6845,
+          "n": 170
+        },
+        "vague": {
+          "recall@5": 0.4383,
+          "mrr": 0.636,
+          "ndcg@10": 0.5386,
+          "n": 64
+        },
+        "scam": {
+          "recall@5": 0.5765,
+          "mrr": 0.7076,
+          "ndcg@10": 0.6276,
+          "n": 49
+        },
+        "normal": {
+          "recall@5": 0.5531,
+          "mrr": 0.7177,
+          "ndcg@10": 0.6262,
+          "n": 227
+        },
+        "injection": {
+          "recall@5": 0.48,
+          "mrr": 0.6919,
+          "ndcg@10": 0.5404,
+          "n": 30
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 0.0087,
+        "p95": 0.0133
+      },
+      "build_plus_eval_s": 12.4
+    }
+  },
+  "n_jobs": {
+    "ai_ml": 200,
+    "fullstack": 200,
+    "data": 200
+  }
+}

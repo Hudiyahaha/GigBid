@@ -1,0 +1,2 @@
+variant,recall@5,mrr,ndcg@10,p95_latency_s,false_evidence_rate
+v10_hybrid_outcome,0.5556,0.7197,0.6201,0.0133,1.0

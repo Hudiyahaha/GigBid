@@ -1,0 +1,4 @@
+# CI gates for the 30-job smoke eval (heuristic profile). Set just below the measured values in evals/results/.
+min_bid_skip_f1: 0.60
+min_scam_recall: 0.80
+max_unsupported_rate_after_verification: 0.05

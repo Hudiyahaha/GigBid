@@ -1,3 +1,71 @@
-# TODO: Define web, API, worker, MCP servers, GigSim, Postgres, Redis,
-# vector store and local model service as appropriate.
-services: {}
+# docker compose -f infra/docker-compose.yml --env-file .env up --build
+# Web+API on http://localhost:8000 · GigSim :8081 · MCP servers :8101-8103 · Phoenix traces http://localhost:6006
+x-app: &app
+  build: {context: .., dockerfile: infra/docker/Dockerfile}
+  image: gigbid:latest
+  env_file: ../.env
+  environment: &appenv
+    DATABASE_URL: postgresql+psycopg://gigbid:gigbid@postgres:5432/gigbid
+    REDIS_URL: redis://redis:6379/0
+    QDRANT_URL: http://qdrant:6333
+    GIGSIM_BASE_URL: http://gigsim:8081
+    MCP_MODE: http
+    PORTFOLIO_MCP_URL: http://mcp-portfolio:8101/mcp
+    MARKETPLACE_MCP_URL: http://mcp-marketplace:8102/mcp
+    WORKSPACE_MCP_URL: http://mcp-workspace:8103/mcp
+    OLLAMA_BASE_URL: http://ollama:11434/v1
+    PHOENIX_COLLECTOR_ENDPOINT: http://phoenix:6006
+    PHOENIX_UI_URL: http://localhost:6006
+    AUDIT_DIR: /data/audit
+    WORKSPACE_DB: /data/workspace.db
+  volumes: [appdata:/data]
+  restart: unless-stopped
+
+services:
+  api:
+    <<: *app
+    ports: ["8000:8000"]
+    depends_on: [postgres, redis, mcp-portfolio, mcp-marketplace, mcp-workspace]
+  worker:
+    <<: *app
+    command: ["arq", "worker.main.WorkerSettings"]
+    depends_on: [postgres, redis, mcp-marketplace]
+  mcp-portfolio:
+    <<: *app
+    command: ["python", "-m", "mcp_servers.portfolio.server", "http"]
+    environment: {<<: *appenv, MCP_PORT: "8101"}
+    ports: ["8101:8101"]
+    depends_on: [qdrant]
+  mcp-marketplace:
+    <<: *app
+    command: ["python", "-m", "mcp_servers.marketplace.server", "http"]
+    environment: {<<: *appenv, MCP_PORT: "8102"}
+    ports: ["8102:8102"]
+    depends_on: [gigsim, postgres]
+  mcp-workspace:
+    <<: *app
+    command: ["python", "-m", "mcp_servers.workspace.server", "http"]
+    environment: {<<: *appenv, MCP_PORT: "8103"}
+    ports: ["8103:8103"]
+  gigsim:
+    <<: *app
+    command: ["uvicorn", "gigsim.server:app", "--host", "0.0.0.0", "--port", "8081"]
+    environment: {<<: *appenv, GIGSIM_STATE_PATH: /data/gigsim.db}
+    ports: ["8081:8081"]
+  postgres:
+    image: postgres:16-alpine
+    environment: {POSTGRES_USER: gigbid, POSTGRES_PASSWORD: gigbid, POSTGRES_DB: gigbid}
+    volumes: [pgdata:/var/lib/postgresql/data]
+  redis:
+    image: redis:7-alpine
+  qdrant:
+    image: qdrant/qdrant:v1.12.4
+    volumes: [qdrant:/qdrant/storage]
+  ollama:                     # open profile, local model (pull once: docker compose exec ollama ollama pull llama3.2)
+    image: ollama/ollama:0.5.4
+    volumes: [ollama:/root/.ollama]
+  phoenix:                    # self-hosted tracing (OpenTelemetry)
+    image: arizephoenix/phoenix:version-7.3.2
+    ports: ["6006:6006"]
+
+volumes: {appdata: {}, pgdata: {}, qdrant: {}, ollama: {}}

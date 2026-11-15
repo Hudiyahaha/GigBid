@@ -1,0 +1,338 @@
+{
+  "provenance": {
+    "generated_at": "2026-11-15T16:00:38",
+    "git_commit": "dffd6bc",
+    "python": "3.12.16",
+    "machine": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+  },
+  "job_id": "dev-ai_ml-029",
+  "persona": "ai_ml",
+  "status": "awaiting_approval",
+  "cover_letter_with_citations": "You need a reliable churn predictor that can flag at\u2011risk customers before they leave. I delivered a churn model for Ironpath Foods using scikit\u2011learn and gradient\u2011boosted trees, raising recall on churners to 0.54 and finishing ahead of schedule [E:cs-ai_ml-p09][E:rev-ai_ml-p09]. I built an end\u2011to\u2011end pipeline with scikit\u2011learn and XGBoost, scripted the full workflow in Python for a media client in three weeks [E:cs-ai_ml-p02]. I will provide concise documentation, set up experiment tracking (e.g., MLflow) and version the model artifacts so future updates are reproducible. Although my recent work focused on tabular data, I can extend the same disciplined pipeline to NLP tasks by leveraging pretrained embeddings and fine\u2011tuned transformers. Shall we schedule a brief call to review your data schema and timeline?",
+  "client_facing": {
+    "job_id": "dev-ai_ml-029",
+    "cover_letter": "You need a reliable churn predictor that can flag at\u2011risk customers before they leave. I delivered a churn model for Ironpath Foods using scikit\u2011learn and gradient\u2011boosted trees, raising recall on churners to 0.54 and finishing ahead of schedule. I built an end\u2011to\u2011end pipeline with scikit\u2011learn and XGBoost, scripted the full workflow in Python for a media client in three weeks. I will provide concise documentation, set up experiment tracking (e.g., MLflow) and version the model artifacts so future updates are reproducible. Although my recent work focused on tabular data, I can extend the same disciplined pipeline to NLP tasks by leveraging pretrained embeddings and fine\u2011tuned transformers. Shall we schedule a brief call to review your data schema and timeline?",
+    "screening_answers": [
+      "Success is measured by how well the model separates churners from non\u2011churners\u2014key metrics include recall, precision, AUC\u2011ROC, and the lift in actual churn reduction. I compare against a baseline, track these metrics across experiments, and tie improvements to business outcomes such as retained revenue. In the Ironpath Foods project the recall rose to 0.54.",
+      "I would approach an NLP project by first cleaning and tokenizing the text, then applying pretrained language models (e.g., BERT) to generate contextual embeddings. A downstream classifier (logistic regression or gradient\u2011boosted trees) would be trained, with hyper\u2011parameter tuning and cross\u2011validation to ensure robustness. I would log each experiment, document preprocessing steps, and produce a short user guide for hand\u2011over."
+    ],
+    "bid_amount": 200.0,
+    "pay_type": "fixed"
+  },
+  "claims": [
+    {
+      "text": "I delivered a churn model for Ironpath Foods using scikit\u2011learn and gradient\u2011boosted trees, raising recall on churners to 0.54 and finishing ahead of schedule [E:cs-ai_ml-p09][E:rev-ai_ml-p09].",
+      "status": "supported",
+      "evidence_ids": [
+        "cs-ai_ml-p09",
+        "rev-ai_ml-p09"
+      ],
+      "action": "kept",
+      "rewritten": null,
+      "reason": "all specifics found in cited evidence"
+    },
+    {
+      "text": "On a media client I built an end\u2011to\u2011end pipeline with scikit\u2011learn and XGBoost, scripted the full workflow in Python and wrapped it for production in three weeks [E:cs-ai_ml-p02].",
+      "status": "partial",
+      "evidence_ids": [
+        "cs-ai_ml-p02"
+      ],
+      "action": "rewritten",
+      "rewritten": "I built an end\u2011to\u2011end pipeline with scikit\u2011learn and XGBoost, scripted the full workflow in Python for a media client in three weeks [E:cs-ai_ml-p02].",
+      "reason": "LLM: The evidence confirms the pipeline, tools, Python scripting, media client, and duration, but does not mention wrapping for production."
+    },
+    {
+      "text": "In the Ironpath Foods project the recall rose to 0.54, directly indicating more at\u2011risk customers were identified [E:rev-ai_ml-p09].",
+      "status": "partial",
+      "evidence_ids": [
+        "rev-ai_ml-p09"
+      ],
+      "action": "rewritten",
+      "rewritten": "In the Ironpath Foods project the recall rose to 0.54 [E:rev-ai_ml-p09].",
+      "reason": "LLM: The evidence states the recall rose to 0.54, but does not explicitly state that this indicates more at\u2011risk customers were identified."
+    }
+  ],
+  "verification": {
+    "claims": 3,
+    "unsupported_before": 0,
+    "partial_before": 2,
+    "unsupported_rate_before": 0.0,
+    "unsupported_rate_after": 0.0,
+    "removed": 0,
+    "rewritten": 2,
+    "doubtful": 0
+  },
+  "critiques": [
+    {
+      "passed": true,
+      "grounding": 0.9,
+      "personalisation": 0.9,
+      "length_ok": true,
+      "issues": [],
+      "revision_instructions": "",
+      "version": 1
+    }
+  ],
+  "compliance": {
+    "allowed": true,
+    "blocked_reasons": [],
+    "redactions": [],
+    "cleaned_text": "You need a reliable churn predictor that can flag at\u2011risk customers before they leave. I delivered a churn model for Ironpath Foods using scikit\u2011learn and gradient\u2011boosted trees, raising recall on churners to 0.54 and finishing ahead of schedule [E:cs-ai_ml-p09][E:rev-ai_ml-p09]. I built an end\u2011to\u2011end pipeline with scikit\u2011learn and XGBoost, scripted the full workflow in Python for a media client in three weeks [E:cs-ai_ml-p02]. I will provide concise documentation, set up experiment tracking (e.g., MLflow) and version the model artifacts so future updates are reproducible. Although my recent work focused on tabular data, I can extend the same disciplined pipeline to NLP tasks by leveraging pretrained embeddings and fine\u2011tuned transformers. Shall we schedule a brief call to review your data schema and timeline?",
+    "rules_version": 1,
+    "warnings": []
+  },
+  "price": {
+    "amount": 200.0,
+    "pay_type": "fixed",
+    "currency": "USD",
+    "market": {
+      "n": 45,
+      "p25": 139.6,
+      "p50": 195.8,
+      "p75": 251.8,
+      "p90": 314.1
+    },
+    "floor": 120.0,
+    "connects_cost": 4,
+    "connects_usd": 0.6,
+    "win_probability": 0.1665,
+    "expected_value_usd": 33.3,
+    "worth_it": true,
+    "rationale": "market median $196 (45 comparable fixed jobs); fit 0.75 adjusts by +5%; win probability 17%, expected value $33 vs Connects cost $0.60"
+  },
+  "fit": {
+    "score": 0.75,
+    "matrix": [
+      {
+        "requirement": "Strong scikit-learn skills required.",
+        "strength": "strong",
+        "evidence_ids": [
+          "cs-ai_ml-p09",
+          "cs-ai_ml-p16",
+          "cs-ai_ml-p02"
+        ],
+        "reason": "evidence names scikit-learn"
+      },
+      {
+        "requirement": "Bonus if you're someone who can squeeze accuracy out of tabular data with gradient-boosted trees.",
+        "strength": "none",
+        "evidence_ids": [],
+        "reason": "no supporting evidence"
+      },
+      {
+        "requirement": "Python knowledge is important.",
+        "strength": "strong",
+        "evidence_ids": [
+          "cs-ai_ml-p02"
+        ],
+        "reason": "evidence names Python"
+      },
+      {
+        "requirement": "Bonus if you're someone who keeps experiments reproducible and models versioned.",
+        "strength": "partial",
+        "evidence_ids": [
+          "cs-ai_ml-p09"
+        ],
+        "reason": "related evidence (relevance 0.10)"
+      },
+      {
+        "requirement": "Model evaluation knowledge is important.",
+        "strength": "strong",
+        "evidence_ids": [
+          "cs-ai_ml-p09"
+        ],
+        "reason": "evidence names Model evaluation"
+      },
+      {
+        "requirement": "NLP knowledge is important.",
+        "strength": "partial",
+        "evidence_ids": [
+          "cs-ai_ml-p09",
+          "cs-ai_ml-p16",
+          "rev-ai_ml-p09"
+        ],
+        "reason": "related evidence (relevance 0.54); NLP not shown"
+      }
+    ]
+  },
+  "risk": {
+    "score": 0.097,
+    "client_quality": 0.907,
+    "scam": false,
+    "flags": [],
+    "injection_detected": false,
+    "explanation": "The job post contains no red\u2011flag signals such as unpaid test work, off\u2011platform contact, or payment requests. The client record shows verified payments, a solid hire rate, and a high average rating, indicating a trustworthy client."
+  },
+  "dry_run_preview": {
+    "operation": "create_proposal_draft + submit_proposal",
+    "target": "gigsim",
+    "payload": {
+      "job_id": "dev-ai_ml-029",
+      "cover_letter": "You need a reliable churn predictor that can flag at\u2011risk customers before they leave. I delivered a churn model for Ironpath Foods using scikit\u2011learn and gradient\u2011boosted trees, raising recall on churners to 0.54 and finishing ahead of schedule. I built an end\u2011to\u2011end pipeline with scikit\u2011learn and XGBoost, scripted the full workflow in Python for a media client in three weeks. I will provide concise documentation, set up experiment tracking (e.g., MLflow) and version the model artifacts so future updates are reproducible. Although my recent work focused on tabular data, I can extend the same disciplined pipeline to NLP tasks by leveraging pretrained embeddings and fine\u2011tuned transformers. Shall we schedule a brief call to review your data schema and timeline?",
+      "screening_answers": [
+        "Success is measured by how well the model separates churners from non\u2011churners\u2014key metrics include recall, precision, AUC\u2011ROC, and the lift in actual churn reduction. I compare against a baseline, track these metrics across experiments, and tie improvements to business outcomes such as retained revenue. In the Ironpath Foods project the recall rose to 0.54.",
+        "I would approach an NLP project by first cleaning and tokenizing the text, then applying pretrained language models (e.g., BERT) to generate contextual embeddings. A downstream classifier (logistic regression or gradient\u2011boosted trees) would be trained, with hyper\u2011parameter tuning and cross\u2011validation to ensure robustness. I would log each experiment, document preprocessing steps, and produce a short user guide for hand\u2011over."
+      ],
+      "bid_amount": 200.0,
+      "pay_type": "fixed"
+    },
+    "connects_cost": 4,
+    "connects_balance": 120,
+    "connects_balance_after": 116,
+    "policy_version": 1,
+    "warnings": []
+  },
+  "usage": {
+    "calls": 6,
+    "tokens_in": 5608,
+    "tokens_out": 4199,
+    "tokens": 9807,
+    "usd": 0.002515,
+    "llm_latency_s": 7.47,
+    "cached_calls": 2,
+    "fallbacks": 0,
+    "heuristic_calls": 0,
+    "by_node": {
+      "job_analyst": {
+        "calls": 1,
+        "tokens": 1796,
+        "usd": 0.000342375,
+        "latency_s": 1.8999999156221747e-06,
+        "model": "openai/gpt-oss-20b"
+      },
+      "risk_assessor": {
+        "calls": 1,
+        "tokens": 1004,
+        "usd": 0.00012075,
+        "latency_s": 1.8999999156221747e-06,
+        "model": "openai/gpt-oss-20b"
+      },
+      "writer": {
+        "calls": 1,
+        "tokens": 2756,
+        "usd": 0.0009439499999999999,
+        "latency_s": 3.013140299997758,
+        "model": "openai/gpt-oss-120b"
+      },
+      "verifier": {
+        "calls": 1,
+        "tokens": 1638,
+        "usd": 0.00030464999999999995,
+        "latency_s": 1.2969131999998353,
+        "model": "openai/gpt-oss-20b"
+      },
+      "critic": {
+        "calls": 1,
+        "tokens": 2026,
+        "usd": 0.0007255499999999999,
+        "latency_s": 2.4964198999950895,
+        "model": "openai/gpt-oss-120b"
+      },
+      "compliance": {
+        "calls": 1,
+        "tokens": 587,
+        "usd": 7.7775e-05,
+        "latency_s": 0.6637859000038588,
+        "model": "openai/gpt-oss-20b"
+      }
+    }
+  },
+  "latency_s": 24.984,
+  "trace_id": "6fb007dac7e44f6582dc75fb96c772a6",
+  "events": [
+    {
+      "type": "node",
+      "node": "scout",
+      "t": 0.281,
+      "status": "analysing",
+      "tokens": 0
+    },
+    {
+      "type": "node",
+      "node": "job_analyst",
+      "t": 0.363,
+      "tokens": 1796
+    },
+    {
+      "type": "node",
+      "node": "risk_assessor",
+      "t": 0.794,
+      "risk": 0.097,
+      "tokens": 1004
+    },
+    {
+      "type": "node",
+      "node": "fit_matcher",
+      "t": 14.317,
+      "fit": 0.75,
+      "tokens": 1004
+    },
+    {
+      "type": "node",
+      "node": "decision",
+      "t": 14.323,
+      "decision": {
+        "action": "bid",
+        "reasons": [
+          "fit 0.75 >= 0.6, risk 0.10 <= 0.55"
+        ],
+        "fit_score": 0.75,
+        "risk_score": 0.097,
+        "auto": false
+      },
+      "tokens": 0
+    },
+    {
+      "type": "node",
+      "node": "pricing",
+      "t": 14.6,
+      "price": 200.0,
+      "tokens": 0
+    },
+    {
+      "type": "node",
+      "node": "writer",
+      "t": 18.006,
+      "draft_version": 1,
+      "tokens": 2756
+    },
+    {
+      "type": "node",
+      "node": "verifier",
+      "t": 21.417,
+      "draft_version": 1,
+      "tokens": 1638
+    },
+    {
+      "type": "node",
+      "node": "critic",
+      "t": 23.932,
+      "critique_passed": true,
+      "tokens": 2026
+    },
+    {
+      "type": "node",
+      "node": "compliance",
+      "t": 24.617,
+      "status": "awaiting_approval",
+      "draft_version": 1,
+      "tokens": 587
+    },
+    {
+      "type": "node",
+      "node": "preview",
+      "t": 24.967,
+      "tokens": 0
+    },
+    {
+      "type": "node",
+      "node": "__interrupt__",
+      "t": 24.969
+    },
+    {
+      "type": "done",
+      "status": "awaiting_approval",
+      "interrupt": true
+    }
+  ]
+}

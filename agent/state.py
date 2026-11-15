@@ -104,6 +104,9 @@ class ConversationState(TypedDict, total=False):
     trace_id: str
     marketplace_thread_id: str
     job: dict
+    proposal: dict        # what we sent: cover letter, bid, pay type (context for negotiation)
+    policy: dict
+    prefs: dict
     messages: list[dict]
     intent: dict
     slots: list[str]

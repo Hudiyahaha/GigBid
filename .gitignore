@@ -21,6 +21,8 @@ data/raw/
 data/processed/
 data/holdout/
 
+apps/web/dist/
+
 # web test artefacts (the Playwright HTML report is exported to docs/ for submission)
 apps/web/test-results/
 apps/web/playwright-report/

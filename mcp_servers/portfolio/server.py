@@ -106,6 +106,15 @@ async def get_item(id: Annotated[str, Field(min_length=3, max_length=80)], ctx: 
     return CaseStudy(**d)
 
 
+@mcp.tool(annotations=READ, description=(
+    "Past proposals similar to a job that WON or got REPLIES, for tone and structure only (not evidence of experience)."))
+async def similar_proposals(query: Annotated[str, Field(min_length=2, max_length=500)],
+                            k: Annotated[int, Field(ge=1, le=5)] = 2, ctx: Context = None) -> EvidenceResult:
+    persona = _persona(ctx)
+    items = T.similar_proposals(persona, query, k)
+    return EvidenceResult(variant="proposals", items=[EvidenceOut(**i) for i in items])
+
+
 @mcp.tool(annotations=READ, description="Skills the portfolio can prove, with how many items support each and the latest year used.")
 async def list_skills(ctx: Context = None) -> SkillList:
     persona = _persona(ctx)

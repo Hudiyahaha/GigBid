@@ -13,6 +13,8 @@ import functools
 import time
 from collections.abc import Awaitable, Callable
 
+from langgraph.errors import GraphBubbleUp
+
 from agent import config, llm, mcp_client
 from agent.mcp_client import MarketplaceDown
 
@@ -54,7 +56,7 @@ def node(name: str) -> Callable:
             except llm.BudgetExceeded as e:
                 out = {}
                 status_update = {"status": "needs_attention", "attention_reason": str(e)}
-            except Transient:
+            except (Transient, GraphBubbleUp):  # retries and interrupt() must reach LangGraph untouched
                 raise
             except Exception as e:  # noqa: BLE001
                 out = {}

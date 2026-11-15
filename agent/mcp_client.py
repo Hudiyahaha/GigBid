@@ -28,6 +28,7 @@ RUN_CTX: contextvars.ContextVar[dict] = contextvars.ContextVar("run_ctx", defaul
 SERVER_OF: dict[str, str] = {
     # portfolio
     "search_evidence": "portfolio", "get_case_study": "portfolio", "get_item": "portfolio", "list_skills": "portfolio",
+    "similar_proposals": "portfolio",
     # marketplace
     "search_jobs": "marketplace", "get_job": "marketplace", "get_client_history": "marketplace",
     "get_connects_balance": "marketplace", "get_market_stats": "marketplace", "get_policy": "marketplace",

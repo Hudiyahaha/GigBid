@@ -1,13 +1,41 @@
 name: CI
 on: [push, pull_request]
+env:
+  GIGBID_FAKE_LLM: "1"
+  GIGBID_LOCAL_SQLITE: "1"
+  TOKENIZERS_PARALLELISM: "false"
+  UV_TORCH_BACKEND: cpu
 jobs:
-  checks:
+  python:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-      - run: python -m pip install -e ".[dev]"
-      - run: ruff check .
-      - run: pytest -q
+      - uses: astral-sh/setup-uv@v5
+        with: {version: "0.9.5"}
+      - run: uv sync --frozen --extra dev
+      - uses: actions/cache@v4
+        with: {path: ~/.cache/huggingface, key: hf-models-v1}
+      - name: CI guards (gigsim unchanged, prompts in agent/prompts, no secrets, README numbers traceable)
+        run: uv run python scripts/ci_guards.py
+      - run: uv run ruff check .
+      - name: Unit + MCP + contract tests
+        run: uv run pytest -q mcp_servers tests/unit tests/contract
+      - name: Integration (graphs against GigSim)
+        run: uv run pytest -q tests/integration
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with: {version: "0.9.5"}
+      - run: uv sync --frozen
+      - uses: actions/setup-node@v4
+        with: {node-version: 22}
+      - run: npm ci && npx tsc -b && npx vite build
+        working-directory: apps/web
+      - run: npx playwright install --with-deps chromium && npx playwright test --project=desktop
+        working-directory: apps/web
+        env: {GIGBID_PYTHON: .venv/bin/python, CI: "1"}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: playwright-report, path: apps/web/playwright-report}

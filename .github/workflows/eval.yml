@@ -1,0 +1,21 @@
+name: Smoke eval
+on: [pull_request]
+env:
+  GIGBID_FAKE_LLM: "1"
+  GIGBID_LOCAL_SQLITE: "1"
+  TOKENIZERS_PARALLELISM: "false"
+  UV_TORCH_BACKEND: cpu
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with: {version: "0.9.5"}
+      - run: uv sync --frozen
+      - name: 30-job smoke eval (10 per persona) + 2 proposals per persona
+        run: |
+          uv run python -m evals.runners.decision_eval --limit 10
+          uv run python -m evals.runners.gigsim_outcomes --per-persona 2 --name gigsim_outcomes_smoke
+      - name: Fail on regressions (thresholds in evals/thresholds.yaml)
+        run: uv run python -m evals.check_thresholds

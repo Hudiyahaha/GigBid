@@ -22,6 +22,14 @@ async def search_evidence(persona: str, requirement: str, k: int, filters: dict)
             "unsupported_requirements": res.unsupported}
 
 
+def similar_proposals(persona: str, query: str, k: int) -> list[dict]:
+    from rag.retriever import LOCK
+    with LOCK:
+        props = get_pipeline(persona).proposals(query, k)
+    return [{"item_id": p["item_id"], "type": "proposal", "title": p["item_id"], "outcome": p["outcome"],
+             "snippet": p["text"][:600], "source": "synthetic"} for p in props]
+
+
 def _docs(persona: str):
     return load_persona(persona)
 
