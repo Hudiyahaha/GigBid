@@ -5,8 +5,8 @@ services:
   - type: web
     name: gigbid
     runtime: docker
-    plan: standard            # 2 GB RAM: the embedding + reranker models need ~1-1.5 GB (free 512 MB will crash)
-    dockerfilePath: ./infra/docker/Dockerfile
+    plan: free                # 512 MB: the lean image runs the models on ONNX Runtime (no torch)
+    dockerfilePath: ./deploy/render/Dockerfile
     dockerContext: .
     dockerCommand: python -m scripts.dev_stack
     healthCheckPath: /api/health

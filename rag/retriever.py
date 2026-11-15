@@ -23,6 +23,8 @@ _torch_set = False
 
 def _limit_torch() -> None:
     global _torch_set
+    if os.getenv("EMBED_BACKEND") == "fastembed":  # lite mode never loads torch
+        _torch_set = True
     if not _torch_set:
         try:
             import torch

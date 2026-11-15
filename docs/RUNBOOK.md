@@ -12,6 +12,14 @@ Set `GIGBID_FAKE_LLM=1` for offline deterministic runs. Set `GIGBID_LOCAL_SQLITE
 GigSim, Postgres, Redis, Qdrant, Ollama and Phoenix. Reviewer login: set `REVIEWER_EMAIL`, `REVIEWER_PASSWORD`,
 `REVIEWER_PERSONA` in the host's environment (never in the repo).
 
+## Public deployment (Render, free plan)
+`render.yaml` (New -> Blueprint) builds `deploy/render/Dockerfile`: the same open models (bge-small embeddings,
+MS-MARCO MiniLM cross-encoder) on ONNX Runtime via fastembed (`EMBED_BACKEND=fastembed`), with no torch installed.
+Measured peak memory for scout + 3 parallel analyses + approval + submission: about 380 MB (vs about 760 MB with
+torch), so it fits the 512 MB free tier. GigSim and the API run in one process (`scripts/dev_stack.py`); SQLite on
+ephemeral disk (the reviewer account is re-seeded on start). The free tier sleeps after 15 minutes idle (first request
+about 1 minute), so open the URL before grading.
+
 ## Scheduling and politeness
 * GigSim: saved searches every 5 min (`worker.scout_interval_minutes_gigsim`); the marketplace MCP server rate-limits
   each user to 40 req/min (GigSim allows 60).

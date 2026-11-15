@@ -27,18 +27,36 @@ class Embedder:
         self._db.execute("CREATE TABLE IF NOT EXISTS e(k TEXT PRIMARY KEY, v BLOB)")
 
     @property
+    def backend(self) -> str:
+        """`st` = sentence-transformers (torch); `fastembed` = same open model on ONNX Runtime (no torch, ~1/4 the RAM).
+        The lite backend is used for the free 512 MB deployment (deploy/render/Dockerfile)."""
+        return os.getenv("EMBED_BACKEND", "st")
+
+    @property
     def model(self):
         if self._model is None:
-            from sentence_transformers import SentenceTransformer
-            self._model = SentenceTransformer(self.model_name, device="cpu")
+            if self.backend == "fastembed":
+                from fastembed import TextEmbedding
+                self._model = TextEmbedding(model_name=self.model_name, threads=1)
+            else:
+                from sentence_transformers import SentenceTransformer
+                self._model = SentenceTransformer(self.model_name, device="cpu")
         return self._model
 
     @property
     def dim(self) -> int:
+        if self.backend == "fastembed":
+            return 384
         return int(self.model.get_sentence_embedding_dimension())
 
+    def _embed(self, texts: list[str]) -> np.ndarray:
+        if self.backend == "fastembed":
+            vecs = np.array(list(self.model.embed(texts, batch_size=16)), dtype=np.float32)
+            return vecs / np.clip(np.linalg.norm(vecs, axis=1, keepdims=True), 1e-9, None)
+        return self.model.encode(texts, batch_size=32, normalize_embeddings=True, show_progress_bar=False).astype(np.float32)
+
     def _key(self, text: str, is_query: bool) -> str:
-        return hashlib.sha256(f"{self.model_name}|{int(is_query)}|{text}".encode()).hexdigest()
+        return hashlib.sha256(f"{self.model_name}|{self.backend}|{int(is_query)}|{text}".encode()).hexdigest()
 
     def encode(self, texts: list[str], is_query: bool = False) -> np.ndarray:
         prefix = "Represent this sentence for searching relevant passages: " if is_query and "bge" in self.model_name.lower() else ""
@@ -51,8 +69,7 @@ class Embedder:
                     out[i] = np.frombuffer(row[0], dtype=np.float32)
         missing = [i for i, v in enumerate(out) if v is None]
         if missing:
-            vecs = self.model.encode([prefix + texts[i] for i in missing], batch_size=32, normalize_embeddings=True,
-                                     show_progress_bar=False).astype(np.float32)
+            vecs = self._embed([prefix + texts[i] for i in missing])
             with _lock:
                 for j, i in enumerate(missing):
                     out[i] = vecs[j]
