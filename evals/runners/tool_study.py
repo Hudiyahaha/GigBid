@@ -92,7 +92,14 @@ def coarse_tools() -> list[dict]:
             one("workspace", ["free_slots"], "Calendar: free interview slots.")]
 
 
-def arg_ok(expected: dict, got: dict) -> bool:
+def arg_ok(expected: dict, got) -> bool:
+    if isinstance(got, str):  # small models sometimes return nested params as a JSON string
+        try:
+            got = json.loads(got)
+        except json.JSONDecodeError:
+            return False
+    if not isinstance(got, dict):
+        return False
     for k, v in expected.items():
         g = got.get(k)
         if isinstance(v, str):

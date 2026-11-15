@@ -124,8 +124,8 @@ writer:
     question_first: "Open with one sharp clarifying question about the client's goal, then a short plan in three steps, then one cited project as proof. Keep it under 150 words."
 
 decision:
-  min_fit_to_bid: 0.60
-  min_fit_to_watch: 0.40
+  min_fit_to_bid: 0.30      # calibrated on dev (evals/results/decision_eval.json sweep: F1 0.61 -> 0.82); checked on holdout
+  min_fit_to_watch: 0.20
   max_risk_to_bid: 0.55
   scam_risk: 0.75
   connects_value_per_unit_usd: 0.15            # what one Connect costs the freelancer

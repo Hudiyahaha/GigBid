@@ -50,6 +50,7 @@ dependencies = [
   "opentelemetry-sdk>=1.26",
   "opentelemetry-exporter-otlp>=1.26",
   "openpyxl>=3.1.5",
+  "markdown>=3.11.3",
 ]
 
 [project.optional-dependencies]

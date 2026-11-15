@@ -109,7 +109,41 @@ def injection_table() -> str:
             f"after {f(i['attack_success_after'])}.")
 
 
-BLOCKS = {"rag": rag_table, "headline": headline_table, "decision": decision_table, "outcomes": outcome_table,
+def failures_table() -> str:
+    d = j("decision_eval")
+    if not d:
+        return "_pending_"
+    rows = ["| Job | Persona | Type | Gold | Predicted | Taxonomy | Evidence from the trace |", "|---|---|---|---|---|---|---|"]
+    picked = 0
+    for r in d["rows"]:
+        wrong_dec = (r["pred"] == "bid") != r["gold_bid"]
+        mispriced = r.get("in_band") is False
+        if not (wrong_dec or mispriced) or picked >= 14:
+            continue
+        reasons = "; ".join(r.get("reasons") or [])[:90]
+        if wrong_dec and r["gold_bid"]:
+            tax = "missed evidence (vague post)" if r["kind"] == "vague" else ("wrong skip (budget rule)" if "budget" in reasons else "missed evidence / wrong skip")
+        elif wrong_dec:
+            tax = "wrong bid (partial fit accepted)"
+        else:
+            tax = "mispriced"
+        rows.append(f"| {r['job_id']} | {r['persona']} | {r['kind']} | {'bid' if r['gold_bid'] else 'skip'} | {r['pred']} | {tax} | "
+                    f"{reasons or ('price ' + str(r.get('price')) + ' vs band ' + str(r['fair_band']))} |")
+        picked += 1
+    return "\n".join(rows)
+
+
+def holdout_table() -> str:
+    d = j("decision_eval_holdout")
+    if not d:
+        return "_pending: hidden-set run_"
+    o = d["overall"]
+    return (f"Held-out set ({o['bid_skip']['n']} jobs, never used for tuning): bid/skip F1 {f(o['bid_skip']['f1'])}, "
+            f"accuracy {f(o['bid_skip']['accuracy'])}, scam precision {f(o['scam']['precision'])} / recall {f(o['scam']['recall'])}, "
+            f"price in fair band {f(o['price_in_fair_band'])}, p95 latency per job {f(o['latency_s_per_job']['p95'], 1)} s.")
+
+
+BLOCKS = {"failures": failures_table, "holdout": holdout_table, "rag": rag_table, "headline": headline_table, "decision": decision_table, "outcomes": outcome_table,
           "svm": svm_table, "tools": tool_table, "injection": injection_table}
 
 

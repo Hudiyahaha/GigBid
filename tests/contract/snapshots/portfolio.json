@@ -382,6 +382,195 @@
               "default": null,
               "title": "Project"
             },
+            "relevance": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Calibrated 0..1 cross-encoder relevance to the query",
+              "title": "Relevance"
+            },
+            "score": {
+              "default": 0.0,
+              "title": "Score",
+              "type": "number"
+            },
+            "skills": {
+              "items": {
+                "type": "string"
+              },
+              "title": "Skills",
+              "type": "array"
+            },
+            "snippet": {
+              "default": "",
+              "title": "Snippet",
+              "type": "string"
+            },
+            "source": {
+              "default": "",
+              "title": "Source",
+              "type": "string"
+            },
+            "title": {
+              "title": "Title",
+              "type": "string"
+            },
+            "type": {
+              "title": "Type",
+              "type": "string"
+            }
+          },
+          "required": [
+            "item_id",
+            "type",
+            "title"
+          ],
+          "title": "EvidenceOut",
+          "type": "object"
+        }
+      },
+      "properties": {
+        "items": {
+          "items": {
+            "$ref": "#/$defs/EvidenceOut"
+          },
+          "title": "Items",
+          "type": "array"
+        },
+        "per_requirement": {
+          "additionalProperties": {
+            "items": {
+              "$ref": "#/$defs/EvidenceOut"
+            },
+            "type": "array"
+          },
+          "title": "Per Requirement",
+          "type": "object"
+        },
+        "unsupported_requirements": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Unsupported Requirements",
+          "type": "array"
+        },
+        "variant": {
+          "title": "Variant",
+          "type": "string"
+        }
+      },
+      "required": [
+        "variant",
+        "items"
+      ],
+      "title": "EvidenceResult",
+      "type": "object"
+    }
+  },
+  "similar_proposals": {
+    "annotations": {
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false,
+      "readOnlyHint": true
+    },
+    "input": {
+      "properties": {
+        "k": {
+          "default": 2,
+          "maximum": 5,
+          "minimum": 1,
+          "title": "K",
+          "type": "integer"
+        },
+        "query": {
+          "maxLength": 500,
+          "minLength": 2,
+          "title": "Query",
+          "type": "string"
+        }
+      },
+      "required": [
+        "query"
+      ],
+      "title": "similar_proposalsArguments",
+      "type": "object"
+    },
+    "output": {
+      "$defs": {
+        "EvidenceOut": {
+          "properties": {
+            "client_industry": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Client Industry"
+            },
+            "date": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Date"
+            },
+            "item_id": {
+              "title": "Item Id",
+              "type": "string"
+            },
+            "outcome": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Outcome"
+            },
+            "project": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Project"
+            },
+            "relevance": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Calibrated 0..1 cross-encoder relevance to the query",
+              "title": "Relevance"
+            },
             "score": {
               "default": 0.0,
               "title": "Score",
