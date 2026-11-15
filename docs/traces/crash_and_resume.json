@@ -1,0 +1,2500 @@
+{
+ "case": "Run stops at approval; persistence is closed (crash) and reopened; approval resumes the SAME thread; a duplicate resume does not submit twice",
+ "note": "runs[1].submission is the single submission; runs[2] shows no new executor call / idempotent replay",
+ "runs": [
+  {
+   "trace_id": "26062598a88949cfae77f6a77e1b4460",
+   "thread_id": "trace-user:bid:crash",
+   "status": "awaiting_approval",
+   "decision": {
+    "action": "bid",
+    "reasons": [
+     "fit 0.60 >= 0.3, risk 0.06 <= 0.55"
+    ],
+    "fit_score": 0.6,
+    "risk_score": 0.058,
+    "auto": false
+   },
+   "risk": {
+    "score": 0.058,
+    "scam": false,
+    "flags": []
+   },
+   "fit_score": 0.6,
+   "price": 200.0,
+   "critiques": [
+    {
+     "version": 1,
+     "passed": false,
+     "issues": [
+      "length 77 words (target 120-220)"
+     ]
+    },
+    {
+     "version": 2,
+     "passed": false,
+     "issues": [
+      "length 77 words (target 120-220)"
+     ]
+    },
+    {
+     "version": 3,
+     "passed": false,
+     "issues": [
+      "length 77 words (target 120-220)"
+     ]
+    }
+   ],
+   "verification": {
+    "claims": 12,
+    "unsupported_before": 0,
+    "partial_before": 0,
+    "unsupported_rate_before": 0.0,
+    "unsupported_rate_after": 0.0,
+    "removed": 0,
+    "rewritten": 0,
+    "doubtful": 0
+   },
+   "submission": null,
+   "usage": {
+    "tokens": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "usd": 0.0,
+    "llm_calls": 0,
+    "by_node": {
+     "scout": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.114,
+      "calls": 1
+     },
+     "job_analyst": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.005,
+      "calls": 1
+     },
+     "risk_assessor": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.371,
+      "calls": 1
+     },
+     "fit_matcher": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.36,
+      "calls": 1
+     },
+     "decision": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.0,
+      "calls": 1
+     },
+     "pricing": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.119,
+      "calls": 1
+     },
+     "writer": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.163,
+      "calls": 3
+     },
+     "verifier": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 1.46,
+      "calls": 3
+     },
+     "critic": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.003,
+      "calls": 3
+     },
+     "compliance": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.001,
+      "calls": 1
+     },
+     "preview": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.138,
+      "calls": 1
+     }
+    }
+   },
+   "latency_s": 2.433,
+   "trace": [
+    {
+     "type": "node",
+     "node": "scout",
+     "latency_s": 0.114,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.9585266
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_job",
+     "args": {
+      "job_id": "dev-ai_ml-005"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 60
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_policy",
+     "args": {},
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 54
+    },
+    {
+     "type": "llm",
+     "node": "job_analyst",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "job_analyst@v2"
+    },
+    {
+     "type": "node",
+     "node": "job_analyst",
+     "latency_s": 0.005,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.9658093
+    },
+    {
+     "type": "llm",
+     "node": "risk_assessor",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "risk_assessor@v2"
+    },
+    {
+     "type": "node",
+     "node": "risk_assessor",
+     "latency_s": 0.371,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.334469
+    },
+    {
+     "type": "tool",
+     "node": "risk_assessor",
+     "tool": "get_client_history",
+     "args": {
+      "client_id": "cl-0377"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 369
+    },
+    {
+     "type": "node",
+     "node": "fit_matcher",
+     "latency_s": 0.36,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.3263931
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Must have hands-on experience with LoRA fine-tuning.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "cs-ai_ml-p04",
+       "repo-ai_ml-p11"
+      ]
+     },
+     "latency_ms": 356
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Strong Hugging Face Transformers skills required.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "repo-ai_ml-p06",
+       "repo-ai_ml-p15"
+      ]
+     },
+     "latency_ms": 353
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Ideally you are someone who can pull names, dates and products out of text.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "cs-ai_ml-p10",
+       "cs-ai_ml-p03"
+      ]
+     },
+     "latency_ms": 349
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "NLP knowledge is important.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "cs-ai_ml-p03",
+       "repo-ai_ml-p15"
+      ]
+     },
+     "latency_ms": 347
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Ideally you are someone who can make a chatbot answer from our own documents and show sources.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "repo-ai_ml-p15",
+       "cs-ai_ml-p08"
+      ]
+     },
+     "latency_ms": 344
+    },
+    {
+     "type": "node",
+     "node": "decision",
+     "latency_s": 0.0,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.334469
+    },
+    {
+     "type": "node",
+     "node": "pricing",
+     "latency_s": 0.119,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.4584906
+    },
+    {
+     "type": "tool",
+     "node": "pricing",
+     "tool": "get_market_stats",
+     "args": {
+      "category": "NLP",
+      "pay_type": "fixed"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 58
+    },
+    {
+     "type": "tool",
+     "node": "pricing",
+     "tool": "get_connects_balance",
+     "args": {},
+     "ok": true,
+     "result": {
+      "connects_balance": 110,
+      "submissions_last_24h": 2,
+      "policy_version": 1
+     },
+     "latency_ms": 61
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.056,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.51724
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Text classification for support tickets",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-025",
+       "prop-ai_ml-134"
+      ]
+     },
+     "latency_ms": 52
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.482,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.0007756
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p04"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p04",
+      "title": "Domain LLM fine-tune",
+      "project": "ai_ml-p04",
+      "date": "2023-11-08",
+      "client_industry": "legal",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 465
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "repo-ai_ml-p06"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "repo-ai_ml-p06",
+      "title": "semantic-product-search",
+      "project": "ai_ml-p06",
+      "date": "...",
+      "client_industry": "...",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 462
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.002426
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.057,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.0603466
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Text classification for support tickets",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-025",
+       "prop-ai_ml-134"
+      ]
+     },
+     "latency_ms": 53
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.486,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.543981
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p04"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p04",
+      "title": "Domain LLM fine-tune",
+      "project": "ai_ml-p04",
+      "date": "2023-11-08",
+      "client_industry": "legal",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 471
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "repo-ai_ml-p06"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "repo-ai_ml-p06",
+      "title": "semantic-product-search",
+      "project": "ai_ml-p06",
+      "date": "...",
+      "client_industry": "...",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 468
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.543981
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.05,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.6034007
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Text classification for support tickets",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-025",
+       "prop-ai_ml-134"
+      ]
+     },
+     "latency_ms": 46
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.492,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.0960026
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p04"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p04",
+      "title": "Domain LLM fine-tune",
+      "project": "ai_ml-p04",
+      "date": "2023-11-08",
+      "client_industry": "legal",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 475
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "repo-ai_ml-p06"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "repo-ai_ml-p06",
+      "title": "semantic-product-search",
+      "project": "ai_ml-p06",
+      "date": "...",
+      "client_industry": "...",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 472
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.0960026
+    },
+    {
+     "type": "llm",
+     "node": "compliance",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "compliance@v1"
+    },
+    {
+     "type": "node",
+     "node": "compliance",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.101216
+    },
+    {
+     "type": "node",
+     "node": "preview",
+     "latency_s": 0.138,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.2411041
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "create_proposal_draft",
+     "args": {
+      "job_id": "dev-ai_ml-005",
+      "cover_letter": "Your Text classification for support tickets needs someone who can handle lora fine-tuning from day one. I delivered a closely related project, Domain LLM fine-tune. I delivered a closely related project, semantic-product-search. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "screening_answers": [
+       "The closest example is Domain LLM fine-tune. I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric.",
+       "The closest example is Domain LLM fine-tune. I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric."
+      ],
+      "bid_amount": 200.0,
+      "pay_type": "fixed",
+      "idempotency_key": "trace-user:bid:crash:dry",
+      "dry_run": true
+     },
+     "ok": true,
+     "result": {
+      "dry_run": true,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": false
+     },
+     "latency_ms": 138
+    }
+   ]
+  },
+  {
+   "trace_id": "26062598a88949cfae77f6a77e1b4460",
+   "thread_id": "trace-user:bid:crash",
+   "status": "submitted",
+   "decision": {
+    "action": "bid",
+    "reasons": [
+     "fit 0.60 >= 0.3, risk 0.06 <= 0.55"
+    ],
+    "fit_score": 0.6,
+    "risk_score": 0.058,
+    "auto": false
+   },
+   "risk": {
+    "score": 0.058,
+    "scam": false,
+    "flags": []
+   },
+   "fit_score": 0.6,
+   "price": 200.0,
+   "critiques": [
+    {
+     "version": 1,
+     "passed": false,
+     "issues": [
+      "length 77 words (target 120-220)"
+     ]
+    },
+    {
+     "version": 2,
+     "passed": false,
+     "issues": [
+      "length 77 words (target 120-220)"
+     ]
+    },
+    {
+     "version": 3,
+     "passed": false,
+     "issues": [
+      "length 77 words (target 120-220)"
+     ]
+    }
+   ],
+   "verification": {
+    "claims": 12,
+    "unsupported_before": 0,
+    "partial_before": 0,
+    "unsupported_rate_before": 0.0,
+    "unsupported_rate_after": 0.0,
+    "removed": 0,
+    "rewritten": 0,
+    "doubtful": 0
+   },
+   "submission": {
+    "proposal_id": "gp-648ac666c4",
+    "draft_key": "trace-user:bid:crash:draft:cda259d93a10",
+    "submit_key": "trace-user:bid:crash:submit:cda259d93a10",
+    "status": "submitted",
+    "connects_spent": 4,
+    "connects_balance": 110,
+    "idempotent_replay": true
+   },
+   "usage": {
+    "tokens": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "usd": 0.0,
+    "llm_calls": 0,
+    "by_node": {
+     "scout": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.114,
+      "calls": 1
+     },
+     "job_analyst": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.005,
+      "calls": 1
+     },
+     "risk_assessor": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.371,
+      "calls": 1
+     },
+     "fit_matcher": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.36,
+      "calls": 1
+     },
+     "decision": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.0,
+      "calls": 1
+     },
+     "pricing": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.119,
+      "calls": 1
+     },
+     "writer": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.163,
+      "calls": 3
+     },
+     "verifier": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 1.46,
+      "calls": 3
+     },
+     "critic": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.003,
+      "calls": 3
+     },
+     "compliance": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.001,
+      "calls": 1
+     },
+     "preview": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.138,
+      "calls": 1
+     },
+     "human_approval": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.0,
+      "calls": 1
+     },
+     "executor": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.077,
+      "calls": 1
+     }
+    }
+   },
+   "latency_s": 0.091,
+   "trace": [
+    {
+     "type": "node",
+     "node": "scout",
+     "latency_s": 0.114,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.9585266
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_job",
+     "args": {
+      "job_id": "dev-ai_ml-005"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 60
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_policy",
+     "args": {},
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 54
+    },
+    {
+     "type": "llm",
+     "node": "job_analyst",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "job_analyst@v2"
+    },
+    {
+     "type": "node",
+     "node": "job_analyst",
+     "latency_s": 0.005,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.9658093
+    },
+    {
+     "type": "llm",
+     "node": "risk_assessor",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "risk_assessor@v2"
+    },
+    {
+     "type": "node",
+     "node": "risk_assessor",
+     "latency_s": 0.371,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.334469
+    },
+    {
+     "type": "tool",
+     "node": "risk_assessor",
+     "tool": "get_client_history",
+     "args": {
+      "client_id": "cl-0377"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 369
+    },
+    {
+     "type": "node",
+     "node": "fit_matcher",
+     "latency_s": 0.36,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.3263931
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Must have hands-on experience with LoRA fine-tuning.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "cs-ai_ml-p04",
+       "repo-ai_ml-p11"
+      ]
+     },
+     "latency_ms": 356
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Strong Hugging Face Transformers skills required.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "repo-ai_ml-p06",
+       "repo-ai_ml-p15"
+      ]
+     },
+     "latency_ms": 353
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Ideally you are someone who can pull names, dates and products out of text.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "cs-ai_ml-p10",
+       "cs-ai_ml-p03"
+      ]
+     },
+     "latency_ms": 349
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "NLP knowledge is important.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "cs-ai_ml-p03",
+       "repo-ai_ml-p15"
+      ]
+     },
+     "latency_ms": 347
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Ideally you are someone who can make a chatbot answer from our own documents and show sources.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "repo-ai_ml-p15",
+       "cs-ai_ml-p08"
+      ]
+     },
+     "latency_ms": 344
+    },
+    {
+     "type": "node",
+     "node": "decision",
+     "latency_s": 0.0,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.334469
+    },
+    {
+     "type": "node",
+     "node": "pricing",
+     "latency_s": 0.119,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.4584906
+    },
+    {
+     "type": "tool",
+     "node": "pricing",
+     "tool": "get_market_stats",
+     "args": {
+      "category": "NLP",
+      "pay_type": "fixed"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 58
+    },
+    {
+     "type": "tool",
+     "node": "pricing",
+     "tool": "get_connects_balance",
+     "args": {},
+     "ok": true,
+     "result": {
+      "connects_balance": 110,
+      "submissions_last_24h": 2,
+      "policy_version": 1
+     },
+     "latency_ms": 61
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.056,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.51724
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Text classification for support tickets",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-025",
+       "prop-ai_ml-134"
+      ]
+     },
+     "latency_ms": 52
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.482,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.0007756
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p04"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p04",
+      "title": "Domain LLM fine-tune",
+      "project": "ai_ml-p04",
+      "date": "2023-11-08",
+      "client_industry": "legal",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 465
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "repo-ai_ml-p06"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "repo-ai_ml-p06",
+      "title": "semantic-product-search",
+      "project": "ai_ml-p06",
+      "date": "...",
+      "client_industry": "...",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 462
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.002426
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.057,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.0603466
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Text classification for support tickets",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-025",
+       "prop-ai_ml-134"
+      ]
+     },
+     "latency_ms": 53
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.486,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.543981
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p04"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p04",
+      "title": "Domain LLM fine-tune",
+      "project": "ai_ml-p04",
+      "date": "2023-11-08",
+      "client_industry": "legal",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 471
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "repo-ai_ml-p06"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "repo-ai_ml-p06",
+      "title": "semantic-product-search",
+      "project": "ai_ml-p06",
+      "date": "...",
+      "client_industry": "...",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 468
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.543981
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.05,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.6034007
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Text classification for support tickets",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-025",
+       "prop-ai_ml-134"
+      ]
+     },
+     "latency_ms": 46
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.492,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.0960026
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p04"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p04",
+      "title": "Domain LLM fine-tune",
+      "project": "ai_ml-p04",
+      "date": "2023-11-08",
+      "client_industry": "legal",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 475
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "repo-ai_ml-p06"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "repo-ai_ml-p06",
+      "title": "semantic-product-search",
+      "project": "ai_ml-p06",
+      "date": "...",
+      "client_industry": "...",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 472
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.0960026
+    },
+    {
+     "type": "llm",
+     "node": "compliance",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "compliance@v1"
+    },
+    {
+     "type": "node",
+     "node": "compliance",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.101216
+    },
+    {
+     "type": "node",
+     "node": "preview",
+     "latency_s": 0.138,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.2411041
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "create_proposal_draft",
+     "args": {
+      "job_id": "dev-ai_ml-005",
+      "cover_letter": "Your Text classification for support tickets needs someone who can handle lora fine-tuning from day one. I delivered a closely related project, Domain LLM fine-tune. I delivered a closely related project, semantic-product-search. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "screening_answers": [
+       "The closest example is Domain LLM fine-tune. I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric.",
+       "The closest example is Domain LLM fine-tune. I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric."
+      ],
+      "bid_amount": 200.0,
+      "pay_type": "fixed",
+      "idempotency_key": "trace-user:bid:crash:dry",
+      "dry_run": true
+     },
+     "ok": true,
+     "result": {
+      "dry_run": true,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": false
+     },
+     "latency_ms": 138
+    },
+    {
+     "type": "node",
+     "node": "human_approval",
+     "latency_s": 0.0,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.345279
+    },
+    {
+     "type": "node",
+     "node": "executor",
+     "latency_s": 0.077,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.4270575
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "create_proposal_draft",
+     "args": {
+      "job_id": "dev-ai_ml-005",
+      "cover_letter": "Your Text classification for support tickets needs someone who can handle lora fine-tuning from day one. I delivered a closely related project, Domain LLM fine-tune. I delivered a closely related project, semantic-product-search. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "screening_answers": [
+       "The closest example is Domain LLM fine-tune. I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric.",
+       "The closest example is Domain LLM fine-tune. I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric."
+      ],
+      "bid_amount": 200.0,
+      "pay_type": "fixed",
+      "idempotency_key": "trace-user:bid:crash:draft:cda259d93a10",
+      "dry_run": false,
+      "approval_token": "[SECRET]"
+     },
+     "ok": true,
+     "result": {
+      "dry_run": false,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": true
+     },
+     "latency_ms": 39
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "submit_proposal",
+     "args": {
+      "proposal_id": "gp-648ac666c4",
+      "draft_idempotency_key": "trace-user:bid:crash:draft:cda259d93a10",
+      "idempotency_key": "trace-user:bid:crash:submit:cda259d93a10",
+      "approval_token": "[SECRET]"
+     },
+     "ok": true,
+     "result": {
+      "dry_run": false,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": true
+     },
+     "latency_ms": 38
+    }
+   ]
+  },
+  {
+   "trace_id": "26062598a88949cfae77f6a77e1b4460",
+   "thread_id": "trace-user:bid:crash",
+   "status": "submitted",
+   "decision": {
+    "action": "bid",
+    "reasons": [
+     "fit 0.60 >= 0.3, risk 0.06 <= 0.55"
+    ],
+    "fit_score": 0.6,
+    "risk_score": 0.058,
+    "auto": false
+   },
+   "risk": {
+    "score": 0.058,
+    "scam": false,
+    "flags": []
+   },
+   "fit_score": 0.6,
+   "price": 200.0,
+   "critiques": [
+    {
+     "version": 1,
+     "passed": false,
+     "issues": [
+      "length 77 words (target 120-220)"
+     ]
+    },
+    {
+     "version": 2,
+     "passed": false,
+     "issues": [
+      "length 77 words (target 120-220)"
+     ]
+    },
+    {
+     "version": 3,
+     "passed": false,
+     "issues": [
+      "length 77 words (target 120-220)"
+     ]
+    }
+   ],
+   "verification": {
+    "claims": 12,
+    "unsupported_before": 0,
+    "partial_before": 0,
+    "unsupported_rate_before": 0.0,
+    "unsupported_rate_after": 0.0,
+    "removed": 0,
+    "rewritten": 0,
+    "doubtful": 0
+   },
+   "submission": {
+    "proposal_id": "gp-648ac666c4",
+    "draft_key": "trace-user:bid:crash:draft:cda259d93a10",
+    "submit_key": "trace-user:bid:crash:submit:cda259d93a10",
+    "status": "submitted",
+    "connects_spent": 4,
+    "connects_balance": 110,
+    "idempotent_replay": true
+   },
+   "usage": {
+    "tokens": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "usd": 0.0,
+    "llm_calls": 0,
+    "by_node": {
+     "scout": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.114,
+      "calls": 1
+     },
+     "job_analyst": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.005,
+      "calls": 1
+     },
+     "risk_assessor": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.371,
+      "calls": 1
+     },
+     "fit_matcher": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.36,
+      "calls": 1
+     },
+     "decision": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.0,
+      "calls": 1
+     },
+     "pricing": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.119,
+      "calls": 1
+     },
+     "writer": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.163,
+      "calls": 3
+     },
+     "verifier": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 1.46,
+      "calls": 3
+     },
+     "critic": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.003,
+      "calls": 3
+     },
+     "compliance": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.001,
+      "calls": 1
+     },
+     "preview": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.138,
+      "calls": 1
+     },
+     "human_approval": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.0,
+      "calls": 1
+     },
+     "executor": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.077,
+      "calls": 1
+     }
+    }
+   },
+   "latency_s": 0.006,
+   "trace": [
+    {
+     "type": "node",
+     "node": "scout",
+     "latency_s": 0.114,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.9585266
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_job",
+     "args": {
+      "job_id": "dev-ai_ml-005"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 60
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_policy",
+     "args": {},
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 54
+    },
+    {
+     "type": "llm",
+     "node": "job_analyst",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "job_analyst@v2"
+    },
+    {
+     "type": "node",
+     "node": "job_analyst",
+     "latency_s": 0.005,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.9658093
+    },
+    {
+     "type": "llm",
+     "node": "risk_assessor",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "risk_assessor@v2"
+    },
+    {
+     "type": "node",
+     "node": "risk_assessor",
+     "latency_s": 0.371,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.334469
+    },
+    {
+     "type": "tool",
+     "node": "risk_assessor",
+     "tool": "get_client_history",
+     "args": {
+      "client_id": "cl-0377"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 369
+    },
+    {
+     "type": "node",
+     "node": "fit_matcher",
+     "latency_s": 0.36,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.3263931
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Must have hands-on experience with LoRA fine-tuning.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "cs-ai_ml-p04",
+       "repo-ai_ml-p11"
+      ]
+     },
+     "latency_ms": 356
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Strong Hugging Face Transformers skills required.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "repo-ai_ml-p06",
+       "repo-ai_ml-p15"
+      ]
+     },
+     "latency_ms": 353
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Ideally you are someone who can pull names, dates and products out of text.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "cs-ai_ml-p10",
+       "cs-ai_ml-p03"
+      ]
+     },
+     "latency_ms": 349
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "NLP knowledge is important.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "cs-ai_ml-p03",
+       "repo-ai_ml-p15"
+      ]
+     },
+     "latency_ms": 347
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Ideally you are someone who can make a chatbot answer from our own documents and show sources.",
+      "k": 3,
+      "filters": {
+       "job_title": "Text classification for support tickets",
+       "industry": "manufacturing",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p01",
+       "repo-ai_ml-p15",
+       "cs-ai_ml-p08"
+      ]
+     },
+     "latency_ms": 344
+    },
+    {
+     "type": "node",
+     "node": "decision",
+     "latency_s": 0.0,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.334469
+    },
+    {
+     "type": "node",
+     "node": "pricing",
+     "latency_s": 0.119,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.4584906
+    },
+    {
+     "type": "tool",
+     "node": "pricing",
+     "tool": "get_market_stats",
+     "args": {
+      "category": "NLP",
+      "pay_type": "fixed"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 58
+    },
+    {
+     "type": "tool",
+     "node": "pricing",
+     "tool": "get_connects_balance",
+     "args": {},
+     "ok": true,
+     "result": {
+      "connects_balance": 110,
+      "submissions_last_24h": 2,
+      "policy_version": 1
+     },
+     "latency_ms": 61
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.056,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758760.51724
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Text classification for support tickets",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-025",
+       "prop-ai_ml-134"
+      ]
+     },
+     "latency_ms": 52
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.482,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.0007756
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p04"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p04",
+      "title": "Domain LLM fine-tune",
+      "project": "ai_ml-p04",
+      "date": "2023-11-08",
+      "client_industry": "legal",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 465
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "repo-ai_ml-p06"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "repo-ai_ml-p06",
+      "title": "semantic-product-search",
+      "project": "ai_ml-p06",
+      "date": "...",
+      "client_industry": "...",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 462
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.002426
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.057,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.0603466
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Text classification for support tickets",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-025",
+       "prop-ai_ml-134"
+      ]
+     },
+     "latency_ms": 53
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.486,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.543981
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p04"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p04",
+      "title": "Domain LLM fine-tune",
+      "project": "ai_ml-p04",
+      "date": "2023-11-08",
+      "client_industry": "legal",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 471
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "repo-ai_ml-p06"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "repo-ai_ml-p06",
+      "title": "semantic-product-search",
+      "project": "ai_ml-p06",
+      "date": "...",
+      "client_industry": "...",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 468
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.543981
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.05,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758761.6034007
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Text classification for support tickets",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-025",
+       "prop-ai_ml-134"
+      ]
+     },
+     "latency_ms": 46
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.492,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.0960026
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p04"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p04",
+      "title": "Domain LLM fine-tune",
+      "project": "ai_ml-p04",
+      "date": "2023-11-08",
+      "client_industry": "legal",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 475
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "repo-ai_ml-p06"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "repo-ai_ml-p06",
+      "title": "semantic-product-search",
+      "project": "ai_ml-p06",
+      "date": "...",
+      "client_industry": "...",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 472
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.0960026
+    },
+    {
+     "type": "llm",
+     "node": "compliance",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "compliance@v1"
+    },
+    {
+     "type": "node",
+     "node": "compliance",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.101216
+    },
+    {
+     "type": "node",
+     "node": "preview",
+     "latency_s": 0.138,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.2411041
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "create_proposal_draft",
+     "args": {
+      "job_id": "dev-ai_ml-005",
+      "cover_letter": "Your Text classification for support tickets needs someone who can handle lora fine-tuning from day one. I delivered a closely related project, Domain LLM fine-tune. I delivered a closely related project, semantic-product-search. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "screening_answers": [
+       "The closest example is Domain LLM fine-tune. I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric.",
+       "The closest example is Domain LLM fine-tune. I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric."
+      ],
+      "bid_amount": 200.0,
+      "pay_type": "fixed",
+      "idempotency_key": "trace-user:bid:crash:dry",
+      "dry_run": true
+     },
+     "ok": true,
+     "result": {
+      "dry_run": true,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": false
+     },
+     "latency_ms": 138
+    },
+    {
+     "type": "node",
+     "node": "human_approval",
+     "latency_s": 0.0,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.345279
+    },
+    {
+     "type": "node",
+     "node": "executor",
+     "latency_s": 0.077,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758762.4270575
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "create_proposal_draft",
+     "args": {
+      "job_id": "dev-ai_ml-005",
+      "cover_letter": "Your Text classification for support tickets needs someone who can handle lora fine-tuning from day one. I delivered a closely related project, Domain LLM fine-tune. I delivered a closely related project, semantic-product-search. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "screening_answers": [
+       "The closest example is Domain LLM fine-tune. I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric.",
+       "The closest example is Domain LLM fine-tune. I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric."
+      ],
+      "bid_amount": 200.0,
+      "pay_type": "fixed",
+      "idempotency_key": "trace-user:bid:crash:draft:cda259d93a10",
+      "dry_run": false,
+      "approval_token": "[SECRET]"
+     },
+     "ok": true,
+     "result": {
+      "dry_run": false,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": true
+     },
+     "latency_ms": 39
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "submit_proposal",
+     "args": {
+      "proposal_id": "gp-648ac666c4",
+      "draft_idempotency_key": "trace-user:bid:crash:draft:cda259d93a10",
+      "idempotency_key": "trace-user:bid:crash:submit:cda259d93a10",
+      "approval_token": "[SECRET]"
+     },
+     "ok": true,
+     "result": {
+      "dry_run": false,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": true
+     },
+     "latency_ms": 38
+    }
+   ]
+  }
+ ]
+}

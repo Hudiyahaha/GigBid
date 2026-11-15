@@ -3,10 +3,18 @@
  "note": "",
  "runs": [
   {
-   "trace_id": "5e1fac85c2f046afbe1fe456a9149879",
+   "trace_id": "7960c5434c7f43a3bc4e5d69965a064a",
    "thread_id": "trace-user:bid:dev-ai_ml-004",
-   "status": "dead_letter",
-   "decision": null,
+   "status": "skipped",
+   "decision": {
+    "action": "skip",
+    "reasons": [
+     "likely scam: upfront_payment"
+    ],
+    "fit_score": 0.222,
+    "risk_score": 0.95,
+    "auto": false
+   },
    "risk": {
     "score": 0.95,
     "scam": true,
@@ -28,7 +36,7 @@
      }
     ]
    },
-   "fit_score": null,
+   "fit_score": 0.222,
    "price": null,
    "critiques": [],
    "verification": null,
@@ -43,25 +51,25 @@
      "scout": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 1.223,
+      "latency_s": 1.041,
       "calls": 1
      },
      "job_analyst": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.006,
+      "latency_s": 0.007,
       "calls": 1
      },
      "risk_assessor": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.279,
+      "latency_s": 0.218,
       "calls": 1
      },
      "fit_matcher": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 123.338,
+      "latency_s": 33.983,
       "calls": 1
      },
      "decision": {
@@ -72,16 +80,16 @@
      }
     }
    },
-   "latency_s": 165.372,
+   "latency_s": 35.182,
    "trace": [
     {
      "type": "node",
      "node": "scout",
-     "latency_s": 1.223,
+     "latency_s": 1.041,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758249.1393547
+     "ts": 1794758716.9833066
     },
     {
      "type": "tool",
@@ -94,7 +102,7 @@
      "result": {
       "data": "..."
      },
-     "latency_ms": 1165
+     "latency_ms": 983
     },
     {
      "type": "tool",
@@ -118,20 +126,20 @@
     {
      "type": "node",
      "node": "job_analyst",
-     "latency_s": 0.006,
+     "latency_s": 0.007,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758249.150826
+     "ts": 1794758716.994425
     },
     {
      "type": "node",
      "node": "risk_assessor",
-     "latency_s": 0.279,
+     "latency_s": 0.218,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758249.4311163
+     "ts": 1794758717.2075698
     },
     {
      "type": "tool",
@@ -144,16 +152,44 @@
      "result": {
       "data": "..."
      },
-     "latency_ms": 277
+     "latency_ms": 216
     },
     {
      "type": "node",
      "node": "fit_matcher",
-     "latency_s": 123.338,
+     "latency_s": 33.983,
      "tokens": 0,
      "usd": 0.0,
-     "status": "dead_letter",
-     "ts": 1794758372.4952528
+     "status": "ok",
+     "ts": 1794758750.981992
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "OpenAI API knowledge is important.",
+      "k": 3,
+      "filters": {
+       "job_title": "LLM assistant for internal knowledge base",
+       "industry": "real estate",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p18",
+       "repo-ai_ml-p20",
+       "repo-ai_ml-p11"
+      ]
+     },
+     "latency_ms": 32988
     },
     {
      "type": "tool",
@@ -173,8 +209,99 @@
        ]
       }
      },
-     "ok": false,
-     "error": "ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)"
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p11",
+       "cs-ai_ml-p11",
+       "repo-ai_ml-p18"
+      ]
+     },
+     "latency_ms": 33170
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "We need someone who can wrap a model in a quick, documented Python web API.",
+      "k": 3,
+      "filters": {
+       "job_title": "LLM assistant for internal knowledge base",
+       "industry": "real estate",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p11",
+       "repo-ai_ml-p18",
+       "repo-ai_ml-p06"
+      ]
+     },
+     "latency_ms": 33426
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Bonus if you're someone who has hosted vector search in the cloud before.",
+      "k": 3,
+      "filters": {
+       "job_title": "LLM assistant for internal knowledge base",
+       "industry": "real estate",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p20",
+       "repo-ai_ml-p06",
+       "cs-ai_ml-p04"
+      ]
+     },
+     "latency_ms": 33622
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "You will be working mainly in Unity.",
+      "k": 3,
+      "filters": {
+       "job_title": "LLM assistant for internal knowledge base",
+       "industry": "real estate",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "cs-ai_ml-p18",
+       "cs-ai_ml-p11",
+       "repo-ai_ml-p11"
+      ]
+     },
+     "latency_ms": 33887
     },
     {
      "type": "node",
@@ -183,7 +310,7 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758372.5001652
+     "ts": 1794758750.9840055
     }
    ]
   }

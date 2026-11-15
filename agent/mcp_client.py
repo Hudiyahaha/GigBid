@@ -130,6 +130,8 @@ async def call(role: str, tool: str, args: dict | None = None, *, retries: int |
     attempts = retries if retries is not None else int(r.get("max_attempts", 4))
     timeout = float(config.get("marketplace.timeouts_s.write" if tool.startswith(("create", "submit", "send")) else
                                "marketplace.timeouts_s.read", 30)) * 2
+    if server == "portfolio":  # CPU retrieval; the first call may build an index (calls queue on one lock)
+        timeout = float(config.get("rag.tool_timeout_s", 180))
     t0 = time.perf_counter()
     last = ""
     for i in range(1, attempts + 1):

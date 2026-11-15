@@ -56,7 +56,8 @@ class Embedder:
         return self.model.encode(texts, batch_size=32, normalize_embeddings=True, show_progress_bar=False).astype(np.float32)
 
     def _key(self, text: str, is_query: bool) -> str:
-        return hashlib.sha256(f"{self.model_name}|{self.backend}|{int(is_query)}|{text}".encode()).hexdigest()
+        tag = "" if self.backend == "st" else f"{self.backend}|"  # default backend keeps its existing cache keys
+        return hashlib.sha256(f"{self.model_name}|{tag}{int(is_query)}|{text}".encode()).hexdigest()
 
     def encode(self, texts: list[str], is_query: bool = False) -> np.ndarray:
         prefix = "Represent this sentence for searching relevant passages: " if is_query and "bge" in self.model_name.lower() else ""

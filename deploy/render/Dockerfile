@@ -24,4 +24,6 @@ COPY --from=web /web/dist /app/apps/web/dist
 RUN uv sync --frozen --no-dev \
     --no-install-package torch --no-install-package sentence-transformers --no-install-package transformers
 ENV HF_HUB_OFFLINE=1
+# pre-build the embedding cache for all three personas so the 0.1-CPU free instance never embeds the corpus at runtime
+RUN python -c "from rag.retriever import get_pipeline; [get_pipeline(p) for p in ('ai_ml', 'fullstack', 'data')]"
 CMD ["python", "-m", "scripts.dev_stack"]

@@ -3,7 +3,7 @@
  "note": "",
  "runs": [
   {
-   "trace_id": "96c30bef23c44843b9a1e991e4550777",
+   "trace_id": "01880b162f214279a3b040584b1a506d",
    "thread_id": "trace-user:bid:dev-ai_ml-006",
    "status": "awaiting_approval",
    "decision": {
@@ -66,25 +66,25 @@
      "scout": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.128,
+      "latency_s": 0.127,
       "calls": 1
      },
      "job_analyst": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.005,
+      "latency_s": 0.006,
       "calls": 1
      },
      "risk_assessor": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.107,
+      "latency_s": 0.116,
       "calls": 1
      },
      "fit_matcher": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 1.324,
+      "latency_s": 0.993,
       "calls": 1
      },
      "decision": {
@@ -96,19 +96,19 @@
      "pricing": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.139,
+      "latency_s": 0.136,
       "calls": 1
      },
      "writer": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.22499999999999998,
+      "latency_s": 0.155,
       "calls": 3
      },
      "verifier": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 1.68,
+      "latency_s": 1.5339999999999998,
       "calls": 3
      },
      "critic": {
@@ -126,21 +126,21 @@
      "preview": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.149,
+      "latency_s": 0.135,
       "calls": 1
      }
     }
    },
-   "latency_s": 3.718,
+   "latency_s": 3.16,
    "trace": [
     {
      "type": "node",
      "node": "scout",
-     "latency_s": 0.128,
+     "latency_s": 0.127,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758422.5231655
+     "ts": 1794758756.7165494
     },
     {
      "type": "tool",
@@ -153,7 +153,7 @@
      "result": {
       "data": "..."
      },
-     "latency_ms": 74
+     "latency_ms": 78
     },
     {
      "type": "tool",
@@ -164,7 +164,7 @@
      "result": {
       "data": "..."
      },
-     "latency_ms": 54
+     "latency_ms": 49
     },
     {
      "type": "llm",
@@ -177,11 +177,11 @@
     {
      "type": "node",
      "node": "job_analyst",
-     "latency_s": 0.005,
+     "latency_s": 0.006,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758422.5304837
+     "ts": 1794758756.7253807
     },
     {
      "type": "llm",
@@ -194,11 +194,11 @@
     {
      "type": "node",
      "node": "risk_assessor",
-     "latency_s": 0.107,
+     "latency_s": 0.116,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758422.6376863
+     "ts": 1794758756.8408184
     },
     {
      "type": "tool",
@@ -211,16 +211,16 @@
      "result": {
       "data": "..."
      },
-     "latency_ms": 105
+     "latency_ms": 113
     },
     {
      "type": "node",
      "node": "fit_matcher",
-     "latency_s": 1.324,
+     "latency_s": 0.993,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758423.8607996
+     "ts": 1794758757.7240381
     },
     {
      "type": "tool",
@@ -248,7 +248,7 @@
        "cs-ai_ml-p16"
       ]
      },
-     "latency_ms": 285
+     "latency_ms": 266
     },
     {
      "type": "tool",
@@ -276,7 +276,7 @@
        "cs-ai_ml-p09"
       ]
      },
-     "latency_ms": 531
+     "latency_ms": 449
     },
     {
      "type": "tool",
@@ -304,7 +304,7 @@
        "cs-ai_ml-p12"
       ]
      },
-     "latency_ms": 785
+     "latency_ms": 644
     },
     {
      "type": "tool",
@@ -332,7 +332,7 @@
        "cs-ai_ml-p02"
       ]
      },
-     "latency_ms": 1053
+     "latency_ms": 824
     },
     {
      "type": "tool",
@@ -360,7 +360,7 @@
        "cs-ai_ml-p02"
       ]
      },
-     "latency_ms": 1310
+     "latency_ms": 981
     },
     {
      "type": "node",
@@ -369,16 +369,16 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758423.862993
+     "ts": 1794758757.7255733
     },
     {
      "type": "node",
      "node": "pricing",
-     "latency_s": 0.139,
+     "latency_s": 0.136,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758424.0014734
+     "ts": 1794758757.864537
     },
     {
      "type": "tool",
@@ -392,7 +392,7 @@
      "result": {
       "data": "..."
      },
-     "latency_ms": 62
+     "latency_ms": 67
     },
     {
      "type": "tool",
@@ -401,117 +401,11 @@
      "args": {},
      "ok": true,
      "result": {
-      "connects_balance": 120,
-      "submissions_last_24h": 0,
+      "connects_balance": 110,
+      "submissions_last_24h": 2,
       "policy_version": 1
      },
-     "latency_ms": 76
-    },
-    {
-     "type": "llm",
-     "node": "writer",
-     "model": "heuristic",
-     "degraded": true,
-     "error": "fake provider: use heuristic",
-     "prompt_version": "writer@v4"
-    },
-    {
-     "type": "node",
-     "node": "writer",
-     "latency_s": 0.123,
-     "tokens": 0,
-     "usd": 0.0,
-     "status": "ok",
-     "ts": 1794758424.128653
-    },
-    {
-     "type": "tool",
-     "node": "writer",
-     "tool": "similar_proposals",
-     "args": {
-      "query": "Fraud detection model",
-      "k": 2
-     },
-     "ok": true,
-     "result": {
-      "items": [
-       "prop-ai_ml-028",
-       "prop-ai_ml-039"
-      ]
-     },
-     "latency_ms": 118
-    },
-    {
-     "type": "llm",
-     "node": "verifier",
-     "model": "heuristic",
-     "degraded": true,
-     "error": "fake provider: use heuristic",
-     "prompt_version": "verifier@v2"
-    },
-    {
-     "type": "node",
-     "node": "verifier",
-     "latency_s": 0.614,
-     "tokens": 0,
-     "usd": 0.0,
-     "status": "ok",
-     "ts": 1794758424.7433217
-    },
-    {
-     "type": "tool",
-     "node": "verifier",
-     "tool": "get_item",
-     "args": {
-      "id": "cs-ai_ml-p09"
-     },
-     "ok": true,
-     "result": {
-      "item_id": "cs-ai_ml-p09",
-      "title": "Customer churn model v2 (education)",
-      "project": "ai_ml-p09",
-      "date": "2023-07-07",
-      "client_industry": "education",
-      "skills": "...",
-      "text": "..."
-     },
-     "latency_ms": 597
-    },
-    {
-     "type": "tool",
-     "node": "verifier",
-     "tool": "get_item",
-     "args": {
-      "id": "cs-ai_ml-p02"
-     },
-     "ok": true,
-     "result": {
-      "item_id": "cs-ai_ml-p02",
-      "title": "Customer churn model",
-      "project": "ai_ml-p02",
-      "date": "2026-02-19",
-      "client_industry": "media",
-      "skills": "...",
-      "text": "..."
-     },
-     "latency_ms": 593
-    },
-    {
-     "type": "llm",
-     "node": "critic",
-     "model": "heuristic",
-     "degraded": true,
-     "error": "fake provider: use heuristic",
-     "prompt_version": "critic@v3"
-    },
-    {
-     "type": "node",
-     "node": "critic",
-     "latency_s": 0.001,
-     "tokens": 0,
-     "usd": 0.0,
-     "status": "ok",
-     "ts": 1794758424.7476194
+     "latency_ms": 69
     },
     {
      "type": "llm",
@@ -528,7 +422,7 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758424.797538
+     "ts": 1794758757.9167452
     },
     {
      "type": "tool",
@@ -545,7 +439,7 @@
        "prop-ai_ml-039"
       ]
      },
-     "latency_ms": 47
+     "latency_ms": 49
     },
     {
      "type": "llm",
@@ -558,11 +452,11 @@
     {
      "type": "node",
      "node": "verifier",
-     "latency_s": 0.556,
+     "latency_s": 0.54,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.358648
+     "ts": 1794758758.4600244
     },
     {
      "type": "tool",
@@ -581,7 +475,7 @@
       "skills": "...",
       "text": "..."
      },
-     "latency_ms": 545
+     "latency_ms": 527
     },
     {
      "type": "tool",
@@ -600,7 +494,7 @@
       "skills": "...",
       "text": "..."
      },
-     "latency_ms": 541
+     "latency_ms": 524
     },
     {
      "type": "llm",
@@ -617,7 +511,7 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.3610103
+     "ts": 1794758758.463252
     },
     {
      "type": "llm",
@@ -634,7 +528,7 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.41319
+     "ts": 1794758758.5138476
     },
     {
      "type": "tool",
@@ -651,7 +545,7 @@
        "prop-ai_ml-039"
       ]
      },
-     "latency_ms": 47
+     "latency_ms": 45
     },
     {
      "type": "llm",
@@ -664,11 +558,11 @@
     {
      "type": "node",
      "node": "verifier",
-     "latency_s": 0.51,
+     "latency_s": 0.493,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.923611
+     "ts": 1794758759.009182
     },
     {
      "type": "tool",
@@ -687,7 +581,7 @@
       "skills": "...",
       "text": "..."
      },
-     "latency_ms": 490
+     "latency_ms": 476
     },
     {
      "type": "tool",
@@ -706,7 +600,7 @@
       "skills": "...",
       "text": "..."
      },
-     "latency_ms": 487
+     "latency_ms": 473
     },
     {
      "type": "llm",
@@ -723,7 +617,113 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.9269538
+     "ts": 1794758759.0117996
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.053,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.0660038
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Fraud detection model",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-028",
+       "prop-ai_ml-039"
+      ]
+     },
+     "latency_ms": 48
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.501,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.5683491
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p09"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p09",
+      "title": "Customer churn model v2 (education)",
+      "project": "ai_ml-p09",
+      "date": "2023-07-07",
+      "client_industry": "education",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 487
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p02"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p02",
+      "title": "Customer churn model",
+      "project": "ai_ml-p02",
+      "date": "2026-02-19",
+      "client_industry": "media",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 485
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.5683491
     },
     {
      "type": "llm",
@@ -740,16 +740,16 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.930176
+     "ts": 1794758759.5683491
     },
     {
      "type": "node",
      "node": "preview",
-     "latency_s": 0.149,
+     "latency_s": 0.135,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758426.0790324
+     "ts": 1794758759.7079084
     },
     {
      "type": "tool",
@@ -774,12 +774,12 @@
       "result": "...",
       "idempotent_replay": false
      },
-     "latency_ms": 149
+     "latency_ms": 135
     }
    ]
   },
   {
-   "trace_id": "96c30bef23c44843b9a1e991e4550777",
+   "trace_id": "01880b162f214279a3b040584b1a506d",
    "thread_id": "trace-user:bid:dev-ai_ml-006",
    "status": "submitted",
    "decision": {
@@ -838,7 +838,7 @@
     "status": "submitted",
     "connects_spent": 6,
     "connects_balance": 114,
-    "idempotent_replay": false
+    "idempotent_replay": true
    },
    "usage": {
     "tokens": 0,
@@ -850,25 +850,25 @@
      "scout": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.128,
+      "latency_s": 0.127,
       "calls": 1
      },
      "job_analyst": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.005,
+      "latency_s": 0.006,
       "calls": 1
      },
      "risk_assessor": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.107,
+      "latency_s": 0.116,
       "calls": 1
      },
      "fit_matcher": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 1.324,
+      "latency_s": 0.993,
       "calls": 1
      },
      "decision": {
@@ -880,19 +880,19 @@
      "pricing": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.139,
+      "latency_s": 0.136,
       "calls": 1
      },
      "writer": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.22499999999999998,
+      "latency_s": 0.155,
       "calls": 3
      },
      "verifier": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 1.68,
+      "latency_s": 1.5339999999999998,
       "calls": 3
      },
      "critic": {
@@ -910,7 +910,7 @@
      "preview": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.149,
+      "latency_s": 0.135,
       "calls": 1
      },
      "human_approval": {
@@ -922,21 +922,21 @@
      "executor": {
       "tokens": 0,
       "usd": 0.0,
-      "latency_s": 0.221,
+      "latency_s": 0.072,
       "calls": 1
      }
     }
    },
-   "latency_s": 0.233,
+   "latency_s": 0.085,
    "trace": [
     {
      "type": "node",
      "node": "scout",
-     "latency_s": 0.128,
+     "latency_s": 0.127,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758422.5231655
+     "ts": 1794758756.7165494
     },
     {
      "type": "tool",
@@ -949,7 +949,7 @@
      "result": {
       "data": "..."
      },
-     "latency_ms": 74
+     "latency_ms": 78
     },
     {
      "type": "tool",
@@ -960,7 +960,7 @@
      "result": {
       "data": "..."
      },
-     "latency_ms": 54
+     "latency_ms": 49
     },
     {
      "type": "llm",
@@ -973,11 +973,11 @@
     {
      "type": "node",
      "node": "job_analyst",
-     "latency_s": 0.005,
+     "latency_s": 0.006,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758422.5304837
+     "ts": 1794758756.7253807
     },
     {
      "type": "llm",
@@ -990,11 +990,11 @@
     {
      "type": "node",
      "node": "risk_assessor",
-     "latency_s": 0.107,
+     "latency_s": 0.116,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758422.6376863
+     "ts": 1794758756.8408184
     },
     {
      "type": "tool",
@@ -1007,16 +1007,16 @@
      "result": {
       "data": "..."
      },
-     "latency_ms": 105
+     "latency_ms": 113
     },
     {
      "type": "node",
      "node": "fit_matcher",
-     "latency_s": 1.324,
+     "latency_s": 0.993,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758423.8607996
+     "ts": 1794758757.7240381
     },
     {
      "type": "tool",
@@ -1044,7 +1044,7 @@
        "cs-ai_ml-p16"
       ]
      },
-     "latency_ms": 285
+     "latency_ms": 266
     },
     {
      "type": "tool",
@@ -1072,7 +1072,7 @@
        "cs-ai_ml-p09"
       ]
      },
-     "latency_ms": 531
+     "latency_ms": 449
     },
     {
      "type": "tool",
@@ -1100,7 +1100,7 @@
        "cs-ai_ml-p12"
       ]
      },
-     "latency_ms": 785
+     "latency_ms": 644
     },
     {
      "type": "tool",
@@ -1128,7 +1128,7 @@
        "cs-ai_ml-p02"
       ]
      },
-     "latency_ms": 1053
+     "latency_ms": 824
     },
     {
      "type": "tool",
@@ -1156,7 +1156,7 @@
        "cs-ai_ml-p02"
       ]
      },
-     "latency_ms": 1310
+     "latency_ms": 981
     },
     {
      "type": "node",
@@ -1165,16 +1165,16 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758423.862993
+     "ts": 1794758757.7255733
     },
     {
      "type": "node",
      "node": "pricing",
-     "latency_s": 0.139,
+     "latency_s": 0.136,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758424.0014734
+     "ts": 1794758757.864537
     },
     {
      "type": "tool",
@@ -1188,7 +1188,7 @@
      "result": {
       "data": "..."
      },
-     "latency_ms": 62
+     "latency_ms": 67
     },
     {
      "type": "tool",
@@ -1197,117 +1197,11 @@
      "args": {},
      "ok": true,
      "result": {
-      "connects_balance": 120,
-      "submissions_last_24h": 0,
+      "connects_balance": 110,
+      "submissions_last_24h": 2,
       "policy_version": 1
      },
-     "latency_ms": 76
-    },
-    {
-     "type": "llm",
-     "node": "writer",
-     "model": "heuristic",
-     "degraded": true,
-     "error": "fake provider: use heuristic",
-     "prompt_version": "writer@v4"
-    },
-    {
-     "type": "node",
-     "node": "writer",
-     "latency_s": 0.123,
-     "tokens": 0,
-     "usd": 0.0,
-     "status": "ok",
-     "ts": 1794758424.128653
-    },
-    {
-     "type": "tool",
-     "node": "writer",
-     "tool": "similar_proposals",
-     "args": {
-      "query": "Fraud detection model",
-      "k": 2
-     },
-     "ok": true,
-     "result": {
-      "items": [
-       "prop-ai_ml-028",
-       "prop-ai_ml-039"
-      ]
-     },
-     "latency_ms": 118
-    },
-    {
-     "type": "llm",
-     "node": "verifier",
-     "model": "heuristic",
-     "degraded": true,
-     "error": "fake provider: use heuristic",
-     "prompt_version": "verifier@v2"
-    },
-    {
-     "type": "node",
-     "node": "verifier",
-     "latency_s": 0.614,
-     "tokens": 0,
-     "usd": 0.0,
-     "status": "ok",
-     "ts": 1794758424.7433217
-    },
-    {
-     "type": "tool",
-     "node": "verifier",
-     "tool": "get_item",
-     "args": {
-      "id": "cs-ai_ml-p09"
-     },
-     "ok": true,
-     "result": {
-      "item_id": "cs-ai_ml-p09",
-      "title": "Customer churn model v2 (education)",
-      "project": "ai_ml-p09",
-      "date": "2023-07-07",
-      "client_industry": "education",
-      "skills": "...",
-      "text": "..."
-     },
-     "latency_ms": 597
-    },
-    {
-     "type": "tool",
-     "node": "verifier",
-     "tool": "get_item",
-     "args": {
-      "id": "cs-ai_ml-p02"
-     },
-     "ok": true,
-     "result": {
-      "item_id": "cs-ai_ml-p02",
-      "title": "Customer churn model",
-      "project": "ai_ml-p02",
-      "date": "2026-02-19",
-      "client_industry": "media",
-      "skills": "...",
-      "text": "..."
-     },
-     "latency_ms": 593
-    },
-    {
-     "type": "llm",
-     "node": "critic",
-     "model": "heuristic",
-     "degraded": true,
-     "error": "fake provider: use heuristic",
-     "prompt_version": "critic@v3"
-    },
-    {
-     "type": "node",
-     "node": "critic",
-     "latency_s": 0.001,
-     "tokens": 0,
-     "usd": 0.0,
-     "status": "ok",
-     "ts": 1794758424.7476194
+     "latency_ms": 69
     },
     {
      "type": "llm",
@@ -1324,7 +1218,7 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758424.797538
+     "ts": 1794758757.9167452
     },
     {
      "type": "tool",
@@ -1341,7 +1235,7 @@
        "prop-ai_ml-039"
       ]
      },
-     "latency_ms": 47
+     "latency_ms": 49
     },
     {
      "type": "llm",
@@ -1354,11 +1248,11 @@
     {
      "type": "node",
      "node": "verifier",
-     "latency_s": 0.556,
+     "latency_s": 0.54,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.358648
+     "ts": 1794758758.4600244
     },
     {
      "type": "tool",
@@ -1377,7 +1271,7 @@
       "skills": "...",
       "text": "..."
      },
-     "latency_ms": 545
+     "latency_ms": 527
     },
     {
      "type": "tool",
@@ -1396,7 +1290,7 @@
       "skills": "...",
       "text": "..."
      },
-     "latency_ms": 541
+     "latency_ms": 524
     },
     {
      "type": "llm",
@@ -1413,7 +1307,7 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.3610103
+     "ts": 1794758758.463252
     },
     {
      "type": "llm",
@@ -1430,7 +1324,7 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.41319
+     "ts": 1794758758.5138476
     },
     {
      "type": "tool",
@@ -1447,7 +1341,7 @@
        "prop-ai_ml-039"
       ]
      },
-     "latency_ms": 47
+     "latency_ms": 45
     },
     {
      "type": "llm",
@@ -1460,11 +1354,11 @@
     {
      "type": "node",
      "node": "verifier",
-     "latency_s": 0.51,
+     "latency_s": 0.493,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.923611
+     "ts": 1794758759.009182
     },
     {
      "type": "tool",
@@ -1483,7 +1377,7 @@
       "skills": "...",
       "text": "..."
      },
-     "latency_ms": 490
+     "latency_ms": 476
     },
     {
      "type": "tool",
@@ -1502,7 +1396,7 @@
       "skills": "...",
       "text": "..."
      },
-     "latency_ms": 487
+     "latency_ms": 473
     },
     {
      "type": "llm",
@@ -1519,7 +1413,113 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.9269538
+     "ts": 1794758759.0117996
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.053,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.0660038
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Fraud detection model",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-028",
+       "prop-ai_ml-039"
+      ]
+     },
+     "latency_ms": 48
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.501,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.5683491
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p09"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p09",
+      "title": "Customer churn model v2 (education)",
+      "project": "ai_ml-p09",
+      "date": "2023-07-07",
+      "client_industry": "education",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 487
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p02"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p02",
+      "title": "Customer churn model",
+      "project": "ai_ml-p02",
+      "date": "2026-02-19",
+      "client_industry": "media",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 485
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758759.5683491
     },
     {
      "type": "llm",
@@ -1536,16 +1536,16 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758425.930176
+     "ts": 1794758759.5683491
     },
     {
      "type": "node",
      "node": "preview",
-     "latency_s": 0.149,
+     "latency_s": 0.135,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758426.0790324
+     "ts": 1794758759.7079084
     },
     {
      "type": "tool",
@@ -1570,7 +1570,7 @@
       "result": "...",
       "idempotent_replay": false
      },
-     "latency_ms": 149
+     "latency_ms": 135
     },
     {
      "type": "node",
@@ -1579,16 +1579,16 @@
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758426.1126807
+     "ts": 1794758759.751849
     },
     {
      "type": "node",
      "node": "executor",
-     "latency_s": 0.221,
+     "latency_s": 0.072,
      "tokens": 0,
      "usd": 0.0,
      "status": "ok",
-     "ts": 1794758426.3366535
+     "ts": 1794758759.8239415
     },
     {
      "type": "tool",
@@ -1612,9 +1612,9 @@
       "dry_run": false,
       "preview": "...",
       "result": "...",
-      "idempotent_replay": false
+      "idempotent_replay": true
      },
-     "latency_ms": 106
+     "latency_ms": 38
     },
     {
      "type": "tool",
@@ -1631,9 +1631,9 @@
       "dry_run": false,
       "preview": "...",
       "result": "...",
-      "idempotent_replay": false
+      "idempotent_replay": true
      },
-     "latency_ms": 114
+     "latency_ms": 34
     }
    ]
   }

@@ -5,6 +5,7 @@
 
 from __future__ import annotations
 
+import asyncio
 import logging
 import os
 import time
@@ -78,7 +79,23 @@ async def lifespan(app: FastAPI):
     from agent.runner import Graphs
     async with open_persistence() as (cp, st):
         services.GRAPHS = Graphs(cp, st)
+        warm = asyncio.create_task(asyncio.to_thread(warm_indexes))  # first user request must not build indexes
         yield
+        warm.cancel()
+
+
+def warm_indexes() -> None:
+    """Build each persona's retrieval index and load the models once, in the background, at startup."""
+    try:
+        from rag.retriever import get_pipeline
+        from rag.index.reranker import get_reranker
+        get_reranker().score("warm-up", ["warm-up"])
+        for p in os.getenv("WARM_PERSONAS", "ai_ml,fullstack,data").split(","):
+            if p:
+                get_pipeline(p.strip())
+        logging.getLogger("gigbid").info("retrieval indexes warm")
+    except Exception as e:  # noqa: BLE001 - warm-up is best effort
+        logging.getLogger("gigbid").warning("warm-up failed: %s", e)
 
 
 app = FastAPI(title="GigBid API", version="1.0.0", lifespan=lifespan)
