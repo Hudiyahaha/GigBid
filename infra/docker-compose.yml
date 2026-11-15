@@ -1,11 +1,13 @@
 # docker compose -f infra/docker-compose.yml --env-file .env up --build
-# Web+API on http://localhost:8000 · GigSim :8081 · MCP servers :8101-8103 · Phoenix traces http://localhost:6006
+# Web+API on http://localhost:8000 · GigSim :8081 · MCP servers :8101-8103
+# Optional (+~4 GB): Ollama + Phoenix tracing -> add  -f infra/docker-compose.full.yml
 x-app: &app
   build: {context: .., dockerfile: infra/docker/Dockerfile}
   image: gigbid:latest
   env_file: ../.env
   environment: &appenv
     DATABASE_URL: postgresql+psycopg://gigbid:gigbid@postgres:5432/gigbid
+    GIGBID_LOCAL_SQLITE: "0"
     REDIS_URL: redis://redis:6379/0
     QDRANT_URL: http://qdrant:6333
     GIGSIM_BASE_URL: http://gigsim:8081
@@ -14,34 +16,36 @@ x-app: &app
     MARKETPLACE_MCP_URL: http://mcp-marketplace:8102/mcp
     WORKSPACE_MCP_URL: http://mcp-workspace:8103/mcp
     OLLAMA_BASE_URL: http://ollama:11434/v1
-    PHOENIX_COLLECTOR_ENDPOINT: http://phoenix:6006
-    PHOENIX_UI_URL: http://localhost:6006
     AUDIT_DIR: /data/audit
     WORKSPACE_DB: /data/workspace.db
   volumes: [appdata:/data]
   restart: unless-stopped
 
+x-needs-db: &needs-db
+  postgres: {condition: service_healthy}
+
 services:
   api:
     <<: *app
     ports: ["8000:8000"]
-    depends_on: [postgres, redis, mcp-portfolio, mcp-marketplace, mcp-workspace]
+    depends_on: {<<: *needs-db, redis: {condition: service_started}, mcp-portfolio: {condition: service_started},
+                 mcp-marketplace: {condition: service_started}, mcp-workspace: {condition: service_started}}
   worker:
     <<: *app
     command: ["arq", "worker.main.WorkerSettings"]
-    depends_on: [postgres, redis, mcp-marketplace]
+    depends_on: {<<: *needs-db, redis: {condition: service_started}, mcp-marketplace: {condition: service_started}}
   mcp-portfolio:
     <<: *app
     command: ["python", "-m", "mcp_servers.portfolio.server", "http"]
     environment: {<<: *appenv, MCP_PORT: "8101"}
     ports: ["8101:8101"]
-    depends_on: [qdrant]
+    depends_on: {qdrant: {condition: service_started}}
   mcp-marketplace:
     <<: *app
     command: ["python", "-m", "mcp_servers.marketplace.server", "http"]
     environment: {<<: *appenv, MCP_PORT: "8102"}
     ports: ["8102:8102"]
-    depends_on: [gigsim, postgres]
+    depends_on: {<<: *needs-db, gigsim: {condition: service_started}}
   mcp-workspace:
     <<: *app
     command: ["python", "-m", "mcp_servers.workspace.server", "http"]
@@ -56,12 +60,11 @@ services:
     image: postgres:16-alpine
     environment: {POSTGRES_USER: gigbid, POSTGRES_PASSWORD: gigbid, POSTGRES_DB: gigbid}
     volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck: {test: ["CMD-SHELL", "pg_isready -U gigbid"], interval: 3s, timeout: 3s, retries: 30}
   redis:
     image: redis:7-alpine
   qdrant:
     image: qdrant/qdrant:v1.12.4
     volumes: [qdrant:/qdrant/storage]
-  # Ollama (local open model) and Phoenix (tracing) add ~4 GB and live in docker-compose.full.yml:
-  #   docker compose -f infra/docker-compose.yml -f infra/docker-compose.full.yml --env-file .env up --build
 
 volumes: {appdata: {}, pgdata: {}, qdrant: {}}

@@ -1,0 +1,57 @@
+name: Compose smoke test
+# Proves `docker compose up` runs the whole stack (R10/E6): builds the image, starts web/API, worker, 3 MCP servers
+# over HTTP, GigSim, Postgres, Redis and Qdrant, then drives one job from scout to an approved, submitted proposal.
+on: [push, workflow_dispatch]
+jobs:
+  compose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: .env for CI (no secrets; deterministic heuristics instead of an LLM)
+        run: |
+          cp .env.example .env
+          echo "GIGBID_FAKE_LLM=1" >> .env
+          echo "APP_SECRET_KEY=ci-only-secret" >> .env
+          echo "APPROVAL_SECRET=ci-only-approval" >> .env
+      - name: Build and start the stack
+        run: docker compose -f infra/docker-compose.yml --env-file .env up --build -d
+      - name: Wait for the API and GigSim
+        run: |
+          for i in $(seq 1 90); do
+            curl -sf http://localhost:8000/api/health && curl -sf http://localhost:8081/health && exit 0
+            sleep 5
+          done
+          exit 1
+      - name: End-to-end through the stack (register -> scout -> approval -> submitted)
+        run: |
+          set -e
+          B=http://localhost:8000/api
+          TOKEN=$(curl -sf -X POST $B/auth/register -H 'content-type: application/json' \
+            -d '{"email":"ci@gigbid.test","password":"ci-password-123"}' | python3 -c 'import sys,json;print(json.load(sys.stdin)["token"])')
+          H="Authorization: Bearer $TOKEN"
+          curl -sf -X POST $B/auth/onboarding -H "$H" -H 'content-type: application/json' \
+            -d '{"persona":"ai_ml","saved_searches":["churn","lead-scoring","entity extraction"]}' > /dev/null
+          curl -sf -X POST $B/jobs/scout -H "$H"; echo
+          APPROVAL=""
+          for i in $(seq 1 60); do
+            APPROVAL=$(curl -sf $B/approvals -H "$H" | python3 -c 'import sys,json;a=json.load(sys.stdin);print(a[0]["id"] if a else "")')
+            [ -n "$APPROVAL" ] && break
+            sleep 10
+          done
+          [ -n "$APPROVAL" ] || { echo "no job reached human approval"; exit 1; }
+          RUN=$(curl -sf -X POST $B/approvals/$APPROVAL/decide -H "$H" -H 'content-type: application/json' \
+            -d '{"action":"approve"}' | python3 -c 'import sys,json;print(json.load(sys.stdin)["run_id"])')
+          for i in $(seq 1 30); do
+            STATUS=$(curl -sf $B/runs/$RUN -H "$H" | python3 -c 'import sys,json;print(json.load(sys.stdin)["status"])')
+            [ "$STATUS" != "running" ] && break
+            sleep 5
+          done
+          echo "final status: $STATUS"
+          [ "$STATUS" = "submitted" ]
+      - name: Logs on failure
+        if: failure()
+        run: docker compose -f infra/docker-compose.yml --env-file .env logs --tail 80
+      - name: Stop
+        if: always()
+        run: docker compose -f infra/docker-compose.yml --env-file .env down -v
