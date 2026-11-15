@@ -1,0 +1,711 @@
+{
+  "provenance": {
+    "generated_at": "2026-11-15T17:11:12",
+    "git_commit": "2605305",
+    "python": "3.12.16",
+    "machine": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+  },
+  "variants": {
+    "v0_naive": {
+      "flags": {
+        "chunking": "fixed",
+        "decompose": false,
+        "hybrid": false,
+        "rerank": false,
+        "outcome": false,
+        "multivector": false,
+        "contextual": false,
+        "hyde": false,
+        "corrective": false,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.5563,
+        "mrr": 0.6902,
+        "ndcg@10": 0.5994,
+        "n": 484
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.4664,
+          "mrr": 0.6569,
+          "ndcg@10": 0.5649
+        },
+        "fullstack": {
+          "recall@5": 0.49,
+          "mrr": 0.592,
+          "ndcg@10": 0.5693
+        },
+        "data": {
+          "recall@5": 0.7009,
+          "mrr": 0.8108,
+          "ndcg@10": 0.6591
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.6127,
+          "mrr": 0.7149,
+          "ndcg@10": 0.6108,
+          "n": 114
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.5937,
+          "mrr": 0.7385,
+          "ndcg@10": 0.6158,
+          "n": 306
+        },
+        "exact_tool_names": {
+          "recall@5": 0.5735,
+          "mrr": 0.6777,
+          "ndcg@10": 0.6166,
+          "n": 170
+        },
+        "vague": {
+          "recall@5": 0.4427,
+          "mrr": 0.5978,
+          "ndcg@10": 0.5087,
+          "n": 64
+        },
+        "scam": {
+          "recall@5": 0.5429,
+          "mrr": 0.6108,
+          "ndcg@10": 0.5901,
+          "n": 49
+        },
+        "normal": {
+          "recall@5": 0.5645,
+          "mrr": 0.7127,
+          "ndcg@10": 0.6243,
+          "n": 227
+        },
+        "injection": {
+          "recall@5": 0.5444,
+          "mrr": 0.7529,
+          "ndcg@10": 0.5768,
+          "n": 30
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 0.0024,
+        "p95": 0.0032
+      },
+      "build_plus_eval_s": 4.6
+    },
+    "v1_decompose": {
+      "flags": {
+        "chunking": "fixed",
+        "decompose": true,
+        "hybrid": false,
+        "rerank": false,
+        "outcome": false,
+        "multivector": false,
+        "contextual": false,
+        "hyde": false,
+        "corrective": false,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.4029,
+        "mrr": 0.593,
+        "ndcg@10": 0.473,
+        "n": 484
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.3811,
+          "mrr": 0.5637,
+          "ndcg@10": 0.455
+        },
+        "fullstack": {
+          "recall@5": 0.3605,
+          "mrr": 0.5345,
+          "ndcg@10": 0.4505
+        },
+        "data": {
+          "recall@5": 0.462,
+          "mrr": 0.6737,
+          "ndcg@10": 0.5104
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.401,
+          "mrr": 0.5515,
+          "ndcg@10": 0.4447,
+          "n": 114
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.4045,
+          "mrr": 0.6032,
+          "ndcg@10": 0.4641,
+          "n": 306
+        },
+        "exact_tool_names": {
+          "recall@5": 0.3669,
+          "mrr": 0.5756,
+          "ndcg@10": 0.4635,
+          "n": 170
+        },
+        "vague": {
+          "recall@5": 0.3469,
+          "mrr": 0.515,
+          "ndcg@10": 0.4405,
+          "n": 64
+        },
+        "scam": {
+          "recall@5": 0.4622,
+          "mrr": 0.6152,
+          "ndcg@10": 0.5128,
+          "n": 49
+        },
+        "normal": {
+          "recall@5": 0.3988,
+          "mrr": 0.618,
+          "ndcg@10": 0.4839,
+          "n": 227
+        },
+        "injection": {
+          "recall@5": 0.4644,
+          "mrr": 0.6914,
+          "ndcg@10": 0.5032,
+          "n": 30
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 0.0088,
+        "p95": 0.0222
+      },
+      "build_plus_eval_s": 6.9
+    },
+    "v2_hybrid": {
+      "flags": {
+        "chunking": "fixed",
+        "decompose": false,
+        "hybrid": true,
+        "rerank": false,
+        "outcome": false,
+        "multivector": false,
+        "contextual": false,
+        "hyde": false,
+        "corrective": false,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.5463,
+        "mrr": 0.6943,
+        "ndcg@10": 0.6203,
+        "n": 484
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.4691,
+          "mrr": 0.6385,
+          "ndcg@10": 0.5651
+        },
+        "fullstack": {
+          "recall@5": 0.5142,
+          "mrr": 0.6128,
+          "ndcg@10": 0.6188
+        },
+        "data": {
+          "recall@5": 0.6477,
+          "mrr": 0.8207,
+          "ndcg@10": 0.6732
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.6655,
+          "mrr": 0.7493,
+          "ndcg@10": 0.6691,
+          "n": 114
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.5846,
+          "mrr": 0.7467,
+          "ndcg@10": 0.6426,
+          "n": 306
+        },
+        "exact_tool_names": {
+          "recall@5": 0.57,
+          "mrr": 0.7026,
+          "ndcg@10": 0.6635,
+          "n": 170
+        },
+        "vague": {
+          "recall@5": 0.4294,
+          "mrr": 0.6084,
+          "ndcg@10": 0.5433,
+          "n": 64
+        },
+        "scam": {
+          "recall@5": 0.5429,
+          "mrr": 0.6775,
+          "ndcg@10": 0.6267,
+          "n": 49
+        },
+        "normal": {
+          "recall@5": 0.5311,
+          "mrr": 0.698,
+          "ndcg@10": 0.6247,
+          "n": 227
+        },
+        "injection": {
+          "recall@5": 0.4633,
+          "mrr": 0.6673,
+          "ndcg@10": 0.555,
+          "n": 30
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 0.0039,
+        "p95": 0.008
+      },
+      "build_plus_eval_s": 3.4
+    },
+    "v4_outcome": {
+      "flags": {
+        "chunking": "fixed",
+        "decompose": false,
+        "hybrid": false,
+        "rerank": false,
+        "outcome": true,
+        "multivector": false,
+        "contextual": false,
+        "hyde": false,
+        "corrective": false,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.5509,
+        "mrr": 0.715,
+        "ndcg@10": 0.5943,
+        "n": 484
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.4931,
+          "mrr": 0.6909,
+          "ndcg@10": 0.5787
+        },
+        "fullstack": {
+          "recall@5": 0.4975,
+          "mrr": 0.6809,
+          "ndcg@10": 0.5626
+        },
+        "data": {
+          "recall@5": 0.6535,
+          "mrr": 0.7686,
+          "ndcg@10": 0.6379
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.5965,
+          "mrr": 0.7191,
+          "ndcg@10": 0.6095,
+          "n": 114
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.5749,
+          "mrr": 0.7582,
+          "ndcg@10": 0.6064,
+          "n": 306
+        },
+        "exact_tool_names": {
+          "recall@5": 0.5956,
+          "mrr": 0.7567,
+          "ndcg@10": 0.6378,
+          "n": 170
+        },
+        "vague": {
+          "recall@5": 0.475,
+          "mrr": 0.6159,
+          "ndcg@10": 0.5058,
+          "n": 64
+        },
+        "scam": {
+          "recall@5": 0.551,
+          "mrr": 0.6788,
+          "ndcg@10": 0.5898,
+          "n": 49
+        },
+        "normal": {
+          "recall@5": 0.5554,
+          "mrr": 0.7472,
+          "ndcg@10": 0.6191,
+          "n": 227
+        },
+        "injection": {
+          "recall@5": 0.5044,
+          "mrr": 0.7259,
+          "ndcg@10": 0.546,
+          "n": 30
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 0.0027,
+        "p95": 0.0051
+      },
+      "build_plus_eval_s": 2.7
+    },
+    "v5_multivector": {
+      "flags": {
+        "chunking": "structured",
+        "decompose": false,
+        "hybrid": false,
+        "rerank": false,
+        "outcome": false,
+        "multivector": true,
+        "contextual": false,
+        "hyde": false,
+        "corrective": false,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.4918,
+        "mrr": 0.6403,
+        "ndcg@10": 0.5786,
+        "n": 484
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.4776,
+          "mrr": 0.6108,
+          "ndcg@10": 0.55
+        },
+        "fullstack": {
+          "recall@5": 0.3922,
+          "mrr": 0.5332,
+          "ndcg@10": 0.5476
+        },
+        "data": {
+          "recall@5": 0.596,
+          "mrr": 0.7655,
+          "ndcg@10": 0.6338
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.5241,
+          "mrr": 0.6695,
+          "ndcg@10": 0.6018,
+          "n": 114
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.5102,
+          "mrr": 0.6939,
+          "ndcg@10": 0.5916,
+          "n": 306
+        },
+        "exact_tool_names": {
+          "recall@5": 0.4788,
+          "mrr": 0.623,
+          "ndcg@10": 0.5858,
+          "n": 170
+        },
+        "vague": {
+          "recall@5": 0.3859,
+          "mrr": 0.5265,
+          "ndcg@10": 0.4704,
+          "n": 64
+        },
+        "scam": {
+          "recall@5": 0.431,
+          "mrr": 0.532,
+          "ndcg@10": 0.5544,
+          "n": 49
+        },
+        "normal": {
+          "recall@5": 0.5178,
+          "mrr": 0.6702,
+          "ndcg@10": 0.605,
+          "n": 227
+        },
+        "injection": {
+          "recall@5": 0.4978,
+          "mrr": 0.7224,
+          "ndcg@10": 0.5617,
+          "n": 30
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 0.0024,
+        "p95": 0.0028
+      },
+      "build_plus_eval_s": 2.1
+    },
+    "v6_contextual": {
+      "flags": {
+        "chunking": "structured",
+        "decompose": false,
+        "hybrid": false,
+        "rerank": false,
+        "outcome": false,
+        "multivector": false,
+        "contextual": true,
+        "hyde": false,
+        "corrective": false,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.5833,
+        "mrr": 0.7222,
+        "ndcg@10": 0.615,
+        "n": 484
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.4788,
+          "mrr": 0.6465,
+          "ndcg@10": 0.5567
+        },
+        "fullstack": {
+          "recall@5": 0.5484,
+          "mrr": 0.6497,
+          "ndcg@10": 0.5957
+        },
+        "data": {
+          "recall@5": 0.7129,
+          "mrr": 0.8591,
+          "ndcg@10": 0.6872
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.6386,
+          "mrr": 0.7753,
+          "ndcg@10": 0.6398,
+          "n": 114
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.6139,
+          "mrr": 0.7677,
+          "ndcg@10": 0.6373,
+          "n": 306
+        },
+        "exact_tool_names": {
+          "recall@5": 0.6025,
+          "mrr": 0.7202,
+          "ndcg@10": 0.6422,
+          "n": 170
+        },
+        "vague": {
+          "recall@5": 0.4411,
+          "mrr": 0.6089,
+          "ndcg@10": 0.5174,
+          "n": 64
+        },
+        "scam": {
+          "recall@5": 0.5871,
+          "mrr": 0.6772,
+          "ndcg@10": 0.6132,
+          "n": 49
+        },
+        "normal": {
+          "recall@5": 0.5963,
+          "mrr": 0.7317,
+          "ndcg@10": 0.6332,
+          "n": 227
+        },
+        "injection": {
+          "recall@5": 0.5728,
+          "mrr": 0.7642,
+          "ndcg@10": 0.5944,
+          "n": 30
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 0.0033,
+        "p95": 0.0071
+      },
+      "build_plus_eval_s": 58.7
+    },
+    "v9_skill_graph": {
+      "flags": {
+        "chunking": "structured",
+        "decompose": false,
+        "hybrid": false,
+        "rerank": false,
+        "outcome": false,
+        "multivector": false,
+        "contextual": false,
+        "hyde": false,
+        "corrective": false,
+        "graph": true
+      },
+      "overall": {
+        "recall@5": 0.6862,
+        "mrr": 0.8364,
+        "ndcg@10": 0.7387,
+        "n": 484
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.6042,
+          "mrr": 0.7998,
+          "ndcg@10": 0.6831
+        },
+        "fullstack": {
+          "recall@5": 0.6946,
+          "mrr": 0.8001,
+          "ndcg@10": 0.7453
+        },
+        "data": {
+          "recall@5": 0.7552,
+          "mrr": 0.9037,
+          "ndcg@10": 0.7848
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.7591,
+          "mrr": 0.8783,
+          "ndcg@10": 0.7795,
+          "n": 114
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.7158,
+          "mrr": 0.8591,
+          "ndcg@10": 0.7497,
+          "n": 306
+        },
+        "exact_tool_names": {
+          "recall@5": 0.7358,
+          "mrr": 0.8959,
+          "ndcg@10": 0.7912,
+          "n": 170
+        },
+        "vague": {
+          "recall@5": 0.3951,
+          "mrr": 0.6063,
+          "ndcg@10": 0.4953,
+          "n": 64
+        },
+        "scam": {
+          "recall@5": 0.7939,
+          "mrr": 0.8799,
+          "ndcg@10": 0.8159,
+          "n": 49
+        },
+        "normal": {
+          "recall@5": 0.7112,
+          "mrr": 0.8715,
+          "ndcg@10": 0.772,
+          "n": 227
+        },
+        "injection": {
+          "recall@5": 0.6656,
+          "mrr": 0.8317,
+          "ndcg@10": 0.7257,
+          "n": 30
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 0.0057,
+        "p95": 0.0115
+      },
+      "build_plus_eval_s": 9.2
+    },
+    "v10_hybrid_outcome": {
+      "flags": {
+        "chunking": "fixed",
+        "decompose": false,
+        "hybrid": true,
+        "rerank": false,
+        "outcome": true,
+        "multivector": false,
+        "contextual": false,
+        "hyde": false,
+        "corrective": false,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.5556,
+        "mrr": 0.7197,
+        "ndcg@10": 0.6201,
+        "n": 484
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.4956,
+          "mrr": 0.6611,
+          "ndcg@10": 0.5771
+        },
+        "fullstack": {
+          "recall@5": 0.5333,
+          "mrr": 0.6695,
+          "ndcg@10": 0.6077
+        },
+        "data": {
+          "recall@5": 0.6321,
+          "mrr": 0.8203,
+          "ndcg@10": 0.6715
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.6374,
+          "mrr": 0.7833,
+          "ndcg@10": 0.6712,
+          "n": 114
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.5868,
+          "mrr": 0.7676,
+          "ndcg@10": 0.6371,
+          "n": 306
+        },
+        "exact_tool_names": {
+          "recall@5": 0.6272,
+          "mrr": 0.7771,
+          "ndcg@10": 0.6845,
+          "n": 170
+        },
+        "vague": {
+          "recall@5": 0.4383,
+          "mrr": 0.636,
+          "ndcg@10": 0.5386,
+          "n": 64
+        },
+        "scam": {
+          "recall@5": 0.5765,
+          "mrr": 0.7076,
+          "ndcg@10": 0.6276,
+          "n": 49
+        },
+        "normal": {
+          "recall@5": 0.5531,
+          "mrr": 0.7177,
+          "ndcg@10": 0.6262,
+          "n": 227
+        },
+        "injection": {
+          "recall@5": 0.48,
+          "mrr": 0.6919,
+          "ndcg@10": 0.5404,
+          "n": 30
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 0.0061,
+        "p95": 0.0119
+      },
+      "build_plus_eval_s": 5.5
+    }
+  },
+  "n_jobs": {
+    "ai_ml": 200,
+    "fullstack": 200,
+    "data": 200
+  }
+}

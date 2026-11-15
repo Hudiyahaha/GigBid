@@ -8,6 +8,7 @@ export default function ApprovalPanel({ approval, text, onDone }: { approval: an
   const [reason, setReason] = useState("");
   const [runId, setRunId] = useState<string | null>(null);
   const [err, setErr] = useState<string | null>(null);
+  const [finished, setFinished] = useState(false);
   const p = approval.payload;
   const preview = p.preview || {};
   const decide = async (action: "approve" | "edit" | "reject") => {
@@ -39,7 +40,8 @@ export default function ApprovalPanel({ approval, text, onDone }: { approval: an
       </div>
       {edited !== text && <p className="muted">You changed the text: save the edit so Compliance re-checks it, then approve.</p>}
       {err && <div className="banner bad" role="alert">{err}</div>}
-      {runId && <RunTimeline runId={runId} onEnd={onDone} />}
+      {runId && <RunTimeline runId={runId} onEnd={() => setFinished(true)} />}
+      {finished && <button onClick={onDone} data-testid="refresh-after-decision">Refresh</button>}
     </div>
   );
 }

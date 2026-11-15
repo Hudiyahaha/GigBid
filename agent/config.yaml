@@ -102,7 +102,7 @@ models:
   reranker: ${RERANK_MODEL:-cross-encoder/ms-marco-MiniLM-L-6-v2}   # alt measured: BAAI/bge-reranker-base
 
 rag:
-  variant: ${RAG_VARIANT:-v10_hybrid_outcome} # chosen by evals/results/rag_variants.json + rag_v10.json (R6): best MRR/nDCG@10
+  variant: ${RAG_VARIANT:-v9_skill_graph}     # chosen by evals/results/rag_variants.json (R6): best R@5/MRR/nDCG@10 overall; weaker on vague posts
   top_k: 8
   chunk_size: 900
   chunk_overlap: 120
