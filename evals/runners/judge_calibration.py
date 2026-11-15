@@ -72,5 +72,25 @@ def kappa() -> None:
                                                          for r in disagree]})
 
 
+async def fill() -> None:
+    """Re-score rows whose judge call failed (rate limits); keeps any human_score already entered."""
+    from agent import llm
+    llm.start_usage()
+    jobs = load_jobs()
+    rows = list(csv.DictReader(open(CSV, encoding="utf-8")))
+    for r in rows:
+        if not r["judge_score"]:
+            res, _ = await llm.call_json("judge", "judge", {"job": jobs[r["job_id"]]["description"][:1500], "proposal": r["proposal"]},
+                                         None, heuristic=lambda: {"score": None, "reason": "judge unavailable"}, max_tokens=300)
+            r["judge_score"], r["judge_reason"] = res.get("score") or "", (res.get("reason") or "")[:200]
+            print(r["job_id"], r["judge_score"], flush=True)
+            await asyncio.sleep(3)
+    with open(CSV, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
+
+
 if __name__ == "__main__":
-    asyncio.run(score()) if sys.argv[1:] == ["score"] else kappa()
+    cmd = sys.argv[1] if len(sys.argv) > 1 else "kappa"
+    asyncio.run(score()) if cmd == "score" else asyncio.run(fill()) if cmd == "fill" else kappa()
