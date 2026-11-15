@@ -32,7 +32,7 @@ def _sents(t: str) -> list[str]:
 def analyse_edit(before: str, after: str) -> list[dict]:
     """Turn a before/after pair into candidate style patterns (not memory yet)."""
     ops: list[dict] = []
-    bs, as_ = _sents(before), _sents(after)
+    bs = _sents(before)
     if len(bs) >= 2 and bs[0] not in after and any(s in after for s in bs[1:3]):
         ops.append({"key": "cut_first_sentence", "op": "cut_first_sentence", "rule": "Always cut the first sentence"})
     bw, aw = re.findall(r"[A-Za-z']+", before.lower()), re.findall(r"[A-Za-z']+", after.lower())

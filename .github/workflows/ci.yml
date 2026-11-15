@@ -35,7 +35,7 @@ jobs:
         working-directory: apps/web
       - run: npx playwright install --with-deps chromium && npx playwright test --project=desktop
         working-directory: apps/web
-        env: {GIGBID_PYTHON: .venv/bin/python, CI: "1"}
+        env: {GIGBID_PYTHON: .venv/bin/python, CI: "1", HF_HUB_OFFLINE: "0"}   # runner has no cached models
       - uses: actions/upload-artifact@v4
         if: always()
         with: {name: playwright-report, path: apps/web/playwright-report}

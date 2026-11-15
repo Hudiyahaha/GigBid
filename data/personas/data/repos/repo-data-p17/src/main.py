@@ -1,6 +1,3 @@
-import statsmodels.formula.api as smf
-import pandas as pd
-import sys
 
 
 def run(config: dict) -> dict:

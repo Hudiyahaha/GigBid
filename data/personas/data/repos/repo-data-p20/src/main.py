@@ -1,4 +1,3 @@
-import statsmodels.formula.api as smf
 
 
 def run(config: dict) -> dict:

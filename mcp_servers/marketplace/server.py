@@ -21,7 +21,8 @@ from mcp.server.fastmcp.exceptions import ToolError
 from mcp.types import ToolAnnotations
 from pydantic import BaseModel, Field
 
-from agent import approval_token as approvals, config
+from agent import approval_token as approvals
+from agent import config
 from mcp_servers.common import AuditLog, RateLimiter, request_context, run
 from mcp_servers.marketplace.adapters.base import MarketplaceRejected, MarketplaceUnavailable
 

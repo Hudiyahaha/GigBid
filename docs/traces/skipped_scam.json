@@ -1,0 +1,191 @@
+{
+ "case": "A scam post is skipped with reasons (no proposal drafted)",
+ "note": "",
+ "runs": [
+  {
+   "trace_id": "5e1fac85c2f046afbe1fe456a9149879",
+   "thread_id": "trace-user:bid:dev-ai_ml-004",
+   "status": "dead_letter",
+   "decision": null,
+   "risk": {
+    "score": 0.95,
+    "scam": true,
+    "flags": [
+     {
+      "code": "upfront_payment",
+      "severity": 0.95,
+      "evidence": "on and a hand-over call. To receive the onboarding kit you must first pay a $45 refundable equ"
+     },
+     {
+      "code": "unverified_payment",
+      "severity": 0.4,
+      "evidence": "payment method not verified"
+     },
+     {
+      "code": "no_hire_history",
+      "severity": 0.3,
+      "evidence": "1 jobs posted, 0 hires"
+     }
+    ]
+   },
+   "fit_score": null,
+   "price": null,
+   "critiques": [],
+   "verification": null,
+   "submission": null,
+   "usage": {
+    "tokens": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "usd": 0.0,
+    "llm_calls": 0,
+    "by_node": {
+     "scout": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 1.223,
+      "calls": 1
+     },
+     "job_analyst": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.006,
+      "calls": 1
+     },
+     "risk_assessor": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.279,
+      "calls": 1
+     },
+     "fit_matcher": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 123.338,
+      "calls": 1
+     },
+     "decision": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.0,
+      "calls": 1
+     }
+    }
+   },
+   "latency_s": 165.372,
+   "trace": [
+    {
+     "type": "node",
+     "node": "scout",
+     "latency_s": 1.223,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758249.1393547
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_job",
+     "args": {
+      "job_id": "dev-ai_ml-004"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 1165
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_policy",
+     "args": {},
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 50
+    },
+    {
+     "type": "llm",
+     "node": "job_analyst",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "job_analyst@v2"
+    },
+    {
+     "type": "node",
+     "node": "job_analyst",
+     "latency_s": 0.006,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758249.150826
+    },
+    {
+     "type": "node",
+     "node": "risk_assessor",
+     "latency_s": 0.279,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758249.4311163
+    },
+    {
+     "type": "tool",
+     "node": "risk_assessor",
+     "tool": "get_client_history",
+     "args": {
+      "client_id": "cl-0027"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 277
+    },
+    {
+     "type": "node",
+     "node": "fit_matcher",
+     "latency_s": 123.338,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "dead_letter",
+     "ts": 1794758372.4952528
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Strong LangChain skills required.",
+      "k": 3,
+      "filters": {
+       "job_title": "LLM assistant for internal knowledge base",
+       "industry": "real estate",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": false,
+     "error": "ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)"
+    },
+    {
+     "type": "node",
+     "node": "decision",
+     "latency_s": 0.0,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758372.5001652
+    }
+   ]
+  }
+ ]
+}

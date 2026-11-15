@@ -1,4 +1,3 @@
-from google.cloud import bigquery
 df = df.drop_duplicates().dropna(subset=['email'])
 
 

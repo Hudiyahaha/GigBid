@@ -1,0 +1,1641 @@
+{
+ "case": "Draft -> claim verification -> critic -> compliance -> human approval -> submitted",
+ "note": "",
+ "runs": [
+  {
+   "trace_id": "96c30bef23c44843b9a1e991e4550777",
+   "thread_id": "trace-user:bid:dev-ai_ml-006",
+   "status": "awaiting_approval",
+   "decision": {
+    "action": "bid",
+    "reasons": [
+     "fit 0.60 >= 0.3, risk 0.03 <= 0.55"
+    ],
+    "fit_score": 0.6,
+    "risk_score": 0.031,
+    "auto": false
+   },
+   "risk": {
+    "score": 0.031,
+    "scam": false,
+    "flags": []
+   },
+   "fit_score": 0.6,
+   "price": 32.0,
+   "critiques": [
+    {
+     "version": 1,
+     "passed": false,
+     "issues": [
+      "length 81 words (target 120-220)"
+     ]
+    },
+    {
+     "version": 2,
+     "passed": false,
+     "issues": [
+      "length 81 words (target 120-220)"
+     ]
+    },
+    {
+     "version": 3,
+     "passed": false,
+     "issues": [
+      "length 81 words (target 120-220)"
+     ]
+    }
+   ],
+   "verification": {
+    "claims": 12,
+    "unsupported_before": 3,
+    "partial_before": 0,
+    "unsupported_rate_before": 0.75,
+    "unsupported_rate_after": 0.0,
+    "removed": 3,
+    "rewritten": 0,
+    "doubtful": 3
+   },
+   "submission": null,
+   "usage": {
+    "tokens": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "usd": 0.0,
+    "llm_calls": 0,
+    "by_node": {
+     "scout": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.128,
+      "calls": 1
+     },
+     "job_analyst": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.005,
+      "calls": 1
+     },
+     "risk_assessor": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.107,
+      "calls": 1
+     },
+     "fit_matcher": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 1.324,
+      "calls": 1
+     },
+     "decision": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.0,
+      "calls": 1
+     },
+     "pricing": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.139,
+      "calls": 1
+     },
+     "writer": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.22499999999999998,
+      "calls": 3
+     },
+     "verifier": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 1.68,
+      "calls": 3
+     },
+     "critic": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.003,
+      "calls": 3
+     },
+     "compliance": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.001,
+      "calls": 1
+     },
+     "preview": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.149,
+      "calls": 1
+     }
+    }
+   },
+   "latency_s": 3.718,
+   "trace": [
+    {
+     "type": "node",
+     "node": "scout",
+     "latency_s": 0.128,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758422.5231655
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_job",
+     "args": {
+      "job_id": "dev-ai_ml-006"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 74
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_policy",
+     "args": {},
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 54
+    },
+    {
+     "type": "llm",
+     "node": "job_analyst",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "job_analyst@v2"
+    },
+    {
+     "type": "node",
+     "node": "job_analyst",
+     "latency_s": 0.005,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758422.5304837
+    },
+    {
+     "type": "llm",
+     "node": "risk_assessor",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "risk_assessor@v2"
+    },
+    {
+     "type": "node",
+     "node": "risk_assessor",
+     "latency_s": 0.107,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758422.6376863
+    },
+    {
+     "type": "tool",
+     "node": "risk_assessor",
+     "tool": "get_client_history",
+     "args": {
+      "client_id": "cl-0312"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 105
+    },
+    {
+     "type": "node",
+     "node": "fit_matcher",
+     "latency_s": 1.324,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758423.8607996
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Ideally you are someone who can squeeze accuracy out of tabular data with gradient-boosted trees.",
+      "k": 3,
+      "filters": {
+       "job_title": "Fraud detection model",
+       "industry": "legal",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p02",
+       "cs-ai_ml-p09",
+       "cs-ai_ml-p16"
+      ]
+     },
+     "latency_ms": 285
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Strong Model evaluation skills required.",
+      "k": 3,
+      "filters": {
+       "job_title": "Fraud detection model",
+       "industry": "legal",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p18",
+       "repo-ai_ml-p11",
+       "cs-ai_ml-p09"
+      ]
+     },
+     "latency_ms": 531
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Ideally you are someone who keeps experiments reproducible and models versioned.",
+      "k": 3,
+      "filters": {
+       "job_title": "Fraud detection model",
+       "industry": "legal",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p05",
+       "repo-ai_ml-p19",
+       "cs-ai_ml-p12"
+      ]
+     },
+     "latency_ms": 785
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Experience with Python is a must.",
+      "k": 3,
+      "filters": {
+       "job_title": "Fraud detection model",
+       "industry": "legal",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p14",
+       "cs-ai_ml-p09",
+       "cs-ai_ml-p02"
+      ]
+     },
+     "latency_ms": 1053
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "scikit-learn knowledge is important.",
+      "k": 3,
+      "filters": {
+       "job_title": "Fraud detection model",
+       "industry": "legal",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "cs-ai_ml-p09",
+       "cs-ai_ml-p16",
+       "cs-ai_ml-p02"
+      ]
+     },
+     "latency_ms": 1310
+    },
+    {
+     "type": "node",
+     "node": "decision",
+     "latency_s": 0.0,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758423.862993
+    },
+    {
+     "type": "node",
+     "node": "pricing",
+     "latency_s": 0.139,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758424.0014734
+    },
+    {
+     "type": "tool",
+     "node": "pricing",
+     "tool": "get_market_stats",
+     "args": {
+      "category": "ML modelling",
+      "pay_type": "hourly"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 62
+    },
+    {
+     "type": "tool",
+     "node": "pricing",
+     "tool": "get_connects_balance",
+     "args": {},
+     "ok": true,
+     "result": {
+      "connects_balance": 120,
+      "submissions_last_24h": 0,
+      "policy_version": 1
+     },
+     "latency_ms": 76
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.123,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758424.128653
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Fraud detection model",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-028",
+       "prop-ai_ml-039"
+      ]
+     },
+     "latency_ms": 118
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.614,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758424.7433217
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p09"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p09",
+      "title": "Customer churn model v2 (education)",
+      "project": "ai_ml-p09",
+      "date": "2023-07-07",
+      "client_industry": "education",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 597
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p02"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p02",
+      "title": "Customer churn model",
+      "project": "ai_ml-p02",
+      "date": "2026-02-19",
+      "client_industry": "media",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 593
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758424.7476194
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.052,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758424.797538
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Fraud detection model",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-028",
+       "prop-ai_ml-039"
+      ]
+     },
+     "latency_ms": 47
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.556,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.358648
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p09"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p09",
+      "title": "Customer churn model v2 (education)",
+      "project": "ai_ml-p09",
+      "date": "2023-07-07",
+      "client_industry": "education",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 545
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p02"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p02",
+      "title": "Customer churn model",
+      "project": "ai_ml-p02",
+      "date": "2026-02-19",
+      "client_industry": "media",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 541
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.3610103
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.05,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.41319
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Fraud detection model",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-028",
+       "prop-ai_ml-039"
+      ]
+     },
+     "latency_ms": 47
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.51,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.923611
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p09"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p09",
+      "title": "Customer churn model v2 (education)",
+      "project": "ai_ml-p09",
+      "date": "2023-07-07",
+      "client_industry": "education",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 490
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p02"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p02",
+      "title": "Customer churn model",
+      "project": "ai_ml-p02",
+      "date": "2026-02-19",
+      "client_industry": "media",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 487
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.9269538
+    },
+    {
+     "type": "llm",
+     "node": "compliance",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "compliance@v1"
+    },
+    {
+     "type": "node",
+     "node": "compliance",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.930176
+    },
+    {
+     "type": "node",
+     "node": "preview",
+     "latency_s": 0.149,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758426.0790324
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "create_proposal_draft",
+     "args": {
+      "job_id": "dev-ai_ml-006",
+      "cover_letter": "Your Fraud detection model needs someone who can handle model evaluation skills required from day one. I delivered a closely related project, Customer churn model v2 (education). I delivered a closely related project, Customer churn model. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "screening_answers": [
+       "The closest example is Customer churn model v2 (education). I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric.",
+       "I would clarify this with you on a short call before committing to an approach."
+      ],
+      "bid_amount": 32.0,
+      "pay_type": "hourly",
+      "idempotency_key": "trace-user:bid:dev-ai_ml-006:dry",
+      "dry_run": true
+     },
+     "ok": true,
+     "result": {
+      "dry_run": true,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": false
+     },
+     "latency_ms": 149
+    }
+   ]
+  },
+  {
+   "trace_id": "96c30bef23c44843b9a1e991e4550777",
+   "thread_id": "trace-user:bid:dev-ai_ml-006",
+   "status": "submitted",
+   "decision": {
+    "action": "bid",
+    "reasons": [
+     "fit 0.60 >= 0.3, risk 0.03 <= 0.55"
+    ],
+    "fit_score": 0.6,
+    "risk_score": 0.031,
+    "auto": false
+   },
+   "risk": {
+    "score": 0.031,
+    "scam": false,
+    "flags": []
+   },
+   "fit_score": 0.6,
+   "price": 32.0,
+   "critiques": [
+    {
+     "version": 1,
+     "passed": false,
+     "issues": [
+      "length 81 words (target 120-220)"
+     ]
+    },
+    {
+     "version": 2,
+     "passed": false,
+     "issues": [
+      "length 81 words (target 120-220)"
+     ]
+    },
+    {
+     "version": 3,
+     "passed": false,
+     "issues": [
+      "length 81 words (target 120-220)"
+     ]
+    }
+   ],
+   "verification": {
+    "claims": 12,
+    "unsupported_before": 3,
+    "partial_before": 0,
+    "unsupported_rate_before": 0.75,
+    "unsupported_rate_after": 0.0,
+    "removed": 3,
+    "rewritten": 0,
+    "doubtful": 3
+   },
+   "submission": {
+    "proposal_id": "gp-f4fdad402f",
+    "draft_key": "trace-user:bid:dev-ai_ml-006:draft:d03716e525ff",
+    "submit_key": "trace-user:bid:dev-ai_ml-006:submit:d03716e525ff",
+    "status": "submitted",
+    "connects_spent": 6,
+    "connects_balance": 114,
+    "idempotent_replay": false
+   },
+   "usage": {
+    "tokens": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "usd": 0.0,
+    "llm_calls": 0,
+    "by_node": {
+     "scout": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.128,
+      "calls": 1
+     },
+     "job_analyst": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.005,
+      "calls": 1
+     },
+     "risk_assessor": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.107,
+      "calls": 1
+     },
+     "fit_matcher": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 1.324,
+      "calls": 1
+     },
+     "decision": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.0,
+      "calls": 1
+     },
+     "pricing": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.139,
+      "calls": 1
+     },
+     "writer": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.22499999999999998,
+      "calls": 3
+     },
+     "verifier": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 1.68,
+      "calls": 3
+     },
+     "critic": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.003,
+      "calls": 3
+     },
+     "compliance": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.001,
+      "calls": 1
+     },
+     "preview": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.149,
+      "calls": 1
+     },
+     "human_approval": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.0,
+      "calls": 1
+     },
+     "executor": {
+      "tokens": 0,
+      "usd": 0.0,
+      "latency_s": 0.221,
+      "calls": 1
+     }
+    }
+   },
+   "latency_s": 0.233,
+   "trace": [
+    {
+     "type": "node",
+     "node": "scout",
+     "latency_s": 0.128,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758422.5231655
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_job",
+     "args": {
+      "job_id": "dev-ai_ml-006"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 74
+    },
+    {
+     "type": "tool",
+     "node": "intake",
+     "tool": "get_policy",
+     "args": {},
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 54
+    },
+    {
+     "type": "llm",
+     "node": "job_analyst",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "job_analyst@v2"
+    },
+    {
+     "type": "node",
+     "node": "job_analyst",
+     "latency_s": 0.005,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758422.5304837
+    },
+    {
+     "type": "llm",
+     "node": "risk_assessor",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "risk_assessor@v2"
+    },
+    {
+     "type": "node",
+     "node": "risk_assessor",
+     "latency_s": 0.107,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758422.6376863
+    },
+    {
+     "type": "tool",
+     "node": "risk_assessor",
+     "tool": "get_client_history",
+     "args": {
+      "client_id": "cl-0312"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 105
+    },
+    {
+     "type": "node",
+     "node": "fit_matcher",
+     "latency_s": 1.324,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758423.8607996
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Ideally you are someone who can squeeze accuracy out of tabular data with gradient-boosted trees.",
+      "k": 3,
+      "filters": {
+       "job_title": "Fraud detection model",
+       "industry": "legal",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p02",
+       "cs-ai_ml-p09",
+       "cs-ai_ml-p16"
+      ]
+     },
+     "latency_ms": 285
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Strong Model evaluation skills required.",
+      "k": 3,
+      "filters": {
+       "job_title": "Fraud detection model",
+       "industry": "legal",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p18",
+       "repo-ai_ml-p11",
+       "cs-ai_ml-p09"
+      ]
+     },
+     "latency_ms": 531
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Ideally you are someone who keeps experiments reproducible and models versioned.",
+      "k": 3,
+      "filters": {
+       "job_title": "Fraud detection model",
+       "industry": "legal",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p05",
+       "repo-ai_ml-p19",
+       "cs-ai_ml-p12"
+      ]
+     },
+     "latency_ms": 785
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "Experience with Python is a must.",
+      "k": 3,
+      "filters": {
+       "job_title": "Fraud detection model",
+       "industry": "legal",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "repo-ai_ml-p14",
+       "cs-ai_ml-p09",
+       "cs-ai_ml-p02"
+      ]
+     },
+     "latency_ms": 1053
+    },
+    {
+     "type": "tool",
+     "node": "fit_matcher",
+     "tool": "search_evidence",
+     "args": {
+      "requirement": "scikit-learn knowledge is important.",
+      "k": 3,
+      "filters": {
+       "job_title": "Fraud detection model",
+       "industry": "legal",
+       "types": [
+        "case_study",
+        "repo",
+        "review",
+        "cv"
+       ]
+      }
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "cs-ai_ml-p09",
+       "cs-ai_ml-p16",
+       "cs-ai_ml-p02"
+      ]
+     },
+     "latency_ms": 1310
+    },
+    {
+     "type": "node",
+     "node": "decision",
+     "latency_s": 0.0,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758423.862993
+    },
+    {
+     "type": "node",
+     "node": "pricing",
+     "latency_s": 0.139,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758424.0014734
+    },
+    {
+     "type": "tool",
+     "node": "pricing",
+     "tool": "get_market_stats",
+     "args": {
+      "category": "ML modelling",
+      "pay_type": "hourly"
+     },
+     "ok": true,
+     "result": {
+      "data": "..."
+     },
+     "latency_ms": 62
+    },
+    {
+     "type": "tool",
+     "node": "pricing",
+     "tool": "get_connects_balance",
+     "args": {},
+     "ok": true,
+     "result": {
+      "connects_balance": 120,
+      "submissions_last_24h": 0,
+      "policy_version": 1
+     },
+     "latency_ms": 76
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.123,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758424.128653
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Fraud detection model",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-028",
+       "prop-ai_ml-039"
+      ]
+     },
+     "latency_ms": 118
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.614,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758424.7433217
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p09"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p09",
+      "title": "Customer churn model v2 (education)",
+      "project": "ai_ml-p09",
+      "date": "2023-07-07",
+      "client_industry": "education",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 597
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p02"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p02",
+      "title": "Customer churn model",
+      "project": "ai_ml-p02",
+      "date": "2026-02-19",
+      "client_industry": "media",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 593
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758424.7476194
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.052,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758424.797538
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Fraud detection model",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-028",
+       "prop-ai_ml-039"
+      ]
+     },
+     "latency_ms": 47
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.556,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.358648
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p09"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p09",
+      "title": "Customer churn model v2 (education)",
+      "project": "ai_ml-p09",
+      "date": "2023-07-07",
+      "client_industry": "education",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 545
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p02"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p02",
+      "title": "Customer churn model",
+      "project": "ai_ml-p02",
+      "date": "2026-02-19",
+      "client_industry": "media",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 541
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.3610103
+    },
+    {
+     "type": "llm",
+     "node": "writer",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "writer@v4"
+    },
+    {
+     "type": "node",
+     "node": "writer",
+     "latency_s": 0.05,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.41319
+    },
+    {
+     "type": "tool",
+     "node": "writer",
+     "tool": "similar_proposals",
+     "args": {
+      "query": "Fraud detection model",
+      "k": 2
+     },
+     "ok": true,
+     "result": {
+      "items": [
+       "prop-ai_ml-028",
+       "prop-ai_ml-039"
+      ]
+     },
+     "latency_ms": 47
+    },
+    {
+     "type": "llm",
+     "node": "verifier",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "verifier@v2"
+    },
+    {
+     "type": "node",
+     "node": "verifier",
+     "latency_s": 0.51,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.923611
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p09"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p09",
+      "title": "Customer churn model v2 (education)",
+      "project": "ai_ml-p09",
+      "date": "2023-07-07",
+      "client_industry": "education",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 490
+    },
+    {
+     "type": "tool",
+     "node": "verifier",
+     "tool": "get_item",
+     "args": {
+      "id": "cs-ai_ml-p02"
+     },
+     "ok": true,
+     "result": {
+      "item_id": "cs-ai_ml-p02",
+      "title": "Customer churn model",
+      "project": "ai_ml-p02",
+      "date": "2026-02-19",
+      "client_industry": "media",
+      "skills": "...",
+      "text": "..."
+     },
+     "latency_ms": 487
+    },
+    {
+     "type": "llm",
+     "node": "critic",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "critic@v3"
+    },
+    {
+     "type": "node",
+     "node": "critic",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.9269538
+    },
+    {
+     "type": "llm",
+     "node": "compliance",
+     "model": "heuristic",
+     "degraded": true,
+     "error": "fake provider: use heuristic",
+     "prompt_version": "compliance@v1"
+    },
+    {
+     "type": "node",
+     "node": "compliance",
+     "latency_s": 0.001,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758425.930176
+    },
+    {
+     "type": "node",
+     "node": "preview",
+     "latency_s": 0.149,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758426.0790324
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "create_proposal_draft",
+     "args": {
+      "job_id": "dev-ai_ml-006",
+      "cover_letter": "Your Fraud detection model needs someone who can handle model evaluation skills required from day one. I delivered a closely related project, Customer churn model v2 (education). I delivered a closely related project, Customer churn model. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "screening_answers": [
+       "The closest example is Customer churn model v2 (education). I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric.",
+       "I would clarify this with you on a short call before committing to an approach."
+      ],
+      "bid_amount": 32.0,
+      "pay_type": "hourly",
+      "idempotency_key": "trace-user:bid:dev-ai_ml-006:dry",
+      "dry_run": true
+     },
+     "ok": true,
+     "result": {
+      "dry_run": true,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": false
+     },
+     "latency_ms": 149
+    },
+    {
+     "type": "node",
+     "node": "human_approval",
+     "latency_s": 0.0,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758426.1126807
+    },
+    {
+     "type": "node",
+     "node": "executor",
+     "latency_s": 0.221,
+     "tokens": 0,
+     "usd": 0.0,
+     "status": "ok",
+     "ts": 1794758426.3366535
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "create_proposal_draft",
+     "args": {
+      "job_id": "dev-ai_ml-006",
+      "cover_letter": "Your Fraud detection model needs someone who can handle model evaluation skills required from day one. I delivered a closely related project, Customer churn model v2 (education). I delivered a closely related project, Customer churn model. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "screening_answers": [
+       "The closest example is Customer churn model v2 (education). I would apply the same approach here: clarify the goal, deliver in small reviewed steps, and measure the result against the agreed metric.",
+       "I would clarify this with you on a short call before committing to an approach."
+      ],
+      "bid_amount": 32.0,
+      "pay_type": "hourly",
+      "idempotency_key": "trace-user:bid:dev-ai_ml-006:draft:d03716e525ff",
+      "dry_run": false,
+      "approval_token": "[SECRET]"
+     },
+     "ok": true,
+     "result": {
+      "dry_run": false,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": false
+     },
+     "latency_ms": 106
+    },
+    {
+     "type": "tool",
+     "node": "approval_executor",
+     "tool": "submit_proposal",
+     "args": {
+      "proposal_id": "gp-f4fdad402f",
+      "draft_idempotency_key": "trace-user:bid:dev-ai_ml-006:draft:d03716e525ff",
+      "idempotency_key": "trace-user:bid:dev-ai_ml-006:submit:d03716e525ff",
+      "approval_token": "[SECRET]"
+     },
+     "ok": true,
+     "result": {
+      "dry_run": false,
+      "preview": "...",
+      "result": "...",
+      "idempotent_replay": false
+     },
+     "latency_ms": 114
+    }
+   ]
+  }
+ ]
+}

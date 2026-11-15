@@ -20,8 +20,19 @@ from collections import defaultdict
 from pathlib import Path
 
 from agent.guardrails import strip_injections
-from evals.common import (PERSONAS, RESULTS, load_dev, load_jobs, mean, mrr, ndcg_at, pct, recall_at,
-                          strict_gold, write_result)
+from evals.common import (
+    PERSONAS,
+    RESULTS,
+    load_dev,
+    load_jobs,
+    mean,
+    mrr,
+    ndcg_at,
+    pct,
+    recall_at,
+    strict_gold,
+    write_result,
+)
 from rag import variants as V
 from rag.pipeline import Flags, Pipeline, Query
 from rag.query import decompose

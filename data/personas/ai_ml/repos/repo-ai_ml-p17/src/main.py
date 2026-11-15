@@ -1,7 +1,3 @@
-import spacy
-from transformers import AutoModelForSequenceClassification
-import torch
-import torch.nn as nn
 
 
 def run(config: dict) -> dict:

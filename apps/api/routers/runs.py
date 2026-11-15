@@ -51,9 +51,12 @@ def run(run_id: str, u: User = Depends(current_user)) -> dict:
 @router.get("/runs/{run_id}/stream")
 async def stream(run_id: str, request: Request, token: str) -> EventSourceResponse:
     """SSE (EventSource cannot send headers, so the session token comes as a query parameter)."""
-    from apps.api.security import _bearer  # noqa: F401
     import jwt
-    from apps.api.security import _secret
+
+    from apps.api.security import (
+        _bearer,  # noqa: F401
+        _secret,
+    )
     try:
         uid = jwt.decode(token, _secret(), algorithms=["HS256"])["sub"]
     except jwt.PyJWTError as e:

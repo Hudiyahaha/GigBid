@@ -1,5 +1,3 @@
-from statsmodels.tsa.holtwinters import ExponentialSmoothing
-import statsmodels.formula.api as smf
 
 
 def run(config: dict) -> dict:

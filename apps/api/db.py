@@ -8,7 +8,17 @@ import time
 from contextlib import contextmanager
 from pathlib import Path
 
-from sqlalchemy import JSON, Boolean, Float, ForeignKey, Integer, String, Text, UniqueConstraint, create_engine
+from sqlalchemy import (
+    JSON,
+    Boolean,
+    Float,
+    ForeignKey,
+    Integer,
+    String,
+    Text,
+    UniqueConstraint,
+    create_engine,
+)
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column, sessionmaker
 
 ROOT = Path(__file__).resolve().parents[2]

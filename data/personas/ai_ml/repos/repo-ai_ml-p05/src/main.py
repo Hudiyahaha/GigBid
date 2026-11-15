@@ -1,6 +1,3 @@
-import sagemaker
-import mlflow
-from fastapi import FastAPI
 
 
 def run(config: dict) -> dict:

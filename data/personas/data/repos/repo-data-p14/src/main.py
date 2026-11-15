@@ -1,5 +1,4 @@
 df = df.drop_duplicates().dropna(subset=['email'])
-import sys
 
 
 def run(config: dict) -> dict:

@@ -22,7 +22,6 @@ import numpy as np
 import pandas as pd
 
 from agent.guardrails import mask_pii
-from data.generators.ontology import CATEGORIES
 
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / "data" / "raw" / "kaggle"

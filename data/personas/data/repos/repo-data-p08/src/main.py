@@ -1,5 +1,3 @@
-from google.cloud import bigquery
-import snowflake.connector
 
 
 def run(config: dict) -> dict:

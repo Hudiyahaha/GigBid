@@ -136,7 +136,7 @@ async def call(role: str, tool: str, args: dict | None = None, *, retries: int |
         try:
             async with session(server) as s:
                 res = await asyncio.wait_for(s.call_tool(tool, args), timeout=timeout)
-        except (OSError, asyncio.TimeoutError, ConnectionError) as e:
+        except (TimeoutError, OSError, ConnectionError) as e:
             last = f"{type(e).__name__}: {e}"
         except Exception as e:  # noqa: BLE001 - e.g. httpx/anyio errors wrapped in ExceptionGroup
             last = f"{type(e).__name__}: {str(e)[:200]}"

@@ -86,11 +86,14 @@ packages = ["agent", "apps", "rag", "mcp_servers", "worker", "evals", "gigsim"]
 
 [tool.ruff]
 line-length = 110
-extend-exclude = ["apps/web"]
+extend-exclude = ["apps/web", "data/personas"]   # persona repos are synthetic code SNIPPETS (data, not code)
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP"]
-ignore = ["E501", "B008"]
+ignore = ["E501", "B008", "B039"]   # B039: run-context default is never mutated
+
+[tool.ruff.lint.per-file-ignores]
+"evals/runners/*" = ["B023", "E702"]   # lambdas are awaited inside the same loop iteration; compact task tables
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"

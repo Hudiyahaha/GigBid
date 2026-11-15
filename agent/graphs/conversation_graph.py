@@ -13,8 +13,16 @@ from langgraph.types import RetryPolicy
 
 from agent import config
 from agent.nodes.base import Transient
-from agent.nodes.client_liaison import (classify_intent, draft_reply, execute_message, fetch_thread, find_slots,
-                                        reply_approval, reply_compliance, reply_preview)
+from agent.nodes.client_liaison import (
+    classify_intent,
+    draft_reply,
+    execute_message,
+    fetch_thread,
+    find_slots,
+    reply_approval,
+    reply_compliance,
+    reply_preview,
+)
 from agent.state import ConversationState
 
 STOP = {"needs_attention", "dead_letter", "queued_retry", "skipped"}

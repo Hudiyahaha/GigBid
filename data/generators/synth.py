@@ -16,7 +16,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
 import random
 import re
 import shutil
@@ -24,7 +23,14 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 from data.generators.ontology import (
-    CATEGORIES, DOMAIN_SKILLS, GENERIC_OPENINGS, INDUSTRIES, INJECTIONS, JOB_PHRASES, PROJECT_ARCHETYPES, SCAM_PATTERNS,
+    CATEGORIES,
+    DOMAIN_SKILLS,
+    GENERIC_OPENINGS,
+    INDUSTRIES,
+    INJECTIONS,
+    JOB_PHRASES,
+    PROJECT_ARCHETYPES,
+    SCAM_PATTERNS,
     SKILLS,
 )
 from gigsim.sim_client import HiddenPrefs, decide

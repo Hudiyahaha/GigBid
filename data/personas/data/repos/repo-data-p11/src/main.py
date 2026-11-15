@@ -1,5 +1,4 @@
 df = df.drop_duplicates().dropna(subset=['email'])
-from google.cloud import bigquery
 
 
 def run(config: dict) -> dict:

@@ -10,7 +10,7 @@ import json
 import os
 import sqlite3
 import uuid
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Annotated
 
@@ -66,7 +66,7 @@ async def free_slots(days: Annotated[int, Field(ge=1, le=14)] = 5, duration_min:
     with _db() as con:
         busy = [(datetime.fromisoformat(s), datetime.fromisoformat(e)) for s, e in
                 con.execute("SELECT start, end FROM events WHERE user=? AND status!='cancelled'", (user,))]
-    now = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0) + timedelta(hours=2)
+    now = datetime.now(UTC).replace(minute=0, second=0, microsecond=0) + timedelta(hours=2)
     out = []
     t = now
     while len(out) < max_slots and t < now + timedelta(days=days):
@@ -116,7 +116,7 @@ async def create_email_draft(to_name: Annotated[str, Field(max_length=200)], sub
         did = row[0] if row else "dr-" + uuid.uuid4().hex[:8]
         if not row:
             con.execute("INSERT INTO drafts VALUES(?,?,?,?,?,?,?)", (did, user, to_name, subject, body, idempotency_key,
-                                                                     datetime.now(timezone.utc).isoformat()))
+                                                                     datetime.now(UTC).isoformat()))
     audit.write("create_email_draft", {"to_name": to_name, "subject": subject}, {"draft_id": did})
     return Draft(draft_id=did, subject=subject, body=body)
 
