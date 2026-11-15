@@ -5,7 +5,7 @@
 
 ![demo](docs/images/demo.gif) <!-- 30-second screen recording: record with the dev stack, save as docs/images/demo.gif -->
 
-**Live app:** `<your public URL>` (reviewer login in the private submission comment) · **Traces:** Phoenix links to a
+**Live app:** https://gigbid-t0az.onrender.com (free tier: first request after idle takes ~1 min; reviewer login in the private submission comment) · **Traces:** Phoenix links to a
 skipped scam, an approved proposal, a Critic loop and a crash-and-resume (`<trace links>`) · **Portfolio MCP server:**
 [mcp_servers/portfolio/README.md](mcp_servers/portfolio/README.md)
 
