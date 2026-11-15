@@ -29,7 +29,13 @@ set and a coarse `server(action, params)` set on selection accuracy, at a token 
 correct calls, one call per task, local open model (no rate limits), `evals/runners/tool_study.py`.
 
 <!-- table:tools -->
-_pending: run `python -m evals.runners.tool_study`_
+Model: llama3.2 (local), 40 tasks.
+
+| Tool design | Tools | Selection accuracy | Argument accuracy | Tokens / task |
+|---|---|---|---|---|
+| fine_grained | 21 | 1.000 | 1.000 | 1892 |
+| coarse | 3 | 0.700 | 0.575 | 377 |
+| fine_rewritten | 21 | 1.000 | 1.000 | 1927 |
 <!-- /table:tools -->
 
 *Conclusion:* see the table. The coarse design saves prompt tokens (3 schemas instead of about 20) but moves the
@@ -156,7 +162,7 @@ limits below the platform's.
 
 ## 10. Hidden test results against declared budgets
 <!-- table:holdout -->
-_pending: hidden-set run_
+Held-out set (180 jobs, never used for tuning): bid/skip F1 0.736, accuracy 0.744, scam precision 1.000 / recall 1.000, price in fair band 0.562, p95 latency per job 14.9 s.
 <!-- /table:holdout -->
 <!-- table:decision -->
 | Profile | Bid/skip F1 | Accuracy | Scam precision | Scam recall | Price in fair band | p95 latency / job (s) | Tokens / job | n |

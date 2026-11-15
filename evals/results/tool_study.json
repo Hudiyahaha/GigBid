@@ -1,0 +1,1359 @@
+{
+  "provenance": {
+    "generated_at": "2026-11-15T17:51:54",
+    "git_commit": "fbde663",
+    "python": "3.12.16",
+    "machine": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+  },
+  "model": "llama3.2",
+  "n_tasks": 40,
+  "designs": {
+    "fine_grained": {
+      "selection_accuracy": 1.0,
+      "argument_accuracy": 1.0,
+      "tokens_per_task": 1892.5,
+      "n_tools": 21,
+      "rows": [
+        {
+          "task": "Have I ever used FastAPI in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "search_evidence",
+          "args": {
+            "requirement": "FastAPI",
+            "k": "10"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Open case study cs-ai_ml-p05 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "get_case_study",
+          "args": {
+            "id": "cs-ai_ml-p05"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "list_skills",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about chatbot.",
+          "expected": "search_jobs",
+          "got": "search_jobs",
+          "args": {
+            "query": "chatbot",
+            "category": "null",
+            "limit": "10",
+            "since_tick": "null"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-020.",
+          "expected": "get_job",
+          "got": "get_job",
+          "args": {
+            "job_id": "dev-ai_ml-020"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0086 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "get_client_history",
+          "args": {
+            "client_id": "cl-0086"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "get_connects_balance",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'Dashboards & BI' usually pay?",
+          "expected": "get_market_stats",
+          "got": "get_market_stats",
+          "args": {
+            "category": "Dashboards & BI",
+            "domain": "null",
+            "pay_type": "null"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Read the conversation in thread gt-9779.",
+          "expected": "list_messages",
+          "got": "list_messages",
+          "args": {
+            "thread_id": "gt-9779"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "free_slots",
+          "args": {
+            "days": "3",
+            "duration_min": "30",
+            "max_slots": "1"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Have I ever used FastAPI in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "search_evidence",
+          "args": {
+            "requirement": "FastAPI",
+            "k": "10"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Open case study cs-ai_ml-p19 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "get_case_study",
+          "args": {
+            "id": "cs-ai_ml-p19"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "list_skills",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about dashboard.",
+          "expected": "search_jobs",
+          "got": "search_jobs",
+          "args": {
+            "category": "dashboard",
+            "limit": "10",
+            "query": "dashboard",
+            "since_tick": "0"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-029.",
+          "expected": "get_job",
+          "got": "get_job",
+          "args": {
+            "job_id": "dev-ai_ml-029"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0208 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "get_client_history",
+          "args": {
+            "client_id": "cl-0208"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "get_connects_balance",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'LLM apps & RAG' usually pay?",
+          "expected": "get_market_stats",
+          "got": "get_market_stats",
+          "args": {
+            "category": "LLM apps & RAG",
+            "domain": "null",
+            "pay_type": "null"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Read the conversation in thread gt-1614.",
+          "expected": "list_messages",
+          "got": "list_messages",
+          "args": {
+            "thread_id": "gt-1614"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "free_slots",
+          "args": {
+            "days": "3",
+            "duration_min": "30",
+            "max_slots": "1"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Have I ever used XGBoost in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "search_evidence",
+          "args": {
+            "requirement": "XGBoost",
+            "k": "10"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Open case study cs-ai_ml-p14 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "get_case_study",
+          "args": {
+            "id": "cs-ai_ml-p14"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "list_skills",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about dashboard.",
+          "expected": "search_jobs",
+          "got": "search_jobs",
+          "args": {
+            "since_tick": "0",
+            "category": "dashboard",
+            "limit": "10",
+            "query": "dashboard"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-007.",
+          "expected": "get_job",
+          "got": "get_job",
+          "args": {
+            "job_id": "dev-ai_ml-007"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0338 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "get_client_history",
+          "args": {
+            "client_id": "cl-0338"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "get_connects_balance",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'Data engineering' usually pay?",
+          "expected": "get_market_stats",
+          "got": "get_market_stats",
+          "args": {
+            "category": "Data engineering",
+            "domain": "null",
+            "pay_type": "null"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Read the conversation in thread gt-7955.",
+          "expected": "list_messages",
+          "got": "list_messages",
+          "args": {
+            "thread_id": "gt-7955"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "free_slots",
+          "args": {
+            "max_slots": "1",
+            "days": "3",
+            "duration_min": "30"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Have I ever used dbt in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "search_evidence",
+          "args": {
+            "requirement": "dbt",
+            "k": "10"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Open case study cs-ai_ml-p08 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "get_case_study",
+          "args": {
+            "id": "cs-ai_ml-p08"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "list_skills",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about dashboard.",
+          "expected": "search_jobs",
+          "got": "search_jobs",
+          "args": {
+            "category": "dashboard",
+            "limit": "10",
+            "query": "dashboard",
+            "since_tick": "0"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-018.",
+          "expected": "get_job",
+          "got": "get_job",
+          "args": {
+            "job_id": "dev-ai_ml-018"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0209 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "get_client_history",
+          "args": {
+            "client_id": "cl-0209"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "get_connects_balance",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'ML modelling' usually pay?",
+          "expected": "get_market_stats",
+          "got": "get_market_stats",
+          "args": {
+            "category": "ML modelling",
+            "domain": "null",
+            "pay_type": "hourly"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Read the conversation in thread gt-1812.",
+          "expected": "list_messages",
+          "got": "list_messages",
+          "args": {
+            "thread_id": "gt-1812"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "free_slots",
+          "args": {
+            "days": "3",
+            "duration_min": "30",
+            "max_slots": "1"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        }
+      ]
+    },
+    "coarse": {
+      "selection_accuracy": 0.7,
+      "argument_accuracy": 0.575,
+      "tokens_per_task": 377.4,
+      "n_tools": 3,
+      "rows": [
+        {
+          "task": "Have I ever used FastAPI in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "portfolio",
+          "args": {
+            "action": "search_evidence",
+            "params": "{}"
+          },
+          "selection_ok": true,
+          "args_ok": false
+        },
+        {
+          "task": "Open case study cs-ai_ml-p05 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "portfolio",
+          "args": {
+            "action": "get_case_study",
+            "params": {
+              "id": "cs-ai_ml-p05"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "portfolio",
+          "args": {
+            "action": "list_skills"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about chatbot.",
+          "expected": "search_jobs",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": {
+              "query": "chatbot"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-020.",
+          "expected": "get_job",
+          "got": "marketplace",
+          "args": {
+            "action": "get_job",
+            "params": {
+              "job_id": "dev-ai_ml-020"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0086 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "portfolio",
+          "args": {
+            "action": "search_evidence",
+            "params": {
+              "client_id": "cl-0086"
+            }
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "marketplace",
+          "args": {
+            "action": "get_connects_balance",
+            "params": {}
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'Dashboards & BI' usually pay?",
+          "expected": "get_market_stats",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": {
+              "query": "Dashboards & BI"
+            }
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "Read the conversation in thread gt-9779.",
+          "expected": "list_messages",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": "{}"
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "workspace",
+          "args": {
+            "action": "free_slots",
+            "params": {
+              "days": "3",
+              "time": "30"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Have I ever used FastAPI in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "portfolio",
+          "args": {
+            "action": "search_evidence",
+            "params": "{}"
+          },
+          "selection_ok": true,
+          "args_ok": false
+        },
+        {
+          "task": "Open case study cs-ai_ml-p19 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "portfolio",
+          "args": {
+            "action": "get_case_study",
+            "params": {
+              "id": "cs-ai_ml-p19"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "portfolio",
+          "args": {
+            "action": "list_skills"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about dashboard.",
+          "expected": "search_jobs",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": {
+              "query": "dashboard"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-029.",
+          "expected": "get_job",
+          "got": "marketplace",
+          "args": {
+            "params": {
+              "job_id": "dev-ai_ml-029"
+            },
+            "action": "get_job"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0208 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "portfolio",
+          "args": {
+            "action": "search_evidence",
+            "params": {
+              "client_id": "cl-0208"
+            }
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "marketplace",
+          "args": {
+            "action": "get_connects_balance",
+            "params": {}
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'LLM apps & RAG' usually pay?",
+          "expected": "get_market_stats",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": {
+              "query": "LLM apps & RAG"
+            }
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "Read the conversation in thread gt-1614.",
+          "expected": "list_messages",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": "{}"
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "workspace",
+          "args": {
+            "params": {
+              "days": "3",
+              "time": "30"
+            },
+            "action": "free_slots"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Have I ever used XGBoost in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "portfolio",
+          "args": {
+            "action": "search_evidence",
+            "params": {
+              "query": "XGBoost"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": false
+        },
+        {
+          "task": "Open case study cs-ai_ml-p14 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "portfolio",
+          "args": {
+            "params": {
+              "cs_id": "cs-ai_ml-p14"
+            },
+            "action": "get_case_study"
+          },
+          "selection_ok": true,
+          "args_ok": false
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "portfolio",
+          "args": {
+            "action": "list_skills"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about dashboard.",
+          "expected": "search_jobs",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": {
+              "query": "dashboard"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-007.",
+          "expected": "get_job",
+          "got": "marketplace",
+          "args": {
+            "action": "get_job",
+            "params": {
+              "job_id": "dev-ai_ml-007"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0338 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "portfolio",
+          "args": {
+            "action": "search_evidence",
+            "params": {
+              "client_id": "cl-0338"
+            }
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "marketplace",
+          "args": {
+            "params": {},
+            "action": "get_connects_balance"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'Data engineering' usually pay?",
+          "expected": "get_market_stats",
+          "got": null,
+          "args": {},
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "Read the conversation in thread gt-7955.",
+          "expected": "list_messages",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": "{}"
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "workspace",
+          "args": {
+            "action": "free_slots",
+            "params": {
+              "days": "3",
+              "time": "30"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Have I ever used dbt in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "portfolio",
+          "args": {
+            "action": "search_evidence",
+            "params": "{}"
+          },
+          "selection_ok": true,
+          "args_ok": false
+        },
+        {
+          "task": "Open case study cs-ai_ml-p08 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "portfolio",
+          "args": {
+            "action": "get_case_study",
+            "params": {
+              "id": "cs-ai_ml-p08"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "portfolio",
+          "args": {
+            "action": "list_skills"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about dashboard.",
+          "expected": "search_jobs",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": {
+              "query": "dashboard"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-018.",
+          "expected": "get_job",
+          "got": "marketplace",
+          "args": {
+            "action": "get_job",
+            "params": {
+              "job_id": "dev-ai_ml-018"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0209 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "portfolio",
+          "args": {
+            "params": {
+              "client_id": "cl-0209"
+            },
+            "action": "search_evidence"
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "marketplace",
+          "args": {
+            "params": {},
+            "action": "get_connects_balance"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'ML modelling' usually pay?",
+          "expected": "get_market_stats",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": {
+              "query": "ML modelling"
+            }
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "Read the conversation in thread gt-1812.",
+          "expected": "list_messages",
+          "got": "marketplace",
+          "args": {
+            "action": "search_jobs",
+            "params": {}
+          },
+          "selection_ok": false,
+          "args_ok": false
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "workspace",
+          "args": {
+            "action": "free_slots",
+            "params": {
+              "days": "3",
+              "time": "30"
+            }
+          },
+          "selection_ok": true,
+          "args_ok": true
+        }
+      ]
+    },
+    "fine_rewritten": {
+      "selection_accuracy": 1.0,
+      "argument_accuracy": 1.0,
+      "tokens_per_task": 1927.1,
+      "n_tools": 21,
+      "rows": [
+        {
+          "task": "Have I ever used FastAPI in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "search_evidence",
+          "args": {
+            "k": "0",
+            "requirement": "FastAPI background tasks",
+            "filters": "{'industry': null, 'job_title': null, 'requirements': null, 'types': null}"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Open case study cs-ai_ml-p05 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "get_case_study",
+          "args": {
+            "id": "cs-ai_ml-p05"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "list_skills",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about chatbot.",
+          "expected": "search_jobs",
+          "got": "search_jobs",
+          "args": {
+            "category": "null",
+            "limit": "null",
+            "since_tick": "null",
+            "query": "chatbot"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-020.",
+          "expected": "get_job",
+          "got": "get_job",
+          "args": {
+            "job_id": "dev-ai_ml-020"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0086 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "get_client_history",
+          "args": {
+            "client_id": "cl-0086"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "get_connects_balance",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'Dashboards & BI' usually pay?",
+          "expected": "get_market_stats",
+          "got": "get_market_stats",
+          "args": {
+            "category": "Dashboards & BI",
+            "domain": "null",
+            "pay_type": "null"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Read the conversation in thread gt-9779.",
+          "expected": "list_messages",
+          "got": "list_messages",
+          "args": {
+            "thread_id": "gt-9779"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "free_slots",
+          "args": {
+            "days": "3",
+            "duration_min": "30",
+            "max_slots": "1"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Have I ever used FastAPI in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "search_evidence",
+          "args": {
+            "requirement": "FastAPI background tasks",
+            "filters": "{'industry': null, 'job_title': null, 'requirements': null, 'types': null}",
+            "k": "0"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Open case study cs-ai_ml-p19 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "get_case_study",
+          "args": {
+            "id": "cs-ai_ml-p19"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "list_skills",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about dashboard.",
+          "expected": "search_jobs",
+          "got": "search_jobs",
+          "args": {
+            "query": "dashboard",
+            "category": "null",
+            "limit": "null",
+            "since_tick": "null"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-029.",
+          "expected": "get_job",
+          "got": "get_job",
+          "args": {
+            "job_id": "dev-ai_ml-029"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0208 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "get_client_history",
+          "args": {
+            "client_id": "cl-0208"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "get_connects_balance",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'LLM apps & RAG' usually pay?",
+          "expected": "get_market_stats",
+          "got": "get_market_stats",
+          "args": {
+            "category": "LLM apps & RAG",
+            "domain": "pay",
+            "pay_type": "hourly"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Read the conversation in thread gt-1614.",
+          "expected": "list_messages",
+          "got": "list_messages",
+          "args": {
+            "thread_id": "gt-1614"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "free_slots",
+          "args": {
+            "days": "3",
+            "duration_min": "30",
+            "max_slots": "1"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Have I ever used XGBoost in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "search_evidence",
+          "args": {
+            "requirement": "XGBoost background tasks",
+            "filters": "{'industry': null, 'job_title': null, 'requirements': null, 'types': null}",
+            "k": "0"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Open case study cs-ai_ml-p14 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "get_case_study",
+          "args": {
+            "id": "cs-ai_ml-p14"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "list_skills",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about dashboard.",
+          "expected": "search_jobs",
+          "got": "search_jobs",
+          "args": {
+            "query": "dashboard",
+            "category": "null",
+            "limit": "null",
+            "since_tick": "null"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-007.",
+          "expected": "get_job",
+          "got": "get_job",
+          "args": {
+            "job_id": "dev-ai_ml-007"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0338 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "get_client_history",
+          "args": {
+            "client_id": "cl-0338"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "get_connects_balance",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'Data engineering' usually pay?",
+          "expected": "get_market_stats",
+          "got": "get_market_stats",
+          "args": {
+            "category": "Data engineering",
+            "domain": "pay",
+            "pay_type": "hourly"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Read the conversation in thread gt-7955.",
+          "expected": "list_messages",
+          "got": "list_messages",
+          "args": {
+            "thread_id": "gt-7955"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "free_slots",
+          "args": {
+            "days": "3",
+            "duration_min": "30",
+            "max_slots": "1"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Have I ever used dbt in a past project? Find proof in my portfolio.",
+          "expected": "search_evidence",
+          "got": "search_evidence",
+          "args": {
+            "requirement": "dbt",
+            "filters": "{}",
+            "k": "0",
+            "industry": null,
+            "job_title": null
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Open case study cs-ai_ml-p08 and show me the whole thing.",
+          "expected": "get_case_study",
+          "got": "get_case_study",
+          "args": {
+            "id": "cs-ai_ml-p08"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Which skills can my portfolio actually prove?",
+          "expected": "list_skills",
+          "got": "list_skills",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Find open jobs about dashboard.",
+          "expected": "search_jobs",
+          "got": "search_jobs",
+          "args": {
+            "category": "null",
+            "limit": "null",
+            "since_tick": "null",
+            "query": "dashboard"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Show me the full post for job dev-ai_ml-018.",
+          "expected": "get_job",
+          "got": "get_job",
+          "args": {
+            "job_id": "dev-ai_ml-018"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Is client cl-0209 trustworthy? Check their record.",
+          "expected": "get_client_history",
+          "got": "get_client_history",
+          "args": {
+            "client_id": "cl-0209"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "How many Connects do I have left?",
+          "expected": "get_connects_balance",
+          "got": "get_connects_balance",
+          "args": {},
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "What do jobs in 'ML modelling' usually pay?",
+          "expected": "get_market_stats",
+          "got": "get_market_stats",
+          "args": {
+            "category": "ML modelling",
+            "domain": "pay",
+            "pay_type": "hourly"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "Read the conversation in thread gt-1812.",
+          "expected": "list_messages",
+          "got": "list_messages",
+          "args": {
+            "thread_id": "gt-1812"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        },
+        {
+          "task": "When am I free for a 30-minute interview in the next 3 days?",
+          "expected": "free_slots",
+          "got": "free_slots",
+          "args": {
+            "days": "3",
+            "duration_min": "30",
+            "max_slots": "1"
+          },
+          "selection_ok": true,
+          "args_ok": true
+        }
+      ]
+    }
+  }
+}

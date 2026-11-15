@@ -1,0 +1,858 @@
+{
+  "provenance": {
+    "generated_at": "2026-11-15T17:53:37",
+    "git_commit": "fbde663",
+    "python": "3.12.16",
+    "machine": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+  },
+  "variant": "v9_skill_graph",
+  "jobs": 24,
+  "seeds_per_job": 10,
+  "reply_rate": {
+    "evidence_first": 0.3833,
+    "question_first": 0.3125,
+    "generic_template": 0.0625
+  },
+  "hire_rate": {
+    "evidence_first": 0.1458,
+    "question_first": 0.1042
+  },
+  "x2_ab_test": {
+    "p_a": 0.3833,
+    "p_b": 0.3125,
+    "diff": 0.0708,
+    "z": 1.629,
+    "p_value": 0.1033,
+    "n_a": 240,
+    "n_b": 240,
+    "significant_at_0.05": false
+  },
+  "unsupported_claims_per_proposal_before": 0.75,
+  "unsupported_rate_after_verification": 0.0,
+  "critic_revisions_mean": 2.0,
+  "latency_s_per_proposal": {
+    "p50": 12.09,
+    "p95": 35.25
+  },
+  "tokens_per_proposal": 0.0,
+  "usd_per_proposal": 0.0,
+  "rows": [
+    {
+      "job_id": "dev-ai_ml-005",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 3,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.2428
+      },
+      "B_question_first": {
+        "replies": 1,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.2428
+      },
+      "generic_baseline": {
+        "replies": 1,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0354
+      },
+      "claims": 12,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 10.86,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 77,
+      "letter_a": "Your Text classification for support tickets needs someone who can handle lora fine-tuning from day one. I delivered a closely related project, Domain LLM fine-tune. I delivered a closely related project, semantic-product-search. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful text classification for support tickets look like for you in the first month? I delivered a closely related project, Domain LLM fine-tune. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Text classification for support tickets"
+    },
+    {
+      "job_id": "dev-ai_ml-006",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 4,
+        "hires": 2,
+        "n": 10,
+        "reply_prob": 0.3192
+      },
+      "B_question_first": {
+        "replies": 5,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.3192
+      },
+      "generic_baseline": {
+        "replies": 1,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.0795
+      },
+      "claims": 12,
+      "unsupported_before": 3,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 10.29,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 81,
+      "letter_a": "Your Fraud detection model needs someone who can handle model evaluation skills required from day one. I delivered a closely related project, Customer churn model v2 (education). I delivered a closely related project, Customer churn model. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful fraud detection model look like for you in the first month? I delivered a closely related project, Customer churn model v2 (education). My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Fraud detection model"
+    },
+    {
+      "job_id": "dev-ai_ml-008",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 3,
+        "hires": 2,
+        "n": 10,
+        "reply_prob": 0.2346
+      },
+      "B_question_first": {
+        "replies": 4,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.2346
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0342
+      },
+      "claims": 9,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 12.09,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 77,
+      "letter_a": "Your AI agent to automate non-profit workflows needs someone who can handle faiss knowledge is important from day one. I delivered a closely related project, Semantic product search for a non-profit client. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful ai agent to automate non-profit workflows look like for you in the first month? I delivered a closely related project, Semantic product search for a non-profit client. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "AI agent to automate non-profit workflows"
+    },
+    {
+      "job_id": "dev-ai_ml-011",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 3,
+        "hires": 3,
+        "n": 10,
+        "reply_prob": 0.3353
+      },
+      "B_question_first": {
+        "replies": 1,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.3353
+      },
+      "generic_baseline": {
+        "replies": 1,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.13
+      },
+      "claims": 6,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 35.25,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 91,
+      "letter_a": "Your LLM assistant for internal knowledge base needs someone who can handle ideally you are someone who can wrap a model in a quick, documented python web api from day one. I delivered a closely related project, semantic-product-search-v2-retail. I delivered a closely related project, Curriculum vitae. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful llm assistant for internal knowledge base look like for you in the first month? I delivered a closely related project, semantic-product-search-v2-retail. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "LLM assistant for internal knowledge base"
+    },
+    {
+      "job_id": "dev-ai_ml-014",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.2608
+      },
+      "B_question_first": {
+        "replies": 2,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.2608
+      },
+      "generic_baseline": {
+        "replies": 1,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0884
+      },
+      "claims": 15,
+      "unsupported_before": 3,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 34.36,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 84,
+      "letter_a": "Your Named entity extraction from documents needs someone who can handle nlp from day one. I delivered a closely related project, Clinical note entity extractor. I delivered a closely related project, Clinical note entity extractor for a logistics client. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful named entity extraction from documents look like for you in the first month? I delivered a closely related project, Clinical note entity extractor. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Named entity extraction from documents"
+    },
+    {
+      "job_id": "dev-ai_ml-027",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 3,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.2621
+      },
+      "B_question_first": {
+        "replies": 5,
+        "hires": 2,
+        "n": 10,
+        "reply_prob": 0.2621
+      },
+      "generic_baseline": {
+        "replies": 1,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0888
+      },
+      "claims": 9,
+      "unsupported_before": 3,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 38.31,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 80,
+      "letter_a": "Your Named entity extraction from documents needs someone who can handle nlp is a must from day one. I delivered a closely related project, Clinical note entity extractor. I delivered a closely related project, semantic-product-search. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful named entity extraction from documents look like for you in the first month? I delivered a closely related project, Clinical note entity extractor. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Named entity extraction from documents"
+    },
+    {
+      "job_id": "dev-ai_ml-028",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 2,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.2402
+      },
+      "B_question_first": {
+        "replies": 3,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.2402
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.035
+      },
+      "claims": 6,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 19.67,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 70,
+      "letter_a": "Your Named entity extraction from documents needs someone who can handle spacy from day one. I delivered a closely related project, Clinical note entity extractor. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful named entity extraction from documents look like for you in the first month? I delivered a closely related project, Clinical note entity extractor. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Named entity extraction from documents"
+    },
+    {
+      "job_id": "dev-ai_ml-029",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 5,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.4751
+      },
+      "B_question_first": {
+        "replies": 3,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.3026
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0324
+      },
+      "claims": 12,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 29.85,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 80,
+      "letter_a": "Your Predictive model for customer churn needs someone who can handle scikit-learn skills required from day one. I delivered a closely related project, Customer churn model v2 (education). I delivered a closely related project, customer-churn-model. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful predictive model for customer churn look like for you in the first month? I delivered a closely related project, Customer churn model v2 (education). My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Predictive model for customer churn"
+    },
+    {
+      "job_id": "dev-fullstack-015",
+      "persona": "fullstack",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 2,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.2537
+      },
+      "B_question_first": {
+        "replies": 2,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.2537
+      },
+      "generic_baseline": {
+        "replies": 1,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0369
+      },
+      "claims": 12,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 32.62,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 68,
+      "letter_a": "Your Serverless backend migration needs someone who can handle aws lambda from day one. I delivered a closely related project, Serverless image service. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful serverless backend migration look like for you in the first month? I delivered a closely related project, Serverless image service. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Serverless backend migration"
+    },
+    {
+      "job_id": "dev-fullstack-017",
+      "persona": "fullstack",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 3,
+        "hires": 2,
+        "n": 10,
+        "reply_prob": 0.506
+      },
+      "B_question_first": {
+        "replies": 5,
+        "hires": 2,
+        "n": 10,
+        "reply_prob": 0.506
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0345
+      },
+      "claims": 9,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 12.32,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 73,
+      "letter_a": "Your Add Stripe checkout to our store needs someone who can handle stripe skills required from day one. I delivered a closely related project, Multi-vendor marketplace v2 (travel). I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful add stripe checkout to our store look like for you in the first month? I delivered a closely related project, Multi-vendor marketplace v2 (travel). My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Add Stripe checkout to our store"
+    },
+    {
+      "job_id": "dev-fullstack-019",
+      "persona": "fullstack",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 3,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.2133
+      },
+      "B_question_first": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.1057
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0131
+      },
+      "claims": 6,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 7.84,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 70,
+      "letter_a": "Your Realtime notifications service needs someone who can handle redis is a must from day one. I delivered a closely related project, Logistics tracking API. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful realtime notifications service look like for you in the first month? I delivered a closely related project, Logistics tracking API. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Realtime notifications service"
+    },
+    {
+      "job_id": "dev-fullstack-023",
+      "persona": "fullstack",
+      "kind": "injection",
+      "A_evidence_first": {
+        "replies": 2,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.3049
+      },
+      "B_question_first": {
+        "replies": 2,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.2241
+      },
+      "generic_baseline": {
+        "replies": 2,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.0759
+      },
+      "claims": 9,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 22.07,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 84,
+      "letter_a": "Your REST API for mobile app backend needs someone who can handle redis is a must from day one. I delivered a closely related project, Logistics tracking API. I delivered a closely related project, Logistics tracking API v2 (gaming). I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful rest api for mobile app backend look like for you in the first month? I delivered a closely related project, Logistics tracking API. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "REST API for mobile app backend"
+    },
+    {
+      "job_id": "dev-fullstack-029",
+      "persona": "fullstack",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 2,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.2346
+      },
+      "B_question_first": {
+        "replies": 4,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.2346
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0342
+      },
+      "claims": 9,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 15.46,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 77,
+      "letter_a": "Your Responsive frontend for fintech site needs someone who can handle tailwind css skills required from day one. I delivered a closely related project, internal-admin-dashboard-for-a-travel-cl. I delivered a closely related project, serverless-image-service. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful responsive frontend for fintech site look like for you in the first month? I delivered a closely related project, internal-admin-dashboard-for-a-travel-cl. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Responsive frontend for fintech site"
+    },
+    {
+      "job_id": "dev-fullstack-035",
+      "persona": "fullstack",
+      "kind": "injection",
+      "A_evidence_first": {
+        "replies": 6,
+        "hires": 2,
+        "n": 10,
+        "reply_prob": 0.6934
+      },
+      "B_question_first": {
+        "replies": 6,
+        "hires": 4,
+        "n": 10,
+        "reply_prob": 0.633
+      },
+      "generic_baseline": {
+        "replies": 2,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0759
+      },
+      "claims": 9,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 12.69,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 77,
+      "letter_a": "Your Set up GitHub Actions pipeline needs someone who can handle playwright knowledge is important from day one. I delivered a closely related project, e2e-test-and-ci-overhaul. I delivered a closely related project, e2e-test-and-ci-overhaul-for-a-saas-clie. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful set up github actions pipeline look like for you in the first month? I delivered a closely related project, e2e-test-and-ci-overhaul. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Set up GitHub Actions pipeline"
+    },
+    {
+      "job_id": "dev-fullstack-036",
+      "persona": "fullstack",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 7,
+        "hires": 4,
+        "n": 10,
+        "reply_prob": 0.6647
+      },
+      "B_question_first": {
+        "replies": 5,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.3202
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0343
+      },
+      "claims": 9,
+      "unsupported_before": 3,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 15.33,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 84,
+      "letter_a": "Your Realtime notifications service needs someone who can handle redis skills required from day one. I delivered a closely related project, Logistics tracking API v2 (gaming). I delivered a closely related project, Fitness tracking PWA for a education client. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful realtime notifications service look like for you in the first month? I delivered a closely related project, Logistics tracking API v2 (gaming). My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Realtime notifications service"
+    },
+    {
+      "job_id": "dev-fullstack-037",
+      "persona": "fullstack",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 3,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.285
+      },
+      "B_question_first": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.1024
+      },
+      "generic_baseline": {
+        "replies": 1,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0127
+      },
+      "claims": 12,
+      "unsupported_before": 3,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 8.95,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 83,
+      "letter_a": "Your Responsive frontend for gaming site needs someone who can handle tailwind css knowledge is important from day one. I delivered a closely related project, internal-admin-dashboard-for-a-travel-cl. I delivered a closely related project, Serverless image service v2 (real estate). I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful responsive frontend for gaming site look like for you in the first month? I delivered a closely related project, internal-admin-dashboard-for-a-travel-cl. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Responsive frontend for gaming site"
+    },
+    {
+      "job_id": "dev-data-002",
+      "persona": "data",
+      "kind": "injection",
+      "A_evidence_first": {
+        "replies": 8,
+        "hires": 3,
+        "n": 10,
+        "reply_prob": 0.636
+      },
+      "B_question_first": {
+        "replies": 7,
+        "hires": 3,
+        "n": 10,
+        "reply_prob": 0.636
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0867
+      },
+      "claims": 9,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 6.04,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 68,
+      "letter_a": "Your Automate Excel reports needs someone who can handle excel knowledge is important from day one. I delivered a closely related project, finance-reporting-automation. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful automate excel reports look like for you in the first month? I delivered a closely related project, finance-reporting-automation. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Automate Excel reports"
+    },
+    {
+      "job_id": "dev-data-004",
+      "persona": "data",
+      "kind": "injection",
+      "A_evidence_first": {
+        "replies": 2,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.2537
+      },
+      "B_question_first": {
+        "replies": 1,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.2537
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0369
+      },
+      "claims": 9,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 8.61,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 79,
+      "letter_a": "Your Demand forecast for travel inventory needs someone who can handle forecasting knowledge is important from day one. I delivered a closely related project, Inventory forecasting workbook. I delivered a closely related project, inventory-forecasting-workbook. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful demand forecast for travel inventory look like for you in the first month? I delivered a closely related project, Inventory forecasting workbook. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Demand forecast for travel inventory"
+    },
+    {
+      "job_id": "dev-data-005",
+      "persona": "data",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 6,
+        "hires": 2,
+        "n": 10,
+        "reply_prob": 0.3969
+      },
+      "B_question_first": {
+        "replies": 4,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.3969
+      },
+      "generic_baseline": {
+        "replies": 2,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.1185
+      },
+      "claims": 6,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 4.92,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 78,
+      "letter_a": "Your GA4 setup and marketing dashboard needs someone who can handle google analytics 4 skills required from day one. I delivered a closely related project, marketing-attribution-model-v2-gaming. I delivered a closely related project, marketing-attribution-model-for-a-retail. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful ga4 setup and marketing dashboard look like for you in the first month? I delivered a closely related project, marketing-attribution-model-v2-gaming. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "GA4 setup and marketing dashboard"
+    },
+    {
+      "job_id": "dev-data-009",
+      "persona": "data",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 7,
+        "hires": 3,
+        "n": 10,
+        "reply_prob": 0.6331
+      },
+      "B_question_first": {
+        "replies": 3,
+        "hires": 2,
+        "n": 10,
+        "reply_prob": 0.2548
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0371
+      },
+      "claims": 9,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 3.78,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 68,
+      "letter_a": "Your Sales forecasting model needs someone who can handle statistics is a must from day one. I delivered a closely related project, inventory-forecasting-workbook. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful sales forecasting model look like for you in the first month? I delivered a closely related project, inventory-forecasting-workbook. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Sales forecasting model"
+    },
+    {
+      "job_id": "dev-data-013",
+      "persona": "data",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 6,
+        "hires": 3,
+        "n": 10,
+        "reply_prob": 0.638
+      },
+      "B_question_first": {
+        "replies": 2,
+        "hires": 2,
+        "n": 10,
+        "reply_prob": 0.5612
+      },
+      "generic_baseline": {
+        "replies": 2,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0529
+      },
+      "claims": 6,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 5.61,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 80,
+      "letter_a": "Your dbt models on Snowflake needs someone who can handle snowflake knowledge is important from day one. I delivered a closely related project, warehouse-modernisation. I delivered a closely related project, Customer segmentation study v2 (legal). I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful dbt models on snowflake look like for you in the first month? I delivered a closely related project, warehouse-modernisation. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "dbt models on Snowflake"
+    },
+    {
+      "job_id": "dev-data-017",
+      "persona": "data",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 4,
+        "hires": 3,
+        "n": 10,
+        "reply_prob": 0.4035
+      },
+      "B_question_first": {
+        "replies": 3,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.2346
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0795
+      },
+      "claims": 9,
+      "unsupported_before": 3,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 12.66,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 76,
+      "letter_a": "Your Sales forecasting model needs someone who can handle excel skills required from day one. I delivered a closely related project, inventory-forecasting-workbook. I delivered a closely related project, Inventory forecasting workbook. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful sales forecasting model look like for you in the first month? I delivered a closely related project, inventory-forecasting-workbook. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Sales forecasting model"
+    },
+    {
+      "job_id": "dev-data-021",
+      "persona": "data",
+      "kind": "injection",
+      "A_evidence_first": {
+        "replies": 4,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.1975
+      },
+      "B_question_first": {
+        "replies": 3,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.1975
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0198
+      },
+      "claims": 3,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 10.28,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 68,
+      "letter_a": "Your Sales forecasting model needs someone who can handle statistics knowledge is important from day one. I delivered a closely related project, inventory-forecasting-workbook. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful sales forecasting model look like for you in the first month? I delivered a closely related project, inventory-forecasting-workbook. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "Sales forecasting model"
+    },
+    {
+      "job_id": "dev-data-025",
+      "persona": "data",
+      "kind": "normal",
+      "A_evidence_first": {
+        "replies": 4,
+        "hires": 1,
+        "n": 10,
+        "reply_prob": 0.4198
+      },
+      "B_question_first": {
+        "replies": 4,
+        "hires": 2,
+        "n": 10,
+        "reply_prob": 0.3234
+      },
+      "generic_baseline": {
+        "replies": 0,
+        "hires": 0,
+        "n": 10,
+        "reply_prob": 0.0346
+      },
+      "claims": 15,
+      "unsupported_before": 0,
+      "unsupported_after_rate": 0.0,
+      "revisions": 2,
+      "latency_s": 8.57,
+      "tokens": 0,
+      "usd": 0.0,
+      "words": 76,
+      "letter_a": "Your GA4 setup and marketing dashboard needs someone who can handle sql skills required from day one. I delivered a closely related project, marketing-attribution-model-for-a-retail. I delivered a closely related project, marketing-attribution-model-v2-gaming. I would start by agreeing the scope and the success metric in week one, then ship a first working version for your feedback before polishing and documenting it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "letter_b": "Before anything else: what would a successful ga4 setup and marketing dashboard look like for you in the first month? I delivered a closely related project, marketing-attribution-model-for-a-retail. My plan: agree the scope and success metric in week one, ship a working first version for your feedback, then harden and document it. Could you share a sample of your current setup so I can confirm the plan and timeline?",
+      "title": "GA4 setup and marketing dashboard"
+    }
+  ],
+  "profile": "heuristic (no LLM)"
+}

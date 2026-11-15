@@ -32,4 +32,6 @@ if __name__ == "__main__":
 
     from evals.gigsim_local import running_gigsim
     with running_gigsim(8081):
-        uvicorn.run("apps.api.main:app", host="127.0.0.1", port=int(os.getenv("PORT", "8000")), log_level="warning")
+        # HOST=0.0.0.0 on a cloud host (Render sets PORT); GigSim stays internal on 127.0.0.1:8081
+        uvicorn.run("apps.api.main:app", host=os.getenv("HOST", "127.0.0.1"), port=int(os.getenv("PORT", "8000")),
+                    log_level="warning")

@@ -57,7 +57,7 @@ same approval gate. Details: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · gra
 | heuristic (no LLM) | 0.606 | 0.675 | 1.000 | 1.000 | 0.567 | 25.5 | 0 | 120 |
 <!-- /table:decision -->
 <!-- table:holdout -->
-_pending: hidden-set run_
+Held-out set (180 jobs, never used for tuning): bid/skip F1 0.736, accuracy 0.744, scam precision 1.000 / recall 1.000, price in fair band 0.562, p95 latency per job 14.9 s.
 <!-- /table:holdout -->
 
 **Single agent vs supervisor vs our graph (R&D C):**
