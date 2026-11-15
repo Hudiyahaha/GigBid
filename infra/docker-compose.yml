@@ -61,11 +61,14 @@ services:
   qdrant:
     image: qdrant/qdrant:v1.12.4
     volumes: [qdrant:/qdrant/storage]
+  # The two services below add ~4 GB of images; start them with:  docker compose --profile full up
   ollama:                     # open profile, local model (pull once: docker compose exec ollama ollama pull llama3.2)
     image: ollama/ollama:0.5.4
     volumes: [ollama:/root/.ollama]
+    profiles: [full]
   phoenix:                    # self-hosted tracing (OpenTelemetry)
     image: arizephoenix/phoenix:version-7.3.2
     ports: ["6006:6006"]
+    profiles: [full]
 
 volumes: {appdata: {}, pgdata: {}, qdrant: {}, ollama: {}}

@@ -1,0 +1,4604 @@
+{
+  "provenance": {
+    "generated_at": "2026-11-15T17:41:25",
+    "git_commit": "52e7876",
+    "python": "3.12.16",
+    "machine": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+  },
+  "by_persona": {
+    "ai_ml": {
+      "precision": 0.7273,
+      "recall": 0.7273,
+      "f1": 0.7273,
+      "n": 60,
+      "accuracy": 0.8
+    },
+    "fullstack": {
+      "precision": 0.9583,
+      "recall": 0.5349,
+      "f1": 0.6866,
+      "n": 60,
+      "accuracy": 0.65
+    },
+    "data": {
+      "precision": 0.8333,
+      "recall": 0.7576,
+      "f1": 0.7937,
+      "n": 60,
+      "accuracy": 0.7833
+    }
+  },
+  "rows": [
+    {
+      "job_id": "hold-ai_ml-000",
+      "persona": "ai_ml",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.714,
+      "risk": 0.85,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        112.0,
+        168.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: off_platform_contact"
+      ],
+      "gold_reasons": [
+        "scam:off_platform",
+        "risky client history"
+      ],
+      "latency_s": 84.35,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-001",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.045,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        16.0,
+        24.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: hourly budget up to $17 vs your floor $32/h"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00",
+        "budget below floor"
+      ],
+      "latency_s": 8.39,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-002",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.143,
+      "risk": 0.061,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        240.0,
+        360.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.14: Our e-commerce team needs an experienced specialist for: Sales forecasting model.; We need someone who can predict next month's numbers from history.; Ideally you are someone who can forecast seasonal business numbers quickly."
+      ],
+      "gold_reasons": [
+        "low coverage 0.50"
+      ],
+      "latency_s": 3.1,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-003",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.107,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 140.0,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.11 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.35,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-004",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.583,
+      "risk": 0.03,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 190.0,
+      "fair_band": [
+        128.0,
+        192.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.58 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.72,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-005",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.063,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        152.0,
+        228.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [
+        "low coverage 0.50"
+      ],
+      "latency_s": 2.77,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-006",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.778,
+      "risk": 0.031,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 220.0,
+      "fair_band": [
+        272.0,
+        408.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.78 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.85,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-007",
+      "persona": "ai_ml",
+      "kind": "vague",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.14,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        26.4,
+        39.6
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Looking for an expert to fix it properly.; Ideally you are someone who can spot and box objects in photos and video streams.; Ideally you are someone who is comfortable cleaning up and transforming images."
+      ],
+      "gold_reasons": [
+        "low coverage 0.33"
+      ],
+      "latency_s": 8.49,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-008",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.4,
+      "risk": 0.036,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 120.0,
+      "fair_band": [
+        160.0,
+        240.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.40 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.40"
+      ],
+      "latency_s": 3.06,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-009",
+      "persona": "ai_ml",
+      "kind": "vague",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.04,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        208.0,
+        312.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Bonus if you're someone who can make software understand pictures.; We need someone who is comfortable cleaning up and transforming images."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 5.34,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-010",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.333,
+      "risk": 0.114,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 160.0,
+      "fair_band": [
+        136.0,
+        204.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.33 >= 0.3, risk 0.11 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.33"
+      ],
+      "latency_s": 3.27,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-011",
+      "persona": "ai_ml",
+      "kind": "injection",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.333,
+      "risk": 0.035,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 160.0,
+      "fair_band": [
+        128.0,
+        192.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.33 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.33"
+      ],
+      "latency_s": 16.22,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-012",
+      "persona": "ai_ml",
+      "kind": "vague",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.041,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        27.2,
+        40.8
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Bonus if you're someone who can write the scripts that glue all the steps together.; We need someone who keeps experiments reproducible and models versioned.; Ideally you are someone who can squeeze accuracy out of tabular data with gradient-boosted trees."
+      ],
+      "gold_reasons": [],
+      "latency_s": 6.48,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-013",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.043,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 160.0,
+      "fair_band": [
+        104.0,
+        156.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.25,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-014",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.75,
+      "risk": 0.058,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 32.0,
+      "fair_band": [
+        22.4,
+        33.6
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.75 >= 0.3, risk 0.06 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.42,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-015",
+      "persona": "ai_ml",
+      "kind": "vague",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.126,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        17.6,
+        26.4
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Looking for an expert to fix it properly.; We need someone who will prove the model works with honest metrics.; Looking for a person who can write the scripts that glue all the steps together."
+      ],
+      "gold_reasons": [],
+      "latency_s": 2.66,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-016",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.052,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        40.0,
+        60.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $40 vs your minimum project $120"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00",
+        "budget below floor"
+      ],
+      "latency_s": 7.34,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-017",
+      "persona": "ai_ml",
+      "kind": "vague",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.037,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        23.2,
+        34.8
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Bonus if you're someone who is comfortable cleaning up and transforming images.; Ideally you are someone who can spot and box objects in photos and video streams.; Bonus if you're someone who can make software understand pictures."
+      ],
+      "gold_reasons": [
+        "low coverage 0.40"
+      ],
+      "latency_s": 1.55,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-018",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.045,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        72.0,
+        108.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Looking for a person who is solid on regression and significance testing.; Looking for a person who can project sales for the next quarters.; You will be working mainly in pandas."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 7.65,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-019",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.143,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        88.0,
+        132.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Looking for a person who knows a modern cloud data warehouse.; You will be working mainly in dbt.; Strong SQL skills required."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 6.17,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-020",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.052,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        40.0,
+        60.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $50 vs your minimum project $120"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00",
+        "budget below floor"
+      ],
+      "latency_s": 1.37,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-021",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.571,
+      "risk": 0.04,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 200.0,
+      "fair_band": [
+        176.0,
+        264.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.57 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.50"
+      ],
+      "latency_s": 8.77,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-022",
+      "persona": "ai_ml",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.9,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        88.0,
+        132.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: off_platform_payment, crypto_payment"
+      ],
+      "gold_reasons": [
+        "scam:crypto_payment",
+        "low coverage 0.00",
+        "risky client history"
+      ],
+      "latency_s": 10.17,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-023",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.4,
+      "risk": 0.035,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 120.0,
+      "fair_band": [
+        200.0,
+        300.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.40 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 6.84,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-024",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.037,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        23.2,
+        34.8
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: You will be working mainly in Statistics.; Experience with R is a must.; Looking for a person who can tell us if a change really moved the needle."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 3.28,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-025",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.9,
+      "risk": 0.067,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 190.0,
+      "fair_band": [
+        136.0,
+        204.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.90 >= 0.3, risk 0.07 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.15,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-026",
+      "persona": "ai_ml",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.9,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        64.0,
+        96.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: free_work, unrealistic_budget"
+      ],
+      "gold_reasons": [
+        "scam:free_work",
+        "low coverage 0.00",
+        "risky client history",
+        "budget below floor"
+      ],
+      "latency_s": 1.85,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-027",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.25,
+      "risk": 0.03,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        72.0,
+        108.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $70 vs your minimum project $120"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00",
+        "budget below floor"
+      ],
+      "latency_s": 7.6,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-028",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.04,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Looking for a person who can adapt open pretrained language models to our task.; Bonus if you're someone who can cheaply fine-tune an open LLM on our own examples.; Ideally you are someone who can make sense of large volumes of written customer feedback."
+      ],
+      "gold_reasons": [],
+      "latency_s": 1.6,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-029",
+      "persona": "ai_ml",
+      "kind": "vague",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.037,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        88.0,
+        132.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Looking for an expert to fix it properly.; We need someone who is comfortable cleaning up and transforming images.; Ideally you are someone who can spot and box objects in photos and video streams."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 8.49,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-030",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.429,
+      "risk": 0.034,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 32.0,
+      "fair_band": [
+        27.2,
+        40.8
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.43 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.57"
+      ],
+      "latency_s": 6.18,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-031",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.286,
+      "risk": 0.14,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        24.0,
+        36.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.29"
+      ],
+      "gold_reasons": [
+        "low coverage 0.25"
+      ],
+      "latency_s": 1.81,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-032",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.063,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Looking for a person who can style pages quickly with utility-first CSS.; Must have hands-on experience with React.; Bonus if you're someone who writes typed JavaScript that catches bugs early."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 3.46,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-033",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.098,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 32.0,
+      "fair_band": [
+        33.6,
+        50.4
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.10 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 14.9,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-034",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.046,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        40.0,
+        60.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $40 vs your minimum project $120"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00",
+        "budget below floor"
+      ],
+      "latency_s": 3.75,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-035",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.333,
+      "risk": 0.061,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        56.0,
+        84.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $70 vs your minimum project $120"
+      ],
+      "gold_reasons": [
+        "budget below floor"
+      ],
+      "latency_s": 5.35,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-036",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.286,
+      "risk": 0.039,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        31.2,
+        46.8
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.29"
+      ],
+      "gold_reasons": [],
+      "latency_s": 2.5,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-037",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.117,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        80.0,
+        120.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Strong Excel skills required.; Must have hands-on experience with Statistics.; Must have hands-on experience with pandas."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 4.13,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-038",
+      "persona": "ai_ml",
+      "kind": "vague",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.031,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        120.0,
+        180.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Ideally you are someone who can run long jobs in the background without blocking users.; Bonus if you're someone who can make the app run the same on every machine.; Ideally you are someone who keeps experiments reproducible and models versioned."
+      ],
+      "gold_reasons": [],
+      "latency_s": 2.35,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-039",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.222,
+      "risk": 0.057,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        26.4,
+        39.6
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.22"
+      ],
+      "gold_reasons": [
+        "low coverage 0.40"
+      ],
+      "latency_s": 5.54,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-040",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.05,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 120.0,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.05 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 8.83,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-041",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 1.0,
+      "risk": 0.04,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        56.0,
+        84.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $70 vs your minimum project $120"
+      ],
+      "gold_reasons": [
+        "budget below floor"
+      ],
+      "latency_s": 5.13,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-042",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.058,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        112.0,
+        168.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [
+        "low coverage 0.50"
+      ],
+      "latency_s": 2.59,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-043",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.8,
+      "risk": 0.037,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 200.0,
+      "fair_band": [
+        144.0,
+        216.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.80 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.69,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-044",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.147,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 32.0,
+      "fair_band": [
+        46.4,
+        69.6
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.15 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 12.22,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-045",
+      "persona": "ai_ml",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.9,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        80.0,
+        120.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: off_platform_contact, off_platform_payment"
+      ],
+      "gold_reasons": [
+        "scam:off_platform",
+        "low coverage 0.00",
+        "risky client history",
+        "budget below floor"
+      ],
+      "latency_s": 4.64,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-046",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.038,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        128.0,
+        192.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [
+        "low coverage 0.25"
+      ],
+      "latency_s": 3.78,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-047",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.085,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 210.0,
+      "fair_band": [
+        296.0,
+        444.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.09 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 5.82,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-048",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.6,
+      "risk": 0.043,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 32.0,
+      "fair_band": [
+        24.0,
+        36.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.60 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 1.83,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-049",
+      "persona": "ai_ml",
+      "kind": "injection",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.039,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        216.0,
+        324.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [],
+      "latency_s": 9.16,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-050",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.036,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        18.4,
+        27.6
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 2.45,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-051",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.036,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 32.0,
+      "fair_band": [
+        20.0,
+        30.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 8.09,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-052",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.944,
+      "risk": 0.058,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 220.0,
+      "fair_band": [
+        160.0,
+        240.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.94 >= 0.3, risk 0.06 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 5.01,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-053",
+      "persona": "ai_ml",
+      "kind": "injection",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.057,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        35.2,
+        52.8
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [
+        "low coverage 0.25"
+      ],
+      "latency_s": 10.62,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-054",
+      "persona": "ai_ml",
+      "kind": "partial",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.2,
+      "risk": 0.033,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        120.0,
+        180.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.20"
+      ],
+      "gold_reasons": [
+        "low coverage 0.50"
+      ],
+      "latency_s": 8.28,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-055",
+      "persona": "ai_ml",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.95,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        24.0,
+        36.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: upfront_payment"
+      ],
+      "gold_reasons": [
+        "scam:upfront_payment",
+        "low coverage 0.00",
+        "risky client history",
+        "budget below floor"
+      ],
+      "latency_s": 0.83,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-056",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.058,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 32.0,
+      "fair_band": [
+        31.2,
+        46.8
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.06 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.92,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-057",
+      "persona": "ai_ml",
+      "kind": "injection",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.286,
+      "risk": 0.052,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        104.0,
+        156.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.29"
+      ],
+      "gold_reasons": [
+        "low coverage 0.25"
+      ],
+      "latency_s": 6.65,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-058",
+      "persona": "ai_ml",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.045,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        28.0,
+        42.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Strong Forecasting skills required.; Strong pandas skills required.; Unity knowledge is important."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 3.09,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-ai_ml-059",
+      "persona": "ai_ml",
+      "kind": "injection",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.333,
+      "risk": 0.048,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 120.0,
+      "fair_band": [
+        176.0,
+        264.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.33 >= 0.3, risk 0.05 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.50"
+      ],
+      "latency_s": 2.92,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-000",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.182,
+      "risk": 0.083,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        20.8,
+        31.2
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.18: Looking for a person who can structure a large backend cleanly with modules.; Redis knowledge is important.; You will be working mainly in Express."
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.64,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-001",
+      "persona": "fullstack",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.4,
+      "risk": 0.038,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        29.6,
+        44.4
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.40 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 6.9,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-002",
+      "persona": "fullstack",
+      "kind": "vague",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.035,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        168.0,
+        252.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Looking for an expert to fix it properly.; Looking for a person who can design a solid relational schema that scales.; We need someone who writes typed JavaScript that catches bugs early."
+      ],
+      "gold_reasons": [],
+      "latency_s": 5.04,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-003",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 1.0,
+      "risk": 0.034,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        64.0,
+        96.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $60 vs your minimum project $100"
+      ],
+      "gold_reasons": [
+        "budget below floor"
+      ],
+      "latency_s": 3.5,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-004",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.045,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 100.0,
+      "fair_band": [
+        56.0,
+        84.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 10.39,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-005",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.333,
+      "risk": 0.061,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        48.0,
+        72.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $60 vs your minimum project $100"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00",
+        "budget below floor"
+      ],
+      "latency_s": 8.31,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-006",
+      "persona": "fullstack",
+      "kind": "vague",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.034,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        168.0,
+        252.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: We need someone who can build the server side in JavaScript.; We need someone who can take online payments and recurring billing.; Bonus if you're someone who knows how to customise a hosted online store."
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.25,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-007",
+      "persona": "fullstack",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.444,
+      "risk": 0.042,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        24.0,
+        36.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.44 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 5.43,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-008",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.035,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 150.0,
+      "fair_band": [
+        192.0,
+        288.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.24,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-009",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.112,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 150.0,
+      "fair_band": [
+        120.0,
+        180.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.11 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.50"
+      ],
+      "latency_s": 5.37,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-010",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.048,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        28.0,
+        42.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: You will be working mainly in React.; You will be working mainly in Node.js.; Looking for a person who can take online payments and recurring billing."
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.68,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-011",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.4,
+      "risk": 0.045,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        14.4,
+        21.6
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.40 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 6.85,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-012",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.667,
+      "risk": 0.072,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        23.2,
+        34.8
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.67 >= 0.3, risk 0.07 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.54,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-013",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.2,
+      "risk": 0.072,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        104.0,
+        156.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.20"
+      ],
+      "gold_reasons": [],
+      "latency_s": 8.2,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-014",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.4,
+      "risk": 0.128,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 170.0,
+      "fair_band": [
+        168.0,
+        252.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.40 >= 0.3, risk 0.13 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.51,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-015",
+      "persona": "fullstack",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.667,
+      "risk": 0.95,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        80.0,
+        120.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: credential_request"
+      ],
+      "gold_reasons": [
+        "scam:credential_request"
+      ],
+      "latency_s": 9.41,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-016",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.04,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        152.0,
+        228.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: You will be working mainly in scikit-learn.; We need someone who can squeeze accuracy out of tabular data with gradient-boosted trees.; Looking for a person who will prove the model works with honest metrics."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 5.86,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-017",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.286,
+      "risk": 0.048,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        200.0,
+        300.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.29"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.2,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-018",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.057,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        104.0,
+        156.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: You will be working mainly in Express.; Strong Redis skills required.; Looking for a person who can design a solid relational schema that scales."
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.96,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-019",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.044,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        160.0,
+        240.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Bonus if you're someone who can wire LLM prompts, tools and retrievers into one app.; Must have hands-on experience with LangGraph."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 3.22,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-020",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.051,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        20.8,
+        31.2
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.05 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.24,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-021",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.833,
+      "risk": 0.031,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 26.0,
+      "fair_band": [
+        20.8,
+        31.2
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.83 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.87,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-022",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.175,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        120.0,
+        180.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [],
+      "latency_s": 6.22,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-023",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.038,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        17.6,
+        26.4
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.57,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-024",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.038,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Experience with pandas is a must.; Experience with Forecasting is a must.; Statistics knowledge is important."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 9.17,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-025",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.667,
+      "risk": 0.048,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 150.0,
+      "fair_band": [
+        144.0,
+        216.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.67 >= 0.3, risk 0.05 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 10.36,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-026",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.034,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        21.6,
+        32.4
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: GraphQL knowledge is important.; Ideally you are someone who can speed things up with caching and queues."
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.13,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-027",
+      "persona": "fullstack",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.75,
+      "risk": 0.95,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        15.2,
+        22.8
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: upfront_payment"
+      ],
+      "gold_reasons": [
+        "scam:upfront_payment",
+        "risky client history"
+      ],
+      "latency_s": 10.04,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-028",
+      "persona": "fullstack",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.95,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        21.6,
+        32.4
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: upfront_payment"
+      ],
+      "gold_reasons": [
+        "scam:upfront_payment",
+        "low coverage 0.00",
+        "risky client history"
+      ],
+      "latency_s": 6.84,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-029",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.286,
+      "risk": 0.035,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        72.0,
+        108.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.29"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.94,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-030",
+      "persona": "fullstack",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.444,
+      "risk": 0.113,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 170.0,
+      "fair_band": [
+        176.0,
+        264.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.44 >= 0.3, risk 0.11 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.15,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-031",
+      "persona": "fullstack",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.571,
+      "risk": 0.051,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 150.0,
+      "fair_band": [
+        128.0,
+        192.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.57 >= 0.3, risk 0.05 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.72,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-032",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.081,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        64.0,
+        96.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Must have hands-on experience with Swift.; Kotlin knowledge is important."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 2.99,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-033",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.091,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        72.0,
+        108.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Bonus if you're someone who can build a snappy single-page interface.; Must have hands-on experience with Next.js."
+      ],
+      "gold_reasons": [],
+      "latency_s": 1.1,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-034",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.087,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        144.0,
+        216.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [],
+      "latency_s": 2.19,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-035",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.333,
+      "risk": 0.122,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        48.0,
+        72.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $70 vs your minimum project $100"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00",
+        "budget below floor"
+      ],
+      "latency_s": 4.02,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-036",
+      "persona": "fullstack",
+      "kind": "injection",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.098,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        112.0,
+        168.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Must have hands-on experience with Node.js.; Shopify knowledge is important.; Must have hands-on experience with React."
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.55,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-037",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.8,
+      "risk": 0.028,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 110.0,
+      "fair_band": [
+        88.0,
+        132.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.80 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 8.65,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-038",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.072,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        40.0,
+        60.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $40 vs your minimum project $100"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00",
+        "budget below floor"
+      ],
+      "latency_s": 14.97,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-039",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.045,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        16.8,
+        25.2
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 5.12,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-040",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.034,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 200.0,
+      "fair_band": [
+        232.0,
+        348.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 6.23,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-041",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.045,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        248.0,
+        372.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [
+        "low coverage 0.25"
+      ],
+      "latency_s": 4.79,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-042",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.067,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 150.0,
+      "fair_band": [
+        128.0,
+        192.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.07 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.59,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-043",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.278,
+      "risk": 0.058,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        136.0,
+        204.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.28"
+      ],
+      "gold_reasons": [],
+      "latency_s": 8.27,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-044",
+      "persona": "fullstack",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.667,
+      "risk": 0.039,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 100.0,
+      "fair_band": [
+        72.0,
+        108.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.67 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 2.03,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-045",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.222,
+      "risk": 0.032,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        16.8,
+        25.2
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: hourly budget up to $17 vs your floor $25/h"
+      ],
+      "gold_reasons": [
+        "budget below floor"
+      ],
+      "latency_s": 6.63,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-046",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.044,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 200.0,
+      "fair_band": [
+        184.0,
+        276.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.07,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-047",
+      "persona": "fullstack",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.286,
+      "risk": 0.046,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        136.0,
+        204.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.29"
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.02,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-048",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.103,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        64.0,
+        96.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Our non-profit team needs an experienced specialist for: Serverless backend migration.; Experience with Redis is a must.; You will be working mainly in WebSockets."
+      ],
+      "gold_reasons": [],
+      "latency_s": 2.87,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-049",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.667,
+      "risk": 0.058,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        48.0,
+        72.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: fixed budget $70 vs your minimum project $100"
+      ],
+      "gold_reasons": [
+        "budget below floor"
+      ],
+      "latency_s": 10.84,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-050",
+      "persona": "fullstack",
+      "kind": "injection",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.031,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 150.0,
+      "fair_band": [
+        184.0,
+        276.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 9.58,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-051",
+      "persona": "fullstack",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.4,
+      "risk": 0.043,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 140.0,
+      "fair_band": [
+        232.0,
+        348.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.40 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 12.52,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-052",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.2,
+      "risk": 0.112,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        25.6,
+        38.4
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.20"
+      ],
+      "gold_reasons": [],
+      "latency_s": 22.45,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-053",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.333,
+      "risk": 0.067,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 100.0,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.33 >= 0.3, risk 0.07 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.36,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-054",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.4,
+      "risk": 0.107,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        30.4,
+        45.6
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.40 >= 0.3, risk 0.11 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 8.52,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-055",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.2,
+      "risk": 0.045,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        112.0,
+        168.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.20"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.45,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-056",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.039,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        112.0,
+        168.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Looking for a person who can build a snappy single-page interface.; Looking for a person who can build an SEO-friendly site with server rendering."
+      ],
+      "gold_reasons": [],
+      "latency_s": 0.94,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-057",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.2,
+      "risk": 0.034,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        208.0,
+        312.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.20"
+      ],
+      "gold_reasons": [],
+      "latency_s": 5.24,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-058",
+      "persona": "fullstack",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.333,
+      "risk": 0.9,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        208.0,
+        312.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: off_platform_contact, off_platform_payment"
+      ],
+      "gold_reasons": [
+        "scam:off_platform",
+        "risky client history"
+      ],
+      "latency_s": 1.8,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-fullstack-059",
+      "persona": "fullstack",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.032,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        38.4,
+        57.6
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Ideally you are someone who can wrap a model in a quick, documented Python web API.; Strong MLflow skills required.; Bonus if you're someone who can orchestrate scheduled data and training jobs."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 6.5,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-000",
+      "persona": "data",
+      "kind": "injection",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.4,
+      "risk": 0.057,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 80.0,
+      "fair_band": [
+        56.0,
+        84.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.40 >= 0.3, risk 0.06 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.22,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-001",
+      "persona": "data",
+      "kind": "injection",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.033,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 70.0,
+      "fair_band": [
+        64.0,
+        96.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.03,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-002",
+      "persona": "data",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.9,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        120.0,
+        180.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: off_platform_payment, crypto_payment"
+      ],
+      "gold_reasons": [
+        "scam:crypto_payment",
+        "low coverage 0.00",
+        "risky client history"
+      ],
+      "latency_s": 2.04,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-003",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.75,
+      "risk": 0.044,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        12.8,
+        19.2
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.75 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 18.18,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-004",
+      "persona": "data",
+      "kind": "vague",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.75,
+      "risk": 0.031,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 70.0,
+      "fair_band": [
+        56.0,
+        84.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.75 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 11.65,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-005",
+      "persona": "data",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.75,
+      "risk": 0.038,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        26.4,
+        39.6
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.75 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 10.31,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-006",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.667,
+      "risk": 0.034,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 80.0,
+      "fair_band": [
+        72.0,
+        108.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.67 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.19,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-007",
+      "persona": "data",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 1.0,
+      "risk": 0.9,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        72.0,
+        108.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: off_platform_payment, crypto_payment"
+      ],
+      "gold_reasons": [
+        "scam:crypto_payment",
+        "risky client history"
+      ],
+      "latency_s": 1.68,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-008",
+      "persona": "data",
+      "kind": "vague",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.5,
+      "risk": 0.03,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        16.0,
+        24.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: hourly budget up to $19 vs your floor $25/h"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.37,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-009",
+      "persona": "data",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.95,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        88.0,
+        132.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: upfront_payment"
+      ],
+      "gold_reasons": [
+        "scam:upfront_payment",
+        "low coverage 0.00",
+        "risky client history"
+      ],
+      "latency_s": 3.11,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-010",
+      "persona": "data",
+      "kind": "injection",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.625,
+      "risk": 0.035,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 70.0,
+      "fair_band": [
+        120.0,
+        180.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.62 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.40"
+      ],
+      "latency_s": 5.24,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-011",
+      "persona": "data",
+      "kind": "vague",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.222,
+      "risk": 0.034,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.22"
+      ],
+      "gold_reasons": [
+        "low coverage 0.50"
+      ],
+      "latency_s": 3.5,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-012",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.75,
+      "risk": 0.058,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        16.8,
+        25.2
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.75 >= 0.3, risk 0.06 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.93,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-013",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.333,
+      "risk": 0.112,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 70.0,
+      "fair_band": [
+        64.0,
+        96.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.33 >= 0.3, risk 0.11 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 20.16,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-014",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.333,
+      "risk": 0.047,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        22.4,
+        33.6
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.33 >= 0.3, risk 0.05 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 10.65,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-015",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.143,
+      "risk": 0.143,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        16.8,
+        25.2
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.14: Ideally you are someone who is solid on regression and significance testing.; Experience with A/B testing is a must.; R knowledge is important."
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.53,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-016",
+      "persona": "data",
+      "kind": "vague",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.072,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 70.0,
+      "fair_band": [
+        88.0,
+        132.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.07 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.25"
+      ],
+      "latency_s": 4.94,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-017",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.028,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 50.0,
+      "fair_band": [
+        40.0,
+        60.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.01,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-018",
+      "persona": "data",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.571,
+      "risk": 0.9,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: free_work, unrealistic_budget"
+      ],
+      "gold_reasons": [
+        "scam:free_work",
+        "risky client history",
+        "budget below floor"
+      ],
+      "latency_s": 3.77,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-019",
+      "persona": "data",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.429,
+      "risk": 0.044,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 60.0,
+      "fair_band": [
+        64.0,
+        96.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.43 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.95,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-020",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.833,
+      "risk": 0.067,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 70.0,
+      "fair_band": [
+        64.0,
+        96.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.83 >= 0.3, risk 0.07 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.61,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-021",
+      "persona": "data",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.889,
+      "risk": 0.034,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        23.2,
+        34.8
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.89 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 15.44,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-022",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.04,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        16.0,
+        24.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: hourly budget up to $19 vs your floor $25/h"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 6.87,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-023",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.123,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 60.0,
+      "fair_band": [
+        56.0,
+        84.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.12 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.40",
+        "risky client history"
+      ],
+      "latency_s": 8.69,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-024",
+      "persona": "data",
+      "kind": "vague",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.4,
+      "risk": 0.074,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 60.0,
+      "fair_band": [
+        104.0,
+        156.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.40 >= 0.3, risk 0.07 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 9.89,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-025",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.048,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        288.0,
+        432.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: You will be working mainly in AWS Lambda.; Looking for a person who can speed things up with caching and queues.; Bonus if you're someone who can set up a hosted backend with login and live data."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 6.54,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-026",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.667,
+      "risk": 0.035,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 90.0,
+      "fair_band": [
+        56.0,
+        84.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.67 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 2.39,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-027",
+      "persona": "data",
+      "kind": "partial",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.143,
+      "risk": 0.103,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        104.0,
+        156.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.14: Looking for a person who can build Microsoft-style interactive business reports.; You will be working mainly in Looker Studio.; Tableau knowledge is important."
+      ],
+      "gold_reasons": [
+        "low coverage 0.43"
+      ],
+      "latency_s": 4.21,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-028",
+      "persona": "data",
+      "kind": "injection",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.333,
+      "risk": 0.029,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 60.0,
+      "fair_band": [
+        48.0,
+        72.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.33 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.33"
+      ],
+      "latency_s": 4.56,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-029",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.667,
+      "risk": 0.055,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 190.0,
+      "fair_band": [
+        120.0,
+        180.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "fit 0.67 >= 0.3, risk 0.06 <= 0.55"
+      ],
+      "gold_reasons": [
+        "low coverage 0.50"
+      ],
+      "latency_s": 6.74,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-030",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.036,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        56.0,
+        84.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Our non-profit team needs an experienced specialist for: Native mobile app MVP (details below).; Looking for a person who built a native iPhone app.; Looking for a person who built a native Android app."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 2.09,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-031",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.286,
+      "risk": 0.058,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        232.0,
+        348.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.29"
+      ],
+      "gold_reasons": [
+        "low coverage 0.25"
+      ],
+      "latency_s": 8.07,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-032",
+      "persona": "data",
+      "kind": "vague",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.067,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        104.0,
+        156.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Ideally you are someone who can fix duplicates, typos and missing values.; Ideally you are someone who can automate boring Google Sheets tasks.; Bonus if you're someone who is an expert with spreadsheets, formulas and pivots."
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.7,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-033",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.037,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        24.0,
+        36.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Our non-profit team needs an experienced specialist for: Computer vision quality inspection (details below).; Must have hands-on experience with Computer vision.; We need someone who can build and train neural networks from scratch on GPUs."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 8.87,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-034",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.067,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        40.0,
+        60.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: We need someone who can automate boring Google Sheets tasks.; Bonus if you're someone who can fix duplicates, typos and missing values."
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.54,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-035",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.033,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        14.4,
+        21.6
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: hourly budget up to $17 vs your floor $25/h"
+      ],
+      "gold_reasons": [
+        "low coverage 0.00",
+        "budget below floor"
+      ],
+      "latency_s": 5.46,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-036",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.094,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 80.0,
+      "fair_band": [
+        72.0,
+        108.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.09 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 8.65,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-037",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.043,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Strong Video editing skills required.; Bonus if you're someone who designed vector logos and brand kits.; Experience with SEO copywriting is a must."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 4.68,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-038",
+      "persona": "data",
+      "kind": "partial",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.444,
+      "risk": 0.05,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        13.6,
+        20.4
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: hourly budget up to $18 vs your floor $25/h"
+      ],
+      "gold_reasons": [
+        "budget below floor"
+      ],
+      "latency_s": 4.38,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-039",
+      "persona": "data",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.75,
+      "risk": 0.9,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        56.0,
+        84.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: off_platform_payment, crypto_payment"
+      ],
+      "gold_reasons": [
+        "scam:crypto_payment",
+        "risky client history"
+      ],
+      "latency_s": 5.85,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-040",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.031,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 50.0,
+      "fair_band": [
+        32.0,
+        48.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.03 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 1.35,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-041",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.033,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        80.0,
+        120.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [
+        "low coverage 0.25"
+      ],
+      "latency_s": 7.72,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-042",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.8,
+      "risk": 0.043,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        20.0,
+        30.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "budget below your floor: hourly budget up to $19 vs your floor $25/h"
+      ],
+      "gold_reasons": [],
+      "latency_s": 1.39,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-043",
+      "persona": "data",
+      "kind": "scam",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 1.0,
+      "risk": 0.9,
+      "gold_scam": true,
+      "pred_scam": true,
+      "price": null,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "likely scam: free_work, unrealistic_budget"
+      ],
+      "gold_reasons": [
+        "scam:free_work",
+        "risky client history",
+        "budget below floor"
+      ],
+      "latency_s": 15.17,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-044",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.333,
+      "risk": 0.063,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 50.0,
+      "fair_band": [
+        40.0,
+        60.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.33 >= 0.3, risk 0.06 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.21,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-045",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.857,
+      "risk": 0.044,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 50.0,
+      "fair_band": [
+        48.0,
+        72.0
+      ],
+      "in_band": true,
+      "reasons": [
+        "fit 0.86 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 7.84,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-046",
+      "persona": "data",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.4,
+      "risk": 0.058,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        28.8,
+        43.2
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.40 >= 0.3, risk 0.06 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 2.48,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-047",
+      "persona": "data",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.222,
+      "risk": 0.128,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        64.0,
+        96.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.22"
+      ],
+      "gold_reasons": [],
+      "latency_s": 13.47,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-048",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.118,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        112.0,
+        168.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Must have hands-on experience with NLP.; You will be working mainly in spaCy."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 2.19,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-049",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.058,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        192.0,
+        288.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: We need someone who can take online payments and recurring billing.; Looking for a person who can build the server side in JavaScript.; Must have hands-on experience with Shopify."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 2.79,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-050",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.667,
+      "risk": 0.041,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 50.0,
+      "fair_band": [
+        56.0,
+        84.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.67 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.39,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-051",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 1.0,
+      "risk": 0.057,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 25.0,
+      "fair_band": [
+        14.4,
+        21.6
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 1.00 >= 0.3, risk 0.06 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 3.28,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-052",
+      "persona": "data",
+      "kind": "partial",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.25,
+      "risk": 0.048,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        40.0,
+        60.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.25"
+      ],
+      "gold_reasons": [],
+      "latency_s": 8.99,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-053",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.14,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        248.0,
+        372.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Ideally you are someone who can make software understand pictures.; Must have hands-on experience with YOLO.; Experience with PyTorch is a must."
+      ],
+      "gold_reasons": [
+        "low coverage 0.00"
+      ],
+      "latency_s": 4.95,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-054",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.0,
+      "risk": 0.035,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        88.0,
+        132.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.00: Must have hands-on experience with Power BI.; Experience with Data visualization is a must.; Experience with Looker Studio is a must."
+      ],
+      "gold_reasons": [
+        "low coverage 0.40"
+      ],
+      "latency_s": 13.33,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-055",
+      "persona": "data",
+      "kind": "injection",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.727,
+      "risk": 0.035,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 70.0,
+      "fair_band": [
+        128.0,
+        192.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.73 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 4.25,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-056",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.143,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 80.0,
+      "fair_band": [
+        96.0,
+        144.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.14 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 16.38,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-057",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "watch",
+      "status": "watch",
+      "fit": 0.222,
+      "risk": 0.085,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        112.0,
+        168.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "borderline: fit 0.22"
+      ],
+      "gold_reasons": [],
+      "latency_s": 8.76,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-058",
+      "persona": "data",
+      "kind": "normal",
+      "gold_bid": true,
+      "pred": "bid",
+      "status": "analysing",
+      "fit": 0.5,
+      "risk": 0.045,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": 80.0,
+      "fair_band": [
+        88.0,
+        132.0
+      ],
+      "in_band": false,
+      "reasons": [
+        "fit 0.50 >= 0.3, risk 0.04 <= 0.55"
+      ],
+      "gold_reasons": [],
+      "latency_s": 5.33,
+      "tokens": 0
+    },
+    {
+      "job_id": "hold-data-059",
+      "persona": "data",
+      "kind": "partial",
+      "gold_bid": false,
+      "pred": "skip",
+      "status": "skipped",
+      "fit": 0.167,
+      "risk": 0.04,
+      "gold_scam": false,
+      "pred_scam": false,
+      "price": null,
+      "fair_band": [
+        120.0,
+        180.0
+      ],
+      "in_band": null,
+      "reasons": [
+        "low fit 0.17: Experience with Data visualization is a must.; Ideally you are someone who can turn our KPIs into one clear page.; Ideally you are someone who can build Microsoft-style interactive business reports."
+      ],
+      "gold_reasons": [
+        "low coverage 0.33"
+      ],
+      "latency_s": 11.93,
+      "tokens": 0
+    }
+  ],
+  "overall": {
+    "bid_skip": {
+      "precision": 0.8421,
+      "recall": 0.6531,
+      "f1": 0.7356,
+      "accuracy": 0.7444,
+      "n": 180,
+      "confusion": {
+        "tp": 64,
+        "fp": 12,
+        "fn": 34,
+        "tn": 70
+      }
+    },
+    "scam": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "price_in_fair_band": 0.5625,
+    "price_n": 64,
+    "latency_s_per_job": {
+      "p50": 5.2413,
+      "p95": 14.9004
+    },
+    "tokens_per_job": 0.0,
+    "usd_per_job": 0.0
+  },
+  "accuracy_by_job_type": {
+    "scam": {
+      "accuracy": 1.0,
+      "n": 15
+    },
+    "normal": {
+      "accuracy": 0.759,
+      "n": 108
+    },
+    "partial": {
+      "accuracy": 0.8,
+      "n": 30
+    },
+    "vague": {
+      "accuracy": 0.467,
+      "n": 15
+    },
+    "injection": {
+      "accuracy": 0.5,
+      "n": 12
+    }
+  },
+  "profile": "heuristic (no LLM)"
+}

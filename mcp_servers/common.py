@@ -134,7 +134,11 @@ def run(mcp, default_port: int, token_env: str | None = None) -> None:
         mcp.run("stdio")
         return
     import uvicorn
+    from mcp.server.transport_security import TransportSecuritySettings
 
+    # Inside docker the API calls us as http://mcp-portfolio:8101 etc.; the SDK's default DNS-rebinding guard only
+    # accepts localhost Host headers. The servers sit on the private compose network behind bearer auth instead.
+    mcp.settings.transport_security = TransportSecuritySettings(enable_dns_rebinding_protection=False)
     app = mcp.streamable_http_app()
     if token_env:
         app = bearer_app(app, token_env)

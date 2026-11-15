@@ -12,7 +12,7 @@ FROM python:3.12-slim
 ENV PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 UV_TORCH_BACKEND=cpu TOKENIZERS_PARALLELISM=false OMP_NUM_THREADS=4 \
     HF_HOME=/models GIGBID_LOCAL_SQLITE=0
 WORKDIR /app
-RUN pip install uv==0.9.5
+RUN pip install uv==0.13.8
 COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-dev --no-install-project
 ENV PATH="/app/.venv/bin:$PATH"
