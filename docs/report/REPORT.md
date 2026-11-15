@@ -65,7 +65,11 @@ choice into an untyped `params` object, where argument errors concentrate. GigBi
 **Ablation and job types** (`rag_variants.json: by_job_type`): the skill graph (V9) wins on named-skill jobs, but on
 **vague posts** it is *worse* than naive dense retrieval (R@5 0.395 vs 0.443), because a graph cannot match a skill
 nobody named. Cross-encoder reranking (MS-MARCO MiniLM) *hurt*: a web-search reranker misjudges
-requirement-to-portfolio matches. **What ships:** V9 (`agent/config.yaml: rag.variant`), with the vague-post weakness
+requirement-to-portfolio matches. **Corrective RAG (V8) over-abstains:** Recall@5 0.047, but a false-evidence rate of 0.0 on jobs with no real
+evidence, against 1.0 for every other variant (`rag_variants_rerank_subset.json`). Its "weak evidence" threshold sits
+on the miscalibrated MS-MARCO reranker, so it refuses correctly on jobs the persona should skip and wrongly almost
+everywhere else. The useful idea (refuse to claim when no evidence exists) lives on in the claim verifier instead.
+**What ships:** V9 (`agent/config.yaml: rag.variant`), with the vague-post weakness
 accepted and documented (ADR 0002). Part of V9's gain is expected by construction, because gold labels are
 skill-overlap based.
 
