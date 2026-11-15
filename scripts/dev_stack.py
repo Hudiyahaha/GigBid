@@ -18,7 +18,9 @@ if os.getenv("GIGBID_E2E") == "1":
         f.unlink()
     os.environ.update({"DATABASE_URL": f"sqlite:///{(d / 'app.db').as_posix()}", "GIGSIM_STATE_PATH": str(d / "gigsim.db"),
                        "GIGBID_CHECKPOINT_DB": str(d / "checkpoints.db"), "WORKSPACE_DB": str(d / "workspace.db"),
-                       "AUDIT_DIR": str(d / "audit"), "GIGBID_FAKE_LLM": "1"})
+                       "AUDIT_DIR": str(d / "audit")})
+    if os.getenv("GIGBID_DEMO_LLM") != "1":  # E2E tests stay deterministic; demo recordings use the real open models
+        os.environ["GIGBID_FAKE_LLM"] = "1"
 os.environ.setdefault("GIGBID_LOCAL_SQLITE", "1")
 os.environ.setdefault("OMP_NUM_THREADS", "4")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")

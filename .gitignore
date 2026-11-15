@@ -29,3 +29,5 @@ apps/web/playwright-report/
 
 # evals/results/ IS committed: every number in README and the report cites a file there
 evals/results/*_per_job.jsonl
+
+demo_output/

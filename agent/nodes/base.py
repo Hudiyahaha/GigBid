@@ -44,7 +44,8 @@ def node(name: str) -> Callable:
             tok_events = mcp_client.TRACE_EVENTS.set(events)
             before = llm.CURRENT_USAGE.get() or llm.start_usage()
             snap = (before.tokens_in, before.tokens_out, before.usd, before.calls)
-            llm.TOKEN_BUDGET.set(max(1, max_tokens - used))
+            # absolute ceiling on this run's cumulative counter (state usage already counts earlier nodes once)
+            llm.TOKEN_BUDGET.set(before.tokens + max(1, max_tokens - used))
             t0 = time.perf_counter()
             status_update: dict = {}
             try:

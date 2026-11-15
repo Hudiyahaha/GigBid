@@ -51,14 +51,20 @@ class AuditLog:
         self._lock = threading.Lock()
 
     def _last_hash(self) -> str:
-        if not self.path.exists():
+        """Hash of the last COMPLETE record. Records can exceed any fixed block size (long cover letters), so read
+        backwards in growing blocks until the last line is whole."""
+        if not self.path.exists() or self.path.stat().st_size == 0:
             return "0" * 64
+        size = self.path.stat().st_size
+        block = 8192
         with open(self.path, "rb") as f:
-            try:
-                f.seek(-4096, os.SEEK_END)
-            except OSError:
-                f.seek(0)
-            lines = f.read().splitlines()
+            while True:
+                start = max(0, size - block)
+                f.seek(start)
+                lines = f.read().splitlines()
+                if start == 0 or len(lines) >= 2:  # the last line is guaranteed complete
+                    break
+                block *= 4
         return json.loads(lines[-1])["hash"] if lines else "0" * 64
 
     def write(self, tool: str, args: dict, result: Any, status: str = "ok") -> None:
