@@ -40,14 +40,17 @@ same approval gate. Details: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · gra
 | v6_contextual | 0.583 | 0.722 | 0.615 | 0.0071 | 484 |
 | v9_skill_graph | 0.686 | 0.836 | 0.739 | 0.0115 | 484 |
 | v10_hybrid_outcome | 0.556 | 0.720 | 0.620 | 0.0119 | 484 |
+| v3_rerank (subset) | 0.426 | 0.556 | 0.540 | 6.4438 | 97 |
+| v8_corrective (subset) | 0.047 | 0.124 | 0.059 | 42.2766 | 97 |
+| best (subset) | 0.479 | 0.678 | 0.593 | 0.0262 | 97 |
 <!-- /table:rag -->
 
 **Headline:**
 <!-- table:headline -->
-| Variant | Evidence Recall@5 | nDCG@10 | Unsupported claims / proposal | Judge score | GigSim reply rate | p95 latency (s) | Cost / proposal (USD) |
+| Variant | Evidence Recall@5 | nDCG@10 | Unsupported claims / proposal (before verification; rate after) | Judge score | GigSim reply rate | p95 latency (s) | Cost / proposal (USD) |
 |---|---|---|---|---|---|---|---|
-| V0 (naive dense) | 0.556 | 0.599 | 0.750 | see judge_labels.csv | 0.379 | 22.7 | - |
-| Shipped: V9 skill graph | 0.686 | 0.739 | 0.750 | see judge_labels.csv | 0.383 | 35.2 | 0.0025 |
+| V0 (naive dense) | 0.556 | 0.599 | 0.750; 0.000 | see judge_labels.csv | 0.379 | 22.7 | - |
+| Shipped: V9 skill graph | 0.686 | 0.739 | 0.750; 0.000 | see judge_labels.csv | 0.383 | 35.2 | 0.0025 |
 <!-- /table:headline -->
 
 **Decisions:**

@@ -1,0 +1,4 @@
+variant,recall@5,mrr,ndcg@10,p95_latency_s,false_evidence_rate
+v3_rerank,0.4263,0.5565,0.5401,6.4438,1.0
+v8_corrective,0.0467,0.1237,0.0588,42.2766,0.0
+best,0.4792,0.6783,0.5927,0.0262,1.0

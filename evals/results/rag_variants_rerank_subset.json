@@ -1,0 +1,276 @@
+{
+  "provenance": {
+    "generated_at": "2026-11-15T18:00:39",
+    "git_commit": "e46e599",
+    "python": "3.12.16",
+    "machine": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+  },
+  "variants": {
+    "v3_rerank": {
+      "flags": {
+        "chunking": "fixed",
+        "decompose": false,
+        "hybrid": false,
+        "rerank": true,
+        "outcome": false,
+        "multivector": false,
+        "contextual": false,
+        "hyde": false,
+        "corrective": false,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.4263,
+        "mrr": 0.5565,
+        "ndcg@10": 0.5401,
+        "n": 97
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.4706,
+          "mrr": 0.6292,
+          "ndcg@10": 0.5433
+        },
+        "fullstack": {
+          "recall@5": 0.3029,
+          "mrr": 0.436,
+          "ndcg@10": 0.5223
+        },
+        "data": {
+          "recall@5": 0.5131,
+          "mrr": 0.6147,
+          "ndcg@10": 0.5554
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.4462,
+          "mrr": 0.556,
+          "ndcg@10": 0.5843,
+          "n": 26
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.4473,
+          "mrr": 0.5821,
+          "ndcg@10": 0.5577,
+          "n": 62
+        },
+        "exact_tool_names": {
+          "recall@5": 0.4495,
+          "mrr": 0.6366,
+          "ndcg@10": 0.5715,
+          "n": 31
+        },
+        "vague": {
+          "recall@5": 0.4136,
+          "mrr": 0.566,
+          "ndcg@10": 0.5124,
+          "n": 11
+        },
+        "scam": {
+          "recall@5": 0.3889,
+          "mrr": 0.5764,
+          "ndcg@10": 0.5155,
+          "n": 6
+        },
+        "normal": {
+          "recall@5": 0.4304,
+          "mrr": 0.5308,
+          "ndcg@10": 0.535,
+          "n": 45
+        },
+        "injection": {
+          "recall@5": 0.3889,
+          "mrr": 0.662,
+          "ndcg@10": 0.4877,
+          "n": 9
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 4.2263,
+        "p95": 6.4438
+      },
+      "build_plus_eval_s": 552.8
+    },
+    "v8_corrective": {
+      "flags": {
+        "chunking": "structured",
+        "decompose": true,
+        "hybrid": true,
+        "rerank": true,
+        "outcome": false,
+        "multivector": false,
+        "contextual": false,
+        "hyde": false,
+        "corrective": true,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.0467,
+        "mrr": 0.1237,
+        "ndcg@10": 0.0588,
+        "n": 97
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.1078,
+          "mrr": 0.2667,
+          "ndcg@10": 0.1368
+        },
+        "fullstack": {
+          "recall@5": 0.0118,
+          "mrr": 0.0294,
+          "ndcg@10": 0.0122
+        },
+        "data": {
+          "recall@5": 0.0273,
+          "mrr": 0.0909,
+          "ndcg@10": 0.0359
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.0423,
+          "mrr": 0.1538,
+          "ndcg@10": 0.0575,
+          "n": 26
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.05,
+          "mrr": 0.1371,
+          "ndcg@10": 0.0646,
+          "n": 62
+        },
+        "exact_tool_names": {
+          "recall@5": 0.0161,
+          "mrr": 0.0323,
+          "ndcg@10": 0.0232,
+          "n": 31
+        },
+        "vague": {
+          "recall@5": 0.0364,
+          "mrr": 0.1818,
+          "ndcg@10": 0.0693,
+          "n": 11
+        },
+        "scam": {
+          "recall@5": 0.0333,
+          "mrr": 0.1667,
+          "ndcg@10": 0.0925,
+          "n": 6
+        },
+        "normal": {
+          "recall@5": 0.063,
+          "mrr": 0.1111,
+          "ndcg@10": 0.0623,
+          "n": 45
+        },
+        "injection": {
+          "recall@5": 0.0,
+          "mrr": 0.0,
+          "ndcg@10": 0.0093,
+          "n": 9
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 0.0,
+      "latency_s": {
+        "p50": 17.718,
+        "p95": 42.2766
+      },
+      "build_plus_eval_s": 2407.1
+    },
+    "best": {
+      "flags": {
+        "chunking": "structured",
+        "decompose": true,
+        "hybrid": true,
+        "rerank": true,
+        "outcome": true,
+        "multivector": true,
+        "contextual": false,
+        "hyde": false,
+        "corrective": false,
+        "graph": false
+      },
+      "overall": {
+        "recall@5": 0.4792,
+        "mrr": 0.6783,
+        "ndcg@10": 0.5927,
+        "n": 97
+      },
+      "by_persona": {
+        "ai_ml": {
+          "recall@5": 0.59,
+          "mrr": 0.8176,
+          "ndcg@10": 0.6594
+        },
+        "fullstack": {
+          "recall@5": 0.4564,
+          "mrr": 0.6863,
+          "ndcg@10": 0.6123
+        },
+        "data": {
+          "recall@5": 0.402,
+          "mrr": 0.5435,
+          "ndcg@10": 0.5117
+        }
+      },
+      "by_job_type": {
+        "partial": {
+          "recall@5": 0.4179,
+          "mrr": 0.5401,
+          "ndcg@10": 0.5121,
+          "n": 26
+        },
+        "multi_req_4plus": {
+          "recall@5": 0.5116,
+          "mrr": 0.741,
+          "ndcg@10": 0.5942,
+          "n": 62
+        },
+        "exact_tool_names": {
+          "recall@5": 0.5215,
+          "mrr": 0.6398,
+          "ndcg@10": 0.602,
+          "n": 31
+        },
+        "vague": {
+          "recall@5": 0.5455,
+          "mrr": 0.8788,
+          "ndcg@10": 0.6426,
+          "n": 11
+        },
+        "scam": {
+          "recall@5": 0.3333,
+          "mrr": 0.5694,
+          "ndcg@10": 0.5786,
+          "n": 6
+        },
+        "normal": {
+          "recall@5": 0.5204,
+          "mrr": 0.6951,
+          "ndcg@10": 0.6245,
+          "n": 45
+        },
+        "injection": {
+          "recall@5": 0.4667,
+          "mrr": 0.8214,
+          "ndcg@10": 0.6146,
+          "n": 9
+        }
+      },
+      "false_evidence_rate_on_zero_gold": 1.0,
+      "latency_s": {
+        "p50": 0.0153,
+        "p95": 0.0262
+      },
+      "build_plus_eval_s": 3.0
+    }
+  },
+  "n_jobs": {
+    "ai_ml": 40,
+    "fullstack": 40,
+    "data": 40
+  }
+}
