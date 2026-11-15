@@ -46,8 +46,8 @@ same approval gate. Details: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · gra
 <!-- table:headline -->
 | Variant | Evidence Recall@5 | nDCG@10 | Unsupported claims / proposal | Judge score | GigSim reply rate | p95 latency (s) | Cost / proposal (USD) |
 |---|---|---|---|---|---|---|---|
-| V0 (naive dense) | 0.556 | 0.599 | - | see judge_labels.csv | - | - | - |
-| Shipped: V9 skill graph | 0.686 | 0.739 | - | see judge_labels.csv | - | - | 0.0025 |
+| V0 (naive dense) | 0.556 | 0.599 | 0.750 | see judge_labels.csv | 0.379 | 22.7 | - |
+| Shipped: V9 skill graph | 0.686 | 0.739 | 0.750 | see judge_labels.csv | 0.383 | 35.2 | 0.0025 |
 <!-- /table:headline -->
 
 **Decisions:**
@@ -71,7 +71,13 @@ Held-out set (180 jobs, never used for tuning): bid/skip F1 0.736, accuracy 0.74
 
 **Proposal A/B test (X2):**
 <!-- table:outcomes -->
-_pending: run `python -m evals.runners.gigsim_outcomes`_
+| Strategy | Reply rate | Hire rate |
+|---|---|---|
+| evidence_first | 0.383 | 0.146 |
+| question_first | 0.312 | 0.104 |
+| generic template (floor) | 0.062 | - |
+
+Two-proportion z-test (evidence_first vs question_first): diff 0.071, z 1.629, p 0.1033, n 240 per arm (24 jobs x 10 simulated clients).
 <!-- /table:outcomes -->
 <!-- results:end -->
 

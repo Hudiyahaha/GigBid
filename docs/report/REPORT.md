@@ -75,17 +75,25 @@ verification.
 <!-- table:headline -->
 | Variant | Evidence Recall@5 | nDCG@10 | Unsupported claims / proposal | Judge score | GigSim reply rate | p95 latency (s) | Cost / proposal (USD) |
 |---|---|---|---|---|---|---|---|
-| V0 (naive dense) | 0.556 | 0.599 | - | see judge_labels.csv | - | - | - |
-| Shipped: V9 skill graph | 0.686 | 0.739 | - | see judge_labels.csv | - | - | 0.0025 |
+| V0 (naive dense) | 0.556 | 0.599 | 0.750 | see judge_labels.csv | 0.379 | 22.7 | - |
+| Shipped: V9 skill graph | 0.686 | 0.739 | 0.750 | see judge_labels.csv | 0.383 | 35.2 | 0.0025 |
 <!-- /table:headline -->
 
 **Outcomes and where retrieval did not translate into replies:**
 <!-- table:outcomes -->
-_pending: run `python -m evals.runners.gigsim_outcomes`_
+| Strategy | Reply rate | Hire rate |
+|---|---|---|
+| evidence_first | 0.383 | 0.146 |
+| question_first | 0.312 | 0.104 |
+| generic template (floor) | 0.062 | - |
+
+Two-proportion z-test (evidence_first vs question_first): diff 0.071, z 1.629, p 0.1033, n 240 per arm (24 jobs x 10 simulated clients).
 <!-- /table:outcomes -->
-GigSim's simulated client rewards naming its must-have skills, concrete numbers, a non-generic opening and a price
-under its ceiling. Better retrieval raises the chance the right project is cited, but reply rate saturates once *any*
-relevant project with a number is cited, so retrieval gains beyond the top 2 items do not move replies.
+**Better retrieval did not translate into replies:** V9 retrieves far better than V0 (R@5 0.686 vs 0.556), yet the
+reply rate was 0.383 vs 0.379 on the same 24 jobs (`gigsim_outcomes.json` vs `gigsim_outcomes_v0.json`). GigSim's
+simulated client rewards naming its must-have skills, concrete numbers, a non-generic opening and a price under its
+ceiling. Once *any* relevant project with a number is cited, the reply rate saturates, so retrieval gains beyond the
+top 2 items do not move replies. The generic template floor was 0.063.
 **Judge calibration:** `evals/results/judge_labels.csv` holds 30 judge-scored proposals for the author to label;
 kappa is computed by `judge_calibration kappa` and is not reported until the human labels exist.
 
@@ -115,7 +123,10 @@ under 15 minutes including running the integration tests under v2. This is what 
 
 ## 7. Signature extension: X2 proposal experiments
 Two strategies (`writer.strategies`), drafted from the same analyses, scored by simulated clients under 10 seeds per
-job, with a two-proportion z-test (section 4 outcome table; `docs/EXTENSION.md`). In the product, the strategy is a
+job, with a two-proportion z-test (section 4 outcome table; `docs/EXTENSION.md`). **Result:** evidence-first 38.3%
+vs question-first 31.3% reply rate (24 jobs x 10 clients per arm), z = 1.63, p = 0.10: a consistent lean towards
+evidence-first that is **not significant at 0.05**. The V0 replication gave the same direction (p = 0.07). We keep
+evidence-first as the default and would need about 2x the sample to settle it. In the product, the strategy is a
 user setting, and the outcome-memory rule promotes the winner per category once there are 5+ outcomes.
 
 ## 8. Failure analysis
@@ -141,7 +152,8 @@ Failed dev jobs from `decision_eval.json` (heuristic profile, threshold 0.60), b
 **Dominant failure: wrong skip / missed evidence** (37 false negatives of 120, recall 0.45). The Fit Matcher's
 calibrated relevance is conservative, so implied requirements score "partial". **Fix tried:** recalibrating
 `decision.min_fit_to_bid` from 0.60 to 0.30 on the dev rows raised F1 from 0.61 to 0.82 (precision 0.93, recall 0.73).
-**Did it work on unseen data?** See section 10. **Vague posts** remain the weakest type (accuracy 0.21), the same
+**Did it work on unseen data?** Partly: on the held-out set F1 is 0.736 (vs 0.606 before the fix, 0.817 on the
+dev rows it was tuned on), so the gain is real but smaller than dev suggested (section 10). **Vague posts** remain the weakest type (accuracy 0.21), the same
 weakness as V9 retrieval. **Real-LLM drafts:** the verifier passed a hedged forward-looking sentence ("I can extend
 the same pipeline to NLP tasks") because it is a plan, not a claim, which is a grey zone for R5.
 
@@ -169,8 +181,9 @@ Held-out set (180 jobs, never used for tuning): bid/skip F1 0.736, accuracy 0.74
 |---|---|---|---|---|---|---|---|---|
 | heuristic (no LLM) | 0.606 | 0.675 | 1.000 | 1.000 | 0.567 | 25.5 | 0 | 120 |
 <!-- /table:decision -->
-Budgets: the heuristic profile is within the latency budget at p50 but **misses the p95 budget of 20 s per job
-analysed** on this CPU-only laptop (cross-encoder relevance over about 6 requirements per job while other jobs run).
+Budgets: on the held-out run the p95 per job analysed was **14.9 s, inside the 20 s budget** (the dev run's 25.5 s p95
+was measured while other evals were competing for the same CPU). The proposal path in the outcome run was 35 s p95
+(heuristic profile, CPU-bound retrieval), inside the 60 s budget.
 The real-LLM proposal path measured 25 s and $0.0025 per proposal, inside the 60 s / $0.01 budget. **Optimisation that
 helped:** skipping the LLM in the Risk Assessor when rules already show a scam, deterministic fit grading (about 1k
 tokens saved per job), and serialising CPU retrieval.
