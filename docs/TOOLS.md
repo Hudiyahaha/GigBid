@@ -30,6 +30,12 @@ Every write: idempotency key -> exactly-once ledger (`apps/api/db.py: Submission
 and Connects cost; every call is written to a hash-chained, PII-masked audit log with the run's trace id
 (`python -m mcp_servers.common verify marketplace`).
 
+## MCP Inspector screenshots (A7)
+Portfolio server over stdio in the official MCP Inspector (captured by `apps/web/scripts/inspector_shots.mjs`):
+[connected](images/inspector-portfolio-connected.png) · [tools listed](images/inspector-portfolio-tools.png) ·
+[tool call: get_case_study -> Success](images/inspector-portfolio-tool-call.png) ·
+[resource templates](images/inspector-portfolio-resources.png) · [prompts](images/inspector-portfolio-prompt-templates.png)
+
 ## Third-party servers (A5)
 | Server | Used for | Trust rationale |
 |---|---|---|
