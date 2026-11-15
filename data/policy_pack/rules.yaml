@@ -1,7 +1,7 @@
 # Machine-readable marketplace rules (policy version 1). Loaded by agent/policy.py.
 # Compliance Guard and Pricing Strategist read ONLY this file + GigSim /policy; nothing is hard-coded.
-version: 1
-effective: "2026-10-27"
+version: 2
+effective: "2026-11-02"   # GigSim platform policy update (change request)
 
 forbidden_patterns:          # removed from drafts (redact) or block the draft
   - id: off_platform_contact
@@ -44,13 +44,13 @@ scam_signals:               # detection in INCOMING job posts / client messages 
   - {code: credential_request, severity: 0.95, regex: "(?i)(share your (marketplace |upwork )?(login|password|account)|submit proposals for you)"}
 
 limits:
-  max_cover_letter_chars: 5000
-  max_submissions_per_day: null
+  max_cover_letter_chars: 3000
+  max_submissions_per_day: 10
   min_words: 60
   max_words: 320
 
 connects:
-  surcharge_unverified_client: 0
+  surcharge_unverified_client: 4
 
 automation:
   require_human_approval: [submit_proposal, send_message, spend_connects]

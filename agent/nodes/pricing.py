@@ -35,7 +35,8 @@ async def pricing(state: dict) -> dict:
     stats = await port.get_market_stats(category=job.get("category"), pay_type=pay)
     if (stats.get("n") or 0) < 10:
         stats = await port.get_market_stats(pay_type=pay)
-    bal = (await port.get_connects_balance()).get("connects_balance")
+    bal_info = await port.get_connects_balance()
+    bal = bal_info.get("connects_balance")
     pol = state.get("policy") or {}
     floor = float(prefs.get("hourly_floor", 40)) if pay == "hourly" else float(prefs.get("min_project", 300))
     base = float(stats.get("p50") or b.get("max") or floor)
@@ -60,7 +61,11 @@ async def pricing(state: dict) -> dict:
     ev = win * amount * (hours if pay == "hourly" else 1)
     ratio = float(config.get("decision.min_expected_value_ratio", 3.0))
     weekly_left = int(prefs.get("weekly_connects_budget", 80)) - int(prefs.get("connects_spent_week", 0))
-    worth = ev >= ratio * cost * usd_per and (bal is None or bal >= cost) and weekly_left >= cost
+    day_limit = (pol.get("limits") or {}).get("max_submissions_per_day")
+    day_ok = not day_limit or int(bal_info.get("submissions_last_24h") or 0) < int(day_limit)
+    if not day_ok:
+        rationale.append(f"daily submission limit {day_limit} reached (policy v{pol.get('marketplace_version')})")
+    worth = ev >= ratio * cost * usd_per and (bal is None or bal >= cost) and weekly_left >= cost and day_ok
     if bal is not None and bal < cost:
         rationale.append(f"not enough Connects ({bal} < {cost})")
     if weekly_left < cost:

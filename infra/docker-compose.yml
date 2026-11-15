@@ -50,7 +50,7 @@ services:
   gigsim:
     <<: *app
     command: ["uvicorn", "gigsim.server:app", "--host", "0.0.0.0", "--port", "8081"]
-    environment: {<<: *appenv, GIGSIM_STATE_PATH: /data/gigsim.db}
+    environment: {<<: *appenv, GIGSIM_STATE_PATH: /data/gigsim.db, GIGSIM_POLICY_VERSION: "2"}
     ports: ["8081:8081"]
   postgres:
     image: postgres:16-alpine

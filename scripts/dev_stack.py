@@ -23,6 +23,7 @@ os.environ.setdefault("GIGBID_LOCAL_SQLITE", "1")
 os.environ.setdefault("OMP_NUM_THREADS", "4")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 os.environ.setdefault("GIGSIM_ERROR_RATE", "0")
+os.environ.setdefault("GIGSIM_POLICY_VERSION", "2")
 os.environ.setdefault("GIGBID_DEV", "1")
 os.environ.setdefault("CORS_ORIGINS", "http://localhost:5173,http://127.0.0.1:8000")
 
