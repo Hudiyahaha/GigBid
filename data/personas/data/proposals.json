@@ -1,0 +1,2803 @@
+[
+  {
+    "id": "prop-data-000",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build management dashboards",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Build management dashboards - see requirements. Ideally you are someone who can turn our KPIs into one clear page. Must have hands-on experience with Tableau. Looking for a person who can",
+    "date": "2023-11-20",
+    "bid_usd": 16.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-001",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "I run a SaaS business and want to hire someone for: Analyse our A/B test results. pandas knowledge is important. Must have hands-on experience with R. Must have hands-on experience with A/B testing. You will be working mainly in Statistics.",
+    "date": "2023-02-10",
+    "bid_usd": 33.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about analyse our a/b test results. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-002",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our small retail startup needs a freelancer for: Attribution analysis for ad spend - see requirements. Google Analytics 4 knowledge is important. SQL knowledge is important. Experience with Looker Studio is a must. BigQuery knowledge is imp",
+    "date": "2025-01-19",
+    "bid_usd": 20.0,
+    "pay_type": "hourly",
+    "text": "Your attribution analysis for ad spend sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-003",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Google Sheets automation with Apps Script",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "Our small legal startup needs a freelancer for: Google Sheets automation with Apps Script - see requirements. We need someone who can automate boring Google Sheets tasks. Strong Excel skills required. Deliverables: Working google sheets aut",
+    "date": "2024-07-19",
+    "bid_usd": 30.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about google sheets automation with apps script. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p04"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-004",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "I run a SaaS business and want to hire someone for: Statistical analysis of survey data (details below). Experience with A/B testing is a must. pandas knowledge is important. Bonus if you're someone who is solid on regression and significan",
+    "date": "2024-04-28",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-005",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "We are a travel company looking for help with this project: Statistical analysis of survey data. Must have hands-on experience with pandas. Ideally you are someone who is fluent in the statistics programming language. Must have hands-on exp",
+    "date": "2024-08-09",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Your statistical analysis of survey data sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-006",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build management dashboards",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: Build management dashboards (details below). We need someone who can build Microsoft-style interactive business reports. Ideally you are someone who can build free shareable Google dashboards",
+    "date": "2024-12-11",
+    "bid_usd": 50.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-007",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "I run a SaaS business and want to hire someone for: dbt models on Snowflake - see requirements. BigQuery knowledge is important. Must have hands-on experience with SQL. dbt knowledge is important. Deliverables: Working dbt models on snowfla",
+    "date": "2024-08-22",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-008",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "We are a non-profit company looking for help with this project: Analyse our A/B test results. Experience with A/B testing is a must. Looking for a person who is fluent in the statistics programming language. pandas knowledge is important. L",
+    "date": "2023-08-16",
+    "bid_usd": 40.0,
+    "pay_type": "fixed",
+    "text": "Your analyse our a/b test results sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. I also delivered pricing experiment analysis v2 (logistics), which found a price that lifted conversion 28%. For you I'd start with Statistics, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03",
+      "data-p10"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-009",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Google Sheets automation with Apps Script",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "I run a manufacturing business and want to hire someone for: Google Sheets automation with Apps Script. Must have hands-on experience with Excel. Strong Data cleaning skills required. Deliverables: Working google sheets automation with apps",
+    "date": "2024-11-30",
+    "bid_usd": 17.0,
+    "pay_type": "hourly",
+    "text": "Your google sheets automation with apps script sounds close to the Finance reporting automation I built for a legal client, where I built pivot-table workbooks with lookups for the finance team. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. I also delivered crm data clean-up, which merged 12000 duplicate records. Happy to share code samples.",
+    "screening_answers": [
+      "In my Finance reporting automation project I handled this directly and documented the outcome.",
+      "In my Finance reporting automation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p04",
+      "data-p07"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-010",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small logistics startup needs a freelancer for: Sales forecasting model - see requirements. Experience with Statistics is a must. Must have hands-on experience with Forecasting. Experience with Excel is a must. Strong Swift skills requi",
+    "date": "2025-09-16",
+    "bid_usd": 16.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about sales forecasting model. On that project I used Forecasting, Excel, Statistics, and it cut stock-outs by 51%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p05"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-011",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our education team needs an experienced specialist for: Build an ETL pipeline into BigQuery. Looking for a person who can turn raw tables into tested, documented models in the warehouse. Ideally you are someone who knows Google's cloud ware",
+    "date": "2024-12-28",
+    "bid_usd": 40.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-012",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Power BI sales dashboard",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our healthcare team needs an experienced specialist for: Power BI sales dashboard (details below). Strong Power BI skills required. Data visualization knowledge is important. Must have hands-on experience with Dashboarding. Strong Looker St",
+    "date": "2025-01-19",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Your power bi sales dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered customer segmentation study, which lifted email revenue 33% using segments. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01",
+      "data-p06"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-013",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Demand forecast for media inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a media company looking for help with this project: Demand forecast for media inventory. Must have hands-on experience with pandas. You will be working mainly in Excel. You will be working mainly in Statistics. Deliverables: Working ",
+    "date": "2025-03-01",
+    "bid_usd": 35.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about demand forecast for media inventory. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-014",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Google Sheets automation with Apps Script",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "We are a gaming company looking for help with this project: Google Sheets automation with Apps Script. Looking for a person who can automate boring Google Sheets tasks. Data cleaning knowledge is important. Deliverables: Working google shee",
+    "date": "2025-07-12",
+    "bid_usd": 37.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about google sheets automation with apps script. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-015",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Demand forecast for legal inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "I run a legal business and want to hire someone for: Demand forecast for legal inventory - see requirements. Ideally you are someone who can wrangle messy tables in Python. Strong Forecasting skills required. Ideally you are someone who is ",
+    "date": "2023-01-01",
+    "bid_usd": 100.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-016",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Build an ETL pipeline into BigQuery (details below). SQL knowledge is important. Bonus if you're someone who knows Google's cloud warehouse for big event data. Ideally you are someone ",
+    "date": "2024-03-31",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-017",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our e-commerce team needs an experienced specialist for: Sales forecasting model. Forecasting knowledge is important. We need someone who can wrangle messy tables in Python. Statistics knowledge is important. Strong Excel skills required. A",
+    "date": "2025-07-08",
+    "bid_usd": 170.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-018",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our small e-commerce startup needs a freelancer for: Analyse our A/B test results. Strong pandas skills required. Statistics knowledge is important. Experience with A/B testing is a must. Strong R skills required. Bonus if you're someone wh",
+    "date": "2025-07-03",
+    "bid_usd": 21.0,
+    "pay_type": "hourly",
+    "text": "Your analyse our a/b test results sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. I also delivered pricing experiment analysis v2 (logistics), which found a price that lifted conversion 28%. For you I'd start with SEO copywriting, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03",
+      "data-p10"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-019",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "I run a media business and want to hire someone for: Build an ETL pipeline into BigQuery (details below). Bonus if you're someone who knows Google's cloud warehouse for big event data. Strong ETL skills required. Snowflake knowledge is impo",
+    "date": "2023-08-12",
+    "bid_usd": 30.0,
+    "pay_type": "fixed",
+    "text": "Your build an etl pipeline into bigquery sounds close to the Warehouse modernisation I built for a logistics client, where I kept version-controlled SQL transformation models with tests and lineage docs. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Warehouse modernisation project I handled this directly and documented the outcome.",
+      "In my Warehouse modernisation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-020",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Google Sheets automation with Apps Script",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "I run a manufacturing business and want to hire someone for: Google Sheets automation with Apps Script - see requirements. Excel knowledge is important. Experience with Google Sheets Apps Script is a must. You will be working mainly in Data",
+    "date": "2023-07-14",
+    "bid_usd": 50.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-021",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "We are a retail company looking for help with this project: Statistical analysis of survey data. Experience with Statistics is a must. Bonus if you're someone who is fluent in the statistics programming language. Experience with A/B testing",
+    "date": "2023-12-26",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about statistical analysis of survey data. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-022",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "We are a education company looking for help with this project: Automate Excel reports. Data cleaning knowledge is important. Experience with Google Sheets Apps Script is a must. Must have hands-on experience with Excel. Deliverables: Workin",
+    "date": "2024-08-15",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about automate excel reports. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-023",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our small education startup needs a freelancer for: Attribution analysis for ad spend. You will be working mainly in SQL. Experience with Google Analytics 4 is a must. Deliverables: Working attribution analysis for ad spend; Short documenta",
+    "date": "2024-08-27",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about attribution analysis for ad spend. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-024",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our e-commerce team needs an experienced specialist for: dbt models on Snowflake. Strong Snowflake skills required. Ideally you are someone who can turn raw tables into tested, documented models in the warehouse. Strong ETL skills required.",
+    "date": "2024-08-23",
+    "bid_usd": 40.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-025",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "Our healthcare team needs an experienced specialist for: Automate Excel reports. Experience with Data cleaning is a must. Excel knowledge is important. Must have hands-on experience with Google Sheets Apps Script. We need someone who knows ",
+    "date": "2025-05-12",
+    "bid_usd": 31.0,
+    "pay_type": "hourly",
+    "text": "Your automate excel reports sounds close to the Finance reporting automation I built for a legal client, where I built pivot-table workbooks with lookups for the finance team. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. I also delivered finance reporting automation v2 (legal), which saved 47 hours of work per month. For you I'd start with BigQuery, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Finance reporting automation project I handled this directly and documented the outcome.",
+      "In my Finance reporting automation project I handled this directly and documented the outcome.",
+      "In my Finance reporting automation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p04",
+      "data-p11"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-026",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our small media startup needs a freelancer for: GA4 setup and marketing dashboard (details below). Experience with SQL is a must. You will be working mainly in BigQuery. Strong Looker Studio skills required. Looking for a person who can tra",
+    "date": "2023-11-04",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Your ga4 setup and marketing dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered marketing attribution model v2 (gaming), which re-allocated 38% of ad spend to better channels. For you I'd start with BigQuery, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01",
+      "data-p08"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-027",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our legal team needs an experienced specialist for: Statistical analysis of survey data. Must have hands-on experience with A/B testing. pandas knowledge is important. Must have hands-on experience with Statistics. Experience with R is a mu",
+    "date": "2023-10-02",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Your statistical analysis of survey data sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. I also delivered pricing experiment analysis v2 (logistics), which found a price that lifted conversion 28%. For you I'd start with Statistics, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03",
+      "data-p10"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-028",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "We are a travel company looking for help with this project: Automate Excel reports (details below). Bonus if you're someone who can automate boring Google Sheets tasks. You will be working mainly in Excel. Strong Data cleaning skills requir",
+    "date": "2024-01-11",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Your automate excel reports sounds close to the Finance reporting automation I built for a legal client, where I built pivot-table workbooks with lookups for the finance team. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. I also delivered crm data clean-up, which merged 12000 duplicate records. Happy to share code samples.",
+    "screening_answers": [
+      "In my Finance reporting automation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p04",
+      "data-p07"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-029",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "We are a non-profit company looking for help with this project: Statistical analysis of survey data. Bonus if you're someone who can wrangle messy tables in Python. You will be working mainly in A/B testing. Ideally you are someone who is f",
+    "date": "2023-05-29",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Your statistical analysis of survey data sounds close to the Customer segmentation study v2 (legal) I built for a legal client, where I fitted statistical models in a language built for statisticians. On that project I used R, Statistics, SQL, and it lifted email revenue 48% using segments. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer segmentation study v2 (legal) project I handled this directly and documented the outcome.",
+      "In my Customer segmentation study v2 (legal) project I handled this directly and documented the outcome.",
+      "In my Customer segmentation study v2 (legal) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p13"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-030",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our media team needs an experienced specialist for: Attribution analysis for ad spend. BigQuery knowledge is important. SQL knowledge is important. Looking for a person who can track what visitors do on our website. Deliverables: Working at",
+    "date": "2025-04-08",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-031",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "We are a travel company looking for help with this project: Statistical analysis of survey data - see requirements. Ideally you are someone who can tell us if a change really moved the needle. We need someone who can wrangle messy tables in",
+    "date": "2024-08-26",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Your statistical analysis of survey data sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. I also delivered pricing experiment analysis v2 (logistics), which found a price that lifted conversion 28%. For you I'd start with A/B testing, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03",
+      "data-p10"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-032",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our fintech team needs an experienced specialist for: Statistical analysis of survey data. You will be working mainly in R. Looking for a person who can tell us if a change really moved the needle. Experience with Statistics is a must. Deli",
+    "date": "2024-04-19",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-033",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "I run a insurance business and want to hire someone for: Sales forecasting model. Looking for a person who can project sales for the next quarters. Looking for a person who can wrangle messy tables in Python. Strong Statistics skills requir",
+    "date": "2023-05-03",
+    "bid_usd": 18.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-034",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: GA4 setup and marketing dashboard (details below). Must have hands-on experience with Google Analytics 4. SQL knowledge is important. You will be working mainly in BigQuery. You will be w",
+    "date": "2023-01-31",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Your ga4 setup and marketing dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-035",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our small e-commerce startup needs a freelancer for: Build an ETL pipeline into BigQuery. You will be working mainly in dbt. Must have hands-on experience with BigQuery. Looking for a person who knows a modern cloud data warehouse. Strong S",
+    "date": "2023-05-07",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-036",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "We are a travel company looking for help with this project: GA4 setup and marketing dashboard (details below). Ideally you are someone who can build free shareable Google dashboards. SQL knowledge is important. Looking for a person who can ",
+    "date": "2023-02-12",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-037",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: GA4 setup and marketing dashboard - see requirements. Bonus if you're someone who can track what visitors do on our website. Looker Studio knowledge is important. Strong SQL skills req",
+    "date": "2023-04-28",
+    "bid_usd": 32.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about ga4 setup and marketing dashboard. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-038",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our legal team needs an experienced specialist for: Attribution analysis for ad spend. Ideally you are someone who can track what visitors do on our website. Looking for a person who knows Google's cloud warehouse for big event data. Ideall",
+    "date": "2023-08-05",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Your attribution analysis for ad spend sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-039",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "I run a education business and want to hire someone for: Analyse our A/B test results. Strong A/B testing skills required. Experience with Statistics is a must. We need someone who is fluent in the statistics programming language. Experienc",
+    "date": "2024-02-26",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about analyse our a/b test results. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-040",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "I run a real estate business and want to hire someone for: dbt models on Snowflake. Must have hands-on experience with dbt. We need someone who knows a modern cloud data warehouse. We need someone who knows Google's cloud warehouse for big ",
+    "date": "2024-08-17",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about dbt models on snowflake. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-041",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Power BI sales dashboard",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "We are a legal company looking for help with this project: Power BI sales dashboard. Must have hands-on experience with Dashboarding. Ideally you are someone who can build Microsoft-style interactive business reports. Strong Data visualizat",
+    "date": "2024-05-06",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-042",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "We are a real estate company looking for help with this project: GA4 setup and marketing dashboard (details below). Bonus if you're someone who can build free shareable Google dashboards. Experience with SQL is a must. Ideally you are someo",
+    "date": "2025-09-13",
+    "bid_usd": 14.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-043",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "I run a SaaS business and want to hire someone for: Automate Excel reports. Bonus if you're someone who can fix duplicates, typos and missing values. You will be working mainly in Google Sheets Apps Script. Strong Excel skills required. You",
+    "date": "2025-09-24",
+    "bid_usd": 32.0,
+    "pay_type": "hourly",
+    "text": "Your automate excel reports sounds close to the Finance reporting automation I built for a legal client, where I built pivot-table workbooks with lookups for the finance team. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. Happy to share code samples.",
+    "screening_answers": [
+      "In my Finance reporting automation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-044",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Demand forecast for travel inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our travel team needs an experienced specialist for: Demand forecast for travel inventory. pandas knowledge is important. Must have hands-on experience with Excel. Must have hands-on experience with Forecasting. Experience with Statistics i",
+    "date": "2023-11-04",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-045",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "We are a healthcare company looking for help with this project: Analyse our A/B test results (details below). Must have hands-on experience with A/B testing. Looking for a person who is fluent in the statistics programming language. Ideally",
+    "date": "2025-07-02",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-046",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our retail team needs an experienced specialist for: Attribution analysis for ad spend. Strong Google Analytics 4 skills required. BigQuery knowledge is important. You will be working mainly in Looker Studio. Deliverables: Working attributi",
+    "date": "2023-03-01",
+    "bid_usd": 15.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about attribution analysis for ad spend. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-047",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "We are a healthcare company looking for help with this project: dbt models on Snowflake. Strong BigQuery skills required. Ideally you are someone who knows a modern cloud data warehouse. Deliverables: Working dbt models on snowflake; Short ",
+    "date": "2024-01-15",
+    "bid_usd": 100.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-048",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our fintech team needs an experienced specialist for: GA4 setup and marketing dashboard. Strong SQL skills required. Must have hands-on experience with BigQuery. We need someone who can build free shareable Google dashboards. Looking for a ",
+    "date": "2024-03-16",
+    "bid_usd": 50.0,
+    "pay_type": "fixed",
+    "text": "Your ga4 setup and marketing dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-049",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "I run a retail business and want to hire someone for: Analyse our A/B test results. We need someone who can tell us if a change really moved the needle. Experience with Statistics is a must. We need someone who is fluent in the statistics p",
+    "date": "2024-08-27",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Your analyse our a/b test results sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-050",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Demand forecast for travel inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small travel startup needs a freelancer for: Demand forecast for travel inventory. pandas knowledge is important. You will be working mainly in Forecasting. Statistics knowledge is important. Excel knowledge is important. Ideally you ar",
+    "date": "2023-08-16",
+    "bid_usd": 28.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-051",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Demand forecast for e-commerce inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: Demand forecast for e-commerce inventory. Strong Forecasting skills required. Strong pandas skills required. Strong Excel skills required. Statistics knowledge is important. De",
+    "date": "2024-06-22",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-052",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Demand forecast for fintech inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a fintech company looking for help with this project: Demand forecast for fintech inventory - see requirements. You will be working mainly in pandas. We need someone who is solid on regression and significance testing. Strong Forecas",
+    "date": "2025-03-03",
+    "bid_usd": 33.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-053",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for education KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small education startup needs a freelancer for: Tableau dashboard for education KPIs - see requirements. Dashboarding knowledge is important. You will be working mainly in Looker Studio. Strong Power BI skills required. Deliverables: Wo",
+    "date": "2025-09-26",
+    "bid_usd": 42.0,
+    "pay_type": "hourly",
+    "text": "Your tableau dashboard for education kpis sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-054",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for insurance KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small insurance startup needs a freelancer for: Tableau dashboard for insurance KPIs. Experience with Dashboarding is a must. Bonus if you're someone who can build Microsoft-style interactive business reports. Deliverables: Working tabl",
+    "date": "2024-03-30",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Your tableau dashboard for insurance kpis sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-055",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for real estate KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "I run a real estate business and want to hire someone for: Tableau dashboard for real estate KPIs. You will be working mainly in Power BI. Must have hands-on experience with Data visualization. Deliverables: Working tableau dashboard for re",
+    "date": "2024-02-29",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-056",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our retail team needs an experienced specialist for: Build an ETL pipeline into BigQuery (details below). Must have hands-on experience with SQL. We need someone who can turn raw tables into tested, documented models in the warehouse. Deliv",
+    "date": "2024-11-21",
+    "bid_usd": 40.0,
+    "pay_type": "fixed",
+    "text": "Your build an etl pipeline into bigquery sounds close to the Warehouse modernisation I built for a logistics client, where I kept version-controlled SQL transformation models with tests and lineage docs. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Warehouse modernisation project I handled this directly and documented the outcome.",
+      "In my Warehouse modernisation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-057",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our small retail startup needs a freelancer for: Analyse our A/B test results - see requirements. Looking for a person who is solid on regression and significance testing. Ideally you are someone who can tell us if a change really moved the",
+    "date": "2025-05-06",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-058",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build management dashboards",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small real estate startup needs a freelancer for: Build management dashboards. Experience with Data visualization is a must. Experience with Looker Studio is a must. Tableau knowledge is important. Ideally you are someone who can build ",
+    "date": "2025-03-18",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Your build management dashboards sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-059",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for education KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "I run a education business and want to hire someone for: Tableau dashboard for education KPIs. We need someone who can make polished visual analytics dashboards. Must have hands-on experience with Looker Studio. Looking for a person who can",
+    "date": "2024-07-14",
+    "bid_usd": 36.0,
+    "pay_type": "hourly",
+    "text": "Your tableau dashboard for education kpis sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered marketing attribution model v2 (gaming), which re-allocated 38% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01",
+      "data-p08"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-060",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a manufacturing company looking for help with this project: Sales forecasting model - see requirements. Bonus if you're someone who is solid on regression and significance testing. Looking for a person who can project sales for the n",
+    "date": "2025-01-04",
+    "bid_usd": 12.0,
+    "pay_type": "hourly",
+    "text": "Your sales forecasting model sounds close to the Inventory forecasting workbook I built for a fintech client, where I projected next quarter's numbers from historical trends. On that project I used Forecasting, Excel, Statistics, and it cut stock-outs by 51%. I also delivered inventory forecasting workbook v2 (media), which cut stock-outs by 43%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Inventory forecasting workbook project I handled this directly and documented the outcome.",
+      "In my Inventory forecasting workbook project I handled this directly and documented the outcome.",
+      "In my Inventory forecasting workbook project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p05",
+      "data-p12"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-061",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for insurance KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small insurance startup needs a freelancer for: Tableau dashboard for insurance KPIs. Experience with Tableau is a must. Ideally you are someone who can make charts that tell the story. Experience with Dashboarding is a must. Deliverabl",
+    "date": "2023-02-14",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-062",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Build an ETL pipeline into BigQuery. SQL knowledge is important. Ideally you are someone who can turn raw tables into tested, documented models in the warehouse. We need someone who kn",
+    "date": "2025-01-14",
+    "bid_usd": 30.0,
+    "pay_type": "hourly",
+    "text": "Your build an etl pipeline into bigquery sounds close to the Warehouse modernisation I built for a logistics client, where I kept version-controlled SQL transformation models with tests and lineage docs. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Warehouse modernisation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-063",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our media team needs an experienced specialist for: Analyse our A/B test results - see requirements. We need someone who is solid on regression and significance testing. Looking for a person who can wrangle messy tables in Python. Ideally y",
+    "date": "2023-10-07",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about analyse our a/b test results. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-064",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our education team needs an experienced specialist for: Build an ETL pipeline into BigQuery. Snowflake knowledge is important. Must have hands-on experience with ETL. BigQuery knowledge is important. SQL knowledge is important. Deliverables",
+    "date": "2023-02-01",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about build an etl pipeline into bigquery. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-065",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our e-commerce team needs an experienced specialist for: GA4 setup and marketing dashboard - see requirements. Experience with SQL is a must. Looker Studio knowledge is important. Must have hands-on experience with BigQuery. Deliverables: W",
+    "date": "2024-05-08",
+    "bid_usd": 30.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about ga4 setup and marketing dashboard. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-066",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Power BI sales dashboard",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "We are a manufacturing company looking for help with this project: Power BI sales dashboard. Strong Dashboarding skills required. Tableau knowledge is important. Deliverables: Working power bi sales dashboard; Short documentation and a hand",
+    "date": "2024-03-08",
+    "bid_usd": 50.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-067",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our healthcare team needs an experienced specialist for: Attribution analysis for ad spend - see requirements. Must have hands-on experience with Google Analytics 4. You will be working mainly in BigQuery. Experience with Looker Studio is a",
+    "date": "2025-05-06",
+    "bid_usd": 50.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about attribution analysis for ad spend. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-068",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for insurance KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small insurance startup needs a freelancer for: Tableau dashboard for insurance KPIs - see requirements. Strong Power BI skills required. Experience with Tableau is a must. Bonus if you're someone who can turn our KPIs into one clear pa",
+    "date": "2023-01-03",
+    "bid_usd": 50.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about tableau dashboard for insurance kpis. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-069",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "We are a fintech company looking for help with this project: Build an ETL pipeline into BigQuery (details below). Must have hands-on experience with ETL. Looking for a person who knows Google's cloud warehouse for big event data. dbt knowle",
+    "date": "2025-06-24",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about build an etl pipeline into bigquery. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-070",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our non-profit team needs an experienced specialist for: dbt models on Snowflake. Experience with SQL is a must. dbt knowledge is important. You will be working mainly in Rust. Deliverables: Working dbt models on snowflake; Short documentat",
+    "date": "2024-07-29",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Your dbt models on snowflake sounds close to the Warehouse modernisation I built for a logistics client, where I kept version-controlled SQL transformation models with tests and lineage docs. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Warehouse modernisation project I handled this directly and documented the outcome.",
+      "In my Warehouse modernisation project I handled this directly and documented the outcome.",
+      "In my Warehouse modernisation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-071",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our small real estate startup needs a freelancer for: Build an ETL pipeline into BigQuery. Must have hands-on experience with ETL. Experience with SQL is a must. Ideally you are someone who can turn raw tables into tested, documented models",
+    "date": "2025-09-14",
+    "bid_usd": 18.0,
+    "pay_type": "hourly",
+    "text": "Your build an etl pipeline into bigquery sounds close to the Warehouse modernisation I built for a logistics client, where I kept version-controlled SQL transformation models with tests and lineage docs. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. I also delivered warehouse modernisation v2 (legal), which cut dashboard refresh time by 55%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Warehouse modernisation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p02",
+      "data-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-072",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "Our small e-commerce startup needs a freelancer for: Automate Excel reports - see requirements. Experience with Google Sheets Apps Script is a must. Looking for a person who can fix duplicates, typos and missing values. You will be working ",
+    "date": "2023-02-20",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Your automate excel reports sounds close to the Finance reporting automation I built for a legal client, where I built pivot-table workbooks with lookups for the finance team. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. Happy to share code samples.",
+    "screening_answers": [
+      "In my Finance reporting automation project I handled this directly and documented the outcome.",
+      "In my Finance reporting automation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-073",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: Statistical analysis of survey data. Experience with R is a must. Experience with Statistics is a must. Experience with A/B testing is a must. Deliverables: Working statistical",
+    "date": "2025-07-29",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-074",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "We are a manufacturing company looking for help with this project: Analyse our A/B test results - see requirements. Looking for a person who can wrangle messy tables in Python. Strong Statistics skills required. Deliverables: Working analys",
+    "date": "2025-05-01",
+    "bid_usd": 30.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-075",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our small fintech startup needs a freelancer for: Analyse our A/B test results (details below). We need someone who can wrangle messy tables in Python. Bonus if you're someone who is solid on regression and significance testing. Looking for",
+    "date": "2025-07-19",
+    "bid_usd": 100.0,
+    "pay_type": "fixed",
+    "text": "Your analyse our a/b test results sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. I also delivered pricing experiment analysis v2 (logistics), which found a price that lifted conversion 28%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03",
+      "data-p10"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-076",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "We are a real estate company looking for help with this project: GA4 setup and marketing dashboard. Google Analytics 4 knowledge is important. SQL knowledge is important. Looking for a person who knows Google's cloud warehouse for big event",
+    "date": "2023-05-01",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Your ga4 setup and marketing dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-077",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Analyse our A/B test results (details below). Ideally you are someone who is solid on regression and significance testing. We need someone who can wrangle messy tables in Python. Deliverables: ",
+    "date": "2025-03-05",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about analyse our a/b test results. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-078",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "We are a legal company looking for help with this project: Attribution analysis for ad spend. Experience with Google Analytics 4 is a must. Must have hands-on experience with BigQuery. Looker Studio knowledge is important. Strong SQL skills",
+    "date": "2025-03-08",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Your attribution analysis for ad spend sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered marketing attribution model v2 (gaming), which re-allocated 38% of ad spend to better channels. For you I'd start with A/B testing, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01",
+      "data-p08"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-079",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: GA4 setup and marketing dashboard. Ideally you are someone who knows Google's cloud warehouse for big event data. SQL knowledge is important. Google Analytics 4 knowledge is important. St",
+    "date": "2024-09-20",
+    "bid_usd": 36.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-080",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "We are a media company looking for help with this project: Analyse our A/B test results. Looking for a person who can tell us if a change really moved the needle. Bonus if you're someone who is fluent in the statistics programming language.",
+    "date": "2023-09-17",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-081",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Google Sheets automation with Apps Script",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "We are a media company looking for help with this project: Google Sheets automation with Apps Script. Strong Google Sheets Apps Script skills required. You will be working mainly in Data cleaning. Looking for a person who is an expert with ",
+    "date": "2023-05-20",
+    "bid_usd": 230.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about google sheets automation with apps script. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p04"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-082",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "I run a fintech business and want to hire someone for: dbt models on Snowflake - see requirements. Looking for a person who knows a modern cloud data warehouse. You will be working mainly in ETL. Strong dbt skills required. Experience with ",
+    "date": "2023-10-06",
+    "bid_usd": 100.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about dbt models on snowflake. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-083",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "I run a travel business and want to hire someone for: Attribution analysis for ad spend. You will be working mainly in SQL. We need someone who can track what visitors do on our website. Deliverables: Working attribution analysis for ad spe",
+    "date": "2024-09-21",
+    "bid_usd": 22.0,
+    "pay_type": "hourly",
+    "text": "Your attribution analysis for ad spend sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered marketing attribution model for a retail client, which re-allocated 61% of ad spend to better channels. For you I'd start with Google Analytics 4, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01",
+      "data-p15"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-084",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our media team needs an experienced specialist for: GA4 setup and marketing dashboard. BigQuery knowledge is important. Looking for a person who can build free shareable Google dashboards. Deliverables: Working ga4 setup and marketing dashb",
+    "date": "2025-08-30",
+    "bid_usd": 40.0,
+    "pay_type": "fixed",
+    "text": "Your ga4 setup and marketing dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-085",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "I run a gaming business and want to hire someone for: dbt models on Snowflake (details below). We need someone who knows a modern cloud data warehouse. You will be working mainly in ETL. dbt knowledge is important. We need someone who knows",
+    "date": "2023-04-06",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Your dbt models on snowflake sounds close to the Warehouse modernisation I built for a logistics client, where I kept version-controlled SQL transformation models with tests and lineage docs. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. I also delivered warehouse modernisation for a logistics client, which cut dashboard refresh time by 26%. For you I'd start with dbt, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Warehouse modernisation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p02",
+      "data-p16"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-086",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "I run a insurance business and want to hire someone for: Automate Excel reports. Experience with Excel is a must. Looking for a person who can fix duplicates, typos and missing values. Deliverables: Working automate excel reports; Short doc",
+    "date": "2023-07-20",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Your automate excel reports sounds close to the Finance reporting automation I built for a legal client, where I built pivot-table workbooks with lookups for the finance team. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. I also delivered crm data clean-up, which merged 12000 duplicate records. Happy to share code samples.",
+    "screening_answers": [
+      "In my Finance reporting automation project I handled this directly and documented the outcome.",
+      "In my Finance reporting automation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p04",
+      "data-p07"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-087",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for SaaS KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Tableau dashboard for SaaS KPIs. Experience with Dashboarding is a must. You will be working mainly in Looker Studio. Looking for a person who can make polished visual analytics dashboards. Del",
+    "date": "2024-02-18",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about tableau dashboard for saas kpis. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-088",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "I run a travel business and want to hire someone for: Attribution analysis for ad spend. Strong SQL skills required. Experience with BigQuery is a must. Strong Google Analytics 4 skills required. Deliverables: Working attribution analysis f",
+    "date": "2025-09-20",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Your attribution analysis for ad spend sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered marketing attribution model for a retail client, which re-allocated 61% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01",
+      "data-p15"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-089",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build management dashboards",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: Build management dashboards - see requirements. Strong Tableau skills required. You will be working mainly in Data visualization. Ideally you are someone who can build Microsoft-style int",
+    "date": "2023-01-05",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-090",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "I run a real estate business and want to hire someone for: Automate Excel reports. Experience with Excel is a must. Data cleaning knowledge is important. Looking for a person who can automate boring Google Sheets tasks. Snowflake knowledge ",
+    "date": "2025-06-25",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Your automate excel reports sounds close to the Finance reporting automation I built for a legal client, where I built pivot-table workbooks with lookups for the finance team. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. Happy to share code samples.",
+    "screening_answers": [
+      "In my Finance reporting automation project I handled this directly and documented the outcome.",
+      "In my Finance reporting automation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-091",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Power BI sales dashboard",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "We are a non-profit company looking for help with this project: Power BI sales dashboard. Looking for a person who can turn our KPIs into one clear page. Must have hands-on experience with Power BI. Experience with Tableau is a must. Delive",
+    "date": "2025-01-31",
+    "bid_usd": 21.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about power bi sales dashboard. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-092",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for legal KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our legal team needs an experienced specialist for: Tableau dashboard for legal KPIs. Ideally you are someone who can turn our KPIs into one clear page. Bonus if you're someone who can build free shareable Google dashboards. We need someone",
+    "date": "2025-07-16",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Your tableau dashboard for legal kpis sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-093",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: Attribution analysis for ad spend. Experience with Google Analytics 4 is a must. We need someone who knows Google's cloud warehouse for big event data. SQL knowledge is importa",
+    "date": "2024-01-08",
+    "bid_usd": 27.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-094",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "I run a legal business and want to hire someone for: Attribution analysis for ad spend. Strong SQL skills required. Strong Looker Studio skills required. We need someone who can track what visitors do on our website. We need someone who kno",
+    "date": "2024-07-23",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-095",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "I run a e-commerce business and want to hire someone for: dbt models on Snowflake - see requirements. Experience with ETL is a must. Ideally you are someone who knows Google's cloud warehouse for big event data. We need someone who knows a ",
+    "date": "2023-09-15",
+    "bid_usd": 33.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-096",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our small insurance startup needs a freelancer for: Analyse our A/B test results - see requirements. Ideally you are someone who can wrangle messy tables in Python. We need someone who is solid on regression and significance testing. Ideall",
+    "date": "2024-01-09",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Your analyse our a/b test results sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-097",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "Our small insurance startup needs a freelancer for: Automate Excel reports. Strong Google Sheets Apps Script skills required. Experience with Excel is a must. Deliverables: Working automate excel reports; Short documentation and a hand-over",
+    "date": "2024-09-08",
+    "bid_usd": 40.0,
+    "pay_type": "fixed",
+    "text": "Your automate excel reports sounds close to the Finance reporting automation I built for a legal client, where I built pivot-table workbooks with lookups for the finance team. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. I also delivered inventory forecasting workbook, which cut stock-outs by 51%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Finance reporting automation project I handled this directly and documented the outcome.",
+      "In my Finance reporting automation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p04",
+      "data-p05"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-098",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our small insurance startup needs a freelancer for: Build an ETL pipeline into BigQuery. Strong dbt skills required. Must have hands-on experience with SQL. You will be working mainly in BigQuery. ETL knowledge is important. Deliverables: W",
+    "date": "2023-08-06",
+    "bid_usd": 20.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-099",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "I run a insurance business and want to hire someone for: Attribution analysis for ad spend (details below). Strong BigQuery skills required. Strong Looker Studio skills required. Deliverables: Working attribution analysis for ad spend; Shor",
+    "date": "2024-02-20",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about attribution analysis for ad spend. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-100",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "We are a media company looking for help with this project: GA4 setup and marketing dashboard - see requirements. You will be working mainly in BigQuery. Bonus if you're someone who can build free shareable Google dashboards. SQL knowledge i",
+    "date": "2023-06-15",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Your ga4 setup and marketing dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-101",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "I run a fintech business and want to hire someone for: dbt models on Snowflake - see requirements. Must have hands-on experience with ETL. SQL knowledge is important. Experience with Snowflake is a must. Deliverables: Working dbt models on ",
+    "date": "2025-08-26",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-102",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Analyse our A/B test results. Strong A/B testing skills required. Experience with pandas is a must. Looking for a person who is fluent in the statistics programming language. Deliver",
+    "date": "2024-06-28",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about analyse our a/b test results. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-103",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for non-profit KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our non-profit team needs an experienced specialist for: Tableau dashboard for non-profit KPIs. Must have hands-on experience with Looker Studio. Bonus if you're someone who can turn our KPIs into one clear page. Strong Data visualization s",
+    "date": "2025-01-06",
+    "bid_usd": 50.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-104",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our e-commerce team needs an experienced specialist for: GA4 setup and marketing dashboard. Bonus if you're someone who can track what visitors do on our website. You will be working mainly in BigQuery. Strong Looker Studio skills required.",
+    "date": "2025-04-25",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Your ga4 setup and marketing dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-105",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: Statistical analysis of survey data. Experience with Statistics is a must. Bonus if you're someone who can wrangle messy tables in Python. R knowledge is important. Deliverables: Working ",
+    "date": "2025-01-23",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about statistical analysis of survey data. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-106",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "I run a legal business and want to hire someone for: Attribution analysis for ad spend. SQL knowledge is important. Strong Google Analytics 4 skills required. Ideally you are someone who knows Google's cloud warehouse for big event data. Yo",
+    "date": "2023-04-08",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Your attribution analysis for ad spend sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-107",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "We are a manufacturing company looking for help with this project: Build an ETL pipeline into BigQuery (details below). BigQuery knowledge is important. Strong Snowflake skills required. Experience with ETL is a must. Experience with SQL is",
+    "date": "2023-09-19",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Your build an etl pipeline into bigquery sounds close to the Warehouse modernisation I built for a logistics client, where I kept version-controlled SQL transformation models with tests and lineage docs. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. I also delivered warehouse modernisation v2 (legal), which cut dashboard refresh time by 55%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Warehouse modernisation project I handled this directly and documented the outcome.",
+      "In my Warehouse modernisation project I handled this directly and documented the outcome.",
+      "In my Warehouse modernisation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p02",
+      "data-p09"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-108",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "I run a real estate business and want to hire someone for: Sales forecasting model. Looking for a person who is an expert with spreadsheets, formulas and pivots. Statistics knowledge is important. You will be working mainly in Forecasting. ",
+    "date": "2023-06-28",
+    "bid_usd": 200.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about sales forecasting model. On that project I used Forecasting, Excel, Statistics, and it cut stock-outs by 51%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Inventory forecasting workbook project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p05"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-109",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Demand forecast for gaming inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Demand forecast for gaming inventory. You will be working mainly in Excel. Bonus if you're someone who can wrangle messy tables in Python. We need someone who can project sales for the ne",
+    "date": "2024-08-11",
+    "bid_usd": 16.0,
+    "pay_type": "hourly",
+    "text": "Your demand forecast for gaming inventory sounds close to the Inventory forecasting workbook I built for a fintech client, where I projected next quarter's numbers from historical trends. On that project I used Forecasting, Excel, Statistics, and it cut stock-outs by 51%. I also delivered crm data clean-up, which merged 12000 duplicate records. For you I'd start with Forecasting, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p05",
+      "data-p07"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-110",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Power BI sales dashboard",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "We are a legal company looking for help with this project: Power BI sales dashboard. Power BI knowledge is important. Must have hands-on experience with Looker Studio. Bonus if you're someone who can turn our KPIs into one clear page. Exper",
+    "date": "2024-01-29",
+    "bid_usd": 49.0,
+    "pay_type": "hourly",
+    "text": "Your power bi sales dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered marketing attribution model v2 (gaming), which re-allocated 38% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01",
+      "data-p08"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-111",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for fintech KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "I run a fintech business and want to hire someone for: Tableau dashboard for fintech KPIs - see requirements. Looking for a person who can build free shareable Google dashboards. You will be working mainly in Data visualization. Power BI kn",
+    "date": "2023-02-01",
+    "bid_usd": 23.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about tableau dashboard for fintech kpis. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-112",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Sales forecasting model - see requirements. Forecasting knowledge is important. Experience with pandas is a must. Ideally you are someone who is an expert with spreadsheets, formulas",
+    "date": "2023-06-23",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Your sales forecasting model sounds close to the Inventory forecasting workbook I built for a fintech client, where I projected next quarter's numbers from historical trends. On that project I used Forecasting, Excel, Statistics, and it cut stock-outs by 51%. I also delivered pricing experiment analysis, which found a price that lifted conversion 30%. For you I'd start with Statistics, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Inventory forecasting workbook project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p05",
+      "data-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-113",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Google Sheets automation with Apps Script",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: Google Sheets automation with Apps Script (details below). Experience with Excel is a must. Looking for a person who can automate boring Google Sheets tasks. You will be working mainly in",
+    "date": "2025-01-26",
+    "bid_usd": 23.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-114",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "We are a logistics company looking for help with this project: dbt models on Snowflake. We need someone who can move data from our tools into one place every night. SQL knowledge is important. Deliverables: Working dbt models on snowflake; ",
+    "date": "2023-02-07",
+    "bid_usd": 22.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about dbt models on snowflake. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-115",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "Our travel team needs an experienced specialist for: Automate Excel reports. Google Sheets Apps Script knowledge is important. Excel knowledge is important. Experience with Data cleaning is a must. Must have hands-on experience with Power B",
+    "date": "2024-01-07",
+    "bid_usd": 15.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about automate excel reports. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p04"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-116",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Demand forecast for gaming inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: Demand forecast for gaming inventory - see requirements. We need someone who is solid on regression and significance testing. Ideally you are someone who is an expert with spreadsheets, formu",
+    "date": "2024-02-13",
+    "bid_usd": 100.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-117",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our small travel startup needs a freelancer for: GA4 setup and marketing dashboard (details below). Strong SQL skills required. Strong BigQuery skills required. Looking for a person who can build free shareable Google dashboards. Deliverabl",
+    "date": "2024-08-09",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Your ga4 setup and marketing dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered marketing attribution model v2 (gaming), which re-allocated 38% of ad spend to better channels. For you I'd start with BigQuery, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01",
+      "data-p08"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-118",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "Our small education startup needs a freelancer for: Automate Excel reports (details below). Bonus if you're someone who can fix duplicates, typos and missing values. Experience with Excel is a must. Strong Google Sheets Apps Script skills r",
+    "date": "2025-01-30",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about automate excel reports. On that project I used Excel, Google Sheets Apps Script, Data cleaning, and it saved 40 hours of work per month. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p04"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-119",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Build an ETL pipeline into BigQuery - see requirements. Experience with BigQuery is a must. Must have hands-on experience with ETL. Snowflake knowledge is important. You will be working mainly ",
+    "date": "2023-10-11",
+    "bid_usd": 43.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-120",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our SaaS team needs an experienced specialist for: dbt models on Snowflake (details below). We need someone who can move data from our tools into one place every night. Must have hands-on experience with BigQuery. Experience with Snowflake ",
+    "date": "2025-03-25",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Your dbt models on snowflake sounds close to the Warehouse modernisation I built for a logistics client, where I kept version-controlled SQL transformation models with tests and lineage docs. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Warehouse modernisation project I handled this directly and documented the outcome.",
+      "In my Warehouse modernisation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-121",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Google Sheets automation with Apps Script",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "I run a logistics business and want to hire someone for: Google Sheets automation with Apps Script - see requirements. Bonus if you're someone who can automate boring Google Sheets tasks. Must have hands-on experience with Excel. Bonus if y",
+    "date": "2023-09-23",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-122",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our small manufacturing startup needs a freelancer for: Statistical analysis of survey data - see requirements. R knowledge is important. Must have hands-on experience with Statistics. pandas knowledge is important. Bonus if you're someone ",
+    "date": "2025-09-18",
+    "bid_usd": 30.0,
+    "pay_type": "hourly",
+    "text": "Your statistical analysis of survey data sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. I also delivered pricing experiment analysis v2 (logistics), which found a price that lifted conversion 28%. For you I'd start with Excel, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03",
+      "data-p10"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-123",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: dbt models on Snowflake. Experience with SQL is a must. BigQuery knowledge is important. Strong dbt skills required. Deliverables: Working dbt models on snowflake; Short documentation and",
+    "date": "2023-03-19",
+    "bid_usd": 100.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-124",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: Attribution analysis for ad spend - see requirements. Strong Looker Studio skills required. You will be working mainly in BigQuery. You will be working mainly in Google Analytics 4. Deliverab",
+    "date": "2025-03-15",
+    "bid_usd": 50.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about attribution analysis for ad spend. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-125",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our small e-commerce startup needs a freelancer for: Attribution analysis for ad spend (details below). Looking for a person who knows Google's cloud warehouse for big event data. Must have hands-on experience with Looker Studio. Strong SQL",
+    "date": "2024-03-07",
+    "bid_usd": 24.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-126",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Tableau dashboard for real estate KPIs",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "We are a real estate company looking for help with this project: Tableau dashboard for real estate KPIs - see requirements. We need someone who can make charts that tell the story. Experience with Power BI is a must. Deliverables: Working t",
+    "date": "2025-02-11",
+    "bid_usd": 50.0,
+    "pay_type": "fixed",
+    "text": "Your tableau dashboard for real estate kpis sounds close to the Customer segmentation study I built for a retail client, where I fitted statistical models in a language built for statisticians. On that project I used R, Statistics, SQL, and it lifted email revenue 33% using segments. I also delivered pricing experiment analysis v2 (logistics), which found a price that lifted conversion 28%. For you I'd start with Power BI, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p06",
+      "data-p10"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-127",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Automate Excel reports",
+    "job_category": "Spreadsheet automation",
+    "job_excerpt": "We are a insurance company looking for help with this project: Automate Excel reports. Strong Excel skills required. Data cleaning knowledge is important. Google Sheets Apps Script knowledge is important. Must have hands-on experience with ",
+    "date": "2023-04-16",
+    "bid_usd": 27.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-128",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "I run a retail business and want to hire someone for: dbt models on Snowflake. dbt knowledge is important. Experience with SQL is a must. Experience with Snowflake is a must. You will be working mainly in ETL. Bonus if you're someone who kn",
+    "date": "2024-01-13",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about dbt models on snowflake. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-129",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Demand forecast for real estate inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Demand forecast for real estate inventory. Experience with Excel is a must. Strong Statistics skills required. Looking for a person who can project sales for the next quarters. Deliv",
+    "date": "2024-08-04",
+    "bid_usd": 13.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-130",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build management dashboards",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Build management dashboards (details below). Must have hands-on experience with Tableau. Must have hands-on experience with Looker Studio. Must have hands-on experience with Power BI",
+    "date": "2023-05-01",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-131",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "I run a real estate business and want to hire someone for: GA4 setup and marketing dashboard. We need someone who can track what visitors do on our website. Experience with SQL is a must. Experience with BigQuery is a must. You will be work",
+    "date": "2024-09-06",
+    "bid_usd": 30.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about ga4 setup and marketing dashboard. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-132",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "We are a SaaS company looking for help with this project: Statistical analysis of survey data. Experience with pandas is a must. Experience with A/B testing is a must. Must have hands-on experience with R. Strong Statistics skills required.",
+    "date": "2025-04-25",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Your statistical analysis of survey data sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. I also delivered pricing experiment analysis v2 (logistics), which found a price that lifted conversion 28%. For you I'd start with pandas, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03",
+      "data-p10"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-133",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small travel startup needs a freelancer for: Sales forecasting model. Excel knowledge is important. Looking for a person who can wrangle messy tables in Python. We need someone who is solid on regression and significance testing. Delive",
+    "date": "2025-05-12",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Your sales forecasting model sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-134",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build management dashboards",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small travel startup needs a freelancer for: Build management dashboards. Looking for a person who can make polished visual analytics dashboards. Looker Studio knowledge is important. Experience with Video editing is a must. Deliverable",
+    "date": "2024-05-24",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Your build management dashboards sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered marketing attribution model v2 (gaming), which re-allocated 38% of ad spend to better channels. For you I'd start with Tableau, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01",
+      "data-p08"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-135",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "We are a education company looking for help with this project: Build an ETL pipeline into BigQuery. Strong BigQuery skills required. dbt knowledge is important. ETL knowledge is important. Must have hands-on experience with Adobe Illustrato",
+    "date": "2024-02-01",
+    "bid_usd": 33.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-136",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "dbt models on Snowflake",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: dbt models on Snowflake - see requirements. Must have hands-on experience with dbt. Bonus if you're someone who knows Google's cloud warehouse for big event data. You will be working mainly i",
+    "date": "2025-04-03",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Your dbt models on snowflake sounds close to the Warehouse modernisation I built for a logistics client, where I kept version-controlled SQL transformation models with tests and lineage docs. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. I also delivered warehouse modernisation v2 (legal), which cut dashboard refresh time by 55%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Warehouse modernisation project I handled this directly and documented the outcome.",
+      "In my Warehouse modernisation project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p02",
+      "data-p09"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-137",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "I run a insurance business and want to hire someone for: Sales forecasting model. Strong Excel skills required. You will be working mainly in Statistics. We need someone who can project sales for the next quarters. Bonus if you're someone w",
+    "date": "2024-05-31",
+    "bid_usd": 190.0,
+    "pay_type": "fixed",
+    "text": "Your sales forecasting model sounds close to the Inventory forecasting workbook I built for a fintech client, where I projected next quarter's numbers from historical trends. On that project I used Forecasting, Excel, Statistics, and it cut stock-outs by 51%. I also delivered crm data clean-up, which merged 12000 duplicate records. For you I'd start with Forecasting, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Inventory forecasting workbook project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p05",
+      "data-p07"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-138",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our legal team needs an experienced specialist for: Analyse our A/B test results. Bonus if you're someone who can wrangle messy tables in Python. Bonus if you're someone who is fluent in the statistics programming language. Deliverables: Wo",
+    "date": "2024-10-15",
+    "bid_usd": 50.0,
+    "pay_type": "fixed",
+    "text": "Your analyse our a/b test results sounds close to the Pricing experiment analysis I built for a manufacturing client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-139",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build management dashboards",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: Build management dashboards - see requirements. Looking for a person who can turn our KPIs into one clear page. Looking for a person who can make polished visual analytics dashboards. Pow",
+    "date": "2025-03-21",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about build management dashboards. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-140",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small healthcare startup needs a freelancer for: Sales forecasting model (details below). Must have hands-on experience with Statistics. Bonus if you're someone who can project sales for the next quarters. You will be working mainly in ",
+    "date": "2024-06-11",
+    "bid_usd": 40.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about sales forecasting model. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-141",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Power BI sales dashboard",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "We are a non-profit company looking for help with this project: Power BI sales dashboard - see requirements. Strong Power BI skills required. We need someone who can make charts that tell the story. Looking for a person who can make polishe",
+    "date": "2024-03-29",
+    "bid_usd": 44.0,
+    "pay_type": "hourly",
+    "text": "Your power bi sales dashboard sounds close to the Pricing experiment analysis v2 (logistics) I built for a logistics client, where I designed controlled experiments and computed significance and power. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 28%. I also delivered marketing attribution model, which re-allocated 27% of ad spend to better channels. For you I'd start with A/B testing, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis v2 (logistics) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p10",
+      "data-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-142",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Statistical analysis of survey data",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our small education startup needs a freelancer for: Statistical analysis of survey data - see requirements. We need someone who can wrangle messy tables in Python. Experience with R is a must. Strong A/B testing skills required. Deliverable",
+    "date": "2023-01-16",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about statistical analysis of survey data. On that project I used A/B testing, Statistics, pandas, and it found a price that lifted conversion 30%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome.",
+      "In my Pricing experiment analysis project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-143",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Demand forecast for healthcare inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "I run a healthcare business and want to hire someone for: Demand forecast for healthcare inventory - see requirements. Looking for a person who is an expert with spreadsheets, formulas and pivots. Looking for a person who can project sales ",
+    "date": "2025-03-29",
+    "bid_usd": 33.0,
+    "pay_type": "hourly",
+    "text": "Your demand forecast for healthcare inventory sounds close to the Inventory forecasting workbook I built for a fintech client, where I projected next quarter's numbers from historical trends. On that project I used Forecasting, Excel, Statistics, and it cut stock-outs by 51%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Inventory forecasting workbook project I handled this directly and documented the outcome.",
+      "In my Inventory forecasting workbook project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p05"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-144",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Attribution analysis for ad spend",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our e-commerce team needs an experienced specialist for: Attribution analysis for ad spend. Strong SQL skills required. You will be working mainly in BigQuery. Strong Google Analytics 4 skills required. Looker Studio knowledge is important.",
+    "date": "2024-11-15",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Your attribution analysis for ad spend sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered marketing attribution model v2 (gaming), which re-allocated 38% of ad spend to better channels. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01",
+      "data-p08"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-145",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our small education startup needs a freelancer for: Build an ETL pipeline into BigQuery. We need someone who can move data from our tools into one place every night. Must have hands-on experience with Snowflake. Must have hands-on experienc",
+    "date": "2025-02-02",
+    "bid_usd": 170.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-146",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Power BI sales dashboard",
+    "job_category": "Dashboards & BI",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: Power BI sales dashboard - see requirements. Must have hands-on experience with Data visualization. Bonus if you're someone who can make polished visual analytics dashboards. You will be work",
+    "date": "2024-05-01",
+    "bid_usd": 22.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about power bi sales dashboard. On that project I used R, Statistics, SQL, and it lifted email revenue 33% using segments. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p06"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-147",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Build an ETL pipeline into BigQuery",
+    "job_category": "Data engineering",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Build an ETL pipeline into BigQuery. Strong SQL skills required. Must have hands-on experience with dbt. Strong BigQuery skills required. We need someone who can move data from our tools ",
+    "date": "2025-05-04",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about build an etl pipeline into bigquery. On that project I used dbt, Snowflake, SQL, and it cut dashboard refresh time by 50%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "data-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-148",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "Analyse our A/B test results",
+    "job_category": "Analytics & statistics",
+    "job_excerpt": "Our small travel startup needs a freelancer for: Analyse our A/B test results. Bonus if you're someone who can wrangle messy tables in Python. Must have hands-on experience with R. Must have hands-on experience with A/B testing. Looking for",
+    "date": "2024-04-19",
+    "bid_usd": 60.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 5 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-data-149",
+    "persona": "data",
+    "type": "proposal",
+    "job_title": "GA4 setup and marketing dashboard",
+    "job_category": "Marketing analytics",
+    "job_excerpt": "Our e-commerce team needs an experienced specialist for: GA4 setup and marketing dashboard - see requirements. You will be working mainly in SQL. Must have hands-on experience with Google Analytics 4. Ideally you are someone who can build f",
+    "date": "2025-04-09",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Your ga4 setup and marketing dashboard sounds close to the Marketing attribution model I built for a manufacturing client, where I instrumented website events and conversion funnels. On that project I used Google Analytics 4, BigQuery, SQL, and it re-allocated 27% of ad spend to better channels. I also delivered marketing attribution model v2 (gaming), which re-allocated 38% of ad spend to better channels. For you I'd start with Looker Studio, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Marketing attribution model project I handled this directly and documented the outcome.",
+      "In my Marketing attribution model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "data-p01",
+      "data-p08"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  }
+]

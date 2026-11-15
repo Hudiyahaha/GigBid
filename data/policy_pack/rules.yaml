@@ -1,0 +1,57 @@
+# Machine-readable marketplace rules (policy version 1). Loaded by agent/policy.py.
+# Compliance Guard and Pricing Strategist read ONLY this file + GigSim /policy; nothing is hard-coded.
+version: 1
+effective: "2026-10-27"
+
+forbidden_patterns:          # removed from drafts (redact) or block the draft
+  - id: off_platform_contact
+    action: redact
+    message: "No off-platform contact details (email, phone, messaging apps)."
+    regex:
+      - "[\\w.+-]+@[\\w-]+\\.[\\w.]+"
+      - "\\+?\\d[\\d\\s\\-()]{8,}\\d"
+      - "(?i)\\b(whatsapp|telegram|skype|wechat|signal app|discord)\\b"
+  - id: off_platform_payment
+    action: block
+    message: "No off-platform or crypto payment."
+    regex:
+      - "(?i)\\b(pay(ment)? (me )?(directly|outside)|bank transfer|paypal me|crypto|usdt|bitcoin|wallet address)\\b"
+  - id: guarantee
+    action: redact
+    message: "No guarantees of results."
+    regex:
+      - "(?i)\\bguarantee(d|s)?\\b"
+      - "(?i)\\b100% (success|accuracy|satisfaction)\\b"
+      - "(?i)\\bfirst[- ]page results\\b"
+  - id: free_work
+    action: block
+    message: "No unpaid production work."
+    regex:
+      - "(?i)\\b(work|do it|complete (it|the project)) for free\\b"
+      - "(?i)\\bfree (trial|sample) (of|for) (the )?(full|whole|complete)\\b"
+  - id: inflated_experience
+    action: redact
+    message: "No unverifiable experience claims."
+    regex:
+      - "(?i)\\b(1[0-9]|[2-9][0-9])\\+?\\s+years\\b"
+
+scam_signals:               # detection in INCOMING job posts / client messages (Risk Assessor, Client Liaison)
+  - {code: free_work, severity: 0.9, regex: "(?i)(for free as a test|complete the full project for free|only pay if we (decide to )?use|unpaid (trial|test)|send a complete working version first)"}
+  - {code: off_platform_contact, severity: 0.85, regex: "(?i)(whatsapp|telegram|wechat|skype|signal app|contact me directly|outside this site|move (this|it) to)"}
+  - {code: off_platform_payment, severity: 0.9, regex: "(?i)(bank transfer|no platform fees|pay you directly|outside the platform|paypal me)"}
+  - {code: crypto_payment, severity: 0.9, regex: "(?i)(usdt|bitcoin|crypto(currency)? wallet|by crypto)"}
+  - {code: upfront_payment, severity: 0.95, regex: "(?i)(equipment fee|onboarding (kit|fee)|pay a \\$?\\d+ .*fee|buy the required software)"}
+  - {code: credential_request, severity: 0.95, regex: "(?i)(share your (marketplace |upwork )?(login|password|account)|submit proposals for you)"}
+
+limits:
+  max_cover_letter_chars: 5000
+  max_submissions_per_day: null
+  min_words: 60
+  max_words: 320
+
+connects:
+  surcharge_unverified_client: 0
+
+automation:
+  require_human_approval: [submit_proposal, send_message, spend_connects]
+  auto_send_allowed: false

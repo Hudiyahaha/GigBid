@@ -1,0 +1,2864 @@
+[
+  {
+    "id": "prop-fullstack-000",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for education",
+    "job_category": "Web app",
+    "job_excerpt": "I run a education business and want to hire someone for: Customer portal for education (details below). Strong PostgreSQL skills required. You will be working mainly in Authentication. You will be working mainly in TypeScript. We need someo",
+    "date": "2025-06-14",
+    "bid_usd": 40.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-001",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for legal platform",
+    "job_category": "API backend",
+    "job_excerpt": "We are a legal company looking for help with this project: GraphQL API for legal platform. Strong PostgreSQL skills required. You will be working mainly in Node.js. Strong NestJS skills required. REST API knowledge is important. GraphQL kno",
+    "date": "2025-08-13",
+    "bid_usd": 28.0,
+    "pay_type": "hourly",
+    "text": "Your graphql api for legal platform sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. For you I'd start with NestJS, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-002",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our e-commerce team needs an experienced specialist for: Shopify store with subscriptions - see requirements. React knowledge is important. Experience with Shopify is a must. We need someone who can build the server side in JavaScript. Stri",
+    "date": "2025-08-25",
+    "bid_usd": 370.0,
+    "pay_type": "fixed",
+    "text": "Your shopify store with subscriptions sounds close to the Serverless image service v2 (real estate) I built for a real estate client, where I ran the backend on a JavaScript server runtime. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. I also delivered internal admin dashboard, which removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p11",
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-003",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small travel startup needs a freelancer for: Shopify store with subscriptions - see requirements. You will be working mainly in Shopify. Bonus if you're someone who can take online payments and recurring billing. React knowledge is impo",
+    "date": "2023-10-04",
+    "bid_usd": 200.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about shopify store with subscriptions. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-004",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Responsive frontend for SaaS site",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Responsive frontend for SaaS site. You will be working mainly in React. Experience with TypeScript is a must. You will be working mainly in Next.js. Experience with Tailwind CSS is a must. Look",
+    "date": "2024-07-29",
+    "bid_usd": 48.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-005",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Shopify store with subscriptions. We need someone who knows how to customise a hosted online store. Bonus if you're someone who can build a snappy single-page interface. You will be ",
+    "date": "2024-07-17",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Your shopify store with subscriptions sounds close to the Internal admin dashboard I built for a travel client, where I built the interface from reusable stateful components with hooks. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. I also delivered fitness tracking pwa, which reached 1200 weekly active users. For you I'd start with Stripe, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03",
+      "fullstack-p05"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-006",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for fintech",
+    "job_category": "Web app",
+    "job_excerpt": "I run a fintech business and want to hire someone for: Customer portal for fintech - see requirements. Bonus if you're someone who can build an SEO-friendly site with server rendering. Experience with Authentication is a must. TypeScript kn",
+    "date": "2024-03-04",
+    "bid_usd": 28.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about customer portal for fintech. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-007",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small e-commerce startup needs a freelancer for: Shopify store with subscriptions (details below). Strong Stripe skills required. Experience with React is a must. You will be working mainly in Shopify. Looking for a person who can build",
+    "date": "2024-06-02",
+    "bid_usd": 170.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-008",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "SaaS dashboard MVP in Next.js",
+    "job_category": "Web app",
+    "job_excerpt": "I run a retail business and want to hire someone for: SaaS dashboard MVP in Next.js. You will be working mainly in PostgreSQL. Ideally you are someone who likes a typed ORM for database access. Ideally you are someone who can build a snappy",
+    "date": "2023-05-24",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Your saas dashboard mvp in next.js sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. I also delivered logistics tracking api, which served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01",
+      "fullstack-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-009",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for insurance platform",
+    "job_category": "API backend",
+    "job_excerpt": "Our small insurance startup needs a freelancer for: GraphQL API for insurance platform - see requirements. You will be working mainly in Node.js. NestJS knowledge is important. Strong Redis skills required. Express knowledge is important. E",
+    "date": "2025-01-15",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about graphql api for insurance platform. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-010",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for e-commerce platform",
+    "job_category": "API backend",
+    "job_excerpt": "Our small e-commerce startup needs a freelancer for: GraphQL API for e-commerce platform. Strong Node.js skills required. You will be working mainly in Redis. Strong NestJS skills required. You will be working mainly in Express. Deliverable",
+    "date": "2024-10-22",
+    "bid_usd": 230.0,
+    "pay_type": "fixed",
+    "text": "Your graphql api for e-commerce platform sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-011",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "I run a real estate business and want to hire someone for: Convert Figma designs to React. Must have hands-on experience with Next.js. You will be working mainly in TypeScript. React knowledge is important. Must have hands-on experience wit",
+    "date": "2025-06-05",
+    "bid_usd": 38.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-012",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Set up GitHub Actions pipeline",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: Set up GitHub Actions pipeline. Strong Playwright skills required. Bonus if you're someone who can make the app run the same on every machine. Strong GitHub Actions skills requ",
+    "date": "2023-05-13",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about set up github actions pipeline. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p06"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-013",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Responsive frontend for e-commerce site",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our e-commerce team needs an experienced specialist for: Responsive frontend for e-commerce site (details below). We need someone who writes typed JavaScript that catches bugs early. Ideally you are someone who can build a snappy single-pag",
+    "date": "2025-06-09",
+    "bid_usd": 31.0,
+    "pay_type": "hourly",
+    "text": "Your responsive frontend for e-commerce site sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. I also delivered internal admin dashboard, which removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01",
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-014",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Add Stripe checkout to our store. You will be working mainly in Shopify. Bonus if you're someone who can take online payments and recurring billing. Must have hands-on experience with ",
+    "date": "2025-09-18",
+    "bid_usd": 270.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about add stripe checkout to our store. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-015",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add end-to-end tests and CI",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "Our small retail startup needs a freelancer for: Add end-to-end tests and CI. We need someone who can automate testing and deploys on every push. Docker knowledge is important. Looking for a person who can automate browser tests for our mai",
+    "date": "2023-07-15",
+    "bid_usd": 27.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-016",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "I run a e-commerce business and want to hire someone for: Shopify store with subscriptions. Must have hands-on experience with Shopify. Experience with Stripe is a must. Strong React skills required. Experience with Node.js is a must. Deliv",
+    "date": "2023-11-22",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-017",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: Shopify store with subscriptions. We need someone who can take online payments and recurring billing. Ideally you are someone who can build a snappy single-page interface. Node.js know",
+    "date": "2024-06-14",
+    "bid_usd": 29.0,
+    "pay_type": "hourly",
+    "text": "Your shopify store with subscriptions sounds close to the Multi-vendor marketplace I built for a logistics client, where I used file-based routing with server-side rendering. On that project I used Next.js, MongoDB, Stripe, and it onboarded 55 vendors in two months. Happy to share code samples.",
+    "screening_answers": [
+      "In my Multi-vendor marketplace project I handled this directly and documented the outcome.",
+      "In my Multi-vendor marketplace project I handled this directly and documented the outcome.",
+      "In my Multi-vendor marketplace project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p07"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-018",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for travel platform",
+    "job_category": "API backend",
+    "job_excerpt": "Our small travel startup needs a freelancer for: GraphQL API for travel platform (details below). You will be working mainly in NestJS. Strong GraphQL skills required. Must have hands-on experience with PostgreSQL. Deliverables: Working gra",
+    "date": "2023-11-03",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Your graphql api for travel platform sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered internal admin dashboard for a travel client, which removed 29 manual SQL edits a week. For you I'd start with PostgreSQL, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p17"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-019",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: Shopify store with subscriptions. Experience with Stripe is a must. Strong React skills required. Must have hands-on experience with Shopify. Deliverables: Working shopify store with subscrip",
+    "date": "2025-01-13",
+    "bid_usd": 190.0,
+    "pay_type": "fixed",
+    "text": "Your shopify store with subscriptions sounds close to the Internal admin dashboard I built for a travel client, where I built the interface from reusable stateful components with hooks. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-020",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "I run a healthcare business and want to hire someone for: Add Stripe checkout to our store - see requirements. You will be working mainly in Shopify. Stripe knowledge is important. Must have hands-on experience with React. Node.js knowledge",
+    "date": "2025-08-13",
+    "bid_usd": 210.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-021",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "SaaS dashboard MVP in Next.js",
+    "job_category": "Web app",
+    "job_excerpt": "We are a SaaS company looking for help with this project: SaaS dashboard MVP in Next.js. Prisma knowledge is important. Bonus if you're someone who writes typed JavaScript that catches bugs early. We need someone who can build an SEO-friend",
+    "date": "2023-04-11",
+    "bid_usd": 200.0,
+    "pay_type": "fixed",
+    "text": "Your saas dashboard mvp in next.js sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-022",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Realtime notifications service",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "We are a media company looking for help with this project: Realtime notifications service (details below). Must have hands-on experience with Redis. Experience with Firebase is a must. Strong AWS Lambda skills required. Deliverables: Workin",
+    "date": "2023-05-15",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Your realtime notifications service sounds close to the Fitness tracking PWA for a education client I built for a education client, where I built the interface from reusable stateful components with hooks. On that project I used React, Firebase, Tailwind CSS, and it reached 4000 weekly active users. I also delivered logistics tracking api, which served 2500 requests per second at p95 under 120 ms. For you I'd start with Redis, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Fitness tracking PWA for a education client project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p19",
+      "fullstack-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-023",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Convert Figma designs to React. React knowledge is important. Ideally you are someone who can build an SEO-friendly site with server rendering. Must have hands-on experience with Tailw",
+    "date": "2023-01-20",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Your convert figma designs to react sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. I also delivered internal admin dashboard, which removed 71 manual SQL edits a week. For you I'd start with Next.js, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01",
+      "fullstack-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-024",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add end-to-end tests and CI",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Add end-to-end tests and CI - see requirements. We need someone who can automate browser tests for our main flows. You will be working mainly in Docker. You will be working mainly in GitHub Act",
+    "date": "2024-10-02",
+    "bid_usd": 14.0,
+    "pay_type": "hourly",
+    "text": "Your add end-to-end tests and ci sounds close to the E2E test and CI overhaul I built for a insurance client, where I covered the critical user journeys with browser end-to-end tests. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. I also delivered e2e test and ci overhaul v2 (travel), which cut escaped bugs by 64%. Happy to share code samples.",
+    "screening_answers": [
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p06",
+      "fullstack-p13"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-025",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Scale our Node.js backend",
+    "job_category": "API backend",
+    "job_excerpt": "We are a healthcare company looking for help with this project: Scale our Node.js backend (details below). We need someone who can structure a large backend cleanly with modules. Strong Node.js skills required. We need someone who can put t",
+    "date": "2024-11-03",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-026",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: Add Stripe checkout to our store. Ideally you are someone who knows how to customise a hosted online store. Experience with React is a must. You will be working mainly in Node.",
+    "date": "2025-02-28",
+    "bid_usd": 310.0,
+    "pay_type": "fixed",
+    "text": "Your add stripe checkout to our store sounds close to the Internal admin dashboard I built for a travel client, where I built the interface from reusable stateful components with hooks. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. I also delivered serverless image service v2 (real estate), which cut hosting cost by 43%. For you I'd start with Shopify, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03",
+      "fullstack-p11"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-027",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Realtime notifications service",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Realtime notifications service. You will be working mainly in WebSockets. We need someone who can speed things up with caching and queues. You will be working mainly in AWS Lambda. M",
+    "date": "2023-05-24",
+    "bid_usd": 210.0,
+    "pay_type": "fixed",
+    "text": "Your realtime notifications service sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-028",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Scale our Node.js backend",
+    "job_category": "API backend",
+    "job_excerpt": "We are a fintech company looking for help with this project: Scale our Node.js backend (details below). You will be working mainly in Node.js. Must have hands-on experience with NestJS. REST API knowledge is important. Must have hands-on ex",
+    "date": "2025-02-11",
+    "bid_usd": 220.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about scale our node.js backend. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-029",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for healthcare",
+    "job_category": "Web app",
+    "job_excerpt": "I run a healthcare business and want to hire someone for: Customer portal for healthcare - see requirements. You will be working mainly in Next.js. Must have hands-on experience with PostgreSQL. Experience with TypeScript is a must. Must ha",
+    "date": "2024-12-22",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about customer portal for healthcare. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-030",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Realtime notifications service",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "We are a education company looking for help with this project: Realtime notifications service. Must have hands-on experience with Redis. You will be working mainly in AWS Lambda. Deliverables: Working realtime notifications service; Short d",
+    "date": "2024-06-18",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about realtime notifications service. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-031",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Build a booking web app",
+    "job_category": "Web app",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: Build a booking web app. Strong TypeScript skills required. Experience with PostgreSQL is a must. Strong Prisma skills required. Deliverables: Working build a booking web app; Short do",
+    "date": "2023-11-05",
+    "bid_usd": 31.0,
+    "pay_type": "hourly",
+    "text": "Your build a booking web app sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-032",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "SaaS dashboard MVP in Next.js",
+    "job_category": "Web app",
+    "job_excerpt": "I run a travel business and want to hire someone for: SaaS dashboard MVP in Next.js - see requirements. You will be working mainly in PostgreSQL. Must have hands-on experience with Next.js. React knowledge is important. Looking for a person",
+    "date": "2023-07-27",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about saas dashboard mvp in next.js. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-033",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small manufacturing startup needs a freelancer for: Add Stripe checkout to our store. Strong Stripe skills required. Must have hands-on experience with React. You will be working mainly in Shopify. Strong Node.js skills required. Bonus ",
+    "date": "2024-02-03",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about add stripe checkout to our store. On that project I used AWS Lambda, Node.js, TypeScript, and it cut hosting cost by 30%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p04"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-034",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "I run a legal business and want to hire someone for: Add Stripe checkout to our store. Strong Stripe skills required. Strong React skills required. Experience with Shopify is a must. We need someone who wrote a memory-safe systems service. ",
+    "date": "2025-01-11",
+    "bid_usd": 190.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-035",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add end-to-end tests and CI",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "I run a logistics business and want to hire someone for: Add end-to-end tests and CI. Looking for a person who can make the app run the same on every machine. You will be working mainly in GitHub Actions. We need someone who can automate br",
+    "date": "2023-07-06",
+    "bid_usd": 40.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about add end-to-end tests and ci. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p06"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-036",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "I run a legal business and want to hire someone for: Add Stripe checkout to our store - see requirements. Looking for a person who can build the server side in JavaScript. Must have hands-on experience with React. Deliverables: Working add ",
+    "date": "2024-07-12",
+    "bid_usd": 18.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-037",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our SaaS team needs an experienced specialist for: Serverless backend migration. WebSockets knowledge is important. Ideally you are someone who can speed things up with caching and queues. You will be working mainly in Firebase. Experience ",
+    "date": "2025-06-23",
+    "bid_usd": 200.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-038",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "SaaS dashboard MVP in Next.js",
+    "job_category": "Web app",
+    "job_excerpt": "I run a SaaS business and want to hire someone for: SaaS dashboard MVP in Next.js. We need someone who can handle secure logins and user accounts. Looking for a person who writes typed JavaScript that catches bugs early. Looking for a perso",
+    "date": "2024-10-23",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-039",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "I run a education business and want to hire someone for: Shopify store with subscriptions. Shopify knowledge is important. Must have hands-on experience with Stripe. Experience with React is a must. Node.js knowledge is important. Deliverab",
+    "date": "2025-02-11",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Your shopify store with subscriptions sounds close to the Serverless image service v2 (real estate) I built for a real estate client, where I ran the backend on a JavaScript server runtime. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-040",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Build a booking web app",
+    "job_category": "Web app",
+    "job_excerpt": "We are a manufacturing company looking for help with this project: Build a booking web app. Next.js knowledge is important. You will be working mainly in React. Deliverables: Working build a booking web app; Short documentation and a hand-o",
+    "date": "2024-06-18",
+    "bid_usd": 24.0,
+    "pay_type": "hourly",
+    "text": "Your build a booking web app sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-041",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "I run a non-profit business and want to hire someone for: Add Stripe checkout to our store (details below). Strong React skills required. You will be working mainly in Stripe. We need someone who can build the server side in JavaScript. Del",
+    "date": "2023-03-06",
+    "bid_usd": 24.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about add stripe checkout to our store. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-042",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Scale our Node.js backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: Scale our Node.js backend. Experience with NestJS is a must. Looking for a person who can speed things up with caching and queues. Bonus if you're someone who can design a solid relationa",
+    "date": "2025-04-11",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-043",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Scale our Node.js backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our small healthcare startup needs a freelancer for: Scale our Node.js backend. Ideally you are someone who can design clean HTTP endpoints for other apps. Bonus if you're someone who can put together lightweight JavaScript web routes. Idea",
+    "date": "2024-07-18",
+    "bid_usd": 30.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-044",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add end-to-end tests and CI",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "Our small e-commerce startup needs a freelancer for: Add end-to-end tests and CI. Bonus if you're someone who can automate testing and deploys on every push. Must have hands-on experience with Playwright. Ideally you are someone who can mak",
+    "date": "2024-03-09",
+    "bid_usd": 38.0,
+    "pay_type": "hourly",
+    "text": "Your add end-to-end tests and ci sounds close to the E2E test and CI overhaul I built for a insurance client, where I covered the critical user journeys with browser end-to-end tests. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. I also delivered e2e test and ci overhaul for a saas client, which cut escaped bugs by 18%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p06",
+      "fullstack-p20"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-045",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for gaming platform",
+    "job_category": "API backend",
+    "job_excerpt": "We are a gaming company looking for help with this project: GraphQL API for gaming platform. Strong Express skills required. Must have hands-on experience with REST API. Looking for a person who can structure a large backend cleanly with mo",
+    "date": "2025-01-08",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about graphql api for gaming platform. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-046",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Serverless backend migration. Ideally you are someone who can run code without managing servers. Looking for a person who can set up a hosted backend with login and live data. You will",
+    "date": "2023-02-08",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Your serverless backend migration sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-047",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Realtime notifications service",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "I run a non-profit business and want to hire someone for: Realtime notifications service. AWS Lambda knowledge is important. WebSockets knowledge is important. Ideally you are someone who can set up a hosted backend with login and live data",
+    "date": "2025-02-12",
+    "bid_usd": 21.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about realtime notifications service. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-048",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Set up GitHub Actions pipeline",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "I run a media business and want to hire someone for: Set up GitHub Actions pipeline. Docker knowledge is important. Experience with Playwright is a must. We need someone who can automate testing and deploys on every push. Strong Node.js ski",
+    "date": "2024-10-05",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about set up github actions pipeline. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p06"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-049",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small education startup needs a freelancer for: Shopify store with subscriptions (details below). Must have hands-on experience with React. You will be working mainly in Stripe. Looking for a person who knows how to customise a hosted o",
+    "date": "2023-08-15",
+    "bid_usd": 13.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about shopify store with subscriptions. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-050",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: Serverless backend migration. Experience with AWS Lambda is a must. Bonus if you're someone who can set up a hosted backend with login and live data. We need someone who can speed things up w",
+    "date": "2025-06-01",
+    "bid_usd": 34.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-051",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Responsive frontend for media site",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our small media startup needs a freelancer for: Responsive frontend for media site - see requirements. Must have hands-on experience with TypeScript. Must have hands-on experience with React. Deliverables: Working responsive frontend for me",
+    "date": "2024-12-02",
+    "bid_usd": 21.0,
+    "pay_type": "hourly",
+    "text": "Your responsive frontend for media site sounds close to the Internal admin dashboard I built for a travel client, where I built the interface from reusable stateful components with hooks. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-052",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Scale our Node.js backend",
+    "job_category": "API backend",
+    "job_excerpt": "I run a e-commerce business and want to hire someone for: Scale our Node.js backend - see requirements. Experience with Redis is a must. Looking for a person who can give the mobile app one flexible query endpoint. Bonus if you're someone w",
+    "date": "2023-02-02",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Your scale our node.js backend sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. For you I'd start with GraphQL, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-053",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our retail team needs an experienced specialist for: Convert Figma designs to React. Next.js knowledge is important. Ideally you are someone who writes typed JavaScript that catches bugs early. React knowledge is important. Tailwind CSS kno",
+    "date": "2025-09-06",
+    "bid_usd": 520.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about convert figma designs to react. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-054",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "I run a retail business and want to hire someone for: Shopify store with subscriptions. Must have hands-on experience with Shopify. We need someone who can build the server side in JavaScript. You will be working mainly in React. Experience",
+    "date": "2024-08-23",
+    "bid_usd": 18.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-055",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for retail",
+    "job_category": "Web app",
+    "job_excerpt": "I run a retail business and want to hire someone for: Customer portal for retail. You will be working mainly in Next.js. Experience with Authentication is a must. You will be working mainly in React. You will be working mainly in PostgreSQL",
+    "date": "2025-01-18",
+    "bid_usd": 200.0,
+    "pay_type": "fixed",
+    "text": "Your customer portal for retail sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-056",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: Serverless backend migration (details below). Looking for a person who can push live updates to users instantly. Bonus if you're someone who can run code without managing serve",
+    "date": "2024-03-23",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Your serverless backend migration sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-057",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small logistics startup needs a freelancer for: Shopify store with subscriptions - see requirements. Experience with Shopify is a must. You will be working mainly in React. Stripe knowledge is important. Deliverables: Working shopify st",
+    "date": "2024-08-13",
+    "bid_usd": 17.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-058",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "SaaS dashboard MVP in Next.js",
+    "job_category": "Web app",
+    "job_excerpt": "Our small e-commerce startup needs a freelancer for: SaaS dashboard MVP in Next.js - see requirements. Looking for a person who can build a snappy single-page interface. You will be working mainly in Authentication. You will be working main",
+    "date": "2025-01-26",
+    "bid_usd": 21.0,
+    "pay_type": "hourly",
+    "text": "Your saas dashboard mvp in next.js sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. I also delivered clinic booking platform for a legal client, which moved 25% of bookings online. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01",
+      "fullstack-p15"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-059",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Realtime notifications service",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our media team needs an experienced specialist for: Realtime notifications service (details below). You will be working mainly in AWS Lambda. Looking for a person who can push live updates to users instantly. You will be working mainly in A",
+    "date": "2024-08-05",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-060",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Build a booking web app",
+    "job_category": "Web app",
+    "job_excerpt": "We are a insurance company looking for help with this project: Build a booking web app. You will be working mainly in Authentication. Must have hands-on experience with React. Ideally you are someone who likes a typed ORM for database acces",
+    "date": "2025-05-22",
+    "bid_usd": 330.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-061",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for education",
+    "job_category": "Web app",
+    "job_excerpt": "Our education team needs an experienced specialist for: Customer portal for education (details below). Bonus if you're someone who can handle secure logins and user accounts. Must have hands-on experience with React. Deliverables: Working c",
+    "date": "2023-03-29",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about customer portal for education. On that project I used React, Firebase, Tailwind CSS, and it reached 1200 weekly active users. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p05"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-062",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for legal platform",
+    "job_category": "API backend",
+    "job_excerpt": "I run a legal business and want to hire someone for: GraphQL API for legal platform - see requirements. Redis knowledge is important. You will be working mainly in GraphQL. Bonus if you're someone who can build the server side in JavaScript",
+    "date": "2023-05-16",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Your graphql api for legal platform sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered internal admin dashboard, which removed 71 manual SQL edits a week. For you I'd start with GraphQL, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-063",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "I run a gaming business and want to hire someone for: Convert Figma designs to React - see requirements. Ideally you are someone who can build a snappy single-page interface. Must have hands-on experience with TypeScript. You will be workin",
+    "date": "2024-02-09",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-064",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Scale our Node.js backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our small logistics startup needs a freelancer for: Scale our Node.js backend. Strong Node.js skills required. Looking for a person who can structure a large backend cleanly with modules. Strong Express skills required. Strong REST API skil",
+    "date": "2023-02-17",
+    "bid_usd": 290.0,
+    "pay_type": "fixed",
+    "text": "Your scale our node.js backend sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-065",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "I run a gaming business and want to hire someone for: Shopify store with subscriptions. Strong Shopify skills required. Ideally you are someone who can build a snappy single-page interface. Strong Node.js skills required. Strong Stripe skil",
+    "date": "2023-07-26",
+    "bid_usd": 31.0,
+    "pay_type": "hourly",
+    "text": "Your shopify store with subscriptions sounds close to the Serverless image service v2 (real estate) I built for a real estate client, where I ran the backend on a JavaScript server runtime. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. I also delivered internal admin dashboard, which removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p11",
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-066",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "We are a non-profit company looking for help with this project: Add Stripe checkout to our store (details below). Must have hands-on experience with React. Strong Stripe skills required. Shopify knowledge is important. Unity knowledge is im",
+    "date": "2025-04-05",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about add stripe checkout to our store. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-067",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Build a booking web app",
+    "job_category": "Web app",
+    "job_excerpt": "I run a manufacturing business and want to hire someone for: Build a booking web app - see requirements. You will be working mainly in Prisma. Looking for a person who can build a snappy single-page interface. Experience with TypeScript is ",
+    "date": "2025-06-11",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Your build a booking web app sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-068",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "We are a non-profit company looking for help with this project: Convert Figma designs to React. Ideally you are someone who can style pages quickly with utility-first CSS. Must have hands-on experience with React. You will be working mainly",
+    "date": "2025-06-07",
+    "bid_usd": 20.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about convert figma designs to react. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-069",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "REST API for mobile app backend",
+    "job_category": "API backend",
+    "job_excerpt": "We are a non-profit company looking for help with this project: REST API for mobile app backend. Strong Node.js skills required. We need someone who can give the mobile app one flexible query endpoint. Experience with Express is a must. Str",
+    "date": "2023-12-28",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Your rest api for mobile app backend sounds close to the Internal admin dashboard I built for a travel client, where I built the interface from reusable stateful components with hooks. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. I also delivered serverless image service, which cut hosting cost by 30%. For you I'd start with Express, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03",
+      "fullstack-p04"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-070",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our healthcare team needs an experienced specialist for: Convert Figma designs to React (details below). Must have hands-on experience with TypeScript. Tailwind CSS knowledge is important. We need someone who can build an SEO-friendly site ",
+    "date": "2025-03-05",
+    "bid_usd": 38.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-071",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "REST API for mobile app backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: REST API for mobile app backend (details below). Must have hands-on experience with Express. Experience with Node.js is a must. Ideally you are someone who can structure a large backen",
+    "date": "2024-05-24",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-072",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Responsive frontend for healthcare site",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our small healthcare startup needs a freelancer for: Responsive frontend for healthcare site - see requirements. Looking for a person who can build an SEO-friendly site with server rendering. Ideally you are someone who writes typed JavaScr",
+    "date": "2024-11-18",
+    "bid_usd": 18.0,
+    "pay_type": "hourly",
+    "text": "Your responsive frontend for healthcare site sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. I also delivered internal admin dashboard, which removed 71 manual SQL edits a week. For you I'd start with Next.js, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01",
+      "fullstack-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-073",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "We are a gaming company looking for help with this project: Convert Figma designs to React - see requirements. You will be working mainly in React. Bonus if you're someone who can style pages quickly with utility-first CSS. Strong Next.js s",
+    "date": "2025-04-10",
+    "bid_usd": 39.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-074",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Build a booking web app",
+    "job_category": "Web app",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Build a booking web app. We need someone who can build a snappy single-page interface. We need someone who can handle secure logins and user accounts. Deliverables: Working build a bookin",
+    "date": "2025-06-03",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Your build a booking web app sounds close to the Fitness tracking PWA I built for a media client, where I built the interface from reusable stateful components with hooks. On that project I used React, Firebase, Tailwind CSS, and it reached 1200 weekly active users. I also delivered clinic booking platform, which moved 30% of bookings online. For you I'd start with Authentication, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p05",
+      "fullstack-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-075",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our manufacturing team needs an experienced specialist for: Serverless backend migration. Experience with Firebase is a must. Must have hands-on experience with WebSockets. Experience with Redis is a must. Looking for a person who can run c",
+    "date": "2024-07-28",
+    "bid_usd": 30.0,
+    "pay_type": "hourly",
+    "text": "Your serverless backend migration sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. For you I'd start with WebSockets, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-076",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Responsive frontend for manufacturing site",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our small manufacturing startup needs a freelancer for: Responsive frontend for manufacturing site. Tailwind CSS knowledge is important. React knowledge is important. TypeScript knowledge is important. You will be working mainly in Next.js.",
+    "date": "2024-06-13",
+    "bid_usd": 230.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about responsive frontend for manufacturing site. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-077",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for education",
+    "job_category": "Web app",
+    "job_excerpt": "I run a education business and want to hire someone for: Customer portal for education (details below). Strong React skills required. Prisma knowledge is important. Ideally you are someone who writes typed JavaScript that catches bugs early",
+    "date": "2024-05-04",
+    "bid_usd": 36.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-078",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "We are a gaming company looking for help with this project: Convert Figma designs to React - see requirements. Next.js knowledge is important. Experience with TypeScript is a must. Must have hands-on experience with Tailwind CSS. Experience",
+    "date": "2025-06-15",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about convert figma designs to react. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-079",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for healthcare platform",
+    "job_category": "API backend",
+    "job_excerpt": "We are a healthcare company looking for help with this project: GraphQL API for healthcare platform. Ideally you are someone who can give the mobile app one flexible query endpoint. Experience with Redis is a must. Experience with REST API ",
+    "date": "2024-04-10",
+    "bid_usd": 31.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about graphql api for healthcare platform. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-080",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our manufacturing team needs an experienced specialist for: Add Stripe checkout to our store. Experience with Node.js is a must. Stripe knowledge is important. Ideally you are someone who can build a snappy single-page interface. Deliverabl",
+    "date": "2024-07-21",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-081",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Scale our Node.js backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our small manufacturing startup needs a freelancer for: Scale our Node.js backend. Must have hands-on experience with PostgreSQL. Must have hands-on experience with Express. Must have hands-on experience with NestJS. Strong Redis skills req",
+    "date": "2023-07-09",
+    "bid_usd": 190.0,
+    "pay_type": "fixed",
+    "text": "Your scale our node.js backend sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. For you I'd start with Redis, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-082",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "REST API for mobile app backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our small media startup needs a freelancer for: REST API for mobile app backend. NestJS knowledge is important. Must have hands-on experience with REST API. Deliverables: Working rest api for mobile app backend; Short documentation and a ha",
+    "date": "2025-08-13",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about rest api for mobile app backend. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-083",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Responsive frontend for manufacturing site",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our small manufacturing startup needs a freelancer for: Responsive frontend for manufacturing site. Must have hands-on experience with TypeScript. Ideally you are someone who can build an SEO-friendly site with server rendering. Strong Tail",
+    "date": "2024-06-15",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Your responsive frontend for manufacturing site sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. I also delivered internal admin dashboard, which removed 71 manual SQL edits a week. For you I'd start with Tailwind CSS, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01",
+      "fullstack-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-084",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "REST API for mobile app backend",
+    "job_category": "API backend",
+    "job_excerpt": "I run a e-commerce business and want to hire someone for: REST API for mobile app backend. Looking for a person who can structure a large backend cleanly with modules. You will be working mainly in Node.js. Must have hands-on experience wit",
+    "date": "2023-10-15",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-085",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Responsive frontend for fintech site",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our small fintech startup needs a freelancer for: Responsive frontend for fintech site. Tailwind CSS knowledge is important. We need someone who can build an SEO-friendly site with server rendering. TypeScript knowledge is important. React ",
+    "date": "2025-03-14",
+    "bid_usd": 15.0,
+    "pay_type": "hourly",
+    "text": "Your responsive frontend for fintech site sounds close to the Internal admin dashboard I built for a travel client, where I built the interface from reusable stateful components with hooks. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. I also delivered clinic booking platform v2 (logistics), which moved 47% of bookings online. For you I'd start with Tailwind CSS, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03",
+      "fullstack-p08"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-086",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for non-profit",
+    "job_category": "Web app",
+    "job_excerpt": "I run a non-profit business and want to hire someone for: Customer portal for non-profit (details below). Must have hands-on experience with PostgreSQL. Strong TypeScript skills required. Strong Authentication skills required. Deliverables:",
+    "date": "2025-01-17",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Your customer portal for non-profit sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. I also delivered clinic booking platform for a legal client, which moved 25% of bookings online. For you I'd start with Authentication, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01",
+      "fullstack-p15"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-087",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for SaaS platform",
+    "job_category": "API backend",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: GraphQL API for SaaS platform (details below). Looking for a person who can speed things up with caching and queues. Experience with GraphQL is a must. Node.js knowledge is important. REST API ",
+    "date": "2024-07-10",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Your graphql api for saas platform sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-088",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add end-to-end tests and CI",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "Our healthcare team needs an experienced specialist for: Add end-to-end tests and CI (details below). Ideally you are someone who can automate browser tests for our main flows. Docker knowledge is important. Ideally you are someone who can ",
+    "date": "2023-05-25",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about add end-to-end tests and ci. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p06"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-089",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for SaaS",
+    "job_category": "Web app",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Customer portal for SaaS - see requirements. Ideally you are someone who can build an SEO-friendly site with server rendering. Must have hands-on experience with PostgreSQL. Must have hands-on ",
+    "date": "2023-08-05",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Your customer portal for saas sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-090",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "I run a healthcare business and want to hire someone for: Convert Figma designs to React - see requirements. You will be working mainly in Tailwind CSS. Must have hands-on experience with React. Experience with Next.js is a must. Must have ",
+    "date": "2024-09-24",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about convert figma designs to react. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-091",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: Shopify store with subscriptions. Must have hands-on experience with React. Looking for a person who can build the server side in JavaScript. Must have hands-on experience with",
+    "date": "2024-06-07",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Your shopify store with subscriptions sounds close to the Serverless image service v2 (real estate) I built for a real estate client, where I ran the backend on a JavaScript server runtime. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-092",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Set up GitHub Actions pipeline",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Set up GitHub Actions pipeline - see requirements. Looking for a person who can automate testing and deploys on every push. We need someone who can make the app run the same on every m",
+    "date": "2023-06-27",
+    "bid_usd": 35.0,
+    "pay_type": "hourly",
+    "text": "Your set up github actions pipeline sounds close to the E2E test and CI overhaul I built for a insurance client, where I covered the critical user journeys with browser end-to-end tests. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. I also delivered e2e test and ci overhaul v2 (travel), which cut escaped bugs by 64%. For you I'd start with Playwright, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome.",
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p06",
+      "fullstack-p13"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-093",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our non-profit team needs an experienced specialist for: Convert Figma designs to React. Strong TypeScript skills required. You will be working mainly in Tailwind CSS. Experience with React is a must. Experience with Next.js is a must. Idea",
+    "date": "2025-09-12",
+    "bid_usd": 330.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-094",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Add Stripe checkout to our store. Experience with Node.js is a must. Looking for a person who can take online payments and recurring billing. Strong Shopify skills required. We need someone who",
+    "date": "2025-08-26",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Your add stripe checkout to our store sounds close to the Serverless image service v2 (real estate) I built for a real estate client, where I ran the backend on a JavaScript server runtime. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-095",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for non-profit",
+    "job_category": "Web app",
+    "job_excerpt": "Our non-profit team needs an experienced specialist for: Customer portal for non-profit (details below). Looking for a person who likes a typed ORM for database access. Experience with TypeScript is a must. PostgreSQL knowledge is important",
+    "date": "2023-07-16",
+    "bid_usd": 300.0,
+    "pay_type": "fixed",
+    "text": "Your customer portal for non-profit sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. I also delivered clinic booking platform v2 (logistics), which moved 47% of bookings online. For you I'd start with PostgreSQL, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01",
+      "fullstack-p08"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-096",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add end-to-end tests and CI",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Add end-to-end tests and CI (details below). We need someone who can automate testing and deploys on every push. Must have hands-on experience with Docker. Strong Playwright skills req",
+    "date": "2023-03-23",
+    "bid_usd": 170.0,
+    "pay_type": "fixed",
+    "text": "Your add end-to-end tests and ci sounds close to the E2E test and CI overhaul I built for a insurance client, where I covered the critical user journeys with browser end-to-end tests. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. I also delivered e2e test and ci overhaul v2 (travel), which cut escaped bugs by 64%. For you I'd start with Docker, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome.",
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome.",
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p06",
+      "fullstack-p13"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-097",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "REST API for mobile app backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our small legal startup needs a freelancer for: REST API for mobile app backend (details below). GraphQL knowledge is important. You will be working mainly in Express. Deliverables: Working rest api for mobile app backend; Short documentati",
+    "date": "2023-06-09",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Your rest api for mobile app backend sounds close to the Internal admin dashboard I built for a travel client, where I built the interface from reusable stateful components with hooks. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. I also delivered multi-vendor marketplace, which onboarded 55 vendors in two months. For you I'd start with GraphQL, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03",
+      "fullstack-p07"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-098",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Realtime notifications service",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "I run a non-profit business and want to hire someone for: Realtime notifications service (details below). Redis knowledge is important. AWS Lambda knowledge is important. Strong WebSockets skills required. Deliverables: Working realtime not",
+    "date": "2024-11-04",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-099",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for media platform",
+    "job_category": "API backend",
+    "job_excerpt": "I run a media business and want to hire someone for: GraphQL API for media platform. Strong GraphQL skills required. Experience with Redis is a must. Must have hands-on experience with Node.js. Experience with REST API is a must. We need so",
+    "date": "2025-04-15",
+    "bid_usd": 270.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-100",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "REST API for mobile app backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our SaaS team needs an experienced specialist for: REST API for mobile app backend. We need someone who can give the mobile app one flexible query endpoint. Must have hands-on experience with Node.js. We need someone who can structure a lar",
+    "date": "2023-10-20",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-101",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small healthcare startup needs a freelancer for: Add Stripe checkout to our store (details below). Strong Shopify skills required. Must have hands-on experience with React. Node.js knowledge is important. We need someone who can take on",
+    "date": "2024-11-17",
+    "bid_usd": 60.0,
+    "pay_type": "hourly",
+    "text": "Your add stripe checkout to our store sounds close to the Serverless image service v2 (real estate) I built for a real estate client, where I ran the backend on a JavaScript server runtime. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-102",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for e-commerce platform",
+    "job_category": "API backend",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: GraphQL API for e-commerce platform. We need someone who can put together lightweight JavaScript web routes. Strong Node.js skills required. Experience with NestJS is a must. D",
+    "date": "2025-08-16",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Your graphql api for e-commerce platform sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered serverless image service, which cut hosting cost by 30%. For you I'd start with NestJS, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-103",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add end-to-end tests and CI",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "We are a SaaS company looking for help with this project: Add end-to-end tests and CI. You will be working mainly in GitHub Actions. Experience with Docker is a must. You will be working mainly in Playwright. We need someone who built a 3D ",
+    "date": "2025-07-04",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Your add end-to-end tests and ci sounds close to the E2E test and CI overhaul I built for a insurance client, where I covered the critical user journeys with browser end-to-end tests. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. Happy to share code samples.",
+    "screening_answers": [
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome.",
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p06"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-104",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Set up GitHub Actions pipeline",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Set up GitHub Actions pipeline. You will be working mainly in Playwright. Bonus if you're someone who can automate testing and deploys on every push. Must have hands-on experience wi",
+    "date": "2023-09-27",
+    "bid_usd": 210.0,
+    "pay_type": "fixed",
+    "text": "Your set up github actions pipeline sounds close to the E2E test and CI overhaul I built for a insurance client, where I covered the critical user journeys with browser end-to-end tests. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. I also delivered e2e test and ci overhaul v2 (travel), which cut escaped bugs by 64%. For you I'd start with Playwright, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p06",
+      "fullstack-p13"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-105",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "We are a media company looking for help with this project: Serverless backend migration - see requirements. Must have hands-on experience with AWS Lambda. Bonus if you're someone who can set up a hosted backend with login and live data. Bon",
+    "date": "2025-07-25",
+    "bid_usd": 50.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about serverless backend migration. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-106",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add end-to-end tests and CI",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "Our manufacturing team needs an experienced specialist for: Add end-to-end tests and CI. You will be working mainly in Docker. Playwright knowledge is important. Must have hands-on experience with GitHub Actions. You will be working mainly ",
+    "date": "2023-07-31",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Your add end-to-end tests and ci sounds close to the E2E test and CI overhaul I built for a insurance client, where I covered the critical user journeys with browser end-to-end tests. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. I also delivered fitness tracking pwa v2 (non-profit), which reached 1200 weekly active users. Happy to share code samples.",
+    "screening_answers": [
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome.",
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p06",
+      "fullstack-p12"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-107",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: Serverless backend migration. You will be working mainly in Redis. Ideally you are someone who can run code without managing servers. Bonus if you're someone who can set up a h",
+    "date": "2023-04-15",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Your serverless backend migration sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-108",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Set up GitHub Actions pipeline",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "We are a non-profit company looking for help with this project: Set up GitHub Actions pipeline. Experience with Docker is a must. We need someone who can automate browser tests for our main flows. Bonus if you're someone who can automate te",
+    "date": "2025-07-08",
+    "bid_usd": 23.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-109",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "I run a gaming business and want to hire someone for: Serverless backend migration. You will be working mainly in Firebase. WebSockets knowledge is important. Strong Redis skills required. Deliverables: Working serverless backend migration;",
+    "date": "2023-08-11",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-110",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small fintech startup needs a freelancer for: Add Stripe checkout to our store. You will be working mainly in Node.js. Experience with React is a must. Deliverables: Working add stripe checkout to our store; Short documentation and a ha",
+    "date": "2024-08-28",
+    "bid_usd": 21.0,
+    "pay_type": "hourly",
+    "text": "Your add stripe checkout to our store sounds close to the Serverless image service v2 (real estate) I built for a real estate client, where I ran the backend on a JavaScript server runtime. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. I also delivered internal admin dashboard, which removed 71 manual SQL edits a week. For you I'd start with React, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p11",
+      "fullstack-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-111",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Realtime notifications service",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our legal team needs an experienced specialist for: Realtime notifications service (details below). Strong AWS Lambda skills required. Ideally you are someone who can speed things up with caching and queues. We need someone who can set up a",
+    "date": "2024-12-17",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about realtime notifications service. On that project I used React, Firebase, Tailwind CSS, and it reached 4000 weekly active users. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p19"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-112",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "REST API for mobile app backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our small education startup needs a freelancer for: REST API for mobile app backend. Ideally you are someone who can speed things up with caching and queues. Looking for a person who can give the mobile app one flexible query endpoint. Deli",
+    "date": "2023-01-01",
+    "bid_usd": 18.0,
+    "pay_type": "hourly",
+    "text": "Your rest api for mobile app backend sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered internal admin dashboard, which removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-113",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our small logistics startup needs a freelancer for: Convert Figma designs to React - see requirements. You will be working mainly in Next.js. We need someone who can style pages quickly with utility-first CSS. We need someone who can build ",
+    "date": "2023-06-21",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Your convert figma designs to react sounds close to the Internal admin dashboard I built for a travel client, where I built the interface from reusable stateful components with hooks. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. I also delivered internal admin dashboard v2 (healthcare), which removed 47 manual SQL edits a week. For you I'd start with TypeScript, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03",
+      "fullstack-p10"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-114",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "I run a insurance business and want to hire someone for: Shopify store with subscriptions. Strong React skills required. You will be working mainly in Node.js. Bonus if you're someone who knows how to customise a hosted online store. Delive",
+    "date": "2025-08-09",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about shopify store with subscriptions. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-115",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for fintech",
+    "job_category": "Web app",
+    "job_excerpt": "Our fintech team needs an experienced specialist for: Customer portal for fintech. We need someone who can build an SEO-friendly site with server rendering. You will be working mainly in Prisma. PostgreSQL knowledge is important. React know",
+    "date": "2025-05-29",
+    "bid_usd": 290.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about customer portal for fintech. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-116",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our travel team needs an experienced specialist for: Serverless backend migration (details below). Strong Redis skills required. Must have hands-on experience with AWS Lambda. We need someone who can set up a hosted backend with login and l",
+    "date": "2024-08-08",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-117",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add end-to-end tests and CI",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "We are a manufacturing company looking for help with this project: Add end-to-end tests and CI. Must have hands-on experience with Docker. Bonus if you're someone who can automate browser tests for our main flows. Must have hands-on experie",
+    "date": "2023-12-20",
+    "bid_usd": 220.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-118",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "I run a SaaS business and want to hire someone for: Add Stripe checkout to our store. Bonus if you're someone who can build the server side in JavaScript. Bonus if you're someone who can build a snappy single-page interface. Deliverables: W",
+    "date": "2024-02-17",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about add stripe checkout to our store. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-119",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Customer portal for retail",
+    "job_category": "Web app",
+    "job_excerpt": "Our small retail startup needs a freelancer for: Customer portal for retail. Prisma knowledge is important. Authentication knowledge is important. Strong PostgreSQL skills required. Ideally you are someone who can build an SEO-friendly site",
+    "date": "2023-11-09",
+    "bid_usd": 300.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about customer portal for retail. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-120",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "We are a legal company looking for help with this project: Serverless backend migration - see requirements. You will be working mainly in WebSockets. Firebase knowledge is important. Ideally you are someone who can run code without managing",
+    "date": "2023-07-05",
+    "bid_usd": 330.0,
+    "pay_type": "fixed",
+    "text": "Your serverless backend migration sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. For you I'd start with AWS Lambda, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-121",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small retail startup needs a freelancer for: Shopify store with subscriptions. Ideally you are someone who can take online payments and recurring billing. Strong Node.js skills required. You will be working mainly in React. Ideally you ",
+    "date": "2025-08-14",
+    "bid_usd": 38.0,
+    "pay_type": "hourly",
+    "text": "Your shopify store with subscriptions sounds close to the Serverless image service v2 (real estate) I built for a real estate client, where I ran the backend on a JavaScript server runtime. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-122",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "REST API for mobile app backend",
+    "job_category": "API backend",
+    "job_excerpt": "We are a insurance company looking for help with this project: REST API for mobile app backend. We need someone who can structure a large backend cleanly with modules. Ideally you are someone who can design clean HTTP endpoints for other ap",
+    "date": "2024-09-10",
+    "bid_usd": 170.0,
+    "pay_type": "fixed",
+    "text": "Your rest api for mobile app backend sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered logistics tracking api v2 (gaming), which served 350 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-123",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "I run a retail business and want to hire someone for: Serverless backend migration. Must have hands-on experience with AWS Lambda. You will be working mainly in WebSockets. Deliverables: Working serverless backend migration; Short documenta",
+    "date": "2023-11-15",
+    "bid_usd": 22.0,
+    "pay_type": "hourly",
+    "text": "Your serverless backend migration sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-124",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Realtime notifications service",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Realtime notifications service - see requirements. Bonus if you're someone who can speed things up with caching and queues. AWS Lambda knowledge is important. You will be working mai",
+    "date": "2024-05-25",
+    "bid_usd": 30.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-125",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small education startup needs a freelancer for: Shopify store with subscriptions. Strong Stripe skills required. Node.js knowledge is important. Deliverables: Working shopify store with subscriptions; Short documentation and a hand-over",
+    "date": "2025-03-24",
+    "bid_usd": 100.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about shopify store with subscriptions. On that project I used AWS Lambda, Node.js, TypeScript, and it cut hosting cost by 30%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p04"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-126",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Scale our Node.js backend",
+    "job_category": "API backend",
+    "job_excerpt": "I run a gaming business and want to hire someone for: Scale our Node.js backend. Strong Node.js skills required. Strong REST API skills required. Deliverables: Working scale our node.js backend; Short documentation and a hand-over call.",
+    "date": "2024-02-02",
+    "bid_usd": 22.0,
+    "pay_type": "hourly",
+    "text": "Your scale our node.js backend sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. I also delivered serverless image service, which cut hosting cost by 30%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02",
+      "fullstack-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-127",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Shopify store with subscriptions. Strong Shopify skills required. React knowledge is important. Stripe knowledge is important. Deliverables: Working shopify store with subscriptions;",
+    "date": "2025-07-19",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about shopify store with subscriptions. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-128",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small legal startup needs a freelancer for: Add Stripe checkout to our store. Looking for a person who can build a snappy single-page interface. Experience with Node.js is a must. Experience with Kotlin is a must. Deliverables: Working ",
+    "date": "2024-01-29",
+    "bid_usd": 220.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about add stripe checkout to our store. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-129",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Scale our Node.js backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our non-profit team needs an experienced specialist for: Scale our Node.js backend. We need someone who can design a solid relational schema that scales. Must have hands-on experience with NestJS. We need someone who can build the server si",
+    "date": "2025-08-04",
+    "bid_usd": 45.0,
+    "pay_type": "hourly",
+    "text": "Your scale our node.js backend sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-130",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: Add Stripe checkout to our store. Strong Node.js skills required. Strong Stripe skills required. Experience with React is a must. Ideally you are someone who knows how to customise a h",
+    "date": "2023-09-22",
+    "bid_usd": 170.0,
+    "pay_type": "fixed",
+    "text": "Your add stripe checkout to our store sounds close to the Serverless image service v2 (real estate) I built for a real estate client, where I ran the backend on a JavaScript server runtime. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. I also delivered internal admin dashboard, which removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p11",
+      "fullstack-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-131",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our SaaS team needs an experienced specialist for: Shopify store with subscriptions (details below). We need someone who can take online payments and recurring billing. Must have hands-on experience with Node.js. We need someone who can bui",
+    "date": "2025-02-25",
+    "bid_usd": 220.0,
+    "pay_type": "fixed",
+    "text": "Your shopify store with subscriptions sounds close to the Serverless image service v2 (real estate) I built for a real estate client, where I ran the backend on a JavaScript server runtime. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome.",
+      "In my Serverless image service v2 (real estate) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-132",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Scale our Node.js backend",
+    "job_category": "API backend",
+    "job_excerpt": "I run a media business and want to hire someone for: Scale our Node.js backend (details below). Looking for a person who can speed things up with caching and queues. Must have hands-on experience with REST API. Bonus if you're someone who c",
+    "date": "2024-07-31",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Your scale our node.js backend sounds close to the Logistics tracking API I built for a healthcare client, where I structured the backend in modules with dependency injection. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API project I handled this directly and documented the outcome.",
+      "In my Logistics tracking API project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-133",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "We are a gaming company looking for help with this project: Shopify store with subscriptions - see requirements. Must have hands-on experience with Shopify. Experience with Node.js is a must. You will be working mainly in React. Strong Stri",
+    "date": "2023-12-07",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-134",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: Serverless backend migration (details below). Bonus if you're someone who can set up a hosted backend with login and live data. We need someone who can run code without managing server",
+    "date": "2024-03-31",
+    "bid_usd": 190.0,
+    "pay_type": "fixed",
+    "text": "Your serverless backend migration sounds close to the Logistics tracking API v2 (gaming) I built for a gaming client, where I structured the backend in modules with dependency injection. On that project I used NestJS, Redis, REST API, and it served 350 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [
+      "In my Logistics tracking API v2 (gaming) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-135",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "I run a travel business and want to hire someone for: Convert Figma designs to React. Strong Next.js skills required. We need someone who writes typed JavaScript that catches bugs early. Experience with React is a must. You will be working ",
+    "date": "2023-10-05",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Your convert figma designs to react sounds close to the Internal admin dashboard I built for a travel client, where I built the interface from reusable stateful components with hooks. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-136",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Serverless backend migration",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: Serverless backend migration. Bonus if you're someone who can push live updates to users instantly. Bonus if you're someone who can run code without managing servers. Ideally you are someone ",
+    "date": "2023-06-30",
+    "bid_usd": 20.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about serverless backend migration. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-137",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our education team needs an experienced specialist for: Add Stripe checkout to our store. Node.js knowledge is important. You will be working mainly in React. Bonus if you're someone who knows how to customise a hosted online store. Stripe ",
+    "date": "2024-05-10",
+    "bid_usd": 260.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about add stripe checkout to our store. On that project I used Node.js, TypeScript, React, and it cut hosting cost by 43%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p11"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-138",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "We are a non-profit company looking for help with this project: Convert Figma designs to React. Ideally you are someone who can build an SEO-friendly site with server rendering. Tailwind CSS knowledge is important. Deliverables: Working con",
+    "date": "2025-07-25",
+    "bid_usd": 20.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about convert figma designs to react. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-139",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Realtime notifications service",
+    "job_category": "Realtime & serverless",
+    "job_excerpt": "Our small manufacturing startup needs a freelancer for: Realtime notifications service. You will be working mainly in WebSockets. You will be working mainly in AWS Lambda. Looking for a person who can speed things up with caching and queues",
+    "date": "2024-02-18",
+    "bid_usd": 90.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about realtime notifications service. On that project I used NestJS, PostgreSQL, Redis, and it served 2500 requests per second at p95 under 120 ms. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p02"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-140",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add Stripe checkout to our store",
+    "job_category": "E-commerce",
+    "job_excerpt": "We are a education company looking for help with this project: Add Stripe checkout to our store. Experience with Shopify is a must. Must have hands-on experience with React. You will be working mainly in Stripe. Node.js knowledge is importa",
+    "date": "2025-05-31",
+    "bid_usd": 24.0,
+    "pay_type": "hourly",
+    "text": "Your add stripe checkout to our store sounds close to the Internal admin dashboard I built for a travel client, where I built the interface from reusable stateful components with hooks. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. I also delivered serverless image service v2 (real estate), which cut hosting cost by 43%. For you I'd start with Stripe, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome.",
+      "In my Internal admin dashboard project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p03",
+      "fullstack-p11"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-141",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Set up GitHub Actions pipeline",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: Set up GitHub Actions pipeline (details below). Experience with Playwright is a must. Must have hands-on experience with Docker. Must have hands-on experience with GitHub Actio",
+    "date": "2024-11-19",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about set up github actions pipeline. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p06"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-142",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "GraphQL API for logistics platform",
+    "job_category": "API backend",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: GraphQL API for logistics platform (details below). Ideally you are someone who can build the server side in JavaScript. Strong Express skills required. You will be working mainly in P",
+    "date": "2024-01-25",
+    "bid_usd": 27.0,
+    "pay_type": "hourly",
+    "text": "Your graphql api for logistics platform sounds close to the Clinic booking platform I built for a healthcare client, where I used file-based routing with server-side rendering. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome.",
+      "In my Clinic booking platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-143",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Build a booking web app",
+    "job_category": "Web app",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Build a booking web app (details below). Experience with React is a must. Must have hands-on experience with Prisma. Bonus if you're someone who writes typed JavaScript that catches bu",
+    "date": "2023-06-08",
+    "bid_usd": 100.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about build a booking web app. On that project I used Next.js, TypeScript, PostgreSQL, and it moved 30% of bookings online. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-144",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "REST API for mobile app backend",
+    "job_category": "API backend",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: REST API for mobile app backend (details below). Strong GraphQL skills required. Bonus if you're someone who can put together lightweight JavaScript web routes. Strong PostgreSQL skills requi",
+    "date": "2024-05-14",
+    "bid_usd": 330.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-145",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Shopify store with subscriptions",
+    "job_category": "E-commerce",
+    "job_excerpt": "Our small insurance startup needs a freelancer for: Shopify store with subscriptions (details below). Bonus if you're someone who can build the server side in JavaScript. Must have hands-on experience with Stripe. Deliverables: Working shop",
+    "date": "2024-01-16",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Your shopify store with subscriptions sounds close to the Serverless image service I built for a insurance client, where I ran the backend as serverless functions. On that project I used AWS Lambda, Node.js, TypeScript, and it cut hosting cost by 30%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Serverless image service project I handled this directly and documented the outcome.",
+      "In my Serverless image service project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-146",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Add end-to-end tests and CI",
+    "job_category": "Testing & DevOps",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Add end-to-end tests and CI (details below). You will be working mainly in Playwright. Ideally you are someone who can automate testing and deploys on every push. Strong Docker skills req",
+    "date": "2024-09-12",
+    "bid_usd": 24.0,
+    "pay_type": "hourly",
+    "text": "Your add end-to-end tests and ci sounds close to the E2E test and CI overhaul I built for a insurance client, where I covered the critical user journeys with browser end-to-end tests. On that project I used Playwright, GitHub Actions, Docker, and it cut escaped bugs by 44%. Happy to share code samples.",
+    "screening_answers": [
+      "In my E2E test and CI overhaul project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "fullstack-p06"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-147",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Convert Figma designs to React. Tailwind CSS knowledge is important. Next.js knowledge is important. Must have hands-on experience with React. Must have hands-on experience with TypeScrip",
+    "date": "2024-07-15",
+    "bid_usd": 49.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-148",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "I run a non-profit business and want to hire someone for: Convert Figma designs to React - see requirements. Bonus if you're someone who can style pages quickly with utility-first CSS. Strong React skills required. Must have hands-on experi",
+    "date": "2023-03-13",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about convert figma designs to react. On that project I used React, TypeScript, Tailwind CSS, and it removed 71 manual SQL edits a week. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "fullstack-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-fullstack-149",
+    "persona": "fullstack",
+    "type": "proposal",
+    "job_title": "Convert Figma designs to React",
+    "job_category": "Frontend UI",
+    "job_excerpt": "I run a education business and want to hire someone for: Convert Figma designs to React (details below). You will be working mainly in Next.js. You will be working mainly in React. Must have hands-on experience with TypeScript. We need some",
+    "date": "2025-05-12",
+    "bid_usd": 20.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 7 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  }
+]

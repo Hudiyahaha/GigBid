@@ -1,0 +1,20 @@
+[
+  {
+    "account_id": "acct-ai_ml",
+    "persona": "ai_ml",
+    "token": "gigsim-dev-token-ai_ml",
+    "connects": 120
+  },
+  {
+    "account_id": "acct-fullstack",
+    "persona": "fullstack",
+    "token": "gigsim-dev-token-fullstack",
+    "connects": 120
+  },
+  {
+    "account_id": "acct-data",
+    "persona": "data",
+    "token": "gigsim-dev-token-data",
+    "connects": 120
+  }
+]

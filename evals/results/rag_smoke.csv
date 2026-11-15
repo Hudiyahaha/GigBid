@@ -1,0 +1,4 @@
+variant,recall@5,mrr,ndcg@10,p95_latency_s,false_evidence_rate
+v0_naive,0.7979,0.9101,0.6306,0.0825,1.0
+v1_decompose,0.6557,0.8116,0.4799,0.1399,1.0
+v2_hybrid,0.8619,0.952,0.6968,0.0048,1.0

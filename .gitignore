@@ -1,0 +1,29 @@
+# secrets: never commit
+.env
+*.pem
+*.key
+
+# python / node
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.next/
+dist/
+build/
+*.egg-info/
+
+# data: raw third-party downloads, generated artefacts, the held-out "hidden" test set
+data/raw/
+data/processed/
+data/holdout/
+
+# web test artefacts (the Playwright HTML report is exported to docs/ for submission)
+apps/web/test-results/
+apps/web/playwright-report/
+
+# evals/results/ IS committed: every number in README and the report cites a file there
+evals/results/*_per_job.jsonl

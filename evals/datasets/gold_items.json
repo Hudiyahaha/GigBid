@@ -1,0 +1,1507 @@
+{
+  "ai_ml": [
+    {
+      "id": "cs-ai_ml-p01",
+      "type": "case_study",
+      "project": "ai_ml-p01",
+      "skills": [
+        "LangGraph",
+        "NLP",
+        "FastAPI",
+        "Celery",
+        "Docker"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p01",
+      "type": "repo",
+      "project": "ai_ml-p01",
+      "skills": [
+        "LangGraph",
+        "NLP",
+        "FastAPI",
+        "Celery",
+        "Docker"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p01",
+      "type": "review",
+      "project": "ai_ml-p01",
+      "skills": [
+        "LangGraph",
+        "NLP",
+        "FastAPI",
+        "Celery",
+        "Docker"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p02",
+      "type": "case_study",
+      "project": "ai_ml-p02",
+      "skills": [
+        "scikit-learn",
+        "XGBoost",
+        "Model evaluation",
+        "MLflow",
+        "Python"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p02",
+      "type": "repo",
+      "project": "ai_ml-p02",
+      "skills": [
+        "scikit-learn",
+        "XGBoost",
+        "Model evaluation",
+        "MLflow",
+        "Python"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p02",
+      "type": "review",
+      "project": "ai_ml-p02",
+      "skills": [
+        "scikit-learn",
+        "XGBoost",
+        "Model evaluation",
+        "MLflow",
+        "Python"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p03",
+      "type": "case_study",
+      "project": "ai_ml-p03",
+      "skills": [
+        "spaCy",
+        "Hugging Face Transformers",
+        "NLP"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p04",
+      "type": "case_study",
+      "project": "ai_ml-p04",
+      "skills": [
+        "LoRA fine-tuning",
+        "Hugging Face Transformers",
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p05",
+      "type": "case_study",
+      "project": "ai_ml-p05",
+      "skills": [
+        "Docker",
+        "AWS SageMaker",
+        "MLflow",
+        "FastAPI"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p05",
+      "type": "repo",
+      "project": "ai_ml-p05",
+      "skills": [
+        "Docker",
+        "AWS SageMaker",
+        "MLflow",
+        "FastAPI"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p06",
+      "type": "case_study",
+      "project": "ai_ml-p06",
+      "skills": [
+        "FAISS",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "RAG"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p06",
+      "type": "repo",
+      "project": "ai_ml-p06",
+      "skills": [
+        "FAISS",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "RAG"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p06",
+      "type": "review",
+      "project": "ai_ml-p06",
+      "skills": [
+        "FAISS",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "RAG"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p07",
+      "type": "case_study",
+      "project": "ai_ml-p07",
+      "skills": [
+        "OpenAI API",
+        "Celery",
+        "Python",
+        "Docker"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p07",
+      "type": "review",
+      "project": "ai_ml-p07",
+      "skills": [
+        "OpenAI API",
+        "Celery",
+        "Python",
+        "Docker"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p08",
+      "type": "case_study",
+      "project": "ai_ml-p08",
+      "skills": [
+        "LangGraph",
+        "NLP",
+        "FastAPI",
+        "Celery",
+        "LoRA fine-tuning"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p09",
+      "type": "case_study",
+      "project": "ai_ml-p09",
+      "skills": [
+        "scikit-learn",
+        "Model evaluation",
+        "MLflow",
+        "Python",
+        "XGBoost"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p09",
+      "type": "review",
+      "project": "ai_ml-p09",
+      "skills": [
+        "scikit-learn",
+        "Model evaluation",
+        "MLflow",
+        "Python",
+        "XGBoost"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p10",
+      "type": "case_study",
+      "project": "ai_ml-p10",
+      "skills": [
+        "spaCy",
+        "Hugging Face Transformers",
+        "LangGraph"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p10",
+      "type": "review",
+      "project": "ai_ml-p10",
+      "skills": [
+        "spaCy",
+        "Hugging Face Transformers",
+        "LangGraph"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p11",
+      "type": "case_study",
+      "project": "ai_ml-p11",
+      "skills": [
+        "Hugging Face Transformers",
+        "PyTorch",
+        "spaCy"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p11",
+      "type": "repo",
+      "project": "ai_ml-p11",
+      "skills": [
+        "Hugging Face Transformers",
+        "PyTorch",
+        "spaCy"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p12",
+      "type": "case_study",
+      "project": "ai_ml-p12",
+      "skills": [
+        "AWS SageMaker",
+        "MLflow",
+        "FastAPI",
+        "Python"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p13",
+      "type": "case_study",
+      "project": "ai_ml-p13",
+      "skills": [
+        "FAISS",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "RAG"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p13",
+      "type": "repo",
+      "project": "ai_ml-p13",
+      "skills": [
+        "FAISS",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "RAG"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p13",
+      "type": "review",
+      "project": "ai_ml-p13",
+      "skills": [
+        "FAISS",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "RAG"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p14",
+      "type": "case_study",
+      "project": "ai_ml-p14",
+      "skills": [
+        "OpenAI API",
+        "Celery",
+        "Python",
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p14",
+      "type": "repo",
+      "project": "ai_ml-p14",
+      "skills": [
+        "OpenAI API",
+        "Celery",
+        "Python",
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p14",
+      "type": "review",
+      "project": "ai_ml-p14",
+      "skills": [
+        "OpenAI API",
+        "Celery",
+        "Python",
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p15",
+      "type": "case_study",
+      "project": "ai_ml-p15",
+      "skills": [
+        "LangGraph",
+        "NLP",
+        "FastAPI",
+        "Docker",
+        "FAISS"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p15",
+      "type": "repo",
+      "project": "ai_ml-p15",
+      "skills": [
+        "LangGraph",
+        "NLP",
+        "FastAPI",
+        "Docker",
+        "FAISS"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p15",
+      "type": "review",
+      "project": "ai_ml-p15",
+      "skills": [
+        "LangGraph",
+        "NLP",
+        "FastAPI",
+        "Docker",
+        "FAISS"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p16",
+      "type": "case_study",
+      "project": "ai_ml-p16",
+      "skills": [
+        "scikit-learn",
+        "XGBoost",
+        "MLflow",
+        "Python",
+        "NLP"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p17",
+      "type": "case_study",
+      "project": "ai_ml-p17",
+      "skills": [
+        "spaCy",
+        "Hugging Face Transformers",
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p17",
+      "type": "repo",
+      "project": "ai_ml-p17",
+      "skills": [
+        "spaCy",
+        "Hugging Face Transformers",
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p17",
+      "type": "review",
+      "project": "ai_ml-p17",
+      "skills": [
+        "spaCy",
+        "Hugging Face Transformers",
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p18",
+      "type": "case_study",
+      "project": "ai_ml-p18",
+      "skills": [
+        "Hugging Face Transformers",
+        "PyTorch",
+        "MLflow"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p18",
+      "type": "repo",
+      "project": "ai_ml-p18",
+      "skills": [
+        "Hugging Face Transformers",
+        "PyTorch",
+        "MLflow"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p18",
+      "type": "review",
+      "project": "ai_ml-p18",
+      "skills": [
+        "Hugging Face Transformers",
+        "PyTorch",
+        "MLflow"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p19",
+      "type": "case_study",
+      "project": "ai_ml-p19",
+      "skills": [
+        "AWS SageMaker",
+        "MLflow",
+        "FastAPI",
+        "LangGraph"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p19",
+      "type": "repo",
+      "project": "ai_ml-p19",
+      "skills": [
+        "AWS SageMaker",
+        "MLflow",
+        "FastAPI",
+        "LangGraph"
+      ]
+    },
+    {
+      "id": "cs-ai_ml-p20",
+      "type": "case_study",
+      "project": "ai_ml-p20",
+      "skills": [
+        "FAISS",
+        "FastAPI",
+        "RAG",
+        "LoRA fine-tuning"
+      ]
+    },
+    {
+      "id": "repo-ai_ml-p20",
+      "type": "repo",
+      "project": "ai_ml-p20",
+      "skills": [
+        "FAISS",
+        "FastAPI",
+        "RAG",
+        "LoRA fine-tuning"
+      ]
+    },
+    {
+      "id": "rev-ai_ml-p20",
+      "type": "review",
+      "project": "ai_ml-p20",
+      "skills": [
+        "FAISS",
+        "FastAPI",
+        "RAG",
+        "LoRA fine-tuning"
+      ]
+    }
+  ],
+  "fullstack": [
+    {
+      "id": "cs-fullstack-p01",
+      "type": "case_study",
+      "project": "fullstack-p01",
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma",
+        "Authentication"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p01",
+      "type": "review",
+      "project": "fullstack-p01",
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma",
+        "Authentication"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p02",
+      "type": "case_study",
+      "project": "fullstack-p02",
+      "skills": [
+        "NestJS",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "WebSockets"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p02",
+      "type": "repo",
+      "project": "fullstack-p02",
+      "skills": [
+        "NestJS",
+        "PostgreSQL",
+        "Redis",
+        "REST API",
+        "WebSockets"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p03",
+      "type": "case_study",
+      "project": "fullstack-p03",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "GraphQL"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p03",
+      "type": "repo",
+      "project": "fullstack-p03",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "GraphQL"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p04",
+      "type": "case_study",
+      "project": "fullstack-p04",
+      "skills": [
+        "AWS Lambda",
+        "Node.js",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p04",
+      "type": "repo",
+      "project": "fullstack-p04",
+      "skills": [
+        "AWS Lambda",
+        "Node.js",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p04",
+      "type": "review",
+      "project": "fullstack-p04",
+      "skills": [
+        "AWS Lambda",
+        "Node.js",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p05",
+      "type": "case_study",
+      "project": "fullstack-p05",
+      "skills": [
+        "React",
+        "Firebase",
+        "Tailwind CSS",
+        "Authentication"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p05",
+      "type": "repo",
+      "project": "fullstack-p05",
+      "skills": [
+        "React",
+        "Firebase",
+        "Tailwind CSS",
+        "Authentication"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p05",
+      "type": "review",
+      "project": "fullstack-p05",
+      "skills": [
+        "React",
+        "Firebase",
+        "Tailwind CSS",
+        "Authentication"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p06",
+      "type": "case_study",
+      "project": "fullstack-p06",
+      "skills": [
+        "Playwright",
+        "GitHub Actions",
+        "Docker",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p06",
+      "type": "repo",
+      "project": "fullstack-p06",
+      "skills": [
+        "Playwright",
+        "GitHub Actions",
+        "Docker",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p07",
+      "type": "case_study",
+      "project": "fullstack-p07",
+      "skills": [
+        "Next.js",
+        "MongoDB",
+        "Stripe",
+        "Express"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p07",
+      "type": "review",
+      "project": "fullstack-p07",
+      "skills": [
+        "Next.js",
+        "MongoDB",
+        "Stripe",
+        "Express"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p08",
+      "type": "case_study",
+      "project": "fullstack-p08",
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "Authentication",
+        "Redis"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p08",
+      "type": "review",
+      "project": "fullstack-p08",
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "Authentication",
+        "Redis"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p09",
+      "type": "case_study",
+      "project": "fullstack-p09",
+      "skills": [
+        "NestJS",
+        "Redis",
+        "REST API",
+        "WebSockets",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p09",
+      "type": "review",
+      "project": "fullstack-p09",
+      "skills": [
+        "NestJS",
+        "Redis",
+        "REST API",
+        "WebSockets",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p10",
+      "type": "case_study",
+      "project": "fullstack-p10",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p10",
+      "type": "review",
+      "project": "fullstack-p10",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p11",
+      "type": "case_study",
+      "project": "fullstack-p11",
+      "skills": [
+        "Node.js",
+        "TypeScript",
+        "React"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p12",
+      "type": "case_study",
+      "project": "fullstack-p12",
+      "skills": [
+        "Firebase",
+        "Tailwind CSS",
+        "Authentication",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p12",
+      "type": "repo",
+      "project": "fullstack-p12",
+      "skills": [
+        "Firebase",
+        "Tailwind CSS",
+        "Authentication",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p13",
+      "type": "case_study",
+      "project": "fullstack-p13",
+      "skills": [
+        "Playwright",
+        "Docker",
+        "TypeScript",
+        "Authentication"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p13",
+      "type": "repo",
+      "project": "fullstack-p13",
+      "skills": [
+        "Playwright",
+        "Docker",
+        "TypeScript",
+        "Authentication"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p13",
+      "type": "review",
+      "project": "fullstack-p13",
+      "skills": [
+        "Playwright",
+        "Docker",
+        "TypeScript",
+        "Authentication"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p14",
+      "type": "case_study",
+      "project": "fullstack-p14",
+      "skills": [
+        "Next.js",
+        "MongoDB",
+        "Stripe",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p14",
+      "type": "repo",
+      "project": "fullstack-p14",
+      "skills": [
+        "Next.js",
+        "MongoDB",
+        "Stripe",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p14",
+      "type": "review",
+      "project": "fullstack-p14",
+      "skills": [
+        "Next.js",
+        "MongoDB",
+        "Stripe",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p15",
+      "type": "case_study",
+      "project": "fullstack-p15",
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Authentication",
+        "Redis"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p16",
+      "type": "case_study",
+      "project": "fullstack-p16",
+      "skills": [
+        "NestJS",
+        "Redis",
+        "REST API",
+        "WebSockets",
+        "Prisma"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p16",
+      "type": "review",
+      "project": "fullstack-p16",
+      "skills": [
+        "NestJS",
+        "Redis",
+        "REST API",
+        "WebSockets",
+        "Prisma"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p17",
+      "type": "case_study",
+      "project": "fullstack-p17",
+      "skills": [
+        "TypeScript",
+        "Tailwind CSS",
+        "GraphQL",
+        "NestJS"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p17",
+      "type": "repo",
+      "project": "fullstack-p17",
+      "skills": [
+        "TypeScript",
+        "Tailwind CSS",
+        "GraphQL",
+        "NestJS"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p17",
+      "type": "review",
+      "project": "fullstack-p17",
+      "skills": [
+        "TypeScript",
+        "Tailwind CSS",
+        "GraphQL",
+        "NestJS"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p18",
+      "type": "case_study",
+      "project": "fullstack-p18",
+      "skills": [
+        "AWS Lambda",
+        "Node.js",
+        "Playwright"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p18",
+      "type": "repo",
+      "project": "fullstack-p18",
+      "skills": [
+        "AWS Lambda",
+        "Node.js",
+        "Playwright"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p18",
+      "type": "review",
+      "project": "fullstack-p18",
+      "skills": [
+        "AWS Lambda",
+        "Node.js",
+        "Playwright"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p19",
+      "type": "case_study",
+      "project": "fullstack-p19",
+      "skills": [
+        "React",
+        "Firebase",
+        "Tailwind CSS",
+        "Redis"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p19",
+      "type": "repo",
+      "project": "fullstack-p19",
+      "skills": [
+        "React",
+        "Firebase",
+        "Tailwind CSS",
+        "Redis"
+      ]
+    },
+    {
+      "id": "cs-fullstack-p20",
+      "type": "case_study",
+      "project": "fullstack-p20",
+      "skills": [
+        "Playwright",
+        "GitHub Actions",
+        "TypeScript",
+        "NestJS"
+      ]
+    },
+    {
+      "id": "repo-fullstack-p20",
+      "type": "repo",
+      "project": "fullstack-p20",
+      "skills": [
+        "Playwright",
+        "GitHub Actions",
+        "TypeScript",
+        "NestJS"
+      ]
+    },
+    {
+      "id": "rev-fullstack-p20",
+      "type": "review",
+      "project": "fullstack-p20",
+      "skills": [
+        "Playwright",
+        "GitHub Actions",
+        "TypeScript",
+        "NestJS"
+      ]
+    }
+  ],
+  "data": [
+    {
+      "id": "cs-data-p01",
+      "type": "case_study",
+      "project": "data-p01",
+      "skills": [
+        "Google Analytics 4",
+        "BigQuery",
+        "SQL",
+        "Looker Studio"
+      ]
+    },
+    {
+      "id": "rev-data-p01",
+      "type": "review",
+      "project": "data-p01",
+      "skills": [
+        "Google Analytics 4",
+        "BigQuery",
+        "SQL",
+        "Looker Studio"
+      ]
+    },
+    {
+      "id": "cs-data-p02",
+      "type": "case_study",
+      "project": "data-p02",
+      "skills": [
+        "dbt",
+        "Snowflake",
+        "SQL",
+        "ETL"
+      ]
+    },
+    {
+      "id": "repo-data-p02",
+      "type": "repo",
+      "project": "data-p02",
+      "skills": [
+        "dbt",
+        "Snowflake",
+        "SQL",
+        "ETL"
+      ]
+    },
+    {
+      "id": "rev-data-p02",
+      "type": "review",
+      "project": "data-p02",
+      "skills": [
+        "dbt",
+        "Snowflake",
+        "SQL",
+        "ETL"
+      ]
+    },
+    {
+      "id": "cs-data-p03",
+      "type": "case_study",
+      "project": "data-p03",
+      "skills": [
+        "A/B testing",
+        "Statistics",
+        "pandas",
+        "Python"
+      ]
+    },
+    {
+      "id": "repo-data-p03",
+      "type": "repo",
+      "project": "data-p03",
+      "skills": [
+        "A/B testing",
+        "Statistics",
+        "pandas",
+        "Python"
+      ]
+    },
+    {
+      "id": "cs-data-p04",
+      "type": "case_study",
+      "project": "data-p04",
+      "skills": [
+        "Excel",
+        "Google Sheets Apps Script",
+        "Data cleaning"
+      ]
+    },
+    {
+      "id": "repo-data-p04",
+      "type": "repo",
+      "project": "data-p04",
+      "skills": [
+        "Excel",
+        "Google Sheets Apps Script",
+        "Data cleaning"
+      ]
+    },
+    {
+      "id": "cs-data-p05",
+      "type": "case_study",
+      "project": "data-p05",
+      "skills": [
+        "Forecasting",
+        "Excel",
+        "Statistics"
+      ]
+    },
+    {
+      "id": "repo-data-p05",
+      "type": "repo",
+      "project": "data-p05",
+      "skills": [
+        "Forecasting",
+        "Excel",
+        "Statistics"
+      ]
+    },
+    {
+      "id": "cs-data-p06",
+      "type": "case_study",
+      "project": "data-p06",
+      "skills": [
+        "R",
+        "Statistics",
+        "SQL",
+        "Data visualization"
+      ]
+    },
+    {
+      "id": "cs-data-p07",
+      "type": "case_study",
+      "project": "data-p07",
+      "skills": [
+        "Data cleaning",
+        "pandas",
+        "Python",
+        "Excel"
+      ]
+    },
+    {
+      "id": "repo-data-p07",
+      "type": "repo",
+      "project": "data-p07",
+      "skills": [
+        "Data cleaning",
+        "pandas",
+        "Python",
+        "Excel"
+      ]
+    },
+    {
+      "id": "cs-data-p08",
+      "type": "case_study",
+      "project": "data-p08",
+      "skills": [
+        "Google Analytics 4",
+        "BigQuery",
+        "Looker Studio",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "repo-data-p08",
+      "type": "repo",
+      "project": "data-p08",
+      "skills": [
+        "Google Analytics 4",
+        "BigQuery",
+        "Looker Studio",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "rev-data-p08",
+      "type": "review",
+      "project": "data-p08",
+      "skills": [
+        "Google Analytics 4",
+        "BigQuery",
+        "Looker Studio",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "cs-data-p09",
+      "type": "case_study",
+      "project": "data-p09",
+      "skills": [
+        "dbt",
+        "SQL",
+        "ETL",
+        "Google Sheets Apps Script"
+      ]
+    },
+    {
+      "id": "repo-data-p09",
+      "type": "repo",
+      "project": "data-p09",
+      "skills": [
+        "dbt",
+        "SQL",
+        "ETL",
+        "Google Sheets Apps Script"
+      ]
+    },
+    {
+      "id": "rev-data-p09",
+      "type": "review",
+      "project": "data-p09",
+      "skills": [
+        "dbt",
+        "SQL",
+        "ETL",
+        "Google Sheets Apps Script"
+      ]
+    },
+    {
+      "id": "cs-data-p10",
+      "type": "case_study",
+      "project": "data-p10",
+      "skills": [
+        "A/B testing",
+        "Statistics",
+        "pandas",
+        "Data visualization"
+      ]
+    },
+    {
+      "id": "repo-data-p10",
+      "type": "repo",
+      "project": "data-p10",
+      "skills": [
+        "A/B testing",
+        "Statistics",
+        "pandas",
+        "Data visualization"
+      ]
+    },
+    {
+      "id": "rev-data-p10",
+      "type": "review",
+      "project": "data-p10",
+      "skills": [
+        "A/B testing",
+        "Statistics",
+        "pandas",
+        "Data visualization"
+      ]
+    },
+    {
+      "id": "cs-data-p11",
+      "type": "case_study",
+      "project": "data-p11",
+      "skills": [
+        "Excel",
+        "Data cleaning",
+        "BigQuery"
+      ]
+    },
+    {
+      "id": "repo-data-p11",
+      "type": "repo",
+      "project": "data-p11",
+      "skills": [
+        "Excel",
+        "Data cleaning",
+        "BigQuery"
+      ]
+    },
+    {
+      "id": "rev-data-p11",
+      "type": "review",
+      "project": "data-p11",
+      "skills": [
+        "Excel",
+        "Data cleaning",
+        "BigQuery"
+      ]
+    },
+    {
+      "id": "cs-data-p12",
+      "type": "case_study",
+      "project": "data-p12",
+      "skills": [
+        "Forecasting",
+        "Statistics",
+        "Looker Studio"
+      ]
+    },
+    {
+      "id": "rev-data-p12",
+      "type": "review",
+      "project": "data-p12",
+      "skills": [
+        "Forecasting",
+        "Statistics",
+        "Looker Studio"
+      ]
+    },
+    {
+      "id": "cs-data-p13",
+      "type": "case_study",
+      "project": "data-p13",
+      "skills": [
+        "R",
+        "Statistics",
+        "SQL",
+        "dbt"
+      ]
+    },
+    {
+      "id": "repo-data-p13",
+      "type": "repo",
+      "project": "data-p13",
+      "skills": [
+        "R",
+        "Statistics",
+        "SQL",
+        "dbt"
+      ]
+    },
+    {
+      "id": "rev-data-p13",
+      "type": "review",
+      "project": "data-p13",
+      "skills": [
+        "R",
+        "Statistics",
+        "SQL",
+        "dbt"
+      ]
+    },
+    {
+      "id": "cs-data-p14",
+      "type": "case_study",
+      "project": "data-p14",
+      "skills": [
+        "Data cleaning",
+        "Python",
+        "Excel",
+        "R"
+      ]
+    },
+    {
+      "id": "repo-data-p14",
+      "type": "repo",
+      "project": "data-p14",
+      "skills": [
+        "Data cleaning",
+        "Python",
+        "Excel",
+        "R"
+      ]
+    },
+    {
+      "id": "rev-data-p14",
+      "type": "review",
+      "project": "data-p14",
+      "skills": [
+        "Data cleaning",
+        "Python",
+        "Excel",
+        "R"
+      ]
+    },
+    {
+      "id": "cs-data-p15",
+      "type": "case_study",
+      "project": "data-p15",
+      "skills": [
+        "Google Analytics 4",
+        "BigQuery",
+        "SQL",
+        "Data cleaning"
+      ]
+    },
+    {
+      "id": "repo-data-p15",
+      "type": "repo",
+      "project": "data-p15",
+      "skills": [
+        "Google Analytics 4",
+        "BigQuery",
+        "SQL",
+        "Data cleaning"
+      ]
+    },
+    {
+      "id": "rev-data-p15",
+      "type": "review",
+      "project": "data-p15",
+      "skills": [
+        "Google Analytics 4",
+        "BigQuery",
+        "SQL",
+        "Data cleaning"
+      ]
+    },
+    {
+      "id": "cs-data-p16",
+      "type": "case_study",
+      "project": "data-p16",
+      "skills": [
+        "dbt",
+        "Snowflake",
+        "ETL",
+        "Data visualization"
+      ]
+    },
+    {
+      "id": "cs-data-p17",
+      "type": "case_study",
+      "project": "data-p17",
+      "skills": [
+        "Statistics",
+        "pandas",
+        "Python",
+        "Looker Studio"
+      ]
+    },
+    {
+      "id": "repo-data-p17",
+      "type": "repo",
+      "project": "data-p17",
+      "skills": [
+        "Statistics",
+        "pandas",
+        "Python",
+        "Looker Studio"
+      ]
+    },
+    {
+      "id": "rev-data-p17",
+      "type": "review",
+      "project": "data-p17",
+      "skills": [
+        "Statistics",
+        "pandas",
+        "Python",
+        "Looker Studio"
+      ]
+    },
+    {
+      "id": "cs-data-p18",
+      "type": "case_study",
+      "project": "data-p18",
+      "skills": [
+        "Excel",
+        "Data cleaning",
+        "A/B testing"
+      ]
+    },
+    {
+      "id": "rev-data-p18",
+      "type": "review",
+      "project": "data-p18",
+      "skills": [
+        "Excel",
+        "Data cleaning",
+        "A/B testing"
+      ]
+    },
+    {
+      "id": "cs-data-p19",
+      "type": "case_study",
+      "project": "data-p19",
+      "skills": [
+        "Excel",
+        "Statistics",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "rev-data-p19",
+      "type": "review",
+      "project": "data-p19",
+      "skills": [
+        "Excel",
+        "Statistics",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "cs-data-p20",
+      "type": "case_study",
+      "project": "data-p20",
+      "skills": [
+        "R",
+        "Statistics",
+        "SQL",
+        "dbt"
+      ]
+    },
+    {
+      "id": "repo-data-p20",
+      "type": "repo",
+      "project": "data-p20",
+      "skills": [
+        "R",
+        "Statistics",
+        "SQL",
+        "dbt"
+      ]
+    },
+    {
+      "id": "rev-data-p20",
+      "type": "review",
+      "project": "data-p20",
+      "skills": [
+        "R",
+        "Statistics",
+        "SQL",
+        "dbt"
+      ]
+    }
+  ]
+}

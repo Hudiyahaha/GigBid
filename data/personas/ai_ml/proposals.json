@@ -1,0 +1,2839 @@
+[
+  {
+    "id": "prop-ai_ml-000",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "Our small media startup needs a freelancer for: Set up model monitoring and CI/CD for ML - see requirements. Looking for a person who can orchestrate scheduled data and training jobs. We need someone who can host models on Amazon's managed ",
+    "date": "2024-03-06",
+    "bid_usd": 420.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about set up model monitoring and ci/cd for ml. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-001",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "We are a media company looking for help with this project: Text classification for support tickets - see requirements. You will be working mainly in LoRA fine-tuning. Must have hands-on experience with spaCy. Must have hands-on experience w",
+    "date": "2024-10-04",
+    "bid_usd": 40.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about text classification for support tickets. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-002",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a RAG chatbot over our documents",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "I run a fintech business and want to hire someone for: Build a RAG chatbot over our documents. Looking for a person who can wire LLM prompts, tools and retrievers into one app. Strong Pinecone skills required. Strong OpenAI API skills requi",
+    "date": "2023-04-21",
+    "bid_usd": 43.0,
+    "pay_type": "hourly",
+    "text": "Your build a rag chatbot over our documents sounds close to the Invoice data extraction pipeline I built for a gaming client, where I called a hosted chat-completion model with JSON-mode outputs. On that project I used OpenAI API, Celery, Python, and it processed 2500 invoices a day unattended. I also delivered invoice data extraction pipeline v2 (manufacturing), which processed 2500 invoices a day unattended. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p07",
+      "ai_ml-p14"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-003",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "Our travel team needs an experienced specialist for: Text classification for support tickets (details below). Looking for a person who can make sense of large volumes of written customer feedback. LoRA fine-tuning knowledge is important. De",
+    "date": "2024-03-03",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-004",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Sales forecasting model. Strong Time series forecasting skills required. Strong Prophet skills required. Experience with Python is a must. You will be working mainly in Model evaluatio",
+    "date": "2024-06-07",
+    "bid_usd": 220.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-005",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for media images",
+    "job_category": "Computer vision",
+    "job_excerpt": "I run a media business and want to hire someone for: Object detection for media images (details below). Strong PyTorch skills required. Must have hands-on experience with OpenCV. Experience with Computer vision is a must. Deliverables: Work",
+    "date": "2024-09-22",
+    "bid_usd": 36.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about object detection for media images. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-006",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a media company looking for help with this project: Sales forecasting model. Must have hands-on experience with Time series forecasting. Strong Python skills required. Looking for a person who will prove the model works with honest m",
+    "date": "2023-08-14",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-007",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "I run a travel business and want to hire someone for: Set up model monitoring and CI/CD for ML. Looking for a person who can wrap a model in a quick, documented Python web API. Experience with MLflow is a must. Strong Docker skills required",
+    "date": "2024-01-26",
+    "bid_usd": 520.0,
+    "pay_type": "fixed",
+    "text": "Your set up model monitoring and ci/cd for ml sounds close to the Model serving platform I built for a SaaS client, where I packaged everything into reproducible container images. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p05"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-008",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "We are a SaaS company looking for help with this project: Deploy our ML models to production. Bonus if you're someone who can wrap a model in a quick, documented Python web API. Strong Airflow skills required. Deliverables: Working deploy o",
+    "date": "2025-01-06",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about deploy our ml models to production. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-009",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "AI agent to automate education workflows",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our small education startup needs a freelancer for: AI agent to automate education workflows. We need someone who can do fast similarity search over millions of embeddings locally. Pinecone knowledge is important. Deliverables: Working ai a",
+    "date": "2023-07-10",
+    "bid_usd": 27.0,
+    "pay_type": "hourly",
+    "text": "Your ai agent to automate education workflows sounds close to the Semantic product search I built for a healthcare client, where I built an in-process approximate nearest-neighbour index. On that project I used FAISS, Hugging Face Transformers, FastAPI, and it lifted search click-through by 31%. I also delivered semantic product search v2 (retail), which lifted search click-through by 35%. For you I'd start with FAISS, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p06",
+      "ai_ml-p13"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-010",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "AI agent to automate e-commerce workflows",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our small e-commerce startup needs a freelancer for: AI agent to automate e-commerce workflows. Experience with LangGraph is a must. Strong FastAPI skills required. Strong Pinecone skills required. Deliverables: Working ai agent to automate",
+    "date": "2025-01-20",
+    "bid_usd": 210.0,
+    "pay_type": "fixed",
+    "text": "Your ai agent to automate e-commerce workflows sounds close to the Support-ticket triage agent I built for a education client, where I modelled the agent as a stateful graph with conditional edges and checkpoints. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-011",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "I run a manufacturing business and want to hire someone for: Set up model monitoring and CI/CD for ML - see requirements. We need someone who keeps experiments reproducible and models versioned. Looking for a person who can host models on A",
+    "date": "2024-12-29",
+    "bid_usd": 300.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about set up model monitoring and ci/cd for ml. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p05"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-012",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our travel team needs an experienced specialist for: Computer vision quality inspection - see requirements. YOLO knowledge is important. Ideally you are someone who can build and train neural networks from scratch on GPUs. Experience with O",
+    "date": "2023-03-26",
+    "bid_usd": 430.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about computer vision quality inspection. On that project I used Hugging Face Transformers, PyTorch, spaCy, and it beat the base model on 32 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p11"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-013",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "I run a non-profit business and want to hire someone for: Computer vision quality inspection - see requirements. Strong PyTorch skills required. We need someone who can spot and box objects in photos and video streams. Looking for a person ",
+    "date": "2024-08-24",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Your computer vision quality inspection sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. I also delivered domain llm fine-tune v2 (logistics), which beat the base model on 32 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04",
+      "ai_ml-p11"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-014",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for education inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our education team needs an experienced specialist for: Demand forecast for education inventory. Bonus if you're someone who will prove the model works with honest metrics. We need someone who can predict next month's numbers from history. ",
+    "date": "2023-06-09",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Your demand forecast for education inventory sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with Time series forecasting, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-015",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for media images",
+    "job_category": "Computer vision",
+    "job_excerpt": "We are a media company looking for help with this project: Object detection for media images. Experience with PyTorch is a must. Ideally you are someone who is comfortable cleaning up and transforming images. Deliverables: Working object de",
+    "date": "2024-06-06",
+    "bid_usd": 24.0,
+    "pay_type": "hourly",
+    "text": "Your object detection for media images sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. I also delivered domain llm fine-tune v2 (logistics), which beat the base model on 32 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04",
+      "ai_ml-p11"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-016",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Fraud detection model",
+    "job_category": "ML modelling",
+    "job_excerpt": "We are a non-profit company looking for help with this project: Fraud detection model - see requirements. Experience with MLflow is a must. Model evaluation knowledge is important. You will be working mainly in Python. scikit-learn knowledg",
+    "date": "2025-02-24",
+    "bid_usd": 54.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-017",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "Our small travel startup needs a freelancer for: Deploy our ML models to production (details below). We need someone who keeps experiments reproducible and models versioned. Must have hands-on experience with Celery. Bonus if you're someone",
+    "date": "2024-11-29",
+    "bid_usd": 47.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about deploy our ml models to production. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-018",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "AI agent to automate non-profit workflows",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "I run a non-profit business and want to hire someone for: AI agent to automate non-profit workflows. We need someone who can make a chatbot answer from our own documents and show sources. FAISS knowledge is important. Looking for a person w",
+    "date": "2025-05-08",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Your ai agent to automate non-profit workflows sounds close to the Semantic product search I built for a healthcare client, where I built an in-process approximate nearest-neighbour index. On that project I used FAISS, Hugging Face Transformers, FastAPI, and it lifted search click-through by 31%. I also delivered semantic product search v2 (retail), which lifted search click-through by 35%. For you I'd start with LangChain, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Semantic product search project I handled this directly and documented the outcome.",
+      "In my Semantic product search project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p06",
+      "ai_ml-p13"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-019",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "I run a gaming business and want to hire someone for: Sales forecasting model - see requirements. Must have hands-on experience with Python. Strong Model evaluation skills required. Must have hands-on experience with Prophet. Strong Time se",
+    "date": "2024-09-29",
+    "bid_usd": 320.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about sales forecasting model. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-020",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: Computer vision quality inspection. Strong YOLO skills required. Looking for a person who can make software understand pictures. We need someone who is comfortable cleaning up and tran",
+    "date": "2024-11-19",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about computer vision quality inspection. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-021",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "I run a legal business and want to hire someone for: Computer vision quality inspection - see requirements. Looking for a person who can make software understand pictures. Strong YOLO skills required. Bonus if you're someone who is comforta",
+    "date": "2023-07-01",
+    "bid_usd": 34.0,
+    "pay_type": "hourly",
+    "text": "Your computer vision quality inspection sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. I also delivered domain llm fine-tune v2 (logistics), which beat the base model on 32 of 60 eval prompts. For you I'd start with Computer vision, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04",
+      "ai_ml-p11"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-022",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "I run a fintech business and want to hire someone for: Text classification for support tickets. Ideally you are someone who can make sense of large volumes of written customer feedback. Looking for a person who can adapt open pretrained lan",
+    "date": "2025-09-21",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about text classification for support tickets. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-023",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "I run a non-profit business and want to hire someone for: Deploy our ML models to production (details below). You will be working mainly in Airflow. Bonus if you're someone who can make the app run the same on every machine. Strong MLflow s",
+    "date": "2023-08-13",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about deploy our ml models to production. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p05"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-024",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: Sales forecasting model. Strong Python skills required. Strong Prophet skills required. Deliverables: Working sales forecasting model; Short documentation and a hand-over call.",
+    "date": "2025-04-07",
+    "bid_usd": 70.0,
+    "pay_type": "fixed",
+    "text": "Your sales forecasting model sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered invoice data extraction pipeline, which processed 2500 invoices a day unattended. For you I'd start with Prophet, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p07"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-025",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "I run a healthcare business and want to hire someone for: Text classification for support tickets. You will be working mainly in NLP. We need someone who can pull names, dates and products out of text. We need someone who can cheaply fine-t",
+    "date": "2023-06-09",
+    "bid_usd": 220.0,
+    "pay_type": "fixed",
+    "text": "Your text classification for support tickets sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. I also delivered domain llm fine-tune, which beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p03",
+      "ai_ml-p04"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-026",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our media team needs an experienced specialist for: Predictive model for customer churn. MLflow knowledge is important. You will be working mainly in XGBoost. You will be working mainly in scikit-learn. Experience with Model evaluation is a",
+    "date": "2023-12-17",
+    "bid_usd": 190.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about predictive model for customer churn. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-027",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for healthcare inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a healthcare company looking for help with this project: Demand forecast for healthcare inventory. Must have hands-on experience with Python. We need someone who can forecast seasonal business numbers quickly. Strong Model evaluation",
+    "date": "2023-03-30",
+    "bid_usd": 46.0,
+    "pay_type": "hourly",
+    "text": "Your demand forecast for healthcare inventory sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with Model evaluation, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-028",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Fraud detection model",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our manufacturing team needs an experienced specialist for: Fraud detection model (details below). Ideally you are someone who can squeeze accuracy out of tabular data with gradient-boosted trees. You will be working mainly in MLflow. Bonus",
+    "date": "2024-05-28",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Your fraud detection model sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-029",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "Our small education startup needs a freelancer for: Named entity extraction from documents. Looking for a person who can adapt open pretrained language models to our task. Looking for a person who can pull names, dates and products out of t",
+    "date": "2024-09-14",
+    "bid_usd": 28.0,
+    "pay_type": "hourly",
+    "text": "Your named entity extraction from documents sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. I also delivered domain llm fine-tune, which beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p03",
+      "ai_ml-p04"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-030",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for SaaS inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our SaaS team needs an experienced specialist for: Demand forecast for SaaS inventory. Model evaluation knowledge is important. Strong Python skills required. Deliverables: Working demand forecast for saas inventory; Short documentation and",
+    "date": "2023-02-21",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Your demand forecast for saas inventory sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-031",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a lead-scoring ML model",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: Build a lead-scoring ML model (details below). Looking for a person who can squeeze accuracy out of tabular data with gradient-boosted trees. Must have hands-on experience with scikit-",
+    "date": "2023-09-08",
+    "bid_usd": 300.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about build a lead-scoring ml model. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-032",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "I run a non-profit business and want to hire someone for: Named entity extraction from documents. Strong NLP skills required. Ideally you are someone who can cheaply fine-tune an open LLM on our own examples. Ideally you are someone who can",
+    "date": "2024-11-15",
+    "bid_usd": 440.0,
+    "pay_type": "fixed",
+    "text": "Your named entity extraction from documents sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-033",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "I run a healthcare business and want to hire someone for: Set up model monitoring and CI/CD for ML. We need someone who keeps experiments reproducible and models versioned. Bonus if you're someone who can host models on Amazon's managed ML ",
+    "date": "2025-05-14",
+    "bid_usd": 210.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-034",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "AI agent to automate travel workflows",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "We are a travel company looking for help with this project: AI agent to automate travel workflows. Looking for a person who can build multi-step AI agents that keep state between steps. Strong FAISS skills required. RAG knowledge is importa",
+    "date": "2024-06-23",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-035",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "I run a gaming business and want to hire someone for: Predictive model for customer churn. You will be working mainly in MLflow. You will be working mainly in Python. Deliverables: Working predictive model for customer churn; Short document",
+    "date": "2024-10-22",
+    "bid_usd": 240.0,
+    "pay_type": "fixed",
+    "text": "Your predictive model for customer churn sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with MLflow, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-036",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Deploy our ML models to production - see requirements. You will be working mainly in FastAPI. We need someone who can host models on Amazon's managed ML platform. Looking for a person who can o",
+    "date": "2025-07-29",
+    "bid_usd": 30.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-037",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our small education startup needs a freelancer for: Computer vision quality inspection. Experience with Computer vision is a must. OpenCV knowledge is important. PyTorch knowledge is important. Must have hands-on experience with YOLO. Deliv",
+    "date": "2025-04-12",
+    "bid_usd": 170.0,
+    "pay_type": "fixed",
+    "text": "Your computer vision quality inspection sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-038",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "AI agent to automate media workflows",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our small media startup needs a freelancer for: AI agent to automate media workflows - see requirements. Bonus if you're someone who can do fast similarity search over millions of embeddings locally. Experience with FastAPI is a must. Pinec",
+    "date": "2024-02-13",
+    "bid_usd": 37.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about ai agent to automate media workflows. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 48% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p15"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-039",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Fraud detection model",
+    "job_category": "ML modelling",
+    "job_excerpt": "I run a fintech business and want to hire someone for: Fraud detection model (details below). Strong scikit-learn skills required. Ideally you are someone who can squeeze accuracy out of tabular data with gradient-boosted trees. Bonus if yo",
+    "date": "2023-09-05",
+    "bid_usd": 190.0,
+    "pay_type": "fixed",
+    "text": "Your fraud detection model sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with MLflow, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-040",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "I run a logistics business and want to hire someone for: Deploy our ML models to production (details below). Bonus if you're someone who can make the app run the same on every machine. Strong MLflow skills required. Deliverables: Working de",
+    "date": "2024-01-17",
+    "bid_usd": 250.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about deploy our ml models to production. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p05"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-041",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Sales forecasting model - see requirements. Strong Python skills required. Ideally you are someone who can predict next month's numbers from history. Must have hands-on experience with Prophet.",
+    "date": "2023-08-18",
+    "bid_usd": 36.0,
+    "pay_type": "hourly",
+    "text": "Your sales forecasting model sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-042",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "I run a SaaS business and want to hire someone for: Named entity extraction from documents (details below). You will be working mainly in LoRA fine-tuning. Looking for a person who can adapt open pretrained language models to our task. spaC",
+    "date": "2024-06-22",
+    "bid_usd": 270.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about named entity extraction from documents. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-043",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "We are a legal company looking for help with this project: Set up model monitoring and CI/CD for ML - see requirements. Bonus if you're someone who can run long jobs in the background without blocking users. We need someone who can wrap a m",
+    "date": "2024-11-01",
+    "bid_usd": 31.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-044",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: Computer vision quality inspection. We need someone who can spot and box objects in photos and video streams. Looking for a person who can make software understand pictures. Experience with P",
+    "date": "2025-01-22",
+    "bid_usd": 250.0,
+    "pay_type": "fixed",
+    "text": "Your computer vision quality inspection sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-045",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for fintech inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a fintech company looking for help with this project: Demand forecast for fintech inventory. We need someone who can forecast seasonal business numbers quickly. Experience with Model evaluation is a must. Must have hands-on experienc",
+    "date": "2025-01-17",
+    "bid_usd": 310.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-046",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Named entity extraction from documents. NLP knowledge is important. spaCy knowledge is important. We need someone who can cheaply fine-tune an open LLM on our own examples. Deliverables: ",
+    "date": "2025-01-22",
+    "bid_usd": 240.0,
+    "pay_type": "fixed",
+    "text": "Your named entity extraction from documents sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. I also delivered support-ticket triage agent v2 (travel), which auto-routed 64% of tickets correctly. For you I'd start with NLP, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p03",
+      "ai_ml-p08"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-047",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our retail team needs an experienced specialist for: Computer vision quality inspection - see requirements. Bonus if you're someone who can make software understand pictures. Strong PyTorch skills required. Must have hands-on experience wit",
+    "date": "2024-02-15",
+    "bid_usd": 290.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-048",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "Our education team needs an experienced specialist for: Text classification for support tickets. You will be working mainly in NLP. Strong LoRA fine-tuning skills required. We need someone who can pull names, dates and products out of text.",
+    "date": "2025-01-20",
+    "bid_usd": 20.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about text classification for support tickets. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-049",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a lead-scoring ML model",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: Build a lead-scoring ML model - see requirements. Strong Python skills required. We need someone who keeps experiments reproducible and models versioned. Deliverables: Working build a ",
+    "date": "2023-11-19",
+    "bid_usd": 100.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-050",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "LLM assistant for internal knowledge base",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our small legal startup needs a freelancer for: LLM assistant for internal knowledge base - see requirements. Bonus if you're someone who can make a chatbot answer from our own documents and show sources. Ideally you are someone who has hos",
+    "date": "2023-09-23",
+    "bid_usd": 48.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about llm assistant for internal knowledge base. On that project I used FAISS, Hugging Face Transformers, FastAPI, and it lifted search click-through by 31%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p06"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-051",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "LLM assistant for internal knowledge base",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: LLM assistant for internal knowledge base. Experience with Pinecone is a must. You will be working mainly in FAISS. Bonus if you're someone who wrote search-optimised blog articles. ",
+    "date": "2024-10-26",
+    "bid_usd": 34.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-052",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our retail team needs an experienced specialist for: Computer vision quality inspection. Strong Computer vision skills required. PyTorch knowledge is important. Bonus if you're someone who is comfortable cleaning up and transforming images.",
+    "date": "2024-11-27",
+    "bid_usd": 220.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-053",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "LLM assistant for internal knowledge base",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our small media startup needs a freelancer for: LLM assistant for internal knowledge base (details below). Looking for a person who can make a chatbot answer from our own documents and show sources. We need someone who has integrated GPT mo",
+    "date": "2023-11-05",
+    "bid_usd": 320.0,
+    "pay_type": "fixed",
+    "text": "Your llm assistant for internal knowledge base sounds close to the Semantic product search I built for a healthcare client, where I built an in-process approximate nearest-neighbour index. On that project I used FAISS, Hugging Face Transformers, FastAPI, and it lifted search click-through by 31%. I also delivered semantic product search v2 (retail), which lifted search click-through by 35%. For you I'd start with FastAPI, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p06",
+      "ai_ml-p13"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-054",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for gaming images",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our small gaming startup needs a freelancer for: Object detection for gaming images - see requirements. Strong OpenCV skills required. Strong YOLO skills required. Ideally you are someone who can build and train neural networks from scratch",
+    "date": "2023-02-14",
+    "bid_usd": 350.0,
+    "pay_type": "fixed",
+    "text": "Your object detection for gaming images sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-055",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for SaaS images",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Object detection for SaaS images (details below). Looking for a person who is comfortable cleaning up and transforming images. We need someone who can build and train neural networks from scrat",
+    "date": "2023-02-28",
+    "bid_usd": 200.0,
+    "pay_type": "fixed",
+    "text": "Your object detection for saas images sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-056",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "I run a fintech business and want to hire someone for: Named entity extraction from documents. Strong LoRA fine-tuning skills required. Must have hands-on experience with NLP. We need someone who can pull names, dates and products out of te",
+    "date": "2024-04-11",
+    "bid_usd": 61.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about named entity extraction from documents. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-057",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our travel team needs an experienced specialist for: Predictive model for customer churn - see requirements. You will be working mainly in Python. Must have hands-on experience with XGBoost. We need someone who will prove the model works wi",
+    "date": "2024-09-18",
+    "bid_usd": 27.0,
+    "pay_type": "hourly",
+    "text": "Your predictive model for customer churn sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with Model evaluation, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-058",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Computer vision quality inspection. Strong OpenCV skills required. You will be working mainly in Computer vision. Bonus if you're someone who can spot and box objects in photos and video ",
+    "date": "2024-05-23",
+    "bid_usd": 36.0,
+    "pay_type": "hourly",
+    "text": "Your computer vision quality inspection sounds close to the Support-ticket triage agent I built for a education client, where I modelled the agent as a stateful graph with conditional edges and checkpoints. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. I also delivered customer churn model, which raised recall on churners to 0.21. For you I'd start with YOLO, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01",
+      "ai_ml-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-059",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small education startup needs a freelancer for: Sales forecasting model - see requirements. Strong Model evaluation skills required. Ideally you are someone who can predict next month's numbers from history. Deliverables: Working sales ",
+    "date": "2023-04-02",
+    "bid_usd": 55.0,
+    "pay_type": "hourly",
+    "text": "Your sales forecasting model sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-060",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "I run a healthcare business and want to hire someone for: Computer vision quality inspection. You will be working mainly in Computer vision. You will be working mainly in OpenCV. Ideally you are someone who can build and train neural networ",
+    "date": "2025-06-15",
+    "bid_usd": 370.0,
+    "pay_type": "fixed",
+    "text": "Your computer vision quality inspection sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-061",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a RAG chatbot over our documents",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "We are a legal company looking for help with this project: Build a RAG chatbot over our documents. You will be working mainly in OpenAI API. We need someone who can make a chatbot answer from our own documents and show sources. Deliverables",
+    "date": "2023-03-20",
+    "bid_usd": 80.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-062",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "LLM assistant for internal knowledge base",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our retail team needs an experienced specialist for: LLM assistant for internal knowledge base - see requirements. Strong OpenAI API skills required. We need someone who can make a chatbot answer from our own documents and show sources. You",
+    "date": "2024-03-31",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Your llm assistant for internal knowledge base sounds close to the Semantic product search I built for a healthcare client, where I built an in-process approximate nearest-neighbour index. On that project I used FAISS, Hugging Face Transformers, FastAPI, and it lifted search click-through by 31%. I also delivered semantic product search v2 (retail), which lifted search click-through by 35%. For you I'd start with RAG, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Semantic product search project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p06",
+      "ai_ml-p13"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-063",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for education inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small education startup needs a freelancer for: Demand forecast for education inventory. Ideally you are someone who will prove the model works with honest metrics. Python knowledge is important. Looking for a person who can predict nex",
+    "date": "2024-08-26",
+    "bid_usd": 170.0,
+    "pay_type": "fixed",
+    "text": "Your demand forecast for education inventory sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with Model evaluation, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-064",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for manufacturing images",
+    "job_category": "Computer vision",
+    "job_excerpt": "I run a manufacturing business and want to hire someone for: Object detection for manufacturing images. You will be working mainly in OpenCV. Must have hands-on experience with PyTorch. We need someone who can make software understand pictu",
+    "date": "2025-05-29",
+    "bid_usd": 230.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about object detection for manufacturing images. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-065",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "I run a education business and want to hire someone for: Predictive model for customer churn - see requirements. Ideally you are someone who can squeeze accuracy out of tabular data with gradient-boosted trees. You will be working mainly in",
+    "date": "2024-06-26",
+    "bid_usd": 37.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-066",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "Our legal team needs an experienced specialist for: Set up model monitoring and CI/CD for ML. FastAPI knowledge is important. You will be working mainly in Docker. Bonus if you're someone who keeps experiments reproducible and models versio",
+    "date": "2024-06-06",
+    "bid_usd": 31.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-067",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a lead-scoring ML model",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our small real estate startup needs a freelancer for: Build a lead-scoring ML model - see requirements. You will be working mainly in Model evaluation. We need someone who keeps experiments reproducible and models versioned. Must have hands",
+    "date": "2023-10-24",
+    "bid_usd": 380.0,
+    "pay_type": "fixed",
+    "text": "Your build a lead-scoring ml model sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with MLflow, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-068",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "We are a SaaS company looking for help with this project: Deploy our ML models to production. Experience with Airflow is a must. You will be working mainly in Docker. Deliverables: Working deploy our ml models to production; Short documenta",
+    "date": "2023-12-11",
+    "bid_usd": 170.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about deploy our ml models to production. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-069",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: Text classification for support tickets. We need someone who can pull names, dates and products out of text. Must have hands-on experience with Hugging Face Transformers. We need someone ",
+    "date": "2023-12-08",
+    "bid_usd": 43.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about text classification for support tickets. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-070",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for fintech images",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our small fintech startup needs a freelancer for: Object detection for fintech images. OpenCV knowledge is important. Must have hands-on experience with PyTorch. You will be working mainly in Computer vision. Looking for a person who can sp",
+    "date": "2023-10-27",
+    "bid_usd": 270.0,
+    "pay_type": "fixed",
+    "text": "Your object detection for fintech images sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-071",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for travel images",
+    "job_category": "Computer vision",
+    "job_excerpt": "We are a travel company looking for help with this project: Object detection for travel images (details below). Computer vision knowledge is important. YOLO knowledge is important. Deliverables: Working object detection for travel images; S",
+    "date": "2023-12-22",
+    "bid_usd": 210.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about object detection for travel images. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-072",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "AI agent to automate education workflows",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "I run a education business and want to hire someone for: AI agent to automate education workflows - see requirements. Must have hands-on experience with OpenAI API. You will be working mainly in LangChain. Experience with LangGraph is a mus",
+    "date": "2023-07-30",
+    "bid_usd": 310.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-073",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "I run a non-profit business and want to hire someone for: Set up model monitoring and CI/CD for ML. You will be working mainly in Celery. Must have hands-on experience with FastAPI. You will be working mainly in AWS SageMaker. Airflow knowl",
+    "date": "2024-12-15",
+    "bid_usd": 240.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about set up model monitoring and ci/cd for ml. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p05"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-074",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our retail team needs an experienced specialist for: Predictive model for customer churn - see requirements. We need someone who will prove the model works with honest metrics. Must have hands-on experience with scikit-learn. Strong XGBoost",
+    "date": "2025-08-10",
+    "bid_usd": 220.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about predictive model for customer churn. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-075",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Fraud detection model",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: Fraud detection model. Must have hands-on experience with MLflow. Bonus if you're someone who knows classic machine learning models and how to validate them properly. Python knowledge is ",
+    "date": "2025-05-20",
+    "bid_usd": 24.0,
+    "pay_type": "hourly",
+    "text": "Your fraud detection model sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-076",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our SaaS team needs an experienced specialist for: Predictive model for customer churn - see requirements. Must have hands-on experience with MLflow. Bonus if you're someone who can squeeze accuracy out of tabular data with gradient-boosted",
+    "date": "2024-12-21",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Your predictive model for customer churn sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-077",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a RAG chatbot over our documents",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "We are a legal company looking for help with this project: Build a RAG chatbot over our documents. We need someone who has integrated GPT models into a product. Experience with RAG is a must. Strong LangChain skills required. Must have hand",
+    "date": "2024-04-13",
+    "bid_usd": 36.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-078",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a lead-scoring ML model",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our e-commerce team needs an experienced specialist for: Build a lead-scoring ML model - see requirements. Experience with XGBoost is a must. Strong scikit-learn skills required. MLflow knowledge is important. You will be working mainly in ",
+    "date": "2023-10-26",
+    "bid_usd": 260.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-079",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "Our travel team needs an experienced specialist for: Named entity extraction from documents. Strong NLP skills required. Ideally you are someone who can adapt open pretrained language models to our task. Must have hands-on experience with L",
+    "date": "2025-03-19",
+    "bid_usd": 100.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-080",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for SaaS images",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our SaaS team needs an experienced specialist for: Object detection for SaaS images. Strong PyTorch skills required. Experience with YOLO is a must. We need someone who is comfortable cleaning up and transforming images. Bonus if you're som",
+    "date": "2024-09-28",
+    "bid_usd": 42.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-081",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our fintech team needs an experienced specialist for: Predictive model for customer churn (details below). Ideally you are someone who can squeeze accuracy out of tabular data with gradient-boosted trees. Experience with MLflow is a must. E",
+    "date": "2024-09-11",
+    "bid_usd": 370.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-082",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "We are a logistics company looking for help with this project: Text classification for support tickets (details below). Experience with spaCy is a must. Ideally you are someone who can cheaply fine-tune an open LLM on our own examples. Expe",
+    "date": "2023-04-23",
+    "bid_usd": 460.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about text classification for support tickets. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-083",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "Our healthcare team needs an experienced specialist for: Named entity extraction from documents (details below). Experience with LoRA fine-tuning is a must. Must have hands-on experience with NLP. Bonus if you're someone who can pull names,",
+    "date": "2023-11-13",
+    "bid_usd": 260.0,
+    "pay_type": "fixed",
+    "text": "Your named entity extraction from documents sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. I also delivered domain llm fine-tune, which beat the base model on 55 of 60 eval prompts. For you I'd start with NLP, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p03",
+      "ai_ml-p04"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-084",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "LLM assistant for internal knowledge base",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our small media startup needs a freelancer for: LLM assistant for internal knowledge base - see requirements. FastAPI knowledge is important. Strong FAISS skills required. Deliverables: Working llm assistant for internal knowledge base; Sho",
+    "date": "2023-04-06",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Your llm assistant for internal knowledge base sounds close to the Semantic product search I built for a healthcare client, where I built an in-process approximate nearest-neighbour index. On that project I used FAISS, Hugging Face Transformers, FastAPI, and it lifted search click-through by 31%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Semantic product search project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p06"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-085",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for gaming inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Demand forecast for gaming inventory (details below). You will be working mainly in Python. Time series forecasting knowledge is important. Strong Prophet skills required. You will be wor",
+    "date": "2025-04-04",
+    "bid_usd": 70.0,
+    "pay_type": "hourly",
+    "text": "Your demand forecast for gaming inventory sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-086",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "Our small insurance startup needs a freelancer for: Text classification for support tickets. You will be working mainly in Hugging Face Transformers. Experience with spaCy is a must. Deliverables: Working text classification for support tic",
+    "date": "2024-09-24",
+    "bid_usd": 130.0,
+    "pay_type": "fixed",
+    "text": "Your text classification for support tickets sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. I also delivered clinical note entity extractor v2 (insurance), which achieved an F1 of 0.41 on held-out notes. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p03",
+      "ai_ml-p10"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-087",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Named entity extraction from documents (details below). Experience with LoRA fine-tuning is a must. Looking for a person who can adapt open pretrained language models to our task. De",
+    "date": "2023-06-09",
+    "bid_usd": 21.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about named entity extraction from documents. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-088",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a manufacturing company looking for help with this project: Sales forecasting model - see requirements. Python knowledge is important. We need someone who can predict next month's numbers from history. You will be working mainly in M",
+    "date": "2025-02-02",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-089",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "AI agent to automate non-profit workflows",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: AI agent to automate non-profit workflows - see requirements. Strong FAISS skills required. Experience with OpenAI API is a must. You will be working mainly in Pinecone. Deliverables: Wor",
+    "date": "2023-10-05",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about ai agent to automate non-profit workflows. On that project I used FAISS, Hugging Face Transformers, FastAPI, and it lifted search click-through by 31%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p06"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-090",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for media images",
+    "job_category": "Computer vision",
+    "job_excerpt": "We are a media company looking for help with this project: Object detection for media images (details below). OpenCV knowledge is important. Experience with Computer vision is a must. Deliverables: Working object detection for media images;",
+    "date": "2023-10-10",
+    "bid_usd": 150.0,
+    "pay_type": "fixed",
+    "text": "Your object detection for media images sounds close to the Support-ticket triage agent I built for a education client, where I modelled the agent as a stateful graph with conditional edges and checkpoints. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. I also delivered customer churn model, which raised recall on churners to 0.21. For you I'd start with Computer vision, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Support-ticket triage agent project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p01",
+      "ai_ml-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-091",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for e-commerce images",
+    "job_category": "Computer vision",
+    "job_excerpt": "I run a e-commerce business and want to hire someone for: Object detection for e-commerce images. Looking for a person who can make software understand pictures. Ideally you are someone who is comfortable cleaning up and transforming images",
+    "date": "2023-07-22",
+    "bid_usd": 30.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-092",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "Our legal team needs an experienced specialist for: Text classification for support tickets - see requirements. We need someone who can make sense of large volumes of written customer feedback. Looking for a person who can pull names, dates",
+    "date": "2023-02-03",
+    "bid_usd": 27.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-093",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "Our legal team needs an experienced specialist for: Deploy our ML models to production. Experience with Docker is a must. We need someone who can host models on Amazon's managed ML platform. Deliverables: Working deploy our ml models to pro",
+    "date": "2025-07-24",
+    "bid_usd": 22.0,
+    "pay_type": "hourly",
+    "text": "Your deploy our ml models to production sounds close to the Model serving platform I built for a SaaS client, where I packaged everything into reproducible container images. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. I also delivered support-ticket triage agent, which auto-routed 33% of tickets correctly. For you I'd start with Docker, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p05",
+      "ai_ml-p01"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-094",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for insurance images",
+    "job_category": "Computer vision",
+    "job_excerpt": "We are a insurance company looking for help with this project: Object detection for insurance images. Strong PyTorch skills required. Experience with Computer vision is a must. YOLO knowledge is important. Deliverables: Working object detec",
+    "date": "2023-02-27",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Your object detection for insurance images sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. I also delivered domain llm fine-tune v2 (logistics), which beat the base model on 32 of 60 eval prompts. For you I'd start with Computer vision, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p04",
+      "ai_ml-p11"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-095",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for retail inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small retail startup needs a freelancer for: Demand forecast for retail inventory. Must have hands-on experience with Python. Strong Time series forecasting skills required. Bonus if you're someone who can forecast seasonal business num",
+    "date": "2024-03-03",
+    "bid_usd": 52.0,
+    "pay_type": "hourly",
+    "text": "Your demand forecast for retail inventory sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with Prophet, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-096",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our media team needs an experienced specialist for: Computer vision quality inspection. Bonus if you're someone who can make software understand pictures. PyTorch knowledge is important. Bonus if you're someone who is comfortable cleaning u",
+    "date": "2024-09-29",
+    "bid_usd": 33.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about computer vision quality inspection. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-097",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: Computer vision quality inspection (details below). Strong PyTorch skills required. Bonus if you're someone who is comfortable cleaning up and transforming images. Computer vision know",
+    "date": "2023-07-31",
+    "bid_usd": 210.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about computer vision quality inspection. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-098",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for logistics images",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our small logistics startup needs a freelancer for: Object detection for logistics images (details below). Computer vision knowledge is important. Experience with YOLO is a must. Strong PyTorch skills required. Experience with OpenCV is a m",
+    "date": "2023-12-19",
+    "bid_usd": 45.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-099",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for legal inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a legal company looking for help with this project: Demand forecast for legal inventory - see requirements. Experience with Time series forecasting is a must. You will be working mainly in Python. Ideally you are someone who will pro",
+    "date": "2023-04-11",
+    "bid_usd": 390.0,
+    "pay_type": "fixed",
+    "text": "Your demand forecast for legal inventory sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-100",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for insurance images",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Object detection for insurance images. Experience with OpenCV is a must. We need someone who can build and train neural networks from scratch on GPUs. Ideally you are someone who can s",
+    "date": "2025-06-22",
+    "bid_usd": 30.0,
+    "pay_type": "hourly",
+    "text": "Your object detection for insurance images sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-101",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a RAG chatbot over our documents",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: Build a RAG chatbot over our documents. Must have hands-on experience with OpenAI API. Must have hands-on experience with Pinecone. Strong FastAPI skills required. Deliverables: Workin",
+    "date": "2025-02-20",
+    "bid_usd": 330.0,
+    "pay_type": "fixed",
+    "text": "Your build a rag chatbot over our documents sounds close to the Support-ticket triage agent I built for a education client, where I modelled the agent as a stateful graph with conditional edges and checkpoints. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. I also delivered model serving platform, which cut model release time from weeks to 6 days. For you I'd start with OpenAI API, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Support-ticket triage agent project I handled this directly and documented the outcome.",
+      "In my Support-ticket triage agent project I handled this directly and documented the outcome.",
+      "In my Support-ticket triage agent project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p01",
+      "ai_ml-p05"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-102",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for real estate inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "I run a real estate business and want to hire someone for: Demand forecast for real estate inventory. Looking for a person who will prove the model works with honest metrics. Time series forecasting knowledge is important. You will be worki",
+    "date": "2023-05-14",
+    "bid_usd": 29.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about demand forecast for real estate inventory. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-103",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "I run a media business and want to hire someone for: Predictive model for customer churn. We need someone who knows classic machine learning models and how to validate them properly. You will be working mainly in Python. Deliverables: Worki",
+    "date": "2023-11-02",
+    "bid_usd": 31.0,
+    "pay_type": "hourly",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-104",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "We are a gaming company looking for help with this project: Set up model monitoring and CI/CD for ML. You will be working mainly in Docker. Must have hands-on experience with FastAPI. Strong Airflow skills required. You will be working main",
+    "date": "2023-12-28",
+    "bid_usd": 260.0,
+    "pay_type": "fixed",
+    "text": "Your set up model monitoring and ci/cd for ml sounds close to the Model serving platform I built for a SaaS client, where I packaged everything into reproducible container images. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. Happy to share code samples.",
+    "screening_answers": [
+      "In my Model serving platform project I handled this directly and documented the outcome.",
+      "In my Model serving platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p05"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-105",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "We are a fintech company looking for help with this project: Text classification for support tickets. Looking for a person who can make sense of large volumes of written customer feedback. Hugging Face Transformers knowledge is important. M",
+    "date": "2023-02-22",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Your text classification for support tickets sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-106",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Computer vision quality inspection. You will be working mainly in YOLO. Looking for a person who can build and train neural networks from scratch on GPUs. Looking for a person who can make soft",
+    "date": "2023-06-12",
+    "bid_usd": 28.0,
+    "pay_type": "hourly",
+    "text": "Your computer vision quality inspection sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. I also delivered support-ticket triage agent v2 (travel), which auto-routed 64% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04",
+      "ai_ml-p08"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-107",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "Our retail team needs an experienced specialist for: Text classification for support tickets. Must have hands-on experience with Hugging Face Transformers. You will be working mainly in NLP. Experience with spaCy is a must. Looking for a pe",
+    "date": "2023-06-10",
+    "bid_usd": 30.0,
+    "pay_type": "hourly",
+    "text": "Your text classification for support tickets sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. I also delivered support-ticket triage agent v2 (travel), which auto-routed 64% of tickets correctly. For you I'd start with Hugging Face Transformers, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p03",
+      "ai_ml-p08"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-108",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Computer vision quality inspection. YOLO knowledge is important. Looking for a person who can make software understand pictures. You will be working mainly in OpenCV. Deliverables: Working comp",
+    "date": "2025-04-15",
+    "bid_usd": 190.0,
+    "pay_type": "fixed",
+    "text": "Your computer vision quality inspection sounds close to the Support-ticket triage agent I built for a education client, where I modelled the agent as a stateful graph with conditional edges and checkpoints. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-109",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "LLM assistant for internal knowledge base",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "We are a fintech company looking for help with this project: LLM assistant for internal knowledge base - see requirements. Bonus if you're someone who can wire LLM prompts, tools and retrievers into one app. Experience with OpenAI API is a ",
+    "date": "2025-05-19",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about llm assistant for internal knowledge base. On that project I used FAISS, Hugging Face Transformers, FastAPI, and it lifted search click-through by 31%. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p06"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-110",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a lead-scoring ML model",
+    "job_category": "ML modelling",
+    "job_excerpt": "I run a fintech business and want to hire someone for: Build a lead-scoring ML model. scikit-learn knowledge is important. We need someone who can squeeze accuracy out of tabular data with gradient-boosted trees. Bonus if you're someone who",
+    "date": "2024-05-23",
+    "bid_usd": 240.0,
+    "pay_type": "fixed",
+    "text": "Your build a lead-scoring ml model sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with scikit-learn, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-111",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "LLM assistant for internal knowledge base",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our logistics team needs an experienced specialist for: LLM assistant for internal knowledge base. We need someone who can wire LLM prompts, tools and retrievers into one app. You will be working mainly in Pinecone. Bonus if you're someone ",
+    "date": "2024-02-19",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Your llm assistant for internal knowledge base sounds close to the Semantic product search I built for a healthcare client, where I built an in-process approximate nearest-neighbour index. On that project I used FAISS, Hugging Face Transformers, FastAPI, and it lifted search click-through by 31%. I also delivered semantic product search v2 (retail), which lifted search click-through by 35%. For you I'd start with FAISS, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Semantic product search project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p06",
+      "ai_ml-p13"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-112",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "AI agent to automate media workflows",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "I run a media business and want to hire someone for: AI agent to automate media workflows - see requirements. Looking for a person who can wire LLM prompts, tools and retrievers into one app. We need someone who can build multi-step AI agen",
+    "date": "2023-12-13",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about ai agent to automate media workflows. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-113",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Named entity extraction from documents (details below). We need someone who can adapt open pretrained language models to our task. Strong NLP skills required. Must have hands-on expe",
+    "date": "2025-04-11",
+    "bid_usd": 22.0,
+    "pay_type": "hourly",
+    "text": "Your named entity extraction from documents sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. I also delivered domain llm fine-tune, which beat the base model on 55 of 60 eval prompts. For you I'd start with LoRA fine-tuning, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p03",
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-114",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "Our real estate team needs an experienced specialist for: Text classification for support tickets - see requirements. Hugging Face Transformers knowledge is important. Looking for a person who can cheaply fine-tune an open LLM on our own ex",
+    "date": "2023-05-07",
+    "bid_usd": 250.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-115",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "I run a travel business and want to hire someone for: Named entity extraction from documents - see requirements. Looking for a person who can adapt open pretrained language models to our task. Looking for a person who can pull names, dates ",
+    "date": "2024-07-19",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-116",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for non-profit images",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our small non-profit startup needs a freelancer for: Object detection for non-profit images (details below). Must have hands-on experience with YOLO. Computer vision knowledge is important. Looking for a person who is comfortable cleaning u",
+    "date": "2024-11-06",
+    "bid_usd": 420.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-117",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "AI agent to automate media workflows",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "We are a media company looking for help with this project: AI agent to automate media workflows - see requirements. You will be working mainly in FastAPI. Experience with Pinecone is a must. Looking for a person who can do fast similarity s",
+    "date": "2023-07-31",
+    "bid_usd": 490.0,
+    "pay_type": "fixed",
+    "text": "Your ai agent to automate media workflows sounds close to the Semantic product search I built for a healthcare client, where I built an in-process approximate nearest-neighbour index. On that project I used FAISS, Hugging Face Transformers, FastAPI, and it lifted search click-through by 31%. Happy to share code samples.",
+    "screening_answers": [
+      "In my Semantic product search project I handled this directly and documented the outcome.",
+      "In my Semantic product search project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p06"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-118",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "We are a logistics company looking for help with this project: Computer vision quality inspection. Ideally you are someone who can make software understand pictures. Must have hands-on experience with OpenCV. You will be working mainly in P",
+    "date": "2023-01-09",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Your computer vision quality inspection sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. I also delivered domain llm fine-tune v2 (logistics), which beat the base model on 32 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p04",
+      "ai_ml-p11"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-119",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Computer vision quality inspection. You will be working mainly in YOLO. Strong OpenCV skills required. PyTorch knowledge is important. Must have hands-on experience with Accounting. Deliv",
+    "date": "2023-11-14",
+    "bid_usd": 38.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-120",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for logistics inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a logistics company looking for help with this project: Demand forecast for logistics inventory. You will be working mainly in Prophet. Model evaluation knowledge is important. Deliverables: Working demand forecast for logistics inve",
+    "date": "2023-07-10",
+    "bid_usd": 38.0,
+    "pay_type": "hourly",
+    "text": "Your demand forecast for logistics inventory sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with Model evaluation, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-121",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "AI agent to automate healthcare workflows",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our small healthcare startup needs a freelancer for: AI agent to automate healthcare workflows - see requirements. Must have hands-on experience with LangChain. You will be working mainly in FastAPI. You will be working mainly in Pinecone. ",
+    "date": "2023-03-12",
+    "bid_usd": 180.0,
+    "pay_type": "fixed",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-122",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Demand forecast for real estate inventory",
+    "job_category": "Forecasting",
+    "job_excerpt": "We are a real estate company looking for help with this project: Demand forecast for real estate inventory. Python knowledge is important. Strong Model evaluation skills required. Prophet knowledge is important. Strong Time series forecasti",
+    "date": "2023-09-18",
+    "bid_usd": 34.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about demand forecast for real estate inventory. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-123",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "Our travel team needs an experienced specialist for: Deploy our ML models to production. Bonus if you're someone who keeps experiments reproducible and models versioned. You will be working mainly in Docker. Experience with AWS SageMaker is",
+    "date": "2024-02-10",
+    "bid_usd": 43.0,
+    "pay_type": "hourly",
+    "text": "Your deploy our ml models to production sounds close to the Model serving platform I built for a SaaS client, where I packaged everything into reproducible container images. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. I also delivered model serving platform v2 (e-commerce), which cut model release time from weeks to 5 days. Happy to share code samples.",
+    "screening_answers": [
+      "In my Model serving platform project I handled this directly and documented the outcome.",
+      "In my Model serving platform project I handled this directly and documented the outcome.",
+      "In my Model serving platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p05",
+      "ai_ml-p12"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-124",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Sales forecasting model",
+    "job_category": "Forecasting",
+    "job_excerpt": "Our small manufacturing startup needs a freelancer for: Sales forecasting model. You will be working mainly in Python. We need someone who can forecast seasonal business numbers quickly. Deliverables: Working sales forecasting model; Short ",
+    "date": "2025-05-09",
+    "bid_usd": 33.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-125",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our small education startup needs a freelancer for: Predictive model for customer churn - see requirements. You will be working mainly in XGBoost. Looking for a person who knows classic machine learning models and how to validate them prope",
+    "date": "2023-10-14",
+    "bid_usd": 120.0,
+    "pay_type": "fixed",
+    "text": "Hi there! I have read your job post and I am the perfect fit for it. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-126",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "Our insurance team needs an experienced specialist for: Set up model monitoring and CI/CD for ML (details below). Strong MLflow skills required. We need someone who can run long jobs in the background without blocking users. You will be wor",
+    "date": "2023-02-12",
+    "bid_usd": 200.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-127",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Deploy our ML models to production - see requirements. Strong MLflow skills required. You will be working mainly in Docker. You will be working mainly in Celery. Must have hands-on experi",
+    "date": "2024-12-31",
+    "bid_usd": 210.0,
+    "pay_type": "fixed",
+    "text": "Your deploy our ml models to production sounds close to the Support-ticket triage agent I built for a education client, where I modelled the agent as a stateful graph with conditional edges and checkpoints. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. I also delivered model serving platform, which cut model release time from weeks to 6 days. For you I'd start with FastAPI, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Support-ticket triage agent project I handled this directly and documented the outcome.",
+      "In my Support-ticket triage agent project I handled this directly and documented the outcome.",
+      "In my Support-ticket triage agent project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p01",
+      "ai_ml-p05"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-128",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "Our retail team needs an experienced specialist for: Deploy our ML models to production. Experience with FastAPI is a must. Experience with MLflow is a must. Bonus if you're someone who can host models on Amazon's managed ML platform. Deliv",
+    "date": "2024-10-02",
+    "bid_usd": 26.0,
+    "pay_type": "hourly",
+    "text": "Your deploy our ml models to production sounds close to the Model serving platform I built for a SaaS client, where I packaged everything into reproducible container images. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p05"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-129",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "Our healthcare team needs an experienced specialist for: Set up model monitoring and CI/CD for ML. Bonus if you're someone who keeps experiments reproducible and models versioned. Bonus if you're someone who can make the app run the same on",
+    "date": "2025-05-10",
+    "bid_usd": 19.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about set up model monitoring and ci/cd for ml. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. Happy to share code samples.",
+    "screening_answers": [
+      "In my Model serving platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p05"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-130",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Computer vision quality inspection",
+    "job_category": "Computer vision",
+    "job_excerpt": "Our SaaS team needs an experienced specialist for: Computer vision quality inspection - see requirements. Looking for a person who can build and train neural networks from scratch on GPUs. Must have hands-on experience with OpenCV. Delivera",
+    "date": "2024-11-04",
+    "bid_usd": 190.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about computer vision quality inspection. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-131",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "Our small SaaS startup needs a freelancer for: Set up model monitoring and CI/CD for ML (details below). You will be working mainly in MLflow. You will be working mainly in Docker. Bonus if you're someone who can run long jobs in the backgr",
+    "date": "2023-11-21",
+    "bid_usd": 220.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about set up model monitoring and ci/cd for ml. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-132",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for fintech images",
+    "job_category": "Computer vision",
+    "job_excerpt": "We are a fintech company looking for help with this project: Object detection for fintech images (details below). Looking for a person who is comfortable cleaning up and transforming images. You will be working mainly in Computer vision. Py",
+    "date": "2024-07-09",
+    "bid_usd": 31.0,
+    "pay_type": "hourly",
+    "text": "Your object detection for fintech images sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome.",
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-133",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a lead-scoring ML model",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our retail team needs an experienced specialist for: Build a lead-scoring ML model. Must have hands-on experience with MLflow. We need someone who knows classic machine learning models and how to validate them properly. We need someone who ",
+    "date": "2023-09-08",
+    "bid_usd": 300.0,
+    "pay_type": "fixed",
+    "text": "Your build a lead-scoring ml model sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-134",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Text classification for support tickets",
+    "job_category": "NLP",
+    "job_excerpt": "Our small legal startup needs a freelancer for: Text classification for support tickets - see requirements. Ideally you are someone who can cheaply fine-tune an open LLM on our own examples. You will be working mainly in spaCy. Ideally you ",
+    "date": "2023-04-11",
+    "bid_usd": 240.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about text classification for support tickets. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-135",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our gaming team needs an experienced specialist for: Predictive model for customer churn. Bonus if you're someone who knows classic machine learning models and how to validate them properly. You will be working mainly in Python. You will be",
+    "date": "2023-02-24",
+    "bid_usd": 160.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about predictive model for customer churn. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-136",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "Our small manufacturing startup needs a freelancer for: Set up model monitoring and CI/CD for ML. Looking for a person who can orchestrate scheduled data and training jobs. Looking for a person who can host models on Amazon's managed ML pla",
+    "date": "2023-08-26",
+    "bid_usd": 200.0,
+    "pay_type": "fixed",
+    "text": "Your set up model monitoring and ci/cd for ml sounds close to the Support-ticket triage agent I built for a education client, where I modelled the agent as a stateful graph with conditional edges and checkpoints. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-137",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Object detection for gaming images",
+    "job_category": "Computer vision",
+    "job_excerpt": "I run a gaming business and want to hire someone for: Object detection for gaming images. We need someone who can spot and box objects in photos and video streams. Must have hands-on experience with PyTorch. Bonus if you're someone who is c",
+    "date": "2025-09-17",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Your object detection for gaming images sounds close to the Domain LLM fine-tune I built for a legal client, where I adapted a 7B model with low-rank adapters on a single GPU. On that project I used LoRA fine-tuning, Hugging Face Transformers, PyTorch, and it beat the base model on 55 of 60 eval prompts. I also delivered domain llm fine-tune v2 (logistics), which beat the base model on 32 of 60 eval prompts. For you I'd start with YOLO, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [
+      "In my Domain LLM fine-tune project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p04",
+      "ai_ml-p11"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-138",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "We are a fintech company looking for help with this project: Predictive model for customer churn. You will be working mainly in Python. Strong scikit-learn skills required. Strong MLflow skills required. Deliverables: Working predictive mod",
+    "date": "2024-09-22",
+    "bid_usd": 260.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about predictive model for customer churn. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "replied",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-139",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "I run a travel business and want to hire someone for: Predictive model for customer churn. Experience with Model evaluation is a must. Experience with MLflow is a must. Must have hands-on experience with Python. Strong Solidity skills requi",
+    "date": "2024-04-13",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Your predictive model for customer churn sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome.",
+      "In my Customer churn model project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-140",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "Our small manufacturing startup needs a freelancer for: Deploy our ML models to production (details below). You will be working mainly in Celery. Looking for a person who can orchestrate scheduled data and training jobs. MLflow knowledge is",
+    "date": "2023-04-05",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-141",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "I run a gaming business and want to hire someone for: Named entity extraction from documents. You will be working mainly in LoRA fine-tuning. Experience with NLP is a must. Experience with SEO copywriting is a must. Deliverables: Working na",
+    "date": "2024-09-04",
+    "bid_usd": 32.0,
+    "pay_type": "hourly",
+    "text": "Your named entity extraction from documents sounds close to the Support-ticket triage agent v2 (travel) I built for a travel client, where I modelled the agent as a stateful graph with conditional edges and checkpoints. On that project I used LangGraph, NLP, FastAPI, and it auto-routed 64% of tickets correctly. I also delivered support-ticket triage agent, which auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [
+      "In my Support-ticket triage agent v2 (travel) project I handled this directly and documented the outcome.",
+      "In my Support-ticket triage agent v2 (travel) project I handled this directly and documented the outcome.",
+      "In my Support-ticket triage agent v2 (travel) project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p08",
+      "ai_ml-p01"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-142",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Deploy our ML models to production",
+    "job_category": "MLOps",
+    "job_excerpt": "Our non-profit team needs an experienced specialist for: Deploy our ML models to production. Must have hands-on experience with Docker. You will be working mainly in Celery. Bonus if you're someone who keeps experiments reproducible and mod",
+    "date": "2023-08-07",
+    "bid_usd": 230.0,
+    "pay_type": "fixed",
+    "text": "Your deploy our ml models to production sounds close to the Model serving platform I built for a SaaS client, where I packaged everything into reproducible container images. On that project I used Docker, AWS SageMaker, MLflow, and it cut model release time from weeks to 6 days. I also delivered support-ticket triage agent, which auto-routed 33% of tickets correctly. Happy to share code samples.",
+    "screening_answers": [
+      "In my Model serving platform project I handled this directly and documented the outcome.",
+      "In my Model serving platform project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p05",
+      "ai_ml-p01"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-143",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "We are a legal company looking for help with this project: Named entity extraction from documents - see requirements. Looking for a person who can adapt open pretrained language models to our task. Looking for a person who can pull names, d",
+    "date": "2024-08-12",
+    "bid_usd": 25.0,
+    "pay_type": "hourly",
+    "text": "Hi, I read your post about named entity extraction from documents. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-144",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "Our retail team needs an experienced specialist for: Predictive model for customer churn - see requirements. You will be working mainly in Python. Must have hands-on experience with MLflow. Deliverables: Working predictive model for custome",
+    "date": "2024-04-16",
+    "bid_usd": 170.0,
+    "pay_type": "fixed",
+    "text": "Your predictive model for customer churn sounds close to the Customer churn model I built for a media client, where I compared gradient-free baselines with cross-validated pipelines. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. I also delivered customer churn model v2 (education), which raised recall on churners to 0.54. For you I'd start with Python, then agree milestones in week one. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02",
+      "ai_ml-p09"
+    ],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-145",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Predictive model for customer churn",
+    "job_category": "ML modelling",
+    "job_excerpt": "We are a gaming company looking for help with this project: Predictive model for customer churn - see requirements. Must have hands-on experience with XGBoost. You will be working mainly in MLflow. Deliverables: Working predictive model for",
+    "date": "2023-07-20",
+    "bid_usd": 110.0,
+    "pay_type": "fixed",
+    "text": "Hi, I read your post about predictive model for customer churn. On that project I used scikit-learn, XGBoost, Model evaluation, and it raised recall on churners to 0.21. Happy to share code samples.",
+    "screening_answers": [],
+    "projects_cited": [
+      "ai_ml-p02"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-146",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Named entity extraction from documents",
+    "job_category": "NLP",
+    "job_excerpt": "Our SaaS team needs an experienced specialist for: Named entity extraction from documents (details below). Strong Hugging Face Transformers skills required. Experience with spaCy is a must. Deliverables: Working named entity extraction from",
+    "date": "2023-10-15",
+    "bid_usd": 140.0,
+    "pay_type": "fixed",
+    "text": "Your named entity extraction from documents sounds close to the Clinical note entity extractor I built for a non-profit client, where I extracted named entities with an industrial NLP pipeline. On that project I used spaCy, Hugging Face Transformers, NLP, and it achieved an F1 of 0.78 on held-out notes. Happy to share code samples.",
+    "screening_answers": [
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome.",
+      "In my Clinical note entity extractor project I handled this directly and documented the outcome."
+    ],
+    "projects_cited": [
+      "ai_ml-p03"
+    ],
+    "outcome": "won",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-147",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Fraud detection model",
+    "job_category": "ML modelling",
+    "job_excerpt": "We are a e-commerce company looking for help with this project: Fraud detection model. Looking for a person who will prove the model works with honest metrics. Bonus if you're someone who knows classic machine learning models and how to val",
+    "date": "2024-10-24",
+    "bid_usd": 28.0,
+    "pay_type": "hourly",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-148",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Build a RAG chatbot over our documents",
+    "job_category": "LLM apps & RAG",
+    "job_excerpt": "Our legal team needs an experienced specialist for: Build a RAG chatbot over our documents. Looking for a person who can build multi-step AI agents that keep state between steps. RAG knowledge is important. Must have hands-on experience wit",
+    "date": "2023-01-15",
+    "bid_usd": 21.0,
+    "pay_type": "hourly",
+    "text": "Dear Sir/Madam, I am writing to express my interest in your project. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  },
+  {
+    "id": "prop-ai_ml-149",
+    "persona": "ai_ml",
+    "type": "proposal",
+    "job_title": "Set up model monitoring and CI/CD for ML",
+    "job_category": "MLOps",
+    "job_excerpt": "Our legal team needs an experienced specialist for: Set up model monitoring and CI/CD for ML. Looking for a person who can run long jobs in the background without blocking users. Docker knowledge is important. Experience with AWS SageMaker ",
+    "date": "2025-07-22",
+    "bid_usd": 250.0,
+    "pay_type": "fixed",
+    "text": "Hello, I am a passionate and hardworking freelancer with great skills. I have 6 years of experience and I can deliver high quality work on time. Please message me to discuss. Thank you.",
+    "screening_answers": [],
+    "projects_cited": [],
+    "outcome": "ignored",
+    "source": "synthetic"
+  }
+]

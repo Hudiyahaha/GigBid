@@ -1,0 +1,169 @@
+# GigBid runtime configuration. Every model, rule, threshold and budget lives here, never in code.
+# Values like ${VAR:-default} are expanded from the environment by agent/config.py.
+
+marketplace:
+  mode: ${MARKETPLACE_MODE:-gigsim}          # gigsim | upwork_live  (R1: one port, two adapters)
+  mcp_url: ${MARKETPLACE_MCP_URL:-http://localhost:8102/mcp}
+  gigsim:
+    base_url: ${GIGSIM_BASE_URL:-http://localhost:8081}
+    max_requests_per_minute: 40               # GigSim allows 60/min per token; stay well under
+  upwork_live:
+    mcp_url: https://mcp.upwork.com/mcp
+    scout_interval_minutes: 240               # conservative; justified in docs/RUNBOOK.md
+    max_requests_per_minute: 6
+    # Upwork MCP tool names -> our port operations (edit if Upwork renames tools)
+    tool_map:
+      search_jobs: search_jobs
+      get_job: get_job_details
+      get_client_history: get_client_info
+      get_connects_balance: get_connects_balance
+      create_proposal_draft: create_proposal_draft
+      send_message: create_message_draft
+  timeouts_s: {read: 15, write: 30}
+  retries: {max_attempts: 4, backoff_base_s: 0.8, backoff_max_s: 10}
+
+mcp_servers:
+  portfolio: {url: "${PORTFOLIO_MCP_URL:-http://localhost:8101/mcp}", transport: streamable_http}
+  marketplace: {url: "${MARKETPLACE_MCP_URL:-http://localhost:8102/mcp}", transport: streamable_http}
+  workspace: {url: "${WORKSPACE_MCP_URL:-http://localhost:8103/mcp}", transport: streamable_http}
+  github: {command: "${GITHUB_MCP_COMMAND:-}", transport: stdio}   # third-party, optional (see docs/TOOLS.md)
+
+# A6: each agent sees only the tools it needs (filtered by name)
+tool_allowlists:
+  scout: [search_jobs, get_job, get_policy]
+  job_analyst: []
+  risk_assessor: [get_client_history]
+  fit_matcher: [search_evidence, list_skills]
+  pricing: [get_market_stats, get_connects_balance, get_policy]
+  writer: [search_evidence, get_case_study]
+  critic: [search_evidence]
+  verifier: [search_evidence, get_item]
+  compliance: []
+  client_liaison: [list_threads, list_messages, send_message, free_slots, create_interview_hold, create_email_draft]
+  approval_executor: [create_proposal_draft, submit_proposal, send_message, create_interview_hold]
+  intake: [get_job, get_policy]
+  __all__: [search_evidence, get_case_study, get_item, list_skills, search_jobs, get_job, get_client_history,
+            get_connects_balance, get_market_stats, get_policy, list_threads, list_messages, list_proposals,
+            list_events, create_proposal_draft, submit_proposal, send_message, free_slots, create_interview_hold,
+            create_email_draft]   # used only by the single-agent ReAct baseline (R&D C) and the tool study (R&D A)
+
+models:
+  profile: ${MODEL_PROFILE:-open}
+  cache: true                                  # cache LLM responses by (model, prompt) hash for reproducible evals
+  profiles:
+    open:
+      tiers:
+        small: {provider: groq, model: "llama-3.1-8b-instant", fallback: {provider: groq, model: "openai/gpt-oss-20b"}}
+        medium: {provider: groq, model: "openai/gpt-oss-20b", fallback: {provider: groq, model: "llama-3.1-8b-instant"}}
+        large: {provider: groq, model: "openai/gpt-oss-120b", fallback: {provider: groq, model: "openai/gpt-oss-20b"}}
+        local: {provider: ollama, model: "llama3.2"}
+      nodes:
+        scout: small
+        job_analyst: small
+        risk_assessor: small
+        fit_matcher: small
+        pricing: small
+        writer: large
+        verifier: medium
+        critic: large
+        compliance: small
+        client_liaison: large
+        intent: small
+        judge: large
+        hyde: small
+        context: local
+    open_alt:                                  # second open configuration compared on the dev set
+      tiers:
+        small: {provider: groq, model: "openai/gpt-oss-20b"}
+        large: {provider: groq, model: "qwen/qwen3-32b"}
+      nodes: {default: small, writer: large, critic: large, client_liaison: large, judge: large}
+    paid:                                      # optional; only used where it beats `open` enough to justify cost
+      tiers:
+        small: {provider: openai, model: "gpt-5-mini"}
+        large: {provider: anthropic_openai, model: "claude-sonnet-5-5"}
+      nodes: {default: small, writer: large, critic: large, client_liaison: large, judge: large}
+  providers:
+    groq: {base_url: "https://api.groq.com/openai/v1", api_key_env: GROQ_API_KEY}
+    openrouter: {base_url: "https://openrouter.ai/api/v1", api_key_env: OPENROUTER_API_KEY}
+    ollama: {base_url: "${OLLAMA_BASE_URL:-http://localhost:11434/v1}", api_key_env: ""}
+    openai: {base_url: "https://api.openai.com/v1", api_key_env: OPENAI_API_KEY}
+    anthropic_openai: {base_url: "https://api.anthropic.com/v1", api_key_env: ANTHROPIC_API_KEY}
+    fake: {base_url: "", api_key_env: ""}
+  # USD per 1M tokens (input, output); 0 for local. Used for cost reporting (R8).
+  prices:
+    "llama-3.1-8b-instant": [0.05, 0.08]
+    "openai/gpt-oss-20b": [0.075, 0.30]
+    "openai/gpt-oss-120b": [0.15, 0.60]
+    "qwen/qwen3-32b": [0.29, 0.59]
+    "llama3.2": [0, 0]
+  embeddings: ${EMBED_MODEL:-BAAI/bge-small-en-v1.5}
+  reranker: ${RERANK_MODEL:-cross-encoder/ms-marco-MiniLM-L-6-v2}   # alt measured: BAAI/bge-reranker-base
+
+rag:
+  variant: ${RAG_VARIANT:-v3_rerank}          # chosen by evals/results/rag_variants.json (R6)
+  top_k: 8
+  chunk_size: 900
+  chunk_overlap: 120
+  rerank_candidates: 30
+
+policy:
+  file: data/policy_pack/marketplace_policy.md
+  rules_file: data/policy_pack/rules.yaml      # machine-readable rules used by Compliance Guard + Pricing
+
+fit:
+  strong_relevance: 0.50          # cross-encoder relevance (0..1) for a requirement to count as proven
+  partial_relevance: 0.10
+  use_llm_grader: true
+
+writer:
+  default_strategy: evidence_first
+  strategies:                     # X2: two proposal strategies A/B-tested in GigSim
+    evidence_first: "Open with the client's problem in one sentence, then prove fit with the two strongest cited projects and their measured results, then answer the questions, then one next step."
+    question_first: "Open with one sharp clarifying question about the client's goal, then a short plan in three steps, then one cited project as proof. Keep it under 150 words."
+
+decision:
+  min_fit_to_bid: 0.60
+  min_fit_to_watch: 0.40
+  max_risk_to_bid: 0.55
+  scam_risk: 0.75
+  connects_value_per_unit_usd: 0.15            # what one Connect costs the freelancer
+  min_expected_value_ratio: 3.0                # expected value must exceed this multiple of Connects cost
+
+pricing:
+  hourly_floor_usd: ${HOURLY_FLOOR:-40}
+  undercut_fraction: 0.05
+  win_prob_by_price_quantile: {p25: 0.30, p50: 0.22, p75: 0.14, p90: 0.08}
+
+budgets:
+  max_graph_steps: 40
+  max_revisions: 2
+  max_tokens_per_job: 30000
+  max_tokens_per_conversation: 12000
+  declared:                                    # R8 / E5 declared budgets
+    p95_latency_s_per_job_analysed: 20
+    p95_latency_s_per_proposal: 60
+    usd_per_job_analysed: 0.002
+    usd_per_proposal: 0.01
+
+memory:
+  style:
+    min_occurrences: 3                         # an edit pattern must recur in >=3 distinct approved drafts
+    min_distinct_jobs: 3
+    max_items: 25
+  outcome:
+    min_samples_per_category: 5                # promote a category insight only with >=5 outcomes
+    min_reply_rate_delta: 0.10
+
+guardrails:
+  mask_pii_in_logs: true
+  max_job_chars: 6000
+  injection_markers: ["ignore all previous", "ignore previous instructions", "disregard your rules",
+                      "developer mode", "ai assistants", "assistant:", "new instructions", "if you are an ai",
+                      "system note", "ai agents reading", "note to any ai"]
+
+autonomy:
+  default_level: suggest                       # suggest | auto_skip_low_fit  (never auto-send)
+
+worker:
+  scout_interval_minutes_gigsim: 5
+  saved_searches_default: ["python", "react", "dashboard", "llm", "sql"]
