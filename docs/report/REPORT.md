@@ -82,8 +82,8 @@ verification.
 <!-- table:headline -->
 | Variant | Evidence Recall@5 | nDCG@10 | Unsupported claims / proposal (before verification; rate after) | Judge score | GigSim reply rate | p95 latency (s) | Cost / proposal (USD) |
 |---|---|---|---|---|---|---|---|
-| V0 (naive dense) | 0.556 | 0.599 | 0.750; 0.000 | see judge_labels.csv | 0.379 | 22.7 | - |
-| Shipped: V9 skill graph | 0.686 | 0.739 | 0.750; 0.000 | see judge_labels.csv | 0.383 | 35.2 | 0.0025 |
+| V0 (naive dense) | 0.556 | 0.599 | 0.750; 0.000 | - | 0.379 | 22.7 | - |
+| Shipped: V9 skill graph | 0.686 | 0.739 | 0.750; 0.000 | 3.26/5 (kappa 0.40) | 0.383 | 35.2 | 0.0025 |
 <!-- /table:headline -->
 
 **Outcomes and where retrieval did not translate into replies:**
@@ -101,8 +101,12 @@ reply rate was 0.383 vs 0.379 on the same 24 jobs (`gigsim_outcomes.json` vs `gi
 simulated client rewards naming its must-have skills, concrete numbers, a non-generic opening and a price under its
 ceiling. Once *any* relevant project with a number is cited, the reply rate saturates, so retrieval gains beyond the
 top 2 items do not move replies. The generic template floor was 0.063.
-**Judge calibration:** `evals/results/judge_labels.csv` holds 30 judge-scored proposals for the author to label;
-kappa is computed by `judge_calibration kappa` and is not reported until the human labels exist.
+**Judge calibration:** the author labelled the proposals in `evals/results/judge_labels.csv` without looking at
+the judge's scores. On 27 proposals (3 judge calls failed under rate limits) **Cohen's kappa is 0.40 quadratic-weighted
+(moderate) and 0.18 on pass/fail at >= 4** (`judge_calibration.json`). The judge is systematically harsher. Typical
+disagreement: `dev-fullstack-015` (judge 2, author 4). The judge penalised the unaddressed must-have Redis
+requirement, and on reflection the judge was right, because a real client would reject it for the same reason. Judge
+scores are therefore used for relative comparison only, never as an absolute quality bar.
 
 ## 5. R&D question C: single agent vs prebuilt supervisor vs our graph
 <!-- table:svm -->

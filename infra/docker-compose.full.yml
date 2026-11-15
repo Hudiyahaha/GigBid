@@ -1,0 +1,10 @@
+# Optional heavy services (~4 GB): local open model + self-hosted tracing.
+#   docker compose -f infra/docker-compose.yml -f infra/docker-compose.full.yml --env-file .env up --build
+services:
+  ollama:                     # open profile, local model (once: docker compose exec ollama ollama pull llama3.2)
+    image: ollama/ollama:0.5.4
+    volumes: [ollama:/root/.ollama]
+  phoenix:                    # self-hosted tracing (OpenTelemetry); UI on http://localhost:6006
+    image: arizephoenix/phoenix:version-7.3.2
+    ports: ["6006:6006"]
+volumes: {ollama: {}}

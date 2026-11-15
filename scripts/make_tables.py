@@ -37,12 +37,20 @@ def headline_table() -> str:
     demo = j("demo_proposal") or {}
     rows = ["| Variant | Evidence Recall@5 | nDCG@10 | Unsupported claims / proposal (before verification; rate after) | Judge score | GigSim reply rate | p95 latency (s) | Cost / proposal (USD) |",
             "|---|---|---|---|---|---|---|---|"]
+    jc = j("judge_calibration") or {}
+    judge_cell = "see judge_labels.csv"
+    if (R / "judge_labels.csv").exists():
+        import csv
+        sc = [float(r["judge_score"]) for r in csv.DictReader(open(R / "judge_labels.csv", encoding="utf-8")) if r["judge_score"]]
+        if sc:
+            judge_cell = f"{sum(sc) / len(sc):.2f}/5 (kappa {f(jc.get('kappa_quadratic'), 2)})"
     for name, o in (("V0 (naive dense)", out_v0), ("Shipped: V9 skill graph", out_now)):
         key = "v0_naive" if name.startswith("V0") else "v9_skill_graph"
         v = full.get(key, {}).get("overall", {})
         rows.append(f"| {name} | {f(v.get('recall@5'))} | {f(v.get('ndcg@10'))} | "
                     f"{f((o or {}).get('unsupported_claims_per_proposal_before'))}; "
-                    f"{f((o or {}).get('unsupported_rate_after_verification'))} | see judge_labels.csv | "
+                    f"{f((o or {}).get('unsupported_rate_after_verification'))} | "
+                    f"{judge_cell if name.startswith('Shipped') else '-'} | "
                     f"{f(((o or {}).get('reply_rate') or {}).get('evidence_first'))} | "
                     f"{f(((o or {}).get('latency_s_per_proposal') or {}).get('p95'), 1)} | "
                     f"{f(demo.get('usage', {}).get('usd'), 4) if name.startswith('Shipped') else '-'} |")

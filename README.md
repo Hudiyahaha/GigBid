@@ -49,8 +49,8 @@ same approval gate. Details: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · gra
 <!-- table:headline -->
 | Variant | Evidence Recall@5 | nDCG@10 | Unsupported claims / proposal (before verification; rate after) | Judge score | GigSim reply rate | p95 latency (s) | Cost / proposal (USD) |
 |---|---|---|---|---|---|---|---|
-| V0 (naive dense) | 0.556 | 0.599 | 0.750; 0.000 | see judge_labels.csv | 0.379 | 22.7 | - |
-| Shipped: V9 skill graph | 0.686 | 0.739 | 0.750; 0.000 | see judge_labels.csv | 0.383 | 35.2 | 0.0025 |
+| V0 (naive dense) | 0.556 | 0.599 | 0.750; 0.000 | - | 0.379 | 22.7 | - |
+| Shipped: V9 skill graph | 0.686 | 0.739 | 0.750; 0.000 | 3.26/5 (kappa 0.40) | 0.383 | 35.2 | 0.0025 |
 <!-- /table:headline -->
 
 **Decisions:**

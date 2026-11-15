@@ -1,0 +1,25 @@
+# Render Blueprint: New -> Blueprint -> pick this repo. Builds infra/docker/Dockerfile on Render's servers and runs
+# GigSim + the GigBid API/web app in one container (scripts/dev_stack.py). Secrets marked sync:false are entered in the
+# Render dashboard, never committed.
+services:
+  - type: web
+    name: gigbid
+    runtime: docker
+    plan: standard            # 2 GB RAM: the embedding + reranker models need ~1-1.5 GB (free 512 MB will crash)
+    dockerfilePath: ./infra/docker/Dockerfile
+    dockerContext: .
+    dockerCommand: python -m scripts.dev_stack
+    healthCheckPath: /api/health
+    envVars:
+      - {key: HOST, value: 0.0.0.0}
+      - {key: GIGBID_LOCAL_SQLITE, value: "1"}
+      - {key: GIGBID_DEV, value: "1"}
+      - {key: HF_HUB_OFFLINE, value: "1"}
+      - {key: GIGSIM_POLICY_VERSION, value: "2"}
+      - {key: REVIEWER_PERSONA, value: ai_ml}
+      - {key: REVIEWER_EMAIL, value: reviewer@gigbid.test}
+      - {key: APP_SECRET_KEY, generateValue: true}
+      - {key: APPROVAL_SECRET, generateValue: true}
+      - {key: GROQ_API_KEY, sync: false}
+      - {key: REVIEWER_PASSWORD, sync: false}
+      - {key: CORS_ORIGINS, sync: false}

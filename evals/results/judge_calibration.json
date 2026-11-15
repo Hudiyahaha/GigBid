@@ -1,0 +1,20 @@
+{
+  "provenance": {
+    "generated_at": "2026-11-15T20:22:18",
+    "git_commit": "99a92fd",
+    "python": "3.12.16",
+    "machine": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+  },
+  "n": 27,
+  "kappa_quadratic": 0.4028,
+  "kappa_pass_fail": 0.1818,
+  "disagreements": [
+    {
+      "job_id": "dev-fullstack-015",
+      "strategy": "evidence_first",
+      "judge_score": "2.0",
+      "human_score": "4",
+      "judge_reason": "The proposal is relevant and mentions AWS Lambda and a past serverless project, but it fails to address the mandatory Redis experience and the bonus requirement for a hosted backend with login/live da"
+    }
+  ]
+}
