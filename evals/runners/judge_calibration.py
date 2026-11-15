@@ -66,7 +66,8 @@ def kappa() -> None:
     j = [int(float(r["judge_score"])) for r in rows]
     h = [int(float(r["human_score"])) for r in rows]
     disagree = [r for r in rows if abs(int(float(r["judge_score"])) - int(float(r["human_score"]))) >= 2]
-    write_result("judge_calibration", {"n": len(rows), "kappa_quadratic": cohen(j, h, True),
+    write_result("judge_calibration", {"n": len(rows), "judge_mean": round(sum(j) / len(j), 2), "human_mean": round(sum(h) / len(h), 2),
+                                       "kappa_quadratic": cohen(j, h, True),
                                        "kappa_pass_fail": cohen([x >= 4 for x in j], [x >= 4 for x in h], False),
                                        "disagreements": [{k: r[k] for k in ("job_id", "strategy", "judge_score", "human_score", "judge_reason")}
                                                          for r in disagree]})

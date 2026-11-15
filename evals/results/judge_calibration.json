@@ -1,11 +1,13 @@
 {
   "provenance": {
-    "generated_at": "2026-11-15T20:22:18",
-    "git_commit": "99a92fd",
+    "generated_at": "2026-11-15T20:23:16",
+    "git_commit": "47a7cb3",
     "python": "3.12.16",
     "machine": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
   },
   "n": 27,
+  "judge_mean": 3.26,
+  "human_mean": 3.37,
   "kappa_quadratic": 0.4028,
   "kappa_pass_fail": 0.1818,
   "disagreements": [
