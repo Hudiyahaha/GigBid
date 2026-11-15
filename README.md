@@ -62,7 +62,11 @@ _pending: hidden-set run_
 
 **Single agent vs supervisor vs our graph (R&D C):**
 <!-- table:svm -->
-_pending: run `python -m evals.runners.single_vs_multi`_
+| Design | Bid/skip accuracy | Unsupported claims / proposal | Compliance violations left | Tokens / job | Latency / job (s) | Errors | n |
+|---|---|---|---|---|---|---|---|
+| react | 0.500 | - | 0 | 5915 | 32.3 | 0 | 6 |
+| supervisor | 0.833 | 1.000 | 0 | 7757 | 93.7 | 0 | 6 |
+| graph | 0.667 | 0.000 | 0 | 5350 | 33.6 | 0 | 6 |
 <!-- /table:svm -->
 
 **Proposal A/B test (X2):**

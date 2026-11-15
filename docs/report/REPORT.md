@@ -85,12 +85,20 @@ kappa is computed by `judge_calibration kappa` and is not reported until the hum
 
 ## 5. R&D question C: single agent vs prebuilt supervisor vs our graph
 <!-- table:svm -->
-_pending: run `python -m evals.runners.single_vs_multi`_
+| Design | Bid/skip accuracy | Unsupported claims / proposal | Compliance violations left | Tokens / job | Latency / job (s) | Errors | n |
+|---|---|---|---|---|---|---|---|
+| react | 0.500 | - | 0 | 5915 | 32.3 | 0 | 6 |
+| supervisor | 0.833 | 1.000 | 0 | 7757 | 93.7 | 0 | 6 |
+| graph | 0.667 | 0.000 | 0 | 5350 | 33.6 | 0 | 6 |
 <!-- /table:svm -->
-Same open model for all three; free-tier rate limits keep n small (stated). The ReAct agent uses fewer nodes but
-has no verifier, compliance pass or approval gate, so violations it writes stay in the text. The server's
-approval-token check still stopped it from sending anything. Where the single agent wins (latency on obvious
-skips), we would still not ship it, because nothing enforces grounding or policy.
+Same open model (gpt-oss-20b) for all three, n = 6 jobs each (free-tier rate limits), so these are directional only.
+**The prebuilt supervisor made the best bid/skip calls** (0.83 vs 0.67 for our graph): its analyst agent reasons over
+the whole post, while our heuristic Fit Matcher is conservative (the same wrong-skip failure as section 8). But it cost
+45% more tokens, ran about 3x slower, and its proposals carried 1.0 unsupported claim each; ours carried 0 because
+the claim verifier runs before the Critic. The single ReAct agent never chose to bid (accuracy 0.50), so it never
+produced a proposal to judge. **Would we ship the single agent?** No: nothing in it enforces grounding or policy, and
+only the server's approval-token check kept it from writing. **What we would take from the supervisor:** an
+LLM-based fit judgement for borderline jobs (`fit.use_llm_grader`), now that the threshold is calibrated.
 
 ## 6. The change request (policy v2)
 GigSim's 2 November update: +4 Connects for clients without verified payment, at most 10 submissions per day, cover
