@@ -63,8 +63,13 @@ def check_numbers() -> list[str]:
     if not m:
         return []
     blob = " ".join(p.read_text(encoding="utf-8") for p in (ROOT / "evals" / "results").glob("*.json"))
+    values = [float(x) for x in re.findall(r"-?\d+\.\d+(?:e-?\d+)?|\b\d+\b", blob)]
     nums = set(re.findall(r"(?<![\w.])\d+\.\d+(?![\w.])", m.group(1)))
-    return [f"README number {n} not found in evals/results/*.json" for n in sorted(nums) if n not in blob]
+
+    def traced(n: str) -> bool:  # a displayed number must equal some result value at the displayed precision
+        d = len(n.split(".")[1])
+        return any(round(v, d) == round(float(n), d) for v in values)
+    return [f"README number {n} not found in evals/results/*.json" for n in sorted(nums) if not traced(n)]
 
 
 if __name__ == "__main__":
